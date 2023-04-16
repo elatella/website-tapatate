@@ -11,7 +11,7 @@
 
 <div class="w-full px-8">
 	<section class="container mx-auto flex flex-col max-w-5xl space-y-16">
-		<div class="space-y-2">
+		<div class="space-y-4">
 			<h3>{$_('news.news.title')}</h3>
 			<p><em>{$_('news.news.subtitle')}</em></p>
 			<p>
@@ -21,7 +21,7 @@
 			</p>
 		</div>
 
-		<div class="space-y-2">
+		<div class="space-y-4">
 			<h3>{$_('news.merch.title')}</h3>
 			<p>{$_('news.merch.body')}</p>
 			<div
@@ -32,7 +32,7 @@
 			</div>
 		</div>
 
-		<div class="space-y-2">
+		<div class="space-y-4">
 			<h3>{$_('news.april23.title')}</h3>
 			<p>
 				{$_('news.april23.body')}
@@ -40,7 +40,7 @@
 			</p>
 		</div>
 
-		<div class="space-y-2">
+		<div class="space-y-4">
 			<h3>{$_('news.july22.title')}</h3>
 			<p class="pb-4">
 				{$_('news.july22.body1')}
@@ -62,7 +62,7 @@
 			</div>
 		</div>
 
-		<div class="space-y-2">
+		<div class="space-y-4">
 			<h3>{$_('news.events.title')}</h3>
 			<p><em>{$_('news.events.subtitle')}</em></p>
 			<img src={summerfestDe} alt={$_('news.events.summerfest')} />

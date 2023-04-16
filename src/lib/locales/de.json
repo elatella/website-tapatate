@@ -88,7 +88,19 @@
 		}
 	},
 	"farm": {
-		"title": "hof und anbau"
+		"title": "hof und anbau",
+		"farm": {
+			"title": "Der Hof",
+			"body1": "Der Verein bewirtschaftet ca. 50 Aren (ca. 5'000 m²) Land mit Feingemüse und Beeren und nochmals 50 Aren mit Lagergemüse sowie ca. 30 Obstbäume auf dem Hof von René und Valentin Birbaum (siehe Bild hier unten). Dank ihnen können wir unser Projekt verwirklichen. Ein herzliches Dankeschön an René und Valentin! Der Betrieb befindet sich in Wallenbuch, eine freiburgische Enklave im Kanton Bern (Murtenstrasse 37, 3206 Wallenbuch). Auf dem Kartenausschnitt unten ist der Standort des Betriebs mit einem schwarzen Punkt eingezeichnet.",
+			"body2": "René und Valentin bewirtschaften ihren Betrieb nach biodynamischen Vorschriften (Getreide, Rinder) und ist im Besitz vom Qualitätslabel Demeter Schweiz. Neben der Landwirtschaft haben René und Valentin auch eine Sägerei auf dem Hof und bearbeiten eigenes Holz aus ihren Waldflächen. Zusätzlich haben sie viele Baumaschinen und erledigen ebenfalls kleine Bauarbeiten für Drittpersonen (René hat den Hof selber gebaut).",
+			"body3": "Auf dem unterstehenden Kartenausschnitt sind der Standort des Feldes (grosser schwarzer Punkt), sowie bestehende (grüne und schwarze Punkte) und gesuchte (graue Punkte) Gemüse- und Früchtedepots dargestellt. Wir würden gerne noch andere Ortschaften mit Gemüse und Obst beliefern (z.B. Laupen, Kerzers, Murten, Düdingen, Courtepin, Gurmels, usw). Falls du also interessiert bist, aber keine passenden Depots findest, kannst du uns gerne an",
+			"body4": "schreiben."
+		},
+		"veggies": {
+			"title": "Das Gemüse",
+			"body1": "Unser Gemüse wird mit nachhaltigen Methoden und viel Liebe durch unsere Gartenfachkräften, Praktikant*innen, Lehrlinge oder Lehrtöchter und unseren fleissigen Mitgliedern angebaut. Die Gartenfachkräften erstellen unsere Anbauplanung, machen einen Grossteil der Arbeit und koordinieren die Einsätze der Vereinsmitglieder auf dem Feld, sowie die Verarbeitung des Gemüses. Den Gemüseanbauplan für 2021/22 findest du hier .",
+			"body2": "Die Gemüseabonnent*innen werden wöchentlich mit Gemüse beliefert. Das frische Gemüse wird in unsere Depots gebracht (siehe grüne Punkte auf dem Kartenausschnitt weiter oben) und dort von den Abonnent*innen abgeholt. Bei Fragen zum Gemüseabo kannst du uns gerne schreiben: info@tapatate.ch."
+		}
 	},
 	"participate": {
 		"title": "mitmachen",
