@@ -4,7 +4,5 @@
 </script>
 
 <div class="container h-screen mx-auto flex justify-center items-center">
-	<div class="text-center max-h-fit">
-		<img src={logo} alt={$_('hero.altLogo')} />
-	</div>
+	<img src={logo} alt={$_('hero.altLogo')} class="lg:h-2/3" />
 </div>

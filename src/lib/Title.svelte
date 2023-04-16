@@ -4,8 +4,8 @@
 </script>
 
 <header
-	class="flex items-center justify-center h-96 mb-12 bg-fixed bg-center bg-cover custom-img bg-opacity-20"
+	class="flex items-center justify-center h-96 mb-20 bg-fixed bg-center bg-cover"
 	style="background-image: url({backgroundImage})"
 >
-	<div class="p-5 text-2xl bg-white bg-opacity-70 rounded-xl">{title}</div>
+	<div class="p-5 text-6xl text-white">{title}</div>
 </header>
