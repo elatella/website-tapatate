@@ -1,0 +1,23 @@
+{
+	"news": {
+		"title": "actualités"
+	},
+	"project": {
+		"title": "projet"
+	},
+	"farm": {
+		"title": "ferme et culture"
+	},
+	"participate": {
+		"title": "participer"
+	},
+	"gallery": {
+		"title": "photos"
+	},
+	"knowledge": {
+		"title": "connaissances"
+	},
+	"contact": {
+		"title": "contact"
+	}
+}
