@@ -1,0 +1,23 @@
+{
+	"news": {
+		"title": "aktuelles"
+	},
+	"project": {
+		"title": "projekt"
+	},
+	"farm": {
+		"title": "hof und anbau"
+	},
+	"participate": {
+		"title": "mitmachen"
+	},
+	"gallery": {
+		"title": "fotos"
+	},
+	"knowledge": {
+		"title": "wissen"
+	},
+	"contact": {
+		"title": "kontakt"
+	}
+}
