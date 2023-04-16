@@ -3,7 +3,7 @@
 	import { AppBar, popup } from '@skeletonlabs/skeleton';
 	import { _ } from 'svelte-i18n';
 	import { faBars } from '@fortawesome/free-solid-svg-icons';
-	import logo from '$lib/images/logo_txt.png';
+	import logo from '$lib/images/logo-small.png';
 
 	interface NavigationItem {
 		title: string;

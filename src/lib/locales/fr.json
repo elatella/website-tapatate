@@ -1,6 +1,9 @@
 {
 	"news": {
-		"title": "actualités"
+		"title": "actualités",
+		"bottle": "Bouteille",
+		"bag": "Tasche",
+		"summerfest": "Fête de début été"
 	},
 	"project": {
 		"title": "projet"
