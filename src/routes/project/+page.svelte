@@ -1,6 +1,8 @@
 <script lang="ts">
-	import Title from '$lib/Title.svelte';
 	import { Avatar } from '@skeletonlabs/skeleton';
+	import { _ } from 'svelte-i18n';
+	import { base } from '$app/paths';
+	import Title from '$lib/Title.svelte';
 	import backgroundImage from '$lib/images/bg-project.jpg';
 	import patates from '$lib/images/project-patates.jpg';
 	import board from '$lib/images/project-board.jpg';
@@ -11,7 +13,6 @@
 	import tamara from '$lib/images/project-tamara.jpg';
 	import tobias from '$lib/images/project-tobias.jpg';
 	import valentin from '$lib/images/project-valentin.jpg';
-	import { _ } from 'svelte-i18n';
 
 	const people = [
 		{
@@ -77,7 +78,7 @@
 		{$_('project.whatIs.body2')}
 		<a href="https://membres.tapatate.ch/new?locale=de">{$_('project.whatIs.link1')} </a>
 		{$_('project.whatIs.body3')}
-		<a href="/participate">{$_('project.whatIs.link2')}</a>
+		<a href="{base}/participate">{$_('project.whatIs.link2')}</a>
 		{$_('project.whatIs.body4')}
 	</p>
 </div>
@@ -94,7 +95,7 @@
 	</ul>
 	<p>
 		{$_('project.association.body2')}
-		<a href="/knowledge">{$_('project.association.link1')}</a>
+		<a href="{base}/knowledge">{$_('project.association.link1')}</a>
 		{$_('project.association.body3')}
 	</p>
 </div>

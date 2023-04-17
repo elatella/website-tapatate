@@ -1,6 +1,6 @@
 <script lang="ts">
-	import logo from '$lib/images/logo.jpg';
 	import { _ } from 'svelte-i18n';
+	import logo from '$lib/images/logo.jpg';
 </script>
 
 <div class="container h-screen mx-auto flex justify-center items-center">
