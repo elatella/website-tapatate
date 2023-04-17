@@ -102,9 +102,33 @@
 			"nameWinterVeg": "Winter Gemüseabo",
 			"nameMiniFru": "Mini Obstabo",
 			"nameFru": "Obstabo",
+			"0p": "frisches, saisonales Obst",
+			"1p": "für eine Person",
+			"12p": "für 1-2 Personen",
+			"24p": "für 2-4 Personen",
+			"2p": "für ca. 2 Personen",
+			"792": "792 CHF/Jahr",
+			"1254": "1254 CHF/Jahr",
+			"2508": "2508 CHF/Jahr",
+			"500": "500 CHF/Jahr",
+			"250": "250 CHF/Jahr",
+			"part1": "1 Anteilsschein à 250 CHF",
+			"part2": "2 Anteilsschein à 250 CHF",
+			"part4": "4 Anteilsschein à 250 CHF",
+			"part0": "nur als Zusatzabo zu einem Gemüseabo möglich",
+			"help0": "keine Mitarbeit",
+			"help3": "3 Halbtage Mitarbeit pro Jahr",
+			"help6": "6 Halbtage Mitarbeit pro Jahr",
+			"help12": "12 Halbtage Mitarbeit pro Jahr",
+			"help2": "2 Halbtage Mitarbeit pro Jahr",
+			"infoVeg": "Mehr Infos zum Gemüse findest du ",
+			"link": "hier",
+			"infoFru": "Mehr Infos zum Obst findest du ",
+			"dot": ".",
 			"subtitle2": "Soli?-Aber sicher!",
 			"body2": "Biologisches Gemüse anbauen und das zu fairen Arbeitsbedingungen hat seinen Preis, den sich nicht alle leisten können. Wir bieten deshalb ein Soli-abo für 3.50 pro Tasche an. Mit einem zusätzlichen Solibeitrag ermöglichst du einer anderen Person, das Gemüseabo zu einem vergünstigen Preis zu erhalten. Das was du mehr zahlst, zahlt jemand anderes, der/die es sich gerade nicht leisten kann, weniger.  Was mit dem Geld aus den Solibeiträgen, die nicht für Soliabos benutzt werden, gemacht wird entscheiden wir an der darauffolgenden GV. Möchtest du soli sein? Dann entscheide dich bei deiner Anmeldung für den Solibeitrag!",
-			"imageSoli": ""
+			"imageSoli": "Soli",
+			"imageSoli2": "+3.50/Tasche"
 		},
 		"signUp": {
 			"title": "anmeldeformular",
@@ -112,7 +136,7 @@
 			"link1": "Hier geht's zum Anmeldeformular!",
 			"body1": "Weitere Infos und Details zu den Abonnementen und zur Mitgliedschaft findest du im folgenden Kapitel."
 		},
-		"HowTo": {
+		"howTo": {
 			"title": "ein abo erwerben: so funktioniert's",
 			"list1": "Du kaufst dir Anteilsscheine à 250 CHF abhängig von der Grösse deines Abos und wirst damit Mitglied bei TaPatate! So unterstützt du unseren Verein und erhältst Mitspracherecht bei allen Generalversammlungen. Das Geld bekommst du bei einem Austritt wieder zurück.",
 			"list2": "Du entscheidest dich für eines oder mehere unserer Abos. Die ersten sechs Taschen sind unverbindlich (Probetaschen) und sind ohne Erwerb von Anteilscheinen möglich; wenn du dich entscheidest während der ersten sechs Lieferungen das Abo zu stoppen, wird nur verrechnet, was du erhalten hast.",
@@ -121,55 +145,53 @@
 				"body1": "Du geniesst deinen Gemüse- und deinen Früchteernteanteil – erntefrisch und biodynamisch! Einmal in der Woche liefern wir dein Gemüse und, abhängig von der Erntezeit, deine Früchte in eines unserer Depots, wo du deine Ernteanteile von Mittwoch (ab 17h) bis Donnerstag (bis 18h) abholen kannst. Die Anleitung zu den Depots findest du",
 				"link1": "hier",
 				"body2": ".",
-				"depot": {
-					"depot1": {
-						"body1": "Bern: ",
-						"link1": "Depot Donnerbühlweg,",
-						"body2": "Donnerbühlweg 31, 3012 Bern"
-					},
-					"depot2": {
-						"body1": "Bern: ",
-						"link1": "Depot Löscher,",
-						"body2": "Donnerbühlweg 31, 3012 Bern"
-					},
-					"depot3": {
-						"body1": "Bern: ",
-						"link1": "Depot Fischermätteli,",
-						"body2": "Bioladen Fischermätteli, Weissensteinstrasse 29a, 3008 Bern"
-					},
-					"depot4": {
-						"body1": "Bern: ",
-						"link1": "Depot Q-Laden,",
-						"body2": "Bioladen Q-Laden, Quartierhof 1, 3013 Bern"
-					},
-					"depot5": {
-						"body1": "Bern: ",
-						"link1": "Depot Via Felsenau,",
-						"body2": "Via Felsenau, Spinnereiweg 4, 3004 Bern"
-					},
-					"depot6": {
-						"body1": "Bern: ",
-						"link1": "Depot Murifeld,",
-						"body2": "Laden im Murifeld, Mindstrasse 10, 3006 Bern"
-					},
-					"depot7": {
-						"body1": "Friboutg: ",
-						"link1": "Depot vélo-salon,",
-						"body2": "Laden im Murifeld, Mindstrasse 10, 3006 Bern"
-					},
-					"depot8": {
-						"body1": "Wallenbuch: ",
-						"link1": "Depot Wallenbuch,",
-						"body2": "Hof von René, Murtenstrasse 37, 3206 Wallenbuch"
-					}
+				"depot1": {
+					"body1": "Bern: ",
+					"link1": "Depot Donnerbühlweg,",
+					"body2": "Donnerbühlweg 31, 3012 Bern"
+				},
+				"depot2": {
+					"body1": "Bern: ",
+					"link1": "Depot Löscher,",
+					"body2": "Donnerbühlweg 31, 3012 Bern"
+				},
+				"depot3": {
+					"body1": "Bern: ",
+					"link1": "Depot Fischermätteli,",
+					"body2": "Bioladen Fischermätteli, Weissensteinstrasse 29a, 3008 Bern"
+				},
+				"depot4": {
+					"body1": "Bern: ",
+					"link1": "Depot Q-Laden,",
+					"body2": "Bioladen Q-Laden, Quartierhof 1, 3013 Bern"
+				},
+				"depot5": {
+					"body1": "Bern: ",
+					"link1": "Depot Via Felsenau,",
+					"body2": "Via Felsenau, Spinnereiweg 4, 3004 Bern"
+				},
+				"depot6": {
+					"body1": "Bern: ",
+					"link1": "Depot Murifeld,",
+					"body2": "Laden im Murifeld, Mindstrasse 10, 3006 Bern"
+				},
+				"depot7": {
+					"body1": "Friboutg: ",
+					"link1": "Depot vélo-salon,",
+					"body2": "Laden im Murifeld, Mindstrasse 10, 3006 Bern"
+				},
+				"depot8": {
+					"body1": "Wallenbuch: ",
+					"link1": "Depot Wallenbuch,",
+					"body2": "Hof von René, Murtenstrasse 37, 3206 Wallenbuch"
 				},
 				"body3": "Wir planen noch andere Ortschaften mit Gemüse zu beliefern (z.B. Laupen, Kerzers, Düdingen, Courtepin, Gurmels, usw). Falls du also interessiert bist, aber keine passende Depots findest, kannst du uns gerne an ",
 				"link2": "info@tapatate.ch",
-				"body4": "schreiben."
+				"body4": " schreiben."
 			},
 			"list5": "Du machst mit! Entsprechend der Grösse deines Ernteanteils (grosses oder kleines Abo) engagierst du dich bei TaPatate! – sei dies auf dem Feld, beim Jäten, Ernten, Rüsten, Abpacken oder Ausliefern. Alles gemäss deinen Fähigkeiten und Interessen natürlich. So entsteht ein reger Austausch und ein lebendiger Bezug zu den Produkten – und du tust was Gutes fürs Karma! ",
 			"link1": "Hier",
-			"list5.2": "geht's zum Weg zum Feld",
+			"list5.2": "geht's zum Weg zum Feld.",
 			"body1": "Detailliertere Infos zur Mitgliedschaft und zu den Abos findest du in den ",
 			"link2": "Statuten des Vereins",
 			"body2": " und im ",
@@ -182,7 +204,7 @@
 			"subtitle": "Genug Gemüse oder Früchte gehabt?",
 			"body6": "Bitte beachte, dass eine Kündigung deines Abos nur auf Ende des Betriebsjahres unter Berücksichtigung einer viermonatigen Kündigungsfrist möglich ist (also bis am 30. November). Als solidarisches Landwirtschaftsprojekt wollen wir keinen Überschuss produzieren. Der Anbauplan für das Gemüse erarbeiten wir im Winter. Dazu ist es wichtig, die genaue Anzahl Abos zu wissen. Ziehst du kurzfristig weg, oder kannst das Abo aus einem anderen Grund nicht weiter beziehen, bitten wir dich, nach einem neuen Mitglied zu suchen, welches dein Abo übernimmt. Vielen Dank!"
 		},
-		"Support": {
+		"support": {
 			"title": "uns unterstützen",
 			"subtitle": "du hast kein bedarf an gemüse oder obst – aber du bist fan von der idee? du kannst uns trotzdem unterstützen",
 			"body": "Auch wenn du kein Interesse an einer Gemüse- oder Früchtetasche hast, gibt es viele Möglichkeiten, wie du unser Projekt unterstützen kannst:",
