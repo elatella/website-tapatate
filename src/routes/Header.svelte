@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Fa from 'svelte-fa';
 	import { AppBar, popup } from '@skeletonlabs/skeleton';
-	import { _ } from 'svelte-i18n';
+	import { locale, _ } from 'svelte-i18n';
+	import Fa from 'svelte-fa';
 	import { faBars } from '@fortawesome/free-solid-svg-icons';
 	import logo from '$lib/images/logo-small.png';
 
@@ -18,6 +18,14 @@
 		{ title: $_('knowledge.title'), href: '/knowledge' },
 		{ title: $_('contact.title'), href: '/contact' }
 	];
+
+	function toggleLang() {
+		if ($locale && $locale.includes('de')) {
+			locale.set('fr-CH');
+			return;
+		}
+		locale.set('de-CH');
+	}
 </script>
 
 <AppBar shadow="shadow-md">
@@ -33,6 +41,9 @@
 				{navigationItem.title}
 			</a>
 		{/each}
+		<button class="btn btn-xs variant-ghost-secondary" on:click={toggleLang}>
+			{$locale && $locale.includes('de') ? 'de' : 'fr'}
+		</button>
 
 		<div class="lg:hidden">
 			<button
