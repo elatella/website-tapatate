@@ -246,7 +246,28 @@
 		"title": "fotos"
 	},
 	"knowledge": {
-		"title": "wissen"
+		"title": "wissen",
+		"solawi": {
+			"title": "regionale vertragslandwirtschaft",
+			"subtitle": "was ist denn das für ein tier?",
+			"question1": "Was ist die regionale Vertragslandwirtschaft?",
+			"body1": "Die regionale Vertragslandwirtschaft (abgekürzt RVL) ist ein ökonomisches Modell in der Landwirtschaft, bei dem die Konsument*innen und Produzent*innen eng zusammen arbeiten. Statt ihre Lebensmittel einfach in Detailhandel zu kaufen, werden die KonsumentInnen direkt in die Bewirtschaftung eines Betriebes miteinbezogen.",
+			"question2": "Wie funktioniert die regionale Vertragslandwirtschaft?",
+			"body2": "Die Konsument*innen kaufen zu einem vorbestimmten Preis, während eines ganzen Jahres, die vom Betrieb angebotenen Produkte. Im Gegenzug liefern die Produzent*innen zu einem fairen Preis, qualitativ hochwertige Lebensmittel. Die Zusammenarbeit wird in einem Vertrag vereinbart.",
+			"question3": "Die regionale Vertragslandwirtschaft beruht auf:",
+			"body31": "Solidarität: gegenseitiger Respekt und Fairness zwischen Konsument*in und Produzent*in.",
+			"body32": "Partnerschaft und direkte Verbindung: Konsument*in und Produzent*in sind Partner, sie kennen sich und stehen in direkter Verbindung zueinander.",
+			"body33": "Vertrauen: Konsument*in und Produzent*in haben gegenseitiges Vertrauen. Produzent*in: dass der Preis bezahlt und allfällige Mängel akzeptiert werden. Konsument*in: dass die Lebensmittel nach den besten Möglichkeit produziert werden.",
+			"body34": "Langzeitverpflichtung: Konsument*in und Produzent*in sind sich während mindestens einer Vegetationsperiode (ein Jahr) verpflichtet.",
+			"body35": "Partizipation: Konsument*innen können sich einbringen.",
+			"question4": "Welche Vorteile hat die Regionale Vertragslandwirtschaft?",
+			"body4": "Von Konsument*innen werden nur die direkten Produktions- und Betriebskosten bezahlt; sie ermöglichen also die Produktion. Dadurch tragen die Konsument*innen einen Teil der Risiken und akzeptieren Mängel, welche aufgrund schlechter Witterung, Schädlingen/Krankheiten, saisonaler, technischer sowie anderer Produktionseinschränkungen entstehen. Das gibt den Produzent*innen eine gewisse Sicherheit. Im Gegenzug ermöglicht es, dass hochwertige Lebensmittel für die Konsument*innen erschwinglich werden. Ausserdem werden bei der Planung und Produktion wenn immer möglich die Bedürfnisse der Konsument*innen berücksichtigt.",
+			"body5": "Für weiteren Infos zum Thema regionale Vertragslandwirtschaft wird auf folgenden Webseiten verwiesen: ",
+			"link1": "www.solawi.ch",
+			"comma": ", ",
+			"link2": "www.regionalevertragslandwirtschaft.ch",
+			"dot": " ."
+		}
 	},
 	"contact": {
 		"title": "kontakt"

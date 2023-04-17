@@ -86,7 +86,7 @@
 
 <Title title={$_('participate.title')} {backgroundImage} />
 
-<div class="card p-4 space-y-4">
+<div class="p-4 space-y-4">
 	<h3>{$_('participate.harvest.title')}</h3>
 	<em>{$_('participate.harvest.subtitle')}</em>
 	<p>
@@ -126,9 +126,9 @@
 
 	<h5>{$_('participate.harvest.subtitle2')}</h5>
 	<p>{$_('participate.harvest.body2')}</p>
-	<img src="soli" alt="hands with carrots" use:filter={'#XPro'} />
+	<img src={soli} alt="hands with carrots" use:filter={'#XPro'} />
 </div>
-<div class="card p-4 space-y-4">
+<div class="p-4 space-y-4">
 	<h3>{$_('participate.signUp.title')}</h3>
 	<em>{$_('participate.signUp.subtitle')}</em>
 	<strong> {$_('participate.signUp.link1')}</strong>
