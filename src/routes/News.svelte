@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Title from '$lib/Title.svelte';
-	import { _ } from 'svelte-i18n';
+	import { locale, _ } from 'svelte-i18n';
 	import backgroundImage from '$lib/images/bg-news.jpg';
 	import bottle from '$lib/images/bottle.png';
 	import bag from '$lib/images/bag.png';
@@ -66,7 +66,10 @@
 		<div class="space-y-4">
 			<h3>{$_('news.events.title')}</h3>
 			<p><em>{$_('news.events.subtitle')}</em></p>
-			<img src={$_('news.events.imgSummerfest')} alt={$_('news.events.summerfest')} />
+			<img
+				src={$locale && $locale.includes('fr') ? summerfestFr : summerfestDe}
+				alt={$_('news.events.summerfest')}
+			/>
 		</div>
 	</section>
 </div>

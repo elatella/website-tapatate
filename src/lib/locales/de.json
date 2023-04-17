@@ -28,8 +28,7 @@
 		"events": {
 			"title": "veranstaltungen",
 			"subtitle": "zück deine agenda!",
-			"summerfest": "Sommerfest",
-			"imgSummerfest": "summerfestDe"
+			"summerfest": "Sommerfest"
 		}
 	},
 	"project": {
