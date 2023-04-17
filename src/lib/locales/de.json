@@ -105,7 +105,7 @@
 	"participate": {
 		"title": "mitmachen",
 		"harvest": {
-			"title": "unsere abos-dein ernteanteil",
+			"title": "unsere abos - dein ernteanteil",
 			"subtitle": "wir haben sechs verschiedene abos. klicke das entsprechende abo an und erfahre, was es beinhaltet.",
 			"body1": "Wir haben neue Abos im Angebot. Du kannst dich bereits jetzt anmelden, die Lieferungen erfolgen jedoch teilweise erst im neuen Betriebsjahr (ab April 2023).",
 			"nameMiniVeg": "Mini Gemüseabo",
@@ -125,8 +125,8 @@
 			"500": "500 CHF/Jahr",
 			"250": "250 CHF/Jahr",
 			"part1": "1 Anteilsschein à 250 CHF",
-			"part2": "2 Anteilsschein à 250 CHF",
-			"part4": "4 Anteilsschein à 250 CHF",
+			"part2": "2 Anteilsscheine à 250 CHF",
+			"part4": "4 Anteilsscheine à 250 CHF",
 			"part0": "nur als Zusatzabo zu einem Gemüseabo möglich",
 			"help0": "keine Mitarbeit",
 			"help3": "3 Halbtage Mitarbeit pro Jahr",
@@ -137,7 +137,7 @@
 			"link": "hier",
 			"infoFru": "Mehr Infos zum Obst findest du ",
 			"dot": ".",
-			"subtitle2": "Soli?-Aber sicher!",
+			"subtitle2": "Soli? - Aber sicher!",
 			"body2": "Biologisches Gemüse anbauen und das zu fairen Arbeitsbedingungen hat seinen Preis, den sich nicht alle leisten können. Wir bieten deshalb ein Soli-abo für 3.50 pro Tasche an. Mit einem zusätzlichen Solibeitrag ermöglichst du einer anderen Person, das Gemüseabo zu einem vergünstigen Preis zu erhalten. Das was du mehr zahlst, zahlt jemand anderes, der/die es sich gerade nicht leisten kann, weniger.  Was mit dem Geld aus den Solibeiträgen, die nicht für Soliabos benutzt werden, gemacht wird entscheiden wir an der darauffolgenden GV. Möchtest du soli sein? Dann entscheide dich bei deiner Anmeldung für den Solibeitrag!",
 			"imageSoli": "Soli",
 			"imageSoli2": "+3.50/Tasche"
@@ -243,8 +243,7 @@
 				"body1": "Unser Kollege Wolfgang will mit seinem Projekt SIGA SIGA eine Direktvermarktung für Olivenöl aus einem Familienbetrieb in Griechenland aufbauen und Öl in die Schweiz transportieren, ohne dabei Öl zu verbrennen. Beim Vertrieb in Bern und Fribourg unterstützen wir ihn. Auf der Webseite ",
 				"link1": "www.sigasiga.ch",
 				"body2": " erfährst du mehr über das Projekt und kannst direkt ",
-				"link2": "feines Olivenöl bestellen",
-				"body3": "."
+				"link2": "feines Olivenöl bestellen"
 			},
 			"offer3": {
 				"title": "GETREIDE VOM HOF: ",

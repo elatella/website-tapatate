@@ -25,7 +25,7 @@
 			<h3>{$_('news.merch.title')}</h3>
 			<p>{$_('news.merch.body')}</p>
 			<div
-				class="flex flex-col lg:flex-row justify-evenly items-center space-y-8 lg:space-y-0 py-12"
+				class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12"
 			>
 				<img src={bottle} alt={$_('news.merch.bottle')} class="w-32" />
 				<img src={bag} alt={$_('news.merch.bag')} class="w-32" />
