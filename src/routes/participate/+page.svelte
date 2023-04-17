@@ -8,7 +8,7 @@
 	import winterV from '$lib/images/participate-field.png';
 	import miniF from '$lib/images/participate-bloom-new.png';
 	import fruit from '$lib/images/participate-strawberries.png';
-	import { _ } from 'svelte-i18n';
+	import { locale, _ } from 'svelte-i18n';
 
 	interface Abo {
 		name: string;
@@ -176,7 +176,9 @@
 		<div class="space-y-4">
 			<h3>{$_('participate.signUp.title')}</h3>
 			<p><em>{$_('participate.signUp.subtitle')}</em></p>
-			<a href="#form"><strong>{$_('participate.signUp.link1')}</strong></a>
+			<a href="https://membres.tapatate.ch/new?locale={$locale}"
+				><strong>{$_('participate.signUp.link1')}</strong></a
+			>
 			<p>{$_('participate.signUp.body1')}</p>
 		</div>
 
@@ -258,7 +260,7 @@
 						</li>
 					</ul>
 					{$_('participate.howTo.list4.body3')}
-					<a href="info@tapatate.ch">{$_('participate.howTo.list4.link2')}</a>
+					<a href="mailto:info@tapatate.ch">{$_('participate.howTo.list4.link2')}</a>
 					{$_('participate.howTo.list4.body4')}
 				</li>
 				<li>
@@ -292,16 +294,16 @@
 				</li>
 				<li>
 					{$_('participate.support.list2')}
-					<a href="info@tapatate.ch">{$_('participate.support.link2')}</a>
+					<a href="mailto:info@tapatate.ch">{$_('participate.support.link2')}</a>
 					{$_('participate.support.list2.2')}
 				</li>
 				<li>
 					{$_('participate.support.list3')}
-					<a href="info@tapatate.ch">{$_('participate.support.link2')}</a>
+					<a href="mailto:info@tapatate.ch">{$_('participate.support.link2')}</a>
 				</li>
 				<li>
 					{$_('participate.support.list4')}
-					<a href="info@tapatate.ch">{$_('participate.support.link2')}</a>
+					<a href="mailto:info@tapatate.ch">{$_('participate.support.link2')}</a>
 				</li>
 			</ul>
 		</div>
