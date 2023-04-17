@@ -23,7 +23,7 @@
 		</div>
 
 		<div class="space-y-4">
-			<h3>{$_('farm.veggies.title')}</h3>
+			<h3 id="veggies">{$_('farm.veggies.title')}</h3>
 			<p>{$_('farm.veggies.body1')}</p>
 			<p>{$_('farm.veggies.body2')}</p>
 			<img src={veggies} alt={$_('farm.veggies.title')} class="py-12" />

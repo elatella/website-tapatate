@@ -26,4 +26,5 @@
 		<Header />
 	</svelte:fragment>
 	<slot />
+	<div class="h-24" />
 </AppShell>
