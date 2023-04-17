@@ -28,7 +28,8 @@
 		"events": {
 			"title": "veranstaltungen",
 			"subtitle": "zück deine agenda!",
-			"summerfest": "Sommerfest"
+			"summerfest": "Sommerfest",
+			"imgSummerfest": "summerfestDe"
 		}
 	},
 	"project": {
@@ -254,7 +255,12 @@
 		}
 	},
 	"gallery": {
-		"title": "fotos"
+		"title": "fotos",
+		"2022": "ein paar eindrücke aus dem jahr 2022",
+		"2021": "der regnerische sommer 2021",
+		"2020": "durch feld und hostet im jahr 2020",
+		"2019": "querbeet 2019",
+		"2018": "impression vom ersten betriebsjahr 2018"
 	},
 	"knowledge": {
 		"title": "wissen",

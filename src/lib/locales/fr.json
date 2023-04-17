@@ -1,9 +1,36 @@
 {
 	"news": {
 		"title": "actualités",
-		"bottle": "Bouteille",
-		"bag": "Tasche",
-		"summerfest": "Fête de début été"
+		"news": {
+			"title": "dernières nouvelles",
+			"subtitle": "tu trouves ici les dernières nouvelles et le développement de tapatate!",
+			"body1": "Croquants et frais - TaPatate! propose de nouveaux abonnements de fruits et légumes! Regarde ",
+			"link": "ici",
+			"body2": " et équipe-toi de ce qui te manque encore!"
+		},
+		"merch": {
+			"title": "MERCH: des bouteilles et des sacs TaPatate!",
+			"body": "Frappe tant qu'il en reste! Avec un sac TaPatate! à l'épaule, tu seras l'un des plus cools de ta ville! Dès maintenant, des bouteilles et des sacs TaPatate! sont en vente. Passe à la ferme à Wallenbuch pour les prendre. Prix indicatif : bouteille CHF 25.-, sac CHF 10.-.",
+			"bottle": "bouteille",
+			"bag": "sac"
+		},
+		"april23": {
+			"title": "Avril 2023:",
+			"body": "Tu habites à Guin et tu as envie d'un abonnement de TaPatate!? Nous sommes en train de travailler sur un nouveau dépôt là-bas et avons besoin de 5 abonnements pour commencer. Intéressé.e? Alors écris nous ",
+			"link": "un mail!"
+		},
+		"july22": {
+			"title": "Juillet 2022:",
+			"body1": "Dans cet ",
+			"link": "article",
+			"body2": " du Bauernzeitung, Valentin présente la reconversion de l'exploitation en agroforesterie."
+		},
+		"events": {
+			"title": "manifestations",
+			"subtitle": "à vos agendas!",
+			"summerfest": "3. JUIN 2023 FÊTE DE DÉBUT D'ÉTÉ !",
+			"imgSummerfest": "summerfestFr"
+		}
 	},
 	"project": {
 		"title": "projet"

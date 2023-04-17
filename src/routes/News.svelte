@@ -5,6 +5,7 @@
 	import bottle from '$lib/images/bottle.png';
 	import bag from '$lib/images/bag.png';
 	import summerfestDe from '$lib/images/summerfest-de.png';
+	import summerfestFr from '$lib/images/summerfest-fr.png';
 </script>
 
 <Title title={$_('news.title')} {backgroundImage} />
@@ -65,7 +66,7 @@
 		<div class="space-y-4">
 			<h3>{$_('news.events.title')}</h3>
 			<p><em>{$_('news.events.subtitle')}</em></p>
-			<img src={summerfestDe} alt={$_('news.events.summerfest')} />
+			<img src={$_('news.events.imgSummerfest')} alt={$_('news.events.summerfest')} />
 		</div>
 	</section>
 </div>
