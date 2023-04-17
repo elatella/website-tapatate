@@ -2,7 +2,7 @@
 	"news": {
 		"title": "aktuell",
 		"news": {
-			"title": "Neuigkeiten",
+			"title": "neuigkeiten",
 			"subtitle": "Die letzten News und Entwicklungen von TaPatate! findest du hier.",
 			"body1": "Knackig und Frisch - TaPatate! hat neue Gemüse- und Obst-Abos im Angebot! Schau",
 			"link": "hier",
@@ -26,8 +26,8 @@
 			"body2": "der BauernZeitung stellt Valentin die Umstellung des Betriebs auf Agroforst vor."
 		},
 		"events": {
-			"title": "Veranstaltungen",
-			"subtitle": "Zück deine agenda!",
+			"title": "veranstaltungen",
+			"subtitle": "zück deine agenda!",
 			"summerfest": "Sommerfest"
 		}
 	},
