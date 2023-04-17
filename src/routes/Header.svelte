@@ -41,7 +41,7 @@
 				{navigationItem.title}
 			</a>
 		{/each}
-		<button class="btn btn-xs variant-ghost-secondary" on:click={toggleLang}>
+		<button class="btn btn-xs variant-ghost-secondary hidden lg:block" on:click={toggleLang}>
 			{$locale && $locale.includes('de') ? 'de' : 'fr'}
 		</button>
 
@@ -66,6 +66,11 @@
 								</a>
 							</li>
 						{/each}
+						<li>
+							<button class="btn btn-xs variant-ghost-secondary" on:click={toggleLang}>
+								{$locale && $locale.includes('de') ? 'de' : 'fr'}
+							</button>
+						</li>
 					</ul>
 				</nav>
 			</div>
