@@ -1,6 +1,7 @@
 <script lang="ts">
-	import Title from '$lib/Title.svelte';
 	import { locale, _ } from 'svelte-i18n';
+	import { base } from '$app/paths';
+	import Title from '$lib/Title.svelte';
 	import backgroundImage from '$lib/images/bg-news.jpg';
 	import bottle from '$lib/images/bottle.png';
 	import bag from '$lib/images/bag.png';
@@ -17,7 +18,7 @@
 			<p><em>{$_('news.news.subtitle')}</em></p>
 			<p>
 				{$_('news.news.body1')}
-				<a href="/participate">{$_('news.news.link')}</a>
+				<a href="{base}/participate">{$_('news.news.link')}</a>
 				{$_('news.news.body2')}
 			</p>
 		</div>

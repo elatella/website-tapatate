@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { locale, _ } from 'svelte-i18n';
+	import { base } from '$app/paths';
 	import Title from '$lib/Title.svelte';
 	import backgroundImage from '$lib/images/bg-participate.jpg';
 	import carrotsHands from '$lib/images/participate-carots.jpeg';
@@ -8,7 +10,6 @@
 	import winterV from '$lib/images/participate-field.png';
 	import miniF from '$lib/images/participate-bloom-new.png';
 	import fruit from '$lib/images/participate-strawberries.png';
-	import { locale, _ } from 'svelte-i18n';
 
 	interface Abo {
 		name: string;
@@ -122,7 +123,7 @@
 							</ul>
 							<p class="my-4">
 								{$_('participate.harvest.infoVeg')}
-								<a href="/farm#veggies">{$_('participate.harvest.link')}</a>
+								<a href="{base}/farm#veggies">{$_('participate.harvest.link')}</a>
 							</p>
 						</div>
 					{/if}
@@ -265,7 +266,7 @@
 				</li>
 				<li>
 					{$_('participate.howTo.list5')}
-					<a href="/contact">{$_('participate.howTo.link1')}</a>
+					<a href="{base}/contact">{$_('participate.howTo.link1')}</a>
 					{$_('participate.howTo.list5.2')}
 				</li>
 			</ol>

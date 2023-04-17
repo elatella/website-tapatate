@@ -3,6 +3,7 @@
 	import { locale, _ } from 'svelte-i18n';
 	import Fa from 'svelte-fa';
 	import { faBars } from '@fortawesome/free-solid-svg-icons';
+	import { base } from '$app/paths';
 	import logo from '$lib/images/logo-small.png';
 
 	interface NavigationItem {
@@ -11,12 +12,12 @@
 	}
 
 	const navigationItems: NavigationItem[] = [
-		{ title: $_('project.title'), href: '/project' },
-		{ title: $_('farm.title'), href: '/farm' },
-		{ title: $_('participate.title'), href: '/participate' },
-		{ title: $_('gallery.title'), href: '/gallery' },
-		{ title: $_('knowledge.title'), href: '/knowledge' },
-		{ title: $_('contact.title'), href: '/contact' }
+		{ title: $_('project.title'), href: `${base}/project` },
+		{ title: $_('farm.title'), href: `${base}/farm` },
+		{ title: $_('participate.title'), href: `${base}/participate` },
+		{ title: $_('gallery.title'), href: `${base}/gallery` },
+		{ title: $_('knowledge.title'), href: `${base}/knowledge` },
+		{ title: $_('contact.title'), href: `${base}/contact` }
 	];
 
 	function toggleLang() {
@@ -30,7 +31,7 @@
 
 <AppBar shadow="shadow-md">
 	<svelte:fragment slot="lead">
-		<a href="/" class="flex items-center">
+		<a href="{base}/" class="flex items-center">
 			<img src={logo} alt={$_('navigation.altMountain')} height="h-12" class="h-12 mr-2" />
 		</a>
 	</svelte:fragment>
