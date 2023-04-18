@@ -4,6 +4,7 @@
 	import backgroundImage from '$lib/images/bg-farm.jpg';
 	import farm from '$lib/images/farm.jpg';
 	import veggies from '$lib/images/veggies.jpg';
+	import fruits from '$lib/images/fruits.jpg';
 </script>
 
 <Title title={$_('farm.title')} {backgroundImage} />
@@ -30,6 +31,15 @@
 			<p>{$_('farm.veggies.body2')}</p>
 			<figure class="py-12">
 				<img src={veggies} alt={$_('farm.veggies.title')} class="rounded-md" />
+			</figure>
+		</div>
+
+		<div class="space-y-4">
+			<h3 id="fruits">{$_('farm.fruits.title')}</h3>
+			<p>{$_('farm.fruits.body1')}</p>
+			<p>{$_('farm.fruits.body2')}</p>
+			<figure class="py-12">
+				<img src={fruits} alt={$_('farm.fruits.title')} class="rounded-md" />
 			</figure>
 		</div>
 	</section>

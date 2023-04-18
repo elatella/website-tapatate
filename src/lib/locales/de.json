@@ -95,9 +95,14 @@
 			"body4": "schreiben."
 		},
 		"veggies": {
-			"title": "Das Gemüse",
+			"title": "das gemüse",
 			"body1": "Unser Gemüse wird mit nachhaltigen Methoden und viel Liebe durch unsere Gartenfachkräften, Praktikant*innen, Lehrlinge oder Lehrtöchter und unseren fleissigen Mitgliedern angebaut. Die Gartenfachkräften erstellen unsere Anbauplanung, machen einen Grossteil der Arbeit und koordinieren die Einsätze der Vereinsmitglieder auf dem Feld, sowie die Verarbeitung des Gemüses. Den Gemüseanbauplan für 2021/22 findest du hier .",
 			"body2": "Die Gemüseabonnent*innen werden wöchentlich mit Gemüse beliefert. Das frische Gemüse wird in unsere Depots gebracht (siehe grüne Punkte auf dem Kartenausschnitt weiter oben) und dort von den Abonnent*innen abgeholt. Bei Fragen zum Gemüseabo kannst du uns gerne schreiben: info@tapatate.ch."
+		},
+		"fruits": {
+			"title": "das obst",
+			"body1": "Die Früchte im Obstabo TaPomme! ernten wir momentan zum grössten Teil in einer Hostet, bestehend aus verschiedenen Hochstammbäumen im besten Ertragsalter. Dort wachsen z.B. Büschelibirne, Glockenäpfel, Weinbergpfirsich, Kirschen und noch vieles mehr. Zur Erweiterung und Diversifizierung des Abos pflanzen wir jedes Jahr neue Bäume, Beerenstauden, Rhabarber oder sogar Wasser- und Honigmelonen an. Im Herbst 2021 konnten wir zusammen mit ca. 30 freiwilligen Helfer und Helferinnen unser erstes Agroforstfeld auf einer Fläche von etwa drei Hektaren anpflanzen! 250 junge Obstbäume sowie 100 Beerensträucher sind mittlerweile gut angewachsen und werden schon bald die ersten Früchte tragen. Im Frühling 2022 sind dann 1000 Erdbeerpflanzen, sowie einiges an Rhabarber, Sanddorn und Ölweiden dazugekommen. Unser Agroforst ist Reihen angelegt, sodass Acker- und Obstbau ideal kombiniert werden können. Dies bringt viele positive Wechselwirkungen mit sich. So dringen zum Beispiel Bäume mit ihren Wurzeln viel tiefer in den Boden ein, schützen vor Erosion und transportieren Wasser in höhere Bodenschichten, wo dann Ackerpflanzen davon profitieren können. Ausserdem dienen die Baumreihen schon bald als Windschutz und werden die Verdunstung von Wasser auf dem Feld reduzieren. Nebst dem diverseren Fruchtangebot für uns Menschen bietet dieses Feld auch Nahrung und Unterschlupf für verschiedenste Vögel, Insekten und Kleinsäugetiere. Dies unterstützen wir aktiv mit der Integration von Ast- und Steinhäufen, sowie Nistkästen und Hecken. Bei der Auswahl der Sorten haben wir neben Robustheit vor allem darauf geachtet, dass der Erntezeitpunkt sowie die Lagerfähigkeit der Früchte möglichst ausgedehnt sind. Dies verspricht, dass unsere Obstabos das ganze Jahr über abwechslungsreich und ohne grössere Pausen gefüllt werden können.",
+			"body2": "Die Früchte aus dem Obstabo werden genau wie das Gemüse in die Depots geliefert, sobald sie reif sind und dort von den Abonnent*innen abgeholt. Zusätzlich zum frischen Obst gibt es im Früchteabo auch Apfelsaft. Bei Fragen zum Obstabo kannst du uns gerne schreiben: info@tapatate.ch."
 		}
 	},
 	"participate": {
