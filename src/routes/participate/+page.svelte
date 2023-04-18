@@ -165,7 +165,7 @@
 			<h3>{$_('participate.harvest.subtitle2')}</h3>
 			<p>{$_('participate.harvest.body2')}</p>
 			<div
-				class="w-full h-96 flex items-center justify-center bg-center bg-cover"
+				class="w-full h-96 flex items-center justify-center bg-center bg-cover rounded-md"
 				style="background-image: url({carrotsHands})"
 			>
 				<div class="text-6xl text-white text-center leading-normal">
