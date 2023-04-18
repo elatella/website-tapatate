@@ -14,7 +14,9 @@
 			<h3>{$_('farm.farm.title')}</h3>
 			<p>{$_('farm.farm.body1')}</p>
 			<p>{$_('farm.farm.body2')}</p>
-			<img src={farm} alt={$_('farm.farm.title')} class="py-12" />
+			<figure class="py-12">
+				<img src={farm} alt={$_('farm.farm.title')} class="rounded-md" />
+			</figure>
 			<p>
 				{$_('farm.farm.body3')}
 				<a href="mailto:info@tapatate.ch">info@tapatate.ch</a>
@@ -26,7 +28,9 @@
 			<h3 id="veggies">{$_('farm.veggies.title')}</h3>
 			<p>{$_('farm.veggies.body1')}</p>
 			<p>{$_('farm.veggies.body2')}</p>
-			<img src={veggies} alt={$_('farm.veggies.title')} class="py-12" />
+			<figure class="py-12">
+				<img src={veggies} alt={$_('farm.veggies.title')} class="rounded-md" />
+			</figure>
 		</div>
 	</section>
 </div>
