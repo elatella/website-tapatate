@@ -272,14 +272,21 @@
 			</ol>
 			<p>
 				{$_('participate.howTo.body1')}
-				<a href="">{$_('participate.association.link2')}</a>
-				{$_('project.association.body2')}
-				<a href="">{$_('participate.association.link3')}</a>
-				{$_('project.association.body3')}
-				<a href="">{$_('participate.association.link4')}</a>
-				{$_('project.association.body4')}
-				<a href="">{$_('participate.association.link5')}</a>
-				{$_('project.association.body5')}
+				<a href="{base}/docs/Statuten_Verein_{$locale}.pdf">
+					{$_('participate.howTo.link2')}
+				</a>
+				{$_('participate.howTo.body2')}
+				<a href="{base}/docs/Reglement_01_{$locale}.pdf">
+					{$_('participate.howTo.link3')}
+				</a>
+				{$_('participate.howTo.body3')}
+				<a href="{base}/docs/Hofreglement_TaPatate_{$locale}.pdf">
+					{$_('participate.howTo.link4')}
+				</a>
+				{$_('participate.howTo.body4')}
+				<a href="https://membres.tapatate.ch/new?locale={$locale}">
+					{$_('participate.howTo.link5')}
+				</a>!
 			</p>
 		</div>
 
@@ -290,21 +297,29 @@
 			<ul class="list-disc list-inside">
 				<li>
 					{$_('participate.support.list1')}
-					<a href="">{$_('participate.support.link1')}</a>
+					<a href="https://membres.tapatate.ch/new?locale={$locale}">
+						{$_('participate.support.link1')}
+					</a>
 					{$_('participate.support.list1.2')}
 				</li>
 				<li>
 					{$_('participate.support.list2')}
-					<a href="mailto:info@tapatate.ch">{$_('participate.support.link2')}</a>
+					<a href="mailto:info@tapatate.ch">
+						{$_('participate.support.link2')}
+					</a>
 					{$_('participate.support.list2.2')}
 				</li>
 				<li>
 					{$_('participate.support.list3')}
-					<a href="mailto:info@tapatate.ch">{$_('participate.support.link2')}</a>
+					<a href="mailto:info@tapatate.ch">
+						{$_('participate.support.link2')}
+					</a>
 				</li>
 				<li>
 					{$_('participate.support.list4')}
-					<a href="mailto:info@tapatate.ch">{$_('participate.support.link2')}</a>
+					<a href="mailto:info@tapatate.ch">
+						{$_('participate.support.link2')}
+					</a>
 				</li>
 			</ul>
 		</div>
