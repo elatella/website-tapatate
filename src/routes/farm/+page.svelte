@@ -5,6 +5,10 @@
 	import farm from '$lib/images/farm.jpg';
 	import veggies from '$lib/images/veggies.jpg';
 	import fruits from '$lib/images/fruits.jpg';
+	import type Depot from './Depot';
+	import DepotMap from './DepotMap.svelte';
+
+	const depots: Depot[] = [{ name: 'Wallenbuch', location: [46.930063, 7.221532] }];
 </script>
 
 <Title title={$_('farm.title')} {backgroundImage} />
@@ -23,6 +27,8 @@
 				<a href="mailto:info@tapatate.ch">info@tapatate.ch</a>{$_('farm.farm.body4')}
 			</p>
 		</div>
+
+		<DepotMap {depots} />
 
 		<div class="space-y-4">
 			<h3 id="veggies">{$_('farm.veggies.title')}</h3>

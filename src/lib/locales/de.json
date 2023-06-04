@@ -451,5 +451,15 @@
 			"title": "kontaktformular",
 			"subtitle": "wenn du eine frage hast, kannst du uns sehr gerne kontaktieren"
 		}
+	},
+	"media": {
+		"title": "tapatate! in den medien",
+		"subtitle": "radiobeiträge, zeitungsberichte, usw."
+	},
+	"footer": {
+		"other": "WEITERES",
+		"media": "Medienecho",
+		"depots": "Infos zu den Depots",
+		"address": "ADRESSE HOF"
 	}
 }
