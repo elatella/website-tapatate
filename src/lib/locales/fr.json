@@ -3,10 +3,16 @@
 		"title": "actualités",
 		"news": {
 			"title": "dernières nouvelles",
-			"subtitle": "tu trouves ici les dernières nouvelles et le développement de tapatate!",
-			"body1": "Croquants et frais - TaPatate! propose de nouveaux abonnements de fruits et légumes! Regarde ",
-			"link": "ici",
-			"body2": " et équipe-toi de ce qui te manque encore!"
+			"subtitle": "tu trouves ici les dernières nouvelles et le développement de tapatate!"
+		},
+		"boimiga": {
+			"title": "\"Ä Böimigä\" - La recette est maintenant disponible!",
+			"body": "Télécharger ici"
+		},
+		"subscriptions": {
+			"title": "Croquants et frais - TaPatate! propose de nouveaux abonnements de fruits et légumes!",
+			"link": "Regarde ici",
+			"body1": "et équipe-toi de ce qui te manque encore!"
 		},
 		"merch": {
 			"title": "MERCH: des bouteilles et des sacs TaPatate!",
@@ -16,7 +22,7 @@
 		},
 		"april23": {
 			"title": "Avril 2023:",
-			"body": "Tu habites à Guin et tu as envie d'un abonnement de TaPatate!? Nous sommes en train de travailler sur un nouveau dépôt là-bas et avons besoin de 5 abonnements pour commencer. Intéressé.e? Alors écris nous ",
+			"body": "Tu habites à Guin et tu as envie d'un abonnement de TaPatate!? Nous sommes en train de travailler sur un nouveau dépôt là-bas et avons besoin de 5 abonnements pour commencer. Intéressé·e? Alors écris nous ",
 			"link": "un mail!"
 		},
 		"july22": {
@@ -32,19 +38,286 @@
 		}
 	},
 	"project": {
-		"title": "projet"
+		"title": "projet",
+		"whatIs": {
+			"title": "tapatate! qu'est-ce donc?",
+			"subtitle": "un bref aperçu du projet",
+			"body1": "Tu aimes les légumes et les fruits? Et tu apprécies une production fraîche, durable, régionale et solidaire? Alors nous avons la solution pour toi : deviens membre de TaPatate! et reçois un sac plein de légumes biodynamiques par semaine ou un panier plein de fruits frais. Ou les deux en même temps. Cela te donne un aperçu de la culture des légumes et des fruits, tu peux avoir ton mot à dire sur ce qui est cultivé et comment l'association devrait se développer à l'avenir, tu contribues à un traitement durable de notre environnement et tu fais partie de la famille TaPatate! Nous nous réjouissons de t'accueillir!",
+			"body2": "Tu trouves ici un ",
+			"link1": "formulaire d'inscription online ",
+			"body3": "ainsi que de plus amples détails et infos sous ",
+			"link2": "participer"
+		},
+		"association": {
+			"title": "l'association",
+			"body1": "Nous avons fondé l'association TaPatate! en automne 2017. L'association a pour but de cultiver des légumes et des fruits de saison de manière durable, qui sont ensuite acheminés une fois par semaine à nos abonnés. Il est important pour nous que tous les acteurs·rices soient pris·ses en compte et inclu·e·s au mieux: les producteurs·rices, les consommateurs·rices, le sol et la nature. Pour ce faire nous avons choisi le modèle de l'agriculture contractuelle de proximité. L'agriculture contractuelle de proximité se fonde sur les principes de base suivants:",
+			"list1": "Répartition du risque: les membres ayant un abonnement de légumes ou de fruits paient une contribution fixe, cette dernière couvre à l'avance les coûts de production complets d'une année.",
+			"list2": "Continuité: les abonnements annuels permettent de garantir la production pendant une année entière. De cette manière, il est possible de planifier à long terme et de limiter ainsi les excédents de production.",
+			"list3": "Participation: les consommateurs·rices prennent part à la production (participation active aux décisions, à la planification, aux travaux dans les champs et à la distribution).",
+			"body2": "Tu trouves de plus amples informations concernant l'agriculture contractuelle de proximité sous ",
+			"link1": "connaissances"
+		},
+		"name": {
+			"title": "le nom",
+			"potatoes": "patates",
+			"body1": "\"Ta carotte? Ton oignon? Ton poireau? TaPatate!\"",
+			"body2": "\"T'as la frite? T'as la patate? TaPatate!\"",
+			"body3": "Le nom TaPatate! représente l'idée d'une agriculture durable et régionale, la production de légumes de saison et l'intégration des membres dans le processus."
+		},
+		"board": {
+			"title": "le comité",
+			"body1": "Le comité est composée de personnes motivées venants d'horizons divers. Ce groupe fait le nécessaire pour permettre de réaliser le projet. Le comité est actuellement divisée en sous-groupes: maraîchage, arboriculture, logistique et infrastructure, finances, communication, IT et administration. Cette répartition des tâches peut être adaptée selon le travail à réaliser.",
+			"armin": {
+				"description": "Armin est biologiste et a fait de la recherche à l'université ces dernières années sur le thème de l'écologie végétale. À Wallenbuch, Armin s'occupe des arbres, de la greffe dans la pépinière à l'entretien dans le projet d'agroforesterie.",
+				"quote": "Vives les coupes de copulation et les contre-langues",
+				"association": "Au sein de l'association, Armin fait partie du sous-groupe \"logistique et infrastructure\"."
+			},
+			"athina": {
+				"description": "Athina a récemment débuté un bachelor en Jazz à Berne. Elle savoure les moments qu'elle passe à la ferme où elle découvre les parallèles entre l'art et l'agriculture et peut ainsi déployer sa créativité autrement.",
+				"quote": "C'est beau de savoir où poussent les légumes que nous mangeons, mais chez TaPatate!, je peux également voir tout ce qui est nécessaire à la production et aider de mes propres mains. Je trouve ça encore plus précieux.",
+				"association": "Au sein de l'association, Athina est responsable de la correspondance par e-mail, de la communication avec nos membres et de l'admintool."
+			},
+			"celina": {
+				"description": "Celina est la pharmacienne de notre équipe. Après avoir terminé son Master à Bâle, elle se réjouit de relever son prochain défi pharmacologique. Chez TaPatate!, elle est chargée de s'occuper des différentes tâches administratives.",
+				"quote": "Produire des légumes de manière solidaire ne fait pas seulement plaisir au palais, mais aussi à l'esprit.",
+				"association": "Au sein de l'association, Celina est responsable des finances et de la communication avec nos membres. Elle est également impliquée dans de nombreux autres domaines."
+			},
+			"luna": {
+				"description": "Luna est biologiste et habite sur la ferme à Wallenbuch depuis mars 2022. En cours de redirection professionnelle, elle en profite pour aider de temps en temps dans les champs et pour quelques tâches administratives. Elle apprécie particulièrement ce retour à la nature et la qualité des aliments cultivés et produits.",
+				"quote": "C’est fascinant d’être la témoin de tout le processus de la graine au légume mûr",
+				"association": "Au sein de l'association, Luna fait partie du sous-groupe \"IT\"."
+			},
+			"valentin": {
+				"description": "Valentin possède un CFC de charpentier et d'agriculteur. Il gère la ferme à wallenbuch depuis 2020. En partenariat avec TaPatate!, il explore de nouvelles voies dans l'agriculture. Valentin est responsable des légumes d'hiver et de l'infrastrucutre.",
+				"quote": "Pour moi il est essentiel de savoir comment produire soi-même une nourriture de haute qualité.",
+				"association": "Valentin est responsable des fruits et des légumes d'hiver."
+			},
+			"martina": {
+				"description": "Martina a fait des études d'art et une formation d'agricultrice. Elle a emménagé sur la ferme à Wallenbuch avec Janosch et ses deux enfants pour participer à faire grandir la ferme et TaPatate!",
+				"quote": "Découvrir et être proche de la beauté des légumes, des animaux et de la vie du sol ; et faire partie d'une communauté qui fait ce qu'elle peut pour vivre et faire vivre.",
+				"association": "Pour TaPatate !, elle est principalement présente sur les champs et participe aussi activement à l'organisation."
+			},
+			"janosch": {
+				"description": "Janosch est agriculteur de formation et a le cœur à la musique et au jardin. Apprenti dans différentes exploitations maraîchères et semencières, ce natif de Thoune s'occupe des aspects structurels, de l'infomail hebdomadaire ainsi que de la livraison des légumes aux dépôts de TaPatate!",
+				"quote": "Le rythme, c'est la vie! Le flux et le reflux, les allées et venues sont pour moi la loi naturelle la plus importante de toutes.",
+				"association": " "
+			},
+			"body2": "Un grand merci à nos anciens membres de comité, Alice Müller, Ece Satar Pfister, Lauritz Mori, Mirjam Bühler, Manuel Rast, Noémie Pichon, Sarah Hübscher, Sophie Hirsig, Simon Binz, Danielle Huser et Noemi Imfeld pour leur soutien actif!"
+		}
 	},
 	"farm": {
-		"title": "ferme et culture"
+		"title": "ferme et culture",
+		"farm": {
+			"title": "la ferme",
+			"body1": "Sur la ferme de René Birbaum, l'association cultive 50 ares (5'000 m²) de cultures maraîchères et de baies et 50 ares de légumes de garde. En plus de cela, elle s'occupe d'environ 30 arbres fruitiers. Grâce à lui, nous pouvons réaliser notre projet. Un grand merci à René! La ferme est située à Wallenbuch, enclave fribourgeoise en terre bernoise (Murtenstrasse 37, 3206 Wallenbuch). Sur l'extrait de carte (voir ci-dessous), la ferme est signalée avec un point noir.",
+			"body2": "René travaille selon les règles de la biodynamie (céréales, bovins) et possède le label de qualité Demeter Suisse. Si vous êtes intéressés, veuillez contacter René directement (rbirbaum@bluewin.ch). En plus de l'agriculture, René possède également une scierie sur la ferme et transforme son propre bois provenant de son domaine forestier. En outre, il possède de nombreux engins de construction et fait également de petits travaux de construction pour des tiers (il a construit sa ferme lui-même).",
+			"body3": "La carte ci-dessous montre l'emplacement du champ (gros point noir), ainsi que les dépôts de légumes existants (points verts et noirs) et recherchés (points gris). Nous planifions d'approvisionner d'autres villages en légumes (Laupen, Kerzers, Morat, Düdingen, Courtepin, Gurmels, etc.). Donc si tu es intéressé, mais que tu ne trouve pas de dépôt approprié, n'hésite pas à nous écrire à",
+			"body4": "."
+		},
+		"veggies": {
+			"title": "les légumes",
+			"body1": "Les légumes de saison sont cultivés selon des méthodes durables ainsi qu'avec beaucoup d'amour. La culture de légumes à Wallenbuch est coordonnée par nos maraîchères et un·e apprenti·e ou des stagiaires. Ils élaborent le plan de culture, font la plûpart du travail sur le terrain et coordonnent le travail des membres de l'association sur le terrain.",
+			"body2": "Les membres ayant un abonnement reçoivent les légumes une fois par semaine. Les légumes sont livrés dans nos dépôts (voir points verts sur la carte ci-dessus), où ils sont récupérés par les abonnés. Si tu as des questions concernant le panier de légumes, n'hésite pas à nous écrire:"
+		},
+		"fruits": {
+			"title": "les fruits",
+			"body1": "TaPomme! Les fruits de l'abonnement TaPomme! sont actuellement récoltés en grande partie dans un verger composé de différents arbres fruitiers haute-tige en pleine maturité. On y trouve par exemple des poires à Botzi, des pommes Cloche, des pêches de vigne, des cerises et bien d'autres encore. Pour élargir et diversifier l'abonnement, nous plantons chaque année de nouveaux arbres, des arbustes à baies, de la rhubarbe ou même des pastèques et des melons. En automne 2021, avec une trentaine de bénévoles, nous avons pu planter notre premier champ d'agroforesterie sur une surface d'environ trois hectares ! 250 jeunes arbres fruitiers et 100 arbustes à baies ont bien poussé et porteront bientôt leurs premiers fruits. Au printemps 2022, 1000 fraisiers, ainsi que quelques rhubarbes, argousiers et oliviers s'y sont ajouter. Notre agroforesterie est organisée en rangées, ce qui permet de combiner idéalement agriculture et arboriculture. Cela entraîne de nombreuses interactions positives. Par exemple, les arbres pénètrent beaucoup plus profondément dans le sol avec leurs racines, protègent de l'érosion et transportent l'eau dans les couches supérieures du sol, où les plantes de plein champ peuvent en profiter. De plus, les rangées d'arbres serviront bientôt de protection contre le vent et réduiront l'évaporation de l'eau dans les champs. Outre une offre de fruits plus diversifiée pour nous, ce champ offre également de la nourriture et un abri à divers oiseaux, insectes et petits mammifères. Nous y contribuons activement en intégrant des tas de branches et de pierres, ainsi que des nichoirs et des haies. Lors de la sélection des variétés, nous avons veillé non seulement à leur robustesse, mais aussi et surtout à ce que la période de récolte et la durée de conservation des fruits soient les plus longues possibles. Cela promet que nos abonnements de fruits peuvent être remplis de manière variée et sans grandes pauses tout au long de l'année.",
+			"body2": "Tout comme les légumes, les fruits de l'abonnement sont livrés dès qu'ils sont mûrs dans les dépôts où les abonné(e)s viennent les chercher. En plus des fruits frais, l'abonnement de fruits propose également du jus de pomme. Si tu as des questions sur l'abonnement aux fruits, n'hésite pas à nous écrire:"
+		}
 	},
 	"participate": {
-		"title": "participer"
+		"title": "participer",
+		"harvest": {
+			"title": "nos paniers - ta part de légumes et de fruits",
+			"subtitle": "nous avons six paniers différents. Clique sur le panier approprié et découvre ce qu'il contient.",
+			"body1": " ",
+			"miniVeg": {
+				"name": "mini panier de légumes",
+				"people": "pour une personne",
+				"price": "792 CHF/an",
+				"parts": "1 parts sociales à 250 CHF",
+				"participate": "3 demi-journées par an"
+			},
+			"smallVeg": {
+				"name": "petit panier de légumes",
+				"people": "pour 1-2 personnes",
+				"price": "1254 CHF/an",
+				"parts": "2 parts sociales à 250 CHF",
+				"participate": "6 demi-journées par an"
+			},
+			"largeVeg": {
+				"name": "grand panier de légumes",
+				"people": "pour 2-4 personnes",
+				"price": "2288 CHF/an",
+				"parts": "4 parts sociales à 250 CHF",
+				"participate": "12 demi-journées par an"
+			},
+			"winterVeg": {
+				"name": "panier de légumes d'hiver",
+				"people": "pour 1-2 personnes",
+				"price": "500 CHF/an",
+				"parts": "1 parts sociales à 250 CHF",
+				"participate": "2 demi-journées par an"
+			},
+			"miniFruit": {
+				"name": "mini panier de fruits",
+				"people": "fruits frais de saison",
+				"price": "250 CHF/an",
+				"parts": "nuniquement possible comme abonnement supplémentaire à un abonnement de légumes",
+				"participate": "pas de coopération"
+			},
+			"fruit": {
+				"name": "panier de fruits",
+				"people": "pour env. 2 personnes",
+				"price": "500 CHF/an",
+				"parts": "1 parts sociales à 250 CHF",
+				"participate": "2 demi-journées par an"
+			},
+			"infoVeg": "Plus d'info concernant les légumes tu trouves ",
+			"link": "ici",
+			"infoFru": "Plus d'info concernant les fruits ",
+			"dot": ".",
+			"subtitle2": "Soli? - Bien sûr!",
+			"body2": "Cultiver des légumes biologiques et le faire dans des conditions de travail équitables a un prix que tout le monde ne peut pas se permettre. C'est pourquoi nous proposons un abonnement solidaire à 3.50 par panier. En versant une contribution de solidarité supplémentaire, tu permets à une autre personne de recevoir l'abonnement de légumes à un prix réduit. Ce que tu paies en plus, quelqu'un d'autre, qui ne peut justement pas se le permettre, le paie moins.  Nous décidons lors de l'AG suivante de ce que nous faisons avec l'argent des contributions de solidarité qui ne sont pas utilisées pour les abonnements de solidarité. Tu veux être soli ? Alors opte pour la cotisation de solidarité lors de ton inscription!",
+			"imageSoli": "Soli",
+			"imageSoli2": "+3.50/Panier"
+		},
+		"signUp": {
+			"title": "formulaire d'inscription",
+			"subtitle": "le projet t'enchante déjà? alors inscris-toi tout de suite!",
+			"link1": "Ici, tu trouves le formulaire d'inscription!",
+			"body1": "Tu trouves de plus amples informations et détails concernant le panier de légumes/fruits et l'adhésion à l'association dans le paragraphe suivant."
+		},
+		"howTo": {
+			"title": "acquisition d'un panier: comment ça fonctionne?",
+			"list1": "En acquérant des parts sociales (250 CHF / part) tu deviens membre de TaPatate! De cette manière tu soutiens notre association et tu peux prendre part activement aux assemblées générales. Cette somme t‘es retournée en cas de sortie de l‘association.",
+			"list2": "Tu as maintenant la possibilité d'acquérir un ou plusieurs des abonnements listés ci-dessous. Les six premiers panier sont à l'essai, sans engagement et sans achat de part sociale; si tu décides d'arrêter durant les six premières livraisons, seules les légumes que tu auras reçus te seront facturés.",
+			"list3": "Tu décides si tu veux payer une contribution supplémentaire. Ainsi, tu soutiens une personne/un parti pour l'achat d'un abonnement.",
+			"list4": {
+				"body1": "Tu te régales de légumes et de fruits frais et biodynamiques! Une fois par semaine, nous livrons tes légumes et, en fonction de la période de récolte, tes fruits à l'un de nos dépôts où tu peux récupérer tes parts de récolte du mercredi (de 17h) au jeudi (jusqu'à 18h). Les instructions pour les dépôts se trouvent",
+				"link1": "ici",
+				"body2": ".",
+				"depot1": {
+					"body1": "Bern: ",
+					"link1": "Dépốt Donnerbühlweg,",
+					"body2": "Donnerbühlweg 31, 3012 Bern"
+				},
+				"depot2": {
+					"body1": "Bern: ",
+					"link1": "Dépốt Löscher,",
+					"body2": "Donnerbühlweg 31, 3012 Bern"
+				},
+				"depot3": {
+					"body1": "Bern: ",
+					"link1": "Dépốt Fischermätteli,",
+					"body2": "Bioladen Fischermätteli, Weissensteinstrasse 29a, 3008 Bern"
+				},
+				"depot4": {
+					"body1": "Bern: ",
+					"link1": "Dépốt Q-Laden,",
+					"body2": "Bioladen Q-Laden, Quartierhof 1, 3013 Bern"
+				},
+				"depot5": {
+					"body1": "Bern: ",
+					"link1": "Dépốt Via Felsenau,",
+					"body2": "Via Felsenau, Spinnereiweg 4, 3004 Bern"
+				},
+				"depot6": {
+					"body1": "Bern: ",
+					"link1": "Dépốt Murifeld,",
+					"body2": "Laden im Murifeld, Mindstrasse 10, 3006 Bern"
+				},
+				"depot7": {
+					"body1": "Friboutg: ",
+					"link1": "Dépốt vélo-salon,",
+					"body2": "Bluefactory, vélo-salon Bluefactory, Passage du Cardinal 1, 1700 Fribourg"
+				},
+				"depot8": {
+					"body1": "Wallenbuch: ",
+					"link1": "Dépốt Wallenbuch,",
+					"body2": "Hof von René, Murtenstrasse 37, 3206 Wallenbuch"
+				},
+				"body3": "Nous planifions d'approvisionner d'autres villages en légumes (Laupen, Kerzers, Düdingen, Courtepin, Gurmels, etc.). Donc si tu es intéressé, mais que tu ne trouve pas de dépôt approprié, n'hésite pas à nous écrire à ",
+				"link2": "info@tapatate.ch",
+				"body4": "."
+			},
+			"list5": "Tu participes de manière active au processus! Tu t‘engages à venir nous aider lors de tes demi-journées. Tu peux choisir entre diverses activités, selon tes connaissances et tes envies: semis, plantations, soins aux cultures, récolte, préparation des légumes/fruits et des paniers ou livraison. Ainsi naît un lien vivant et intense avec les produits – et ta conscience ne t‘en sera que reconnaissante! ",
+			"link1": "Par ici",
+			"list5.2": "vers le champ.",
+			"body1": "Tu trouves de plus amples infos concernant l'association et les paniers dans les ",
+			"link2": "statuts de l'association",
+			"body2": " ainsi que dans le ",
+			"link3": "règlement concernant les abonnements",
+			"body3": ". La conduite à adopter pour la sécurité de touxtes lors de déplacements et travaux sur la ferme est détaillée dans le ",
+			"link4": "règlement de la ferme",
+			"body4": "Si le projet t'as maintenant convaincu, tu peux ",
+			"link5": "remplir ici le formulaire d'inscription online",
+			"subtitle": "Assez de légumes ou de fruits?",
+			"body6": "Veuillez noter que ton panier ne peut être résilié qu'à la fin de l'exercice social, moyennant un préavis de quatre mois (c'est-à-dire jusqu'au 30 novembre). En tant que projet d'ACP, nous ne voulons pas produire un excédent. Nous élaborons le plan de culture des légumes au début de la nouvelle année. Il est donc important de connaître le nombre exact de paniers d'ici là. Si tu déménages ou si tu ne peux pas continuer le panier pour autre raison, nous te demandons de chercher un nouveau membre qui pourra prendre en charge ton panier. Merci beaucoup!"
+		},
+		"support": {
+			"title": "nous soutenir",
+			"subtitle": "tu n'as pas envie de légumes ou fruits – mais tu es quand même convaincu·e par l‘idée? tu peux quand même nous soutenir",
+			"body": "Même si tu n‘es pas intéressé·e par un panier de légumes ou de fruits, il existe d‘autres possibilités pour soutenir notre initiative:",
+			"list1": "Deviens membre! En acquérant une ou des parts sociales, tu deviens membre de TaPatate! et peux ainsi participer activement à chaque assemblée générale. De cette manière tu nous soutiens et tu t‘impliques de manière active. Nous nous réjouissons de t‘accueillir dans notre association! Si tu désires devenir membre de l'association, tu peux ",
+			"link1": "remplir ici le formulaire d'inscription online",
+			"list1.2": ".",
+			"list2": "Fais un don: as-tu envie de sponsoriser un cageot de plantons? Possèdes-tu des outils de jardin inutilisés, qui aurait tendance à disparaître sous les toiles d‘araignée? Nous sommes ouverts à tout don, de n‘importe quelle nature qu‘il soit! Tu peux volontiers nous contacter à l'adresse suivante: ",
+			"link2": "info@tapatate.ch",
+			"list2.2": " ",
+			"list3": "Prêt d'argent: ton prêt nous permet d‘acquérir du matériel indispensable aux travaux agricoles. L‘association s‘engage contractuellement à rembourser les emprunts dans un délai déterminé à l‘avance. Contacte-nous à l‘adresse",
+			"list4": "Partage tes connaissances ou ton temps! Tu es un bricoleur invétéré, un designer de sites internet ou tu as d‘autres connaissances qui pourraient nous être utiles? Contacte-nous, nous sommes heureux si du monde veux s‘engager – que ce soit à court ou à long terme! N'hésite pas à nous contacter: "
+		},
+		"otherOffers": {
+			"title": "offres de tiers: viande, huile d'olive à pleine voile et céréales de ferme",
+			"subtitle": "ici tu peux commander de la viande de rené ou de l'huile d'olive du projet siga siga",
+			"offer1": {
+				"title": "VIANDE DE BOEUF DE VALENTIN: ",
+				"body1": "De temps en temps, Valentin emmène un de ses boeufs chez le boucher. Le moment venu, nous t'informons et tu peux ",
+				"link": "commander directement chez lui",
+				"body2": "(paquet de 10 kg avec différents morceaux de viande, 28 CHF/kg)."
+			},
+			"offer2": {
+				"title": "HUILE D'OLIVE À PLEINE VOILE DE SIGA SIGA: ",
+				"body1": "Avec son projet SIGA SIGA, notre ami Wolfgang veut mettre en place un marché direct pour l'huile d'olive d'une entreprise familiale en Grèce et transporter l'huile en Suisse sans consommer de carburant. Nous l'assistons dans la vente à Berne et à Fribourg. Sur le site",
+				"link1": "www.sigasiga.ch",
+				"body2": " tu peux en apprendre plus sur le projet et ",
+				"link2": "commander directement de l'huile d'olive"
+			},
+			"offer3": {
+				"title": "CÉRÉALES DE LA FERME: ",
+				"body1": "Cette année, du blé, du seigle et de l'épeautre poussent dans le champ de Wallenbuch à côté des légumes. Tu peux en commander sous forme de farine ou de grains. La livraison a lieu vers le mois d'août, coûte de 3,50 à 4,50 par kilo, selon la mouture et la variété, et peut être commandé par sac de 5 ou 10 kilos. Commande ton sac de farine directement auprès de ",
+				"link1": "Valentin",
+				"body2": "!"
+			}
+		}
 	},
 	"gallery": {
 		"title": "photos"
 	},
 	"knowledge": {
-		"title": "connaissances"
+		"title": "connaissances",
+		"solawi": {
+			"title": "agriculture contractuelle de proximité",
+			"subtitle": "agricu-quoi?",
+			"question1": "L'agriculture contractuelle de proximité, qu'est-ce donc?",
+			"body1": "L'agriculture contractuelle de proximité (abréviation ACP) est un modèle économique d'agriculture, dans lequel les consommateurs·rices et les producteurs·rices collaborent étroitement. Au lieu d'acheter leurs aliments dans le commerce, les consommateurs·rices sont inclu·e·s dans leur production et font ainsi partie intégrante de l'exploitation agricole.",
+			"question2": "Comment fonctionne l'agriculture contractuelle de proximité?",
+			"body2": "Les consommateurs·rices s'engagent à acheter la production de l'exploitation à un prix et pour une durée convenus à l'avance . En contrepartie, les producteurs·rices s'engagent à livrer des aliments de haute qualité et à un prix raisonnable. La collaboration entre les acteurs est réglée dans un contrat liant les deux parties.",
+			"question3": "L'agriculture contractuelle de proximité repose sur les principes suivants:",
+			"body31": "Solidarité: respect mutuel et équité entre consommateur·rice et producteur·rice.",
+			"body32": "Partenariat et lien direct: consommateurs·rices et producteurs·rices sont partenaires, ils se connaissent personnellement et entretiennent un lien direct.",
+			"body33": "Confiance: consommateurs·rices et producteurs·rices se font mutuellement confiance; assurance pour les producteurs·rices d'un revenu et que les défauts éventuels soient acceptés et assurance pour les consommateurs·rices que les aliments soient produits de la meilleure manière possible.",
+			"body34": "Engagement de longue durée: consommateur·rice et producteur·rice s'engagent au minimum pour une année.",
+			"body35": "Participation: les consommateurs·rices ont la possibilité de s'investir dans l'exploitation.",
+			"question4": "Quels sont les avantages de l'agriculture contractuelle de proximité?",
+			"body4": "Les consommateurs·rices ne paient que les coûts directs de production; cela permet ainsi de concentrer les ressources sur la production. Les consommateurs·rices assument également une part du risque inhérent à la production agricole. Ils acceptent aussi d'éventuels défauts dus aux conditions météorologiques, aux ravageurs, aux maladies et à des problèmes techniques divers. Cela donne aux producteurs·rices un serein sentiment de sécurité. De leurs côtés ces derniers offrent des aliments de haute qualité à prix abordable. De plus, les envies des consommateurs·rices peuvent être prises en compte lors de la planification et lors de la production.",
+			"body5": "Tu trouves de plus amples informations sur le thème de l'agriculture contractuelle de proximité sur les pages internet suivantes: ",
+			"link1": "www.fracp.ch",
+			"comma": ", ",
+			"link2": "www.regionalevertragslandwirtschaft.ch",
+			"dot": " (en allemand)."
+		}
 	},
 	"contact": {
 		"title": "contact"

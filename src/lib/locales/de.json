@@ -65,29 +65,43 @@
 			"body3": "Der Name TaPatate! (auf Mundart \"DiHärdöpfu!\") soll die Idee der regionalen und nachhaltigen landwirtschaftlichen Produktion, des saisonalen Gemüseanbaus und der Mitarbeit darstellen."
 		},
 		"board": {
-			"title": "der vorstand und die gartenleute",
+			"title": "der vorstand",
 			"body1": "Der Vorstand besteht aus einem Team von motivierten Personen mit verschiedenen Horizonten, die das nötige beizusteuern, um das Projekt zu verwirklichen. Aktuell ist der Vorstand in folgende Subgruppen aufgeteilt: Gemüseanbau, Obstanbau, Logistik und Infrastruktur, Finanzen, Kommunikation und Administration. Je nach anfallender Arbeit kann diese Unterteilung angepasst werden.",
-			"armin1": "Armin ist Biologe und lebt seit ca. 10 Jahren in Bern. Nach dem Bio und Klimawissenschaftsstudium schreibt er zur Zeit eine Dissertation in Pflanzenökologie und geniesst daneben jede Minute, die er auf dem Feld oder in den Bäumen in Wallenbuch verbringt.",
-			"armin2": "\"Im Gegensatz zu Migros und Coop riecht unser Biogemüse nicht nach Plastikverpackungen 😉\"",
-			"armin3": "Im Verein ist Armin für die Pflege der Obstbäume zuständig und Teil der Subgruppe \"Logistik und Infrastruktur\".",
-			"athina1": "Athina hat vor kurzer Zeit ihr Jazz Studium in Bern begonnen. Sie geniesst die Zeit auf dem Hof, wo ihr die Parallelen der Landwirtschaft zur Kunst bewusst werden und sie ihre Kreativität auch anders ausüben kann",
-			"athina2": "\"Es ist schön zu wissen, wo das Gemüse wächst und was mensch isst. Bei TaPatate! erlebe ich sogar, was es alles dazu braucht und kann selber mithelfen. Das finde ich noch viel wertvoller. \"",
-			"athina3": "Im Verein hilft Athina bei der Gestaltung der Website mit und organisiert Werbeaktionen in der Region Murten.",
-			"celina1": "Celina ist unsere Apothekerin im Team. Nach dem abgeschlossenen Masterstudium in Basel freut sie sich nun auf die nächste pharmakologische Herausforderung. Bei TaPatate! hat sie eine Anstellung, um sich der vielen verschiedenen administrativen Arbeiten anzunehmen.",
-			"celina2": "\"Gemüse solidarisch zu produzieren erfreut nicht nur den Gaumen, sondern auch den Geist.\"",
-			"celina3": "Im Verein ist Celina für das Beantworten von E-Mails, für die Kommunikation mit unseren Mitgliedern und für einen Teil der Buchhaltung zuständig. Darüber hinaus engagiert sie sich auch in zahlreichen anderen Bereichen.",
-			"luna1": "Luna ist Biologin und wohnt seit März 2022 auf dem Hof in Wallenbuch. Da sie sich beruflich gerade umorientiert, nutzt sie die Gelegenheit, um ab und zu auf dem Feld und bei einigen Verwaltungsaufgaben zu helfen. Sie schätzt besonders die Rückkehr zur Natur und die Qualität der angebauten und produzierten Lebensmittel.",
-			"luna2": "\"Es ist faszinierend, den gesamten Prozess vom Samen bis zum reifen Gemüse mitzuerleben\"",
-			"luna3": " ",
-			"tamara1": "Tamara hat vor nicht all zu langer Zeit den Bachelor in Agronomie abgeschlossen. Sie arbeitet nun sowohl in der agronomischen Forschung an der HAFL in Zollikofen, als auch als Gärtnerin bei TaPatate!. Sie freut sich nun endlich das Gelernte in die Praxis umsetzen zu können.",
-			"tamara2": "\"Ich finde es wunderbar zu sehen, wieviel in Gemeinschaft bewegt werden kann - nicht nur Kompost 😉\"",
-			"tamara3": "Im Verein ist Tamara für die Kommunikation zwischen Vorstand und René zuständig, sowie Teil der Subgruppe \"Gemüseanbau\".",
-			"tobias1": "Tobias ist gelernter Gemüsegärtner und war mehrere Jahre auf einem Demeter Betrieb in Ravensburg am Bodensee im Gemüsebau tätig. Er hat außerdem Erfahrung im Weinbau und im Anbau von Tee-und Gewürzkräutern.",
-			"tobias2": "\"Die Schweizer Landwirtschaft kennenzulernen und die Mitglieder von TaPatate! bei der Arbeit in der Gärtnerei zu begleiten macht mir große Freude.\"",
-			"tobias3": "Tobias ist für den Anbau des Feingemüses zuständig.",
-			"valentin1": "Valentin ist gelernter Zimmermann und Landwirt. Er führt den Hof in Wallenbuch seit 2020. Mit TaPatate zusammen versucht er einen neuen Weg in der Landwirtschaft zu gehen. Valentin ist für Lagergemüse und Infrastruktur zuständig.",
-			"valentin2": "\"Wissen wie man sein Essen selber und qualitativ hochwertig produzieren kann, ist für mich essentiell.\"",
-			"valentin3": "Valentin ist für das Obst und das Lagergemüse zuständig.",
+			"armin": {
+				"description": "Armin ist Biologe und lebt seit ca. 10 Jahren in Bern. Nach dem Bio und Klimawissenschaftsstudium schreibt er zur Zeit eine Dissertation in Pflanzenökologie und geniesst daneben jede Minute, die er auf dem Feld oder in den Bäumen in Wallenbuch verbringt.",
+				"quote": "Im Gegensatz zu Migros und Coop riecht unser Biogemüse nicht nach Plastikverpackungen 😉",
+				"association": "Im Verein ist Armin für die Pflege der Obstbäume zuständig und Teil der Subgruppe \"Logistik und Infrastruktur\"."
+			},
+			"athina": {
+				"description": "Athina hat vor kurzer Zeit ihr Jazz Studium in Bern begonnen. Sie geniesst die Zeit auf dem Hof, wo ihr die Parallelen der Landwirtschaft zur Kunst bewusst werden und sie ihre Kreativität auch anders ausüben kann",
+				"quote": "Es ist schön zu wissen, wo das Gemüse wächst und was mensch isst. Bei TaPatate! erlebe ich sogar, was es alles dazu braucht und kann selber mithelfen. Das finde ich noch viel wertvoller.",
+				"association": "Im Verein hilft Athina bei der Gestaltung der Website mit und organisiert Werbeaktionen in der Region Murten."
+			},
+			"celina": {
+				"description": "Celina ist unsere Apothekerin im Team. Nach dem abgeschlossenen Masterstudium in Basel freut sie sich nun auf die nächste pharmakologische Herausforderung. Bei TaPatate! hat sie eine Anstellung, um sich der vielen verschiedenen administrativen Arbeiten anzunehmen.",
+				"quote": "Gemüse solidarisch zu produzieren erfreut nicht nur den Gaumen, sondern auch den Geist.",
+				"association": "Im Verein ist Celina für das Beantworten von E-Mails, für die Kommunikation mit unseren Mitgliedern und für einen Teil der Buchhaltung zuständig. Darüber hinaus engagiert sie sich auch in zahlreichen anderen Bereichen."
+			},
+			"luna": {
+				"description": "Luna ist Biologin und wohnt seit März 2022 auf dem Hof in Wallenbuch. Da sie sich beruflich gerade umorientiert, nutzt sie die Gelegenheit, um ab und zu auf dem Feld und bei einigen Verwaltungsaufgaben zu helfen. Sie schätzt besonders die Rückkehr zur Natur und die Qualität der angebauten und produzierten Lebensmittel.",
+				"quote": "Es ist faszinierend, den gesamten Prozess vom Samen bis zum reifen Gemüse mitzuerleben",
+				"association": "Im Verein ist Luna Teil der Subgruppe \"IT\"."
+			},
+			"valentin": {
+				"description": "Valentin ist gelernter Zimmermann und Landwirt. Er führt den Hof in Wallenbuch seit 2020. Mit TaPatate zusammen versucht er einen neuen Weg in der Landwirtschaft zu gehen. Valentin ist für Lagergemüse und Infrastruktur zuständig.",
+				"quote": "Wissen wie man sein Essen selber und qualitativ hochwertig produzieren kann, ist für mich essentiell.",
+				"association": "Valentin ist für das Obst und das Lagergemüse zuständig."
+			},
+			"martina": {
+				"description": "Martina Sommer hat ein Kunststudium und eine Ausbildung zur Landwirtin absolviert und ist nun gemeinsam mit Janosch und ihren zwei Kindern nach Wallenbuch gekommen um den Hof und TaPatate! weiter wachsen zu lassen.",
+				"quote": "das Wunder und die Schönheit von Gemüse, Tieren und Bodenleben zu erfahren und ihm nahe zu sein; Und Teil einer Gemeinschaft zu sein die das Ihrige tut um zu leben und leben zu lassen",
+				"association": "Für TaPatate! ist sie hauptsächlich auf dem Feld aber auch in der Organisation mit dabei."
+			},
+			"janosch": {
+				"description": "Janosch Sommer ist gelernter Landwirt und hat das Herz in Musik und Garten. Gelernt auf verschiedenen Betrieben im Gemüse- und Samenbau kümmert sich der geborene Thuner um Strukturelles, die wöchentliche Infomail sowie die Auslieferung des Gemüses an die Depots von TaPatate!",
+				"quote": "Rhytmus ist Leben! das Auf und Ab, das Kommen und Gehen ist für mich das wichtigste Naturgesetz von Allen.",
+				"association": " "
+			},
 			"body2": "Vielen Dank unseren ehemaligen Vorstandsmitglieder:innen: Ece Satar Pfister, Alice Müller, Lauritz Mori, Mirjam Bühler, Manuel Rast, Noémie Pichon, Sarah Hübscher, Sophie Hirsig und Simon Binz für ihre tatkräftige Unterstützung!"
 		}
 	},
@@ -98,17 +112,17 @@
 			"body1": "Der Verein bewirtschaftet ca. 50 Aren (ca. 5'000 m²) Land mit Feingemüse und Beeren und nochmals 50 Aren mit Lagergemüse sowie ca. 30 Obstbäume auf dem Hof von René und Valentin Birbaum (siehe Bild hier unten). Dank ihnen können wir unser Projekt verwirklichen. Ein herzliches Dankeschön an René und Valentin! Der Betrieb befindet sich in Wallenbuch, eine freiburgische Enklave im Kanton Bern (Murtenstrasse 37, 3206 Wallenbuch). Auf dem Kartenausschnitt unten ist der Standort des Betriebs mit einem schwarzen Punkt eingezeichnet.",
 			"body2": "René und Valentin bewirtschaften ihren Betrieb nach biodynamischen Vorschriften (Getreide, Rinder) und ist im Besitz vom Qualitätslabel Demeter Schweiz. Neben der Landwirtschaft haben René und Valentin auch eine Sägerei auf dem Hof und bearbeiten eigenes Holz aus ihren Waldflächen. Zusätzlich haben sie viele Baumaschinen und erledigen ebenfalls kleine Bauarbeiten für Drittpersonen (René hat den Hof selber gebaut).",
 			"body3": "Auf dem unterstehenden Kartenausschnitt sind der Standort des Feldes (grosser schwarzer Punkt), sowie bestehende (grüne und schwarze Punkte) und gesuchte (graue Punkte) Gemüse- und Früchtedepots dargestellt. Wir würden gerne noch andere Ortschaften mit Gemüse und Obst beliefern (z.B. Laupen, Kerzers, Murten, Düdingen, Courtepin, Gurmels, usw). Falls du also interessiert bist, aber keine passenden Depots findest, kannst du uns gerne an",
-			"body4": "schreiben."
+			"body4": " schreiben."
 		},
 		"veggies": {
 			"title": "das gemüse",
-			"body1": "Unser Gemüse wird mit nachhaltigen Methoden und viel Liebe durch unsere Gartenfachkräften, Praktikant*innen, Lehrlinge oder Lehrtöchter und unseren fleissigen Mitgliedern angebaut. Die Gartenfachkräften erstellen unsere Anbauplanung, machen einen Grossteil der Arbeit und koordinieren die Einsätze der Vereinsmitglieder auf dem Feld, sowie die Verarbeitung des Gemüses. Den Gemüseanbauplan für 2021/22 findest du hier .",
-			"body2": "Die Gemüseabonnent*innen werden wöchentlich mit Gemüse beliefert. Das frische Gemüse wird in unsere Depots gebracht (siehe grüne Punkte auf dem Kartenausschnitt weiter oben) und dort von den Abonnent*innen abgeholt. Bei Fragen zum Gemüseabo kannst du uns gerne schreiben: info@tapatate.ch."
+			"body1": "Unser Gemüse wird mit nachhaltigen Methoden und viel Liebe durch unsere Gartenfachkräften, Praktikant*innen, Lehrlinge oder Lehrtöchter und unseren fleissigen Mitgliedern angebaut. Die Gartenfachkräften erstellen unsere Anbauplanung, machen einen Grossteil der Arbeit und koordinieren die Einsätze der Vereinsmitglieder auf dem Feld, sowie die Verarbeitung des Gemüses. Den Gemüseanbauplan für 2021/22 findest du hier.",
+			"body2": "Die Gemüseabonnent*innen werden wöchentlich mit Gemüse beliefert. Das frische Gemüse wird in unsere Depots gebracht (siehe grüne Punkte auf dem Kartenausschnitt weiter oben) und dort von den Abonnent*innen abgeholt. Bei Fragen zum Gemüseabo kannst du uns gerne schreiben:"
 		},
 		"fruits": {
 			"title": "das obst",
 			"body1": "Die Früchte im Obstabo TaPomme! ernten wir momentan zum grössten Teil in einer Hostet, bestehend aus verschiedenen Hochstammbäumen im besten Ertragsalter. Dort wachsen z.B. Büschelibirne, Glockenäpfel, Weinbergpfirsich, Kirschen und noch vieles mehr. Zur Erweiterung und Diversifizierung des Abos pflanzen wir jedes Jahr neue Bäume, Beerenstauden, Rhabarber oder sogar Wasser- und Honigmelonen an. Im Herbst 2021 konnten wir zusammen mit ca. 30 freiwilligen Helfer und Helferinnen unser erstes Agroforstfeld auf einer Fläche von etwa drei Hektaren anpflanzen! 250 junge Obstbäume sowie 100 Beerensträucher sind mittlerweile gut angewachsen und werden schon bald die ersten Früchte tragen. Im Frühling 2022 sind dann 1000 Erdbeerpflanzen, sowie einiges an Rhabarber, Sanddorn und Ölweiden dazugekommen. Unser Agroforst ist Reihen angelegt, sodass Acker- und Obstbau ideal kombiniert werden können. Dies bringt viele positive Wechselwirkungen mit sich. So dringen zum Beispiel Bäume mit ihren Wurzeln viel tiefer in den Boden ein, schützen vor Erosion und transportieren Wasser in höhere Bodenschichten, wo dann Ackerpflanzen davon profitieren können. Ausserdem dienen die Baumreihen schon bald als Windschutz und werden die Verdunstung von Wasser auf dem Feld reduzieren. Nebst dem diverseren Fruchtangebot für uns Menschen bietet dieses Feld auch Nahrung und Unterschlupf für verschiedenste Vögel, Insekten und Kleinsäugetiere. Dies unterstützen wir aktiv mit der Integration von Ast- und Steinhäufen, sowie Nistkästen und Hecken. Bei der Auswahl der Sorten haben wir neben Robustheit vor allem darauf geachtet, dass der Erntezeitpunkt sowie die Lagerfähigkeit der Früchte möglichst ausgedehnt sind. Dies verspricht, dass unsere Obstabos das ganze Jahr über abwechslungsreich und ohne grössere Pausen gefüllt werden können.",
-			"body2": "Die Früchte aus dem Obstabo werden genau wie das Gemüse in die Depots geliefert, sobald sie reif sind und dort von den Abonnent*innen abgeholt. Zusätzlich zum frischen Obst gibt es im Früchteabo auch Apfelsaft. Bei Fragen zum Obstabo kannst du uns gerne schreiben: info@tapatate.ch."
+			"body2": "Die Früchte aus dem Obstabo werden genau wie das Gemüse in die Depots geliefert, sobald sie reif sind und dort von den Abonnent*innen abgeholt. Zusätzlich zum frischen Obst gibt es im Früchteabo auch Apfelsaft. Bei Fragen zum Obstabo kannst du uns gerne schreiben:"
 		}
 	},
 	"participate": {
@@ -117,31 +131,48 @@
 			"title": "unsere abos - dein ernteanteil",
 			"subtitle": "wir haben sechs verschiedene abos. klicke das entsprechende abo an und erfahre, was es beinhaltet.",
 			"body1": "Wir haben neue Abos im Angebot. Du kannst dich bereits jetzt anmelden, die Lieferungen erfolgen jedoch teilweise erst im neuen Betriebsjahr (ab April 2023).",
-			"nameMiniVeg": "Mini Gemüseabo",
-			"nameSmallVeg": "Kleines Gemüseabo",
-			"nameBigVeg": "Grosses Gemüseabo",
-			"nameWinterVeg": "Winter Gemüseabo",
-			"nameMiniFru": "Mini Obstabo",
-			"nameFru": "Obstabo",
-			"0p": "frisches, saisonales Obst",
-			"1p": "für eine Person",
-			"12p": "für 1-2 Personen",
-			"24p": "für 2-4 Personen",
-			"2p": "für ca. 2 Personen",
-			"792": "792 CHF/Jahr",
-			"1254": "1254 CHF/Jahr",
-			"2508": "2508 CHF/Jahr",
-			"500": "500 CHF/Jahr",
-			"250": "250 CHF/Jahr",
-			"part1": "1 Anteilsschein à 250 CHF",
-			"part2": "2 Anteilsscheine à 250 CHF",
-			"part4": "4 Anteilsscheine à 250 CHF",
-			"part0": "nur als Zusatzabo zu einem Gemüseabo möglich",
-			"help0": "keine Mitarbeit",
-			"help3": "3 Halbtage Mitarbeit pro Jahr",
-			"help6": "6 Halbtage Mitarbeit pro Jahr",
-			"help12": "12 Halbtage Mitarbeit pro Jahr",
-			"help2": "2 Halbtage Mitarbeit pro Jahr",
+			"miniVeg": {
+				"name": "Mini Gemüseabo",
+				"people": "Für eine Person",
+				"price": "792 CHF/Jahr",
+				"parts": "1 Anteilsschein à 250 CHF",
+				"participate": "3 Halbtage Mitarbeit pro Jahr"
+			},
+			"smallVeg": {
+				"name": "Kleines Gemüseabo",
+				"people": "Für 1-2 Personen",
+				"price": "1254 CHF/Jahr",
+				"parts": "2 Anteilsscheine à 250 CHF",
+				"participate": "6 Halbtage Mitarbeit pro Jahr"
+			},
+			"largeVeg": {
+				"name": "Grosses Gemüseabo",
+				"people": "Für 2-4 Personen",
+				"price": "2288 CHF/Jahr",
+				"parts": "4 Anteilsscheine à 250 CHF",
+				"participate": "12 Halbtage Mitarbeit pro Jahr"
+			},
+			"winterVeg": {
+				"name": "Winter Gemüseabo",
+				"people": "Für 1-2 Personen",
+				"price": "500 CHF/Jahr",
+				"parts": "1 Anteilsschein à 250 CHF",
+				"participate": "2 Halbtage Mitarbeit pro Jahr"
+			},
+			"miniFruit": {
+				"name": "Mini Obstabo",
+				"people": "Frisches, saisonales Obst",
+				"price": "250 CHF/Jahr",
+				"parts": "Nur als Zusatzabo zu einem Gemüseabo möglich",
+				"participate": "Keine Mitarbeit"
+			},
+			"fruit": {
+				"name": "Obstabo",
+				"people": "Für ca. 2 Personen",
+				"price": "500 CHF/Jahr",
+				"parts": "1 Anteilsschein à 250 CHF",
+				"participate": "2 Halbtage Mitarbeit pro Jahr"
+			},
 			"infoVeg": "Mehr Infos zum Gemüse findest du ",
 			"link": "hier",
 			"infoFru": "Mehr Infos zum Obst findest du ",
@@ -226,7 +257,7 @@
 		},
 		"support": {
 			"title": "uns unterstützen",
-			"subtitle": "du hast kein bedarf an gemüse oder obst – aber du bist fan von der idee? du kannst uns trotzdem unterstützen",
+			"subtitle": "du hast keinen bedarf an gemüse oder obst – aber du bist fan von der idee? du kannst uns trotzdem unterstützen",
 			"body": "Auch wenn du kein Interesse an einer Gemüse- oder Früchtetasche hast, gibt es viele Möglichkeiten, wie du unser Projekt unterstützen kannst:",
 			"list1": "Werde Vereinsmitglied! Indem du Anteilsscheine erwirbst, wirst du TaPatate! - Mitglied und erhältst ein Mitspracherecht bei unseren Generalversammlungen. So kannst du uns unterstützen und dich einbringen. Wir freuen uns auf dich! Wenn du Mitglied vom Verein werden willst, dann kannst du das ",
 			"link1": "Anmeldeformular hier online ausfüllen",
@@ -301,7 +332,7 @@
 			"link1": "www.solawi.ch",
 			"comma": ", ",
 			"link2": "www.regionalevertragslandwirtschaft.ch",
-			"dot": " ."
+			"dot": "."
 		}
 	},
 	"contact": {

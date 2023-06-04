@@ -20,15 +20,14 @@
 			</figure>
 			<p>
 				{$_('farm.farm.body3')}
-				<a href="mailto:info@tapatate.ch">info@tapatate.ch</a>
-				{$_('farm.farm.body4')}
+				<a href="mailto:info@tapatate.ch">info@tapatate.ch</a>{$_('farm.farm.body4')}
 			</p>
 		</div>
 
 		<div class="space-y-4">
 			<h3 id="veggies">{$_('farm.veggies.title')}</h3>
 			<p>{$_('farm.veggies.body1')}</p>
-			<p>{$_('farm.veggies.body2')}</p>
+			<p>{$_('farm.veggies.body2')} <a href="mailto:info@tapatate.ch">info@tapatate.ch</a>.</p>
 			<figure class="py-12">
 				<img src={veggies} alt={$_('farm.veggies.title')} class="rounded-md" />
 			</figure>
@@ -37,7 +36,7 @@
 		<div class="space-y-4">
 			<h3 id="fruits">{$_('farm.fruits.title')}</h3>
 			<p>{$_('farm.fruits.body1')}</p>
-			<p>{$_('farm.fruits.body2')}</p>
+			<p>{$_('farm.fruits.body2')} <a href="mailto:info@tapatate.ch">info@tapatate.ch</a>.</p>
 			<figure class="py-12">
 				<img src={fruits} alt={$_('farm.fruits.title')} class="rounded-md" />
 			</figure>

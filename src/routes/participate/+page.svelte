@@ -4,81 +4,46 @@
 	import Title from '$lib/Title.svelte';
 	import backgroundImage from '$lib/images/bg-participate.jpg';
 	import carrotsHands from '$lib/images/participate-carots.jpeg';
-	import miniV from '$lib/images/participate-tomatoes-new.png';
-	import smallV from '$lib/images/participate-brocoli.png';
-	import bigV from '$lib/images/participate-pumpkin.png';
-	import winterV from '$lib/images/participate-field.png';
-	import miniF from '$lib/images/participate-bloom-new.png';
+	import miniVeg from '$lib/images/participate-tomatoes-new.png';
+	import smallVeg from '$lib/images/participate-brocoli.png';
+	import largeVeg from '$lib/images/participate-pumpkin.png';
+	import winterVeg from '$lib/images/participate-field.png';
+	import miniFruit from '$lib/images/participate-bloom-new.png';
 	import fruit from '$lib/images/participate-strawberries.png';
 
 	interface Abo {
-		name: string;
+		id: string;
 		image: string;
-		list1: string;
-		list2: string;
-		list3: string;
-		list4: string;
-		infos2: string;
 		flipped?: boolean;
 	}
 
 	const abosVeggie: Abo[] = [
 		{
-			name: $_('participate.harvest.nameMiniVeg'),
-			image: miniV,
-			list1: $_('participate.harvest.1p'),
-			list2: $_('participate.harvest.792'),
-			list3: $_('participate.harvest.part1'),
-			list4: $_('participate.harvest.help3'),
-			infos2: $_('participate.harvest.dot')
+			id: 'miniVeg',
+			image: miniVeg
 		},
 		{
-			name: $_('participate.harvest.nameSmallVeg'),
-			image: smallV,
-			list1: $_('participate.harvest.12p'),
-			list2: $_('participate.harvest.1254'),
-			list3: $_('participate.harvest.part2'),
-			list4: $_('participate.harvest.help6'),
-			infos2: $_('participate.harvest.dot')
+			id: 'smallVeg',
+			image: smallVeg
 		},
 		{
-			name: $_('participate.harvest.nameBigVeg'),
-			image: bigV,
-			list1: $_('participate.harvest.24p'),
-			list2: $_('participate.harvest.2508'),
-			list3: $_('participate.harvest.part4'),
-			list4: $_('participate.harvest.help12'),
-			infos2: $_('participate.harvest.dot')
+			id: 'largeVeg',
+			image: largeVeg
 		},
 		{
-			name: $_('participate.harvest.nameWinterVeg'),
-			image: winterV,
-			list1: $_('participate.harvest.12p'),
-			list2: $_('participate.harvest.500'),
-			list3: $_('participate.harvest.part1'),
-			list4: $_('participate.harvest.help2'),
-			infos2: $_('participate.harvest.dot')
+			id: 'winterVeg',
+			image: winterVeg
 		}
 	];
 
 	const abosFruit: Abo[] = [
 		{
-			name: $_('participate.harvest.nameMiniFru'),
-			image: miniF,
-			list1: $_('participate.harvest.0p'),
-			list2: $_('participate.harvest.part0'),
-			list3: $_('participate.harvest.250'),
-			list4: $_('participate.harvest.help0'),
-			infos2: $_('participate.harvest.dot')
+			id: 'miniFruit',
+			image: miniFruit
 		},
 		{
-			name: $_('participate.harvest.nameFru'),
-			image: fruit,
-			list1: $_('participate.harvest.2p'),
-			list2: $_('participate.harvest.500'),
-			list3: $_('participate.harvest.part1'),
-			list4: $_('participate.harvest.help2'),
-			infos2: $_('participate.harvest.dot')
+			id: 'fruit',
+			image: fruit
 		}
 	];
 
@@ -102,7 +67,7 @@
 		</div>
 
 		<div class="grid md:grid-cols-3 xl:grid-cols-4 gap-6">
-			{#each abosVeggie as abo, i (abo.name)}
+			{#each abosVeggie as abo, i (abo.id)}
 				<button
 					class="card card-hover"
 					on:click={() => {
@@ -110,20 +75,22 @@
 					}}
 				>
 					{#if !abo.flipped}
-						<img src={abo.image} alt={abo.name} />
+						<img src={abo.image} alt={$_(`participate.harvest.${abo.id}.name`)} />
 					{/if}
-					<header class="card-header pb-4"><strong>{abo.name}</strong></header>
+					<header class="card-header pb-4">
+						<strong>{$_(`participate.harvest.${abo.id}.name`)}</strong>
+					</header>
 					{#if abo.flipped}
 						<div class="p-3">
 							<ul>
-								<li>{abo.list1}</li>
-								<li>{abo.list2}</li>
-								<li>{abo.list3}</li>
-								<li>{abo.list4}</li>
+								<li>{$_(`participate.harvest.${abo.id}.people`)}</li>
+								<li>{$_(`participate.harvest.${abo.id}.price`)}</li>
+								<li>{$_(`participate.harvest.${abo.id}.parts`)}</li>
+								<li>{$_(`participate.harvest.${abo.id}.participate`)}</li>
 							</ul>
 							<p class="my-4">
 								{$_('participate.harvest.infoVeg')}
-								<a href="{base}/farm#veggies">{$_('participate.harvest.link')}</a>
+								<a href="{base}/farm#veggies">{$_('participate.harvest.link')}</a>.
 							</p>
 						</div>
 					{/if}
@@ -132,7 +99,7 @@
 		</div>
 
 		<div class="grid md:grid-cols-3 xl:grid-cols-4 gap-6">
-			{#each abosFruit as abo, i (abo.name)}
+			{#each abosFruit as abo, i (abo.id)}
 				<button
 					class="card card-hover"
 					on:click={() => {
@@ -140,20 +107,22 @@
 					}}
 				>
 					{#if !abo.flipped}
-						<img src={abo.image} alt={abo.name} />
+						<img src={abo.image} alt={$_(`participate.harvest.${abo.id}.name`)} />
 					{/if}
-					<header class="card-header pb-4"><strong>{abo.name}</strong></header>
+					<header class="card-header pb-4">
+						<strong>{$_(`participate.harvest.${abo.id}.name`)}</strong>
+					</header>
 					{#if abo.flipped}
 						<div class="p-6">
 							<ul>
-								<li>{abo.list1}</li>
-								<li>{abo.list2}</li>
-								<li>{abo.list3}</li>
-								<li>{abo.list4}</li>
+								<li>{$_(`participate.harvest.${abo.id}.people`)}</li>
+								<li>{$_(`participate.harvest.${abo.id}.price`)}</li>
+								<li>{$_(`participate.harvest.${abo.id}.parts`)}</li>
+								<li>{$_(`participate.harvest.${abo.id}.participate`)}</li>
 							</ul>
 							<p class="my-4">
 								{$_('participate.harvest.infoFru')}
-								<a href="/farm#fruits">{$_('participate.harvest.link')}</a>
+								<a href="/farm#fruits">{$_('participate.harvest.link')}</a>.
 							</p>
 						</div>
 					{/if}
@@ -288,6 +257,9 @@
 					{$_('participate.howTo.link5')}
 				</a>!
 			</p>
+
+			<h3>{$_('participate.howTo.subtitle')}</h3>
+			<p>{$_('participate.howTo.body6')}</p>
 		</div>
 
 		<div class="space-y-4">
@@ -345,8 +317,9 @@
 			<p>
 				<strong>{$_('participate.otherOffers.offer3.title')}</strong>
 				{$_('participate.otherOffers.offer3.body1')}
-				<a href="mailto:v.birbaum@gmail.com">{$_('participate.otherOffers.offer3.link')}</a>
-				{$_('participate.otherOffers.offer3.body2')}
+				<a href="mailto:v.birbaum@gmail.com">{$_('participate.otherOffers.offer3.link1')}</a>{$_(
+					'participate.otherOffers.offer3.body2'
+				)}
 			</p>
 		</div>
 	</section>
