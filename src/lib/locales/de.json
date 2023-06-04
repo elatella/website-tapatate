@@ -373,6 +373,83 @@
 		}
 	},
 	"contact": {
-		"title": "kontakt"
+		"title": "kontakt",
+		"bank": {
+			"title": "bankdaten verein",
+			"text1": "TaPatate!",
+			"text2": "Murtenstrasse 37",
+			"text3": "3206 Wallenbuch",
+			"text4": "IBAN: CH57 3012 3034 6794 1000 6",
+			"text5": "Alternative Bank Schweiz",
+			"text6": "Bankclearing: 8390",
+			"text7": "BIC: ABSOCH22"
+		},
+		"adress": {
+			"title": "adresse hof",
+			"text1": "Valentin Birbaum",
+			"text2": "Murtenstrasse 37",
+			"text3": "3206 Wallenbuch"
+		},
+		"arrival": {
+			"title": "wie komme ich dahin?",
+			"bern": {
+				"title": "Von Bern:",
+				"bold1": "mit dem Zug und Velo vom Verein (ca. 30 Minuten bis zum Feld): ",
+				"text1": "15-minütige Zugfahrt von Bern nach Gümmenen (",
+				"linkText1": "Fahrplan SBB",
+				"link1": "www.sbb.ch/de/kaufen/pages/fahrplan/fahrplan.xhtml?von=Bern,+Hauptbahnhof&nach=G%C3%BCmmenen+Bahnhof&suche=true",
+				"text2": "). Ab dem Bahnhof Gümmenen sind es noch ca. 10 min mit dem Velo bis zum Feld (",
+				"linkText2": "Google Maps",
+				"link2": "www.google.ch/maps/dir/G%C3%BCmmenen,+Bahnhof,+Ferenbalm/Murtenstrasse+37,+3206+Wallenbuch/@46.9368773,7.2179578,15z/data=!4m19!4m18!1m10!1m1!1s0x478e1501512f9d45:0x775d5772ad9c718!2m2!1d7.234121!2d46.942893!3m4!1m2!1d7.2247843!2d46.94038!3s0x478e14fc5f4f2c6d:0x6517ffdf8ea82920!1m5!1m1!1s0x478e14e0c25fa3f1:0x4a3711488e0f52ae!2m2!1d7.2218937!2d46.929782!3e1",
+				"text3": "). Wir haben Velos vom Verein in Gümmenen am Bahnhof abgestellt (beim Unterstand Velos vom Bahnhof).",
+				"bold2": "mit dem Zug und zu Fuss (ca. 45 Minuten bis zum Feld): ",
+				"text4": "). Ab dem Bahnhof Gümmenen sind es noch ca. 30 min zu Fuss bis zum Feld (",
+				"bracet": ")",
+				"bold3": "mit dem Velo (1h - 1h30 bis zum Feld, je nach Umwege und Fitness): ",
+				"text5": "es sind mehrere Wege möglich, je nach Laune (hier einige Vorschläge von ",
+				"linkText3": "Google Maps",
+				"link3": "www.google.ch/maps/dir/Bern/Murtenstrasse+37,+3206+Wallenbuch/@46.9246981,7.1945286,11z/data=!4m15!4m14!1m5!1m1!1s0x478e39c0d43a1b77:0xcb555ffe0457659a!2m2!1d7.4474468!2d46.9479739!1m5!1m1!1s0x478e14e0c25fa3f1:0x4a3711488e0f52ae!2m2!1d7.2218937!2d46.929782!3e1!5i1",
+				"text6": ", oder sonst sich den Weg selber aussuchen).",
+				"bold4": "mit dem Auto (ca. 30 Minuten bis zum Feld): ",
+				"text7": "wir fänden es toll, wenn du eine Mitfahrgelegenheit anbietest, damit das Auto auch möglichst voll wird und somit eine geringere ökologische Belastung ist. Dazu haben wir einen Mitgliederchat auf ",
+				"linkText4": "Facebook",
+				"link4": "www.facebook.com/tapatate.ch/",
+				"text8": " eingerichtet. Du kannst jederzeit bei uns für eine Einladung dazu nachfragen. Hier der Weg nach ",
+				"linkText5": "Google Maps",
+				"link5": "www.google.ch/maps/dir/G%C3%BCmmenen,+Bahnhof,+Ferenbalm/Murtenstrasse+37,+3206+Wallenbuch/@46.9368773,7.2179578,15z/data=!4m19!4m18!1m10!1m1!1s0x478e1501512f9d45:0x775d5772ad9c718!2m2!1d7.234121!2d46.942893!3m4!1m2!1d7.2247843!2d46.94038!3s0x478e14fc5f4f2c6d:0x6517ffdf8ea82920!1m5!1m1!1s0x478e14e0c25fa3f1:0x4a3711488e0f52ae!2m2!1d7.2218937!2d46.929782!3e1",
+				"dot": "."
+			},
+			"fribourg": {
+				"title": "Von Fribourg",
+				"bold1": "mit dem ÖV und Velo vom Verein (ca. 45 Minuten bis zum Feld):",
+				"text1": " 5-minütige Zugfahrt von Fribourg Bahnhof nach Düdingen und dann 20-minütige Postauto-Fahrt von Düdingen bis Ulmiz Dorf (",
+				"linkText1": "Fahrplan SBB",
+				"link1": "www.sbb.ch/de/kaufen/pages/fahrplan/fahrplan.xhtml?von=Fribourg,+gare&nach=Ulmiz+FR,+Dorf&suche=true",
+				"text2": "). Ab der Bus-Haltestelle 'Ulmiz Dorf' sind es noch ca. 10 min mit dem Velo bis zum Feld (",
+				"linkText2": "Google Maps",
+				"link2": "www.google.ch/maps/dir/Ulmiz+FR,+Dorf/Murtenstrasse+37,+3206+Wallenbuch/@46.9338423,7.2019439,15z/data=!4m19!4m18!1m10!1m1!1s0x478e1494f741c39b:0x87e3c0caeafebf2!2m2!1d7.201334!2d46.931882!3m4!1m2!1d7.2149484!2d46.9320287!3s0x478e14e8ed7ae221:0x52ca49f860353ec0!1m5!1m1!1s0x478e14e0c25fa3f1:0x4a3711488e0f52ae!2m2!1d7.2218937!2d46.929782!3e1",
+				"text3": "). Wir haben Velos vom Verein beim Schulhaus vis-à-vis von der Bushaltestelle 'Ulmiz Dorf' abgestellt.",
+				"bold2": "mit dem Zug und zu Fuss (ca. 1 Stunde bis zum Feld):",
+				"text4": "). Ab der Bus-Haltestelle 'Ulmiz Dorf' sind es noch ca. 30 min zu Fuss bis zum Feld (",
+				"bracet": ")",
+				"bold3": "mit dem Velo (45 min - 60 min bis zum Feld, je nach Umwege und Fitness):",
+				"text5": " es sind mehrere Wege möglich, je nach Laune (hier einige Vorschläge von ",
+				"linkText3": "Google Maps",
+				"link3": "www.google.ch/maps/dir/Freiburg/Murtenstrasse+37,+3206+Wallenbuch/@46.8679255,7.1287887,12z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x478e6ecd8d5a7d2f:0xbbe5d1f6b937c32e!2m2!1d7.1619719!2d46.8064773!1m5!1m1!1s0x478e14e0c25fa3f1:0x4a3711488e0f52ae!2m2!1d7.2218937!2d46.929782!3e1",
+				"text6": ", oder sonst sich den Weg selber aussuchen).",
+				"bold4": "mit dem Auto (ca. 20 Minuten bis zum Feld):",
+				"text7": " wir fänden es toll, wenn du eine Mitfahrgelegenheit anbietest, damit das Auto auch möglichst voll wird und somit eine geringere ökologische Belastung ist. Dazu haben wir einen Mitgliederchat auf ",
+				"linkText4": "Facebook",
+				"link4": "www.facebook.com/tapatate.ch/",
+				"text8": " eingerichtet. Du kannst jederzeit bei uns für eine Einladung dazu nachfragen. Hier der Weg nach Wallenbuch: ",
+				"linkText5": "Google Maps",
+				"link5": "www.google.ch/maps/dir/Freiburg/Murtenstrasse+37,+3206+Wallenbuch/@46.8683608,7.1042488,12z/data=!4m19!4m18!1m10!1m1!1s0x478e6ecd8d5a7d2f:0xbbe5d1f6b937c32e!2m2!1d7.1619719!2d46.8064773!3m4!1m2!1d7.1919691!2d46.878072!3s0x478e6b0cecf272a5:0xabeaa66bfd06a771!1m5!1m1!1s0x478e14e0c25fa3f1:0x4a3711488e0f52ae!2m2!1d7.2218937!2d46.929782!3e0",
+				"dot": "."
+			}
+		},
+		"form": {
+			"title": "kontaktformular",
+			"subtitle": "wenn du eine frage hast, kannst du uns sehr gerne kontaktieren"
+		}
 	}
 }
