@@ -321,5 +321,15 @@
 	},
 	"contact": {
 		"title": "contact"
+	},
+	"media": {
+		"title": "tapatate! dans les médias",
+		"subtitle": "émissions radio, articles de journaux, etc."
+	},
+	"footer": {
+		"other": "AUTRE",
+		"media": "tapatate! dans les médias",
+		"depots": "les dépôts",
+		"address": "ADRESSE DE LA FERME"
 	}
 }

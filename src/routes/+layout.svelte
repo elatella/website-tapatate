@@ -2,7 +2,7 @@
 	import '../theme.postcss';
 	import '@skeletonlabs/skeleton/styles/all.css';
 	import '../app.postcss';
-	import { AppShell } from '@skeletonlabs/skeleton';
+	import { AppShell, Modal } from '@skeletonlabs/skeleton';
 
 	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
 	import { storePopup } from '@skeletonlabs/skeleton';
@@ -12,6 +12,7 @@
 	import de from '$lib/locales/de.json';
 	import fr from '$lib/locales/fr.json';
 	import Header from './Header.svelte';
+	import Footer from './Footer.svelte';
 	addMessages('de-CH', de);
 	addMessages('fr-CH', fr);
 
@@ -30,9 +31,10 @@
 </svelte:head>
 
 <AppShell>
-	<svelte:fragment slot="header">
-		<Header />
-	</svelte:fragment>
+	<svelte:fragment slot="header"><Header /></svelte:fragment>
 	<slot />
 	<div class="h-24" />
+	<svelte:fragment slot="pageFooter"><Footer /></svelte:fragment>
 </AppShell>
+
+<Modal />;
