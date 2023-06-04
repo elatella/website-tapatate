@@ -296,19 +296,56 @@
 		"title": "fotos",
 		"2022": {
 			"title": "ein paar eindrücke aus dem jahr 2022",
-			"1": "Es herrscht ein dichtes Gedränge unter den Frühlingszwiebeln."
+			"1": "Es herrscht ein dichtes Gedränge unter den Frühlingszwiebeln.",
+			"2": "Der Salat gedeiht unter dem Netz.",
+			"3": "Wer war alles dabei an der Generalversammlung?",
+			"4": "TaPatate! lässt's Krachen - tolle Musik am Hoffest im Mai!",
+			"5": "Wer hat die grösste Tomaten in der Stadt?",
+			"6": "Wer ist die Schönste auf dem ganzen Feld? Natürlich die Raupe.",
+			"7": "Tombolapreise am Erntefest",
+			"8": "TesFrites von TaPatate! à la Celina"
 		},
 		"2021": {
-			"title": "der regnerische sommer 2021"
+			"title": "der regnerische sommer 2021",
+			"1": "Zwei von neun Hädöpfu Sessions konnten draussen stattfinden, juhu!",
+			"2": "Zu essen gab es jeweils etwas leckeres mit frischem Gemüse vom Hof.",
+			"3": "Wie klingt die Dachrinne?",
+			"4": "Kartoffel Ernte 2021 mit etwas Mühe.",
+			"5": "Ein paar schöne aussortierte Tomaten.",
+			"6": "Auch das Lagergemüse fängt schon im Sommer an - hier Randen."
 		},
 		"2020": {
-			"title": "durch feld und hostet im jahr 2020"
+			"title": "durch feld und hostet im jahr 2020",
+			"1": "Aus diesen kleinen Blüten werden später CoxOrange Äpfel.",
+			"2": "Fertig gemulchte Rhabarber Pflanzen",
+			"3": "Auch Dessert gab es genug für alle.",
+			"4": "Bach dem Regen kam das gute Wetter und mensch konnte draussen die Musik und das Essen geniessen.",
+			"5": "Tolle Aussicht!",
+			"6": "Auch die Jüngsten unserer Mitglieder konnten beim Fest dabei sein.",
+			"7": "Gasseroll hat erfolgreich für gute Stimmung gesorgt.",
+			"8": "Bei der Hofführung konnten Bohnenblüten bestaunt werden."
 		},
 		"2019": {
-			"title": "querbeet 2019"
+			"title": "querbeet 2019",
+			"1": "Ein Kunstwerk auf der Zwetschge?",
+			"2": "Aus dieser Rüebliraupe gibt es bald einen Schwalbenschwanz.",
+			"3": "Fleissige Hände",
+			"4": "Unser Karottenernte-Team",
+			"5": "Für den Tunnelumzug haben viele mit angepackt.",
+			"6": "Tunnelumzug: Nach zwei Jahren freut sich der Boden unter dem Tunnel über etwas Pause.",
+			"7": "Noémie, Armin, Florian und Co. sorgen für gute Musik.",
+			"8": "... oder warten alle auf die Suppe?"
 		},
 		"2018": {
-			"title": "impression vom ersten betriebsjahr 2018"
+			"title": "impression vom ersten betriebsjahr 2018",
+			"1": "Aufbau des Tunnels: Unsere Tomaten, Gurken und Peperoni werden es diesen Sommer schön warm haben!",
+			"2": "Die Tomaten wachsen im Tunnel.",
+			"3": "Die ersten Kirschen sind reif.",
+			"4": "Die Ernte fängt früh am Morgen mit guter Laune an!",
+			"5": "Das Feld hat auch im Herbst was zu bieten.",
+			"6": "Der leere Tunnel",
+			"7": "Unser Depot an der Länggasse",
+			"8": "Bio-Markt in Fribourg"
 		}
 	},
 	"knowledge": {
