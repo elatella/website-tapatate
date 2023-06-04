@@ -3,10 +3,16 @@
 		"title": "aktuell",
 		"news": {
 			"title": "neuigkeiten",
-			"subtitle": "Die letzten News und Entwicklungen von TaPatate! findest du hier.",
-			"body1": "Knackig und Frisch - TaPatate! hat neue Gemüse- und Obst-Abos im Angebot! Schau",
-			"link": "hier",
-			"body2": "nach und rüste dich mit dem aus, was dir noch fehlt!"
+			"subtitle": "Die letzten News und Entwicklungen von TaPatate! findest du hier."
+		},
+		"boimiga": {
+			"title": "\"Ä Böimigä\" - Rezept jetzt Verfügbar!",
+			"body": "Hier gehts zum Download"
+		},
+		"subscriptions": {
+			"title": "Knackig und Frisch - TaPatate! hat neue Gemüse- und Obst-Abos im Angebot!",
+			"link": "Schau hier",
+			"body1": "nach und rüste dich mit dem aus, was dir noch fehlt!"
 		},
 		"merch": {
 			"title": "MERCH: TaPatate!-Taschen und -Flaschen",
@@ -257,11 +263,22 @@
 	},
 	"gallery": {
 		"title": "fotos",
-		"2022": "ein paar eindrücke aus dem jahr 2022",
-		"2021": "der regnerische sommer 2021",
-		"2020": "durch feld und hostet im jahr 2020",
-		"2019": "querbeet 2019",
-		"2018": "impression vom ersten betriebsjahr 2018"
+		"2022": {
+			"title": "ein paar eindrücke aus dem jahr 2022",
+			"1": "Es herrscht ein dichtes Gedränge unter den Frühlingszwiebeln."
+		},
+		"2021": {
+			"title": "der regnerische sommer 2021"
+		},
+		"2020": {
+			"title": "durch feld und hostet im jahr 2020"
+		},
+		"2019": {
+			"title": "querbeet 2019"
+		},
+		"2018": {
+			"title": "impression vom ersten betriebsjahr 2018"
+		}
 	},
 	"knowledge": {
 		"title": "wissen",

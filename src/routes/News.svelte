@@ -3,6 +3,7 @@
 	import { base } from '$app/paths';
 	import Title from '$lib/Title.svelte';
 	import backgroundImage from '$lib/images/bg-news.jpg';
+	import aBoimiga from '$lib/images/a-boimiga.jpeg';
 	import bottle from '$lib/images/bottle.png';
 	import bag from '$lib/images/bag.png';
 	import summerfestDe from '$lib/images/summerfest-de.png';
@@ -14,12 +15,25 @@
 <div class="w-full px-8">
 	<section class="container mx-auto flex flex-col max-w-5xl space-y-16">
 		<div class="space-y-4">
-			<h3>{$_('news.news.title')}</h3>
+			<h2>{$_('news.news.title')}</h2>
 			<p><em>{$_('news.news.subtitle')}</em></p>
+		</div>
+
+		<div class="space-y-4">
+			<h3>{$_('news.boimiga.title')}</h3>
+			<p><a href="{base}/docs/Recipe_A_Boimiga_{$locale}.pdf">{$_('news.boimiga.body')}</a></p>
+			<div
+				class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12"
+			>
+				<img src={aBoimiga} alt={$_('news.boimiga.title')} class="w-96" />
+			</div>
+		</div>
+
+		<div class="space-y-4">
+			<h3>{$_('news.subscriptions.title')}</h3>
 			<p>
-				{$_('news.news.body1')}
-				<a href="{base}/participate">{$_('news.news.link')}</a>
-				{$_('news.news.body2')}
+				<a href="{base}/participate">{$_('news.subscriptions.link')}</a>
+				{$_('news.subscriptions.body1')}
 			</p>
 		</div>
 
