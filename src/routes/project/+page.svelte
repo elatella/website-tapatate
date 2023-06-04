@@ -5,73 +5,57 @@
 	import Title from '$lib/Title.svelte';
 	import backgroundImage from '$lib/images/bg-project.jpg';
 	import patates from '$lib/images/project-patates.jpg';
-	import board from '$lib/images/project-board.jpg';
+	import board from '$lib/images/project-board.png';
 	import armin from '$lib/images/project-armin.jpg';
 	import athina from '$lib/images/project-athina.jpg';
 	import celina from '$lib/images/project-celina.jpg';
 	import luna from '$lib/images/project-luna.jpg';
-	import tamara from '$lib/images/project-tamara.jpg';
-	import tobias from '$lib/images/project-tobias.jpg';
 	import valentin from '$lib/images/project-valentin.jpg';
+	import martina from '$lib/images/project-martina.png';
+	import janosch from '$lib/images/project-janosch.jpg';
 
 	interface Person {
+		id: string;
 		name: string;
 		image: string;
-		body1: string;
-		quote: string;
-		body2: string;
 	}
 
 	const people: Person[] = [
 		{
+			id: 'armin',
 			name: 'Armin Komposch',
-			image: armin,
-			body1: $_('project.board.armin1'),
-			quote: $_('project.board.armin2'),
-			body2: $_('project.board.armin3')
+			image: armin
 		},
 		{
+			id: 'athina',
 			name: 'Athina Dill',
-			image: athina,
-			body1: $_('project.board.athina1'),
-			quote: $_('project.board.athina2'),
-			body2: $_('project.board.athina3')
+			image: athina
 		},
 
 		{
+			id: 'celina',
 			name: 'Celina Vonwyl',
-			image: celina,
-			body1: $_('project.board.celina1'),
-			quote: $_('project.board.celina2'),
-			body2: $_('project.board.celina3')
+			image: celina
 		},
 		{
+			id: 'luna',
 			name: 'Luna Satori',
-			image: luna,
-			body1: $_('project.board.luna1'),
-			quote: $_('project.board.luna2'),
-			body2: $_('project.board.luna3')
+			image: luna
 		},
 		{
-			name: 'Tamara Köke',
-			image: tamara,
-			body1: $_('project.board.tamara1'),
-			quote: $_('project.board.tamara2'),
-			body2: $_('project.board.tamara3')
-		},
-		{
-			name: 'Tobias Maiser',
-			image: tobias,
-			body1: $_('project.board.tobias1'),
-			quote: $_('project.board.tobias2'),
-			body2: $_('project.board.tobias3')
-		},
-		{
+			id: 'valentin',
 			name: 'Valentin Birbaum',
-			image: valentin,
-			body1: $_('project.board.valentin1'),
-			quote: $_('project.board.valentin2'),
-			body2: $_('project.board.valentin3')
+			image: valentin
+		},
+		{
+			id: 'martina',
+			name: 'Martina Sommer',
+			image: martina
+		},
+		{
+			id: 'janosch',
+			name: 'Janosch Sommer',
+			image: janosch
 		}
 	];
 </script>
@@ -110,8 +94,8 @@
 			<h3>{$_('project.name.title')}</h3>
 			<img src={patates} alt={$_('project.name.potatoes')} class="w-full rounded-md" />
 			<p class="space-y-4">
-				{$_('project.name.body1')}
-				{$_('project.name.body2')}
+				{$_('project.name.body1')}<br />
+				{$_('project.name.body2')}<br />
 				{$_('project.name.body3')}
 			</p>
 		</div>
@@ -121,13 +105,13 @@
 			<img src={board} alt={$_('project.board.title')} class="w-full rounded-md" />
 			<p class="pb-16">{$_('project.board.body1')}</p>
 			<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-				{#each people as person}
+				{#each people as person (person.id)}
 					<div class="card p-6 flex flex-col items-center space-y-4">
 						<Avatar src={person.image} width="w-48" height="h-48" rounded="rounded-full" />
 						<h5>{person.name}</h5>
-						<p>{person.body1}</p>
-						<p><strong><em>{person.quote}</em></strong></p>
-						<p>{person.body2}</p>
+						<p>{$_(`project.board.${person.id}.description`)}</p>
+						<p><strong><em>"{$_(`project.board.${person.id}.quote`)}"</em></strong></p>
+						<p>{$_(`project.board.${person.id}.association`)}</p>
 					</div>
 				{/each}
 			</div>

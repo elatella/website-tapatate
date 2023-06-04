@@ -1,6 +1,9 @@
 <script lang="ts">
-	import { _ } from 'svelte-i18n';
-	import logo from '$lib/images/logo.jpg';
+	import { locale, _ } from 'svelte-i18n';
+	import logoDe from '$lib/images/logo-de.jpg';
+	import logoFr from '$lib/images/logo-fr.jpg';
+
+	$: logo = $locale && $locale.includes('fr') ? logoFr : logoDe;
 </script>
 
 <div class="container h-screen mx-auto flex justify-center items-center">

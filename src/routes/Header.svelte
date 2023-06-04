@@ -7,18 +7,9 @@
 	import logo from '$lib/images/logo-small.png';
 
 	interface NavigationItem {
-		title: string;
-		href: string;
+		label: string;
+		url: string;
 	}
-
-	const navigationItems: NavigationItem[] = [
-		{ title: $_('project.title'), href: `${base}/project` },
-		{ title: $_('farm.title'), href: `${base}/farm` },
-		{ title: $_('participate.title'), href: `${base}/participate` },
-		{ title: $_('gallery.title'), href: `${base}/gallery` },
-		{ title: $_('knowledge.title'), href: `${base}/knowledge` },
-		{ title: $_('contact.title'), href: `${base}/contact` }
-	];
 
 	function toggleLang() {
 		if ($locale && $locale.includes('de')) {
@@ -26,6 +17,18 @@
 			return;
 		}
 		locale.set('de-CH');
+	}
+
+	let navItems: NavigationItem[] = [];
+	$: {
+		navItems = [
+			{ label: $_('project.title'), url: `${base}/project` },
+			{ label: $_('farm.title'), url: `${base}/farm` },
+			{ label: $_('participate.title'), url: `${base}/participate` },
+			{ label: $_('gallery.title'), url: `${base}/gallery` },
+			{ label: $_('knowledge.title'), url: `${base}/knowledge` },
+			{ label: $_('contact.title'), url: `${base}/contact` }
+		];
 	}
 </script>
 
@@ -37,9 +40,9 @@
 	</svelte:fragment>
 
 	<svelte:fragment slot="trail">
-		{#each navigationItems as navigationItem (navigationItem.title)}
-			<a class="btn hidden lg:block" href={navigationItem.href}>
-				{navigationItem.title}
+		{#each navItems as navItem (navItem.label)}
+			<a class="btn hidden lg:block" href={navItem.url}>
+				{navItem.label}
 			</a>
 		{/each}
 		<button class="btn btn-xs variant-ghost-secondary hidden lg:block" on:click={toggleLang}>
@@ -60,10 +63,10 @@
 			<div class="card p-4 w-60 shadow-xl" data-popup="small-navigation">
 				<nav class="list-nav">
 					<ul>
-						{#each navigationItems as navigationItem (navigationItem.title)}
+						{#each navItems as navigationItem (navigationItem.label)}
 							<li class="small-navigation-item">
-								<a href={navigationItem.href}>
-									{navigationItem.title}
+								<a href={navigationItem.url}>
+									{navigationItem.label}
 								</a>
 							</li>
 						{/each}

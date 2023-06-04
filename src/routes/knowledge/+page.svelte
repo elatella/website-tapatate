@@ -33,9 +33,11 @@
 	</ul>
 	<p>
 		{$_('knowledge.solawi.body5')}
-		<a href="https://www.solawi.ch">{$_('knowledge.solawi.link1')}</a>
-		{$_('knowledge.solawi.comma')}
-		<a href="https://www.regionalevertragslandwirtschaft.ch">{$_('knowledge.solawi.link2')}</a>
-		{$_('knowledge.solawi.dot')}
+		<a href="https://{$_('knowledge.solawi.link1')}">{$_('knowledge.solawi.link1')}</a>{$_(
+			'knowledge.solawi.comma'
+		)}
+		<a href="https://www.regionalevertragslandwirtschaft.ch">{$_('knowledge.solawi.link2')}</a>{$_(
+			'knowledge.solawi.dot'
+		)}
 	</p>
 </div>
