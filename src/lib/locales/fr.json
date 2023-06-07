@@ -414,7 +414,17 @@
 	},
 	"media": {
 		"title": "tapatate! dans les médias",
-		"subtitle": "émissions radio, articles de journaux, etc."
+		"subtitle": "émissions radio, articles de journaux, etc.",
+		"link": "Ici",
+		"linkDescription": "vers l'article",
+		"1": "La journaliste de GoGreen Katharina Schatton a rendu visite à TaPatate! en automne 2021 pour se renseigner sur le mode de fonctionnement solidaire de TaPatate! Elle a aussi échangé avec Lukas Kilcher, ingénieur agronome, pour obtenir des informations sur les différences entre l'agriculture biologique et conventionnelle d'un point de vue écologique et durable.",
+		"2": "Le journaliste de WOZ Basil Weingartner a rendu visite à TaPatate! en août 2021 pour demander comment le temps pluvieux de cet été a influencé les récoltes de TaPatate! Dans son article, tu découvre qu'est-ce que la grêle et les pluies intensives ont coûté à l'association TaPatate!, mais aussi au maraîcher travaillant de manière conventionnelle Viktor Hämmerli de Brüttelen.",
+		"3": "Le quotidien La Liberté a visité TaPatate! dans les champs à Wallenbuch. L'article est paru le lundi 29 octobre. Un grand merci à Nicolas Maradan et au journal La Liberté!",
+		"4": "Une troisième fois sur Radio RaBe, la première fois en français dans Carnotzet Voltaire. Merci Airelle, Arnaud et Laure pour votre super emission!",
+		"5": "Le journal Berner Zeitung a publié un article sur TaPatate!",
+		"6": "TaPatate! regroupe plusieurs anciens étudiants de l'Université de Berne. Ils ont été interviewés par Unipress dans un article du numéro 175.",
+		"7": "TaPatate! était à nouveau sur Radio RaBe.",
+		"8": "TaPatate! s'est presenté sur Radio RaBe sur l'émission \"bölz no eis\""
 	},
 	"depots": {
 		"title": "les dépôts de tapatate!",
