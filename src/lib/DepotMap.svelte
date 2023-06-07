@@ -2,9 +2,10 @@
 	import type { Map } from 'leaflet';
 	import { onMount, onDestroy } from 'svelte';
 	import { browser } from '$app/environment';
-	import type Depot from './Depot';
+	import depotIcon from '$lib/images/depot.png';
+	import depots from '$lib/depots';
 
-	export let depots: Depot[];
+	const ICON_SIZE = 50;
 
 	let mapElement: HTMLElement;
 	let map: Map;
@@ -15,9 +16,19 @@
 
 			map = leaflet.map(mapElement).setView([46.878907, 7.284986], 11);
 
-			leaflet.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+			const icon = leaflet.icon({
+				iconUrl: depotIcon,
+				iconSize: [ICON_SIZE, ICON_SIZE]
+			});
+
+			leaflet
+				.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+					attribution:
+						'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+				})
+				.addTo(map);
 			depots.forEach((d) => {
-				leaflet.marker(d.location).addTo(map).bindPopup(`Depot ${d.name}`);
+				leaflet.marker(d.coordinates, { icon }).addTo(map).bindPopup(`${d.name}<br>${d.address}`);
 			});
 		}
 	});

@@ -197,46 +197,6 @@
 				"body1": "Tu te régales de légumes et de fruits frais et biodynamiques! Une fois par semaine, nous livrons tes légumes et, en fonction de la période de récolte, tes fruits à l'un de nos dépôts où tu peux récupérer tes parts de récolte du mercredi (de 17h) au jeudi (jusqu'à 18h). Les instructions pour les dépôts se trouvent",
 				"link1": "ici",
 				"body2": ".",
-				"depot1": {
-					"body1": "Bern: ",
-					"link1": "Dépốt Donnerbühlweg,",
-					"body2": "Donnerbühlweg 31, 3012 Bern"
-				},
-				"depot2": {
-					"body1": "Bern: ",
-					"link1": "Dépốt Löscher,",
-					"body2": "Donnerbühlweg 31, 3012 Bern"
-				},
-				"depot3": {
-					"body1": "Bern: ",
-					"link1": "Dépốt Fischermätteli,",
-					"body2": "Bioladen Fischermätteli, Weissensteinstrasse 29a, 3008 Bern"
-				},
-				"depot4": {
-					"body1": "Bern: ",
-					"link1": "Dépốt Q-Laden,",
-					"body2": "Bioladen Q-Laden, Quartierhof 1, 3013 Bern"
-				},
-				"depot5": {
-					"body1": "Bern: ",
-					"link1": "Dépốt Via Felsenau,",
-					"body2": "Via Felsenau, Spinnereiweg 4, 3004 Bern"
-				},
-				"depot6": {
-					"body1": "Bern: ",
-					"link1": "Dépốt Murifeld,",
-					"body2": "Laden im Murifeld, Mindstrasse 10, 3006 Bern"
-				},
-				"depot7": {
-					"body1": "Friboutg: ",
-					"link1": "Dépốt vélo-salon,",
-					"body2": "Bluefactory, vélo-salon Bluefactory, Passage du Cardinal 1, 1700 Fribourg"
-				},
-				"depot8": {
-					"body1": "Wallenbuch: ",
-					"link1": "Dépốt Wallenbuch,",
-					"body2": "Hof von René, Murtenstrasse 37, 3206 Wallenbuch"
-				},
 				"body3": "Nous planifions d'approvisionner d'autres villages en légumes (Laupen, Kerzers, Düdingen, Courtepin, Gurmels, etc.). Donc si tu es intéressé, mais que tu ne trouve pas de dépôt approprié, n'hésite pas à nous écrire à ",
 				"link2": "info@tapatate.ch",
 				"body4": "."
@@ -378,6 +338,18 @@
 	"media": {
 		"title": "tapatate! dans les médias",
 		"subtitle": "émissions radio, articles de journaux, etc."
+	},
+	"depots": {
+		"title": "les dépôts de tapatate!",
+		"subtitle": "c'est ici que tu trouveras toutes les infos importantes concernant ton dépôt",
+		"howTo": {
+			"title": "Instructions générales",
+			"link": "Ici",
+			"body": "tu trouveras l'heure à laquelle tu peux venir chercher ta part de récolte au dépôt et ce que tu devrais garder à l'esprit pour ce faire."
+		},
+		"list": {
+			"title": "Infos spécifiques aux dépots et plans de situation exacts"
+		}
 	},
 	"footer": {
 		"other": "AUTRE",

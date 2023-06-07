@@ -197,46 +197,6 @@
 				"body1": "Du geniesst deinen Gemüse- und deinen Früchteernteanteil – erntefrisch und biodynamisch! Einmal in der Woche liefern wir dein Gemüse und, abhängig von der Erntezeit, deine Früchte in eines unserer Depots, wo du deine Ernteanteile von Mittwoch (ab 17h) bis Donnerstag (bis 18h) abholen kannst. Die Anleitung zu den Depots findest du",
 				"link1": "hier",
 				"body2": ".",
-				"depot1": {
-					"body1": "Bern: ",
-					"link1": "Depot Donnerbühlweg,",
-					"body2": "Donnerbühlweg 31, 3012 Bern"
-				},
-				"depot2": {
-					"body1": "Bern: ",
-					"link1": "Depot Löscher,",
-					"body2": "Donnerbühlweg 31, 3012 Bern"
-				},
-				"depot3": {
-					"body1": "Bern: ",
-					"link1": "Depot Fischermätteli,",
-					"body2": "Bioladen Fischermätteli, Weissensteinstrasse 29a, 3008 Bern"
-				},
-				"depot4": {
-					"body1": "Bern: ",
-					"link1": "Depot Q-Laden,",
-					"body2": "Bioladen Q-Laden, Quartierhof 1, 3013 Bern"
-				},
-				"depot5": {
-					"body1": "Bern: ",
-					"link1": "Depot Via Felsenau,",
-					"body2": "Via Felsenau, Spinnereiweg 4, 3004 Bern"
-				},
-				"depot6": {
-					"body1": "Bern: ",
-					"link1": "Depot Murifeld,",
-					"body2": "Laden im Murifeld, Mindstrasse 10, 3006 Bern"
-				},
-				"depot7": {
-					"body1": "Friboutg: ",
-					"link1": "Depot vélo-salon,",
-					"body2": "Laden im Murifeld, Mindstrasse 10, 3006 Bern"
-				},
-				"depot8": {
-					"body1": "Wallenbuch: ",
-					"link1": "Depot Wallenbuch,",
-					"body2": "Hof von René, Murtenstrasse 37, 3206 Wallenbuch"
-				},
 				"body3": "Wir planen noch andere Ortschaften mit Gemüse zu beliefern (z.B. Laupen, Kerzers, Düdingen, Courtepin, Gurmels, usw). Falls du also interessiert bist, aber keine passende Depots findest, kannst du uns gerne an ",
 				"link2": "info@tapatate.ch",
 				"body4": " schreiben."
@@ -455,6 +415,18 @@
 	"media": {
 		"title": "tapatate! in den medien",
 		"subtitle": "radiobeiträge, zeitungsberichte, usw."
+	},
+	"depots": {
+		"title": "die depots von tapatate!",
+		"subtitle": "hier findest du alle wichtigen infos zu deinem depot",
+		"howTo": {
+			"title": "Generelle Anleitung",
+			"link": "Hier",
+			"body": "erfährst du, wann du im Depot deinen Ernteanteil abholen kannst und was du dabei beachten solltest."
+		},
+		"list": {
+			"title": "Depot spezifische Infos und detaillierter Lageplan"
+		}
 	},
 	"footer": {
 		"other": "WEITERES",

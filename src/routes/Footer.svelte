@@ -7,7 +7,7 @@
 	<div class="text-center space-y-1">
 		<p>{$_('footer.other')}</p>
 		<p><a href="{base}/media">{$_('footer.media')}</a></p>
-		<p>{$_('footer.depots')}</p>
+		<p><a href="{base}/depots">{$_('footer.depots')}</a></p>
 	</div>
 
 	<div class="text-center space-y-2">

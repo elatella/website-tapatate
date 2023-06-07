@@ -5,10 +5,7 @@
 	import farm from '$lib/images/farm.jpg';
 	import veggies from '$lib/images/veggies.jpg';
 	import fruits from '$lib/images/fruits.jpg';
-	import type Depot from './Depot';
-	import DepotMap from './DepotMap.svelte';
-
-	const depots: Depot[] = [{ name: 'Wallenbuch', location: [46.930063, 7.221532] }];
+	import DepotMap from '$lib/DepotMap.svelte';
 </script>
 
 <Title title={$_('farm.title')} {backgroundImage} />
@@ -28,7 +25,7 @@
 			</p>
 		</div>
 
-		<DepotMap {depots} />
+		<DepotMap />
 
 		<div class="space-y-4">
 			<h3 id="veggies">{$_('farm.veggies.title')}</h3>

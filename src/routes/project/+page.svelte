@@ -115,6 +115,7 @@
 					</div>
 				{/each}
 			</div>
+			<p class="pt-16">{$_('project.board.body2')}</p>
 		</div>
 	</section>
 </div>
