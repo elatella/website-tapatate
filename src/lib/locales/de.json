@@ -37,7 +37,7 @@
 			"summerfest": "Sommerfest"
 		}
 	},
-	"project": {
+	"tapatate": {
 		"title": "projekt",
 		"whatIs": {
 			"title": "was ist tapatate?",
@@ -125,7 +125,7 @@
 			"body2": "Die Früchte aus dem Obstabo werden genau wie das Gemüse in die Depots geliefert, sobald sie reif sind und dort von den Abonnent*innen abgeholt. Zusätzlich zum frischen Obst gibt es im Früchteabo auch Apfelsaft. Bei Fragen zum Obstabo kannst du uns gerne schreiben:"
 		}
 	},
-	"participate": {
+	"subscriptions": {
 		"title": "mitmachen",
 		"harvest": {
 			"title": "unsere abos - dein ernteanteil",
@@ -136,42 +136,42 @@
 				"people": "Für eine Person",
 				"price": "792 CHF/Jahr",
 				"parts": "1 Anteilsschein à 250 CHF",
-				"participate": "3 Halbtage Mitarbeit pro Jahr"
+				"subscriptions": "3 Halbtage Mitarbeit pro Jahr"
 			},
 			"smallVeg": {
 				"name": "Kleines Gemüseabo",
 				"people": "Für 1-2 Personen",
 				"price": "1254 CHF/Jahr",
 				"parts": "2 Anteilsscheine à 250 CHF",
-				"participate": "6 Halbtage Mitarbeit pro Jahr"
+				"subscriptions": "6 Halbtage Mitarbeit pro Jahr"
 			},
 			"largeVeg": {
 				"name": "Grosses Gemüseabo",
 				"people": "Für 2-4 Personen",
 				"price": "2288 CHF/Jahr",
 				"parts": "4 Anteilsscheine à 250 CHF",
-				"participate": "12 Halbtage Mitarbeit pro Jahr"
+				"subscriptions": "12 Halbtage Mitarbeit pro Jahr"
 			},
 			"winterVeg": {
 				"name": "Winter Gemüseabo",
 				"people": "Für 1-2 Personen",
 				"price": "500 CHF/Jahr",
 				"parts": "1 Anteilsschein à 250 CHF",
-				"participate": "2 Halbtage Mitarbeit pro Jahr"
+				"subscriptions": "2 Halbtage Mitarbeit pro Jahr"
 			},
 			"miniFruit": {
 				"name": "Mini Obstabo",
 				"people": "Frisches, saisonales Obst",
 				"price": "250 CHF/Jahr",
 				"parts": "Nur als Zusatzabo zu einem Gemüseabo möglich",
-				"participate": "Keine Mitarbeit"
+				"subscriptions": "Keine Mitarbeit"
 			},
 			"fruit": {
 				"name": "Obstabo",
 				"people": "Für ca. 2 Personen",
 				"price": "500 CHF/Jahr",
 				"parts": "1 Anteilsschein à 250 CHF",
-				"participate": "2 Halbtage Mitarbeit pro Jahr"
+				"subscriptions": "2 Halbtage Mitarbeit pro Jahr"
 			},
 			"infoVeg": "Mehr Infos zum Gemüse findest du ",
 			"link": "hier",
@@ -415,6 +415,12 @@
 			"message": "Nachricht",
 			"submit": "Absenden"
 		}
+	},
+	"userArea": {
+		"title": "Mitgliederbereich"
+	},
+	"recipes": {
+		"title": "Rezepte"
 	},
 	"media": {
 		"title": "tapatate! in den medien",

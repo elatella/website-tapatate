@@ -22,11 +22,13 @@
 	let navItems: NavigationItem[] = [];
 	$: {
 		navItems = [
-			{ label: $_('project.title'), url: `${base}/project` },
+			{ label: $_('subscriptions.title'), url: `${base}/subscriptions` },
+			{ label: $_('depots.title'), url: `${base}/depots` },
+			{ label: $_('tapatate.title'), url: `${base}/tapatate` },
 			{ label: $_('farm.title'), url: `${base}/farm` },
-			{ label: $_('participate.title'), url: `${base}/participate` },
+			{ label: $_('userArea.title'), url: `${base}/userArea` },
+			{ label: $_('recipes.title'), url: `${base}/recipes` },
 			{ label: $_('gallery.title'), url: `${base}/gallery` },
-			{ label: $_('knowledge.title'), url: `${base}/knowledge` },
 			{ label: $_('contact.title'), url: `${base}/contact` }
 		];
 	}

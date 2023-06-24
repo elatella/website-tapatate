@@ -32,7 +32,7 @@
 		<div class="space-y-4">
 			<h3>{$_('news.subscriptions.title')}</h3>
 			<p>
-				<a href="{base}/participate">{$_('news.subscriptions.link')}</a>
+				<a href="{base}/subscriptions">{$_('news.subscriptions.link')}</a>
 				{$_('news.subscriptions.body1')}
 			</p>
 		</div>

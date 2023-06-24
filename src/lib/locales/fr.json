@@ -37,7 +37,7 @@
 			"summerfest": "3. JUIN 2023 FÊTE DE DÉBUT D'ÉTÉ !"
 		}
 	},
-	"project": {
+	"tapatate": {
 		"title": "projet",
 		"whatIs": {
 			"title": "tapatate! qu'est-ce donc?",
@@ -125,7 +125,7 @@
 			"body2": "Tout comme les légumes, les fruits de l'abonnement sont livrés dès qu'ils sont mûrs dans les dépôts où les abonné(e)s viennent les chercher. En plus des fruits frais, l'abonnement de fruits propose également du jus de pomme. Si tu as des questions sur l'abonnement aux fruits, n'hésite pas à nous écrire:"
 		}
 	},
-	"participate": {
+	"subscriptions": {
 		"title": "participer",
 		"harvest": {
 			"title": "nos paniers - ta part de légumes et de fruits",
@@ -136,42 +136,42 @@
 				"people": "pour une personne",
 				"price": "792 CHF/an",
 				"parts": "1 parts sociales à 250 CHF",
-				"participate": "3 demi-journées par an"
+				"subscriptions": "3 demi-journées par an"
 			},
 			"smallVeg": {
 				"name": "petit panier de légumes",
 				"people": "pour 1-2 personnes",
 				"price": "1254 CHF/an",
 				"parts": "2 parts sociales à 250 CHF",
-				"participate": "6 demi-journées par an"
+				"subscriptions": "6 demi-journées par an"
 			},
 			"largeVeg": {
 				"name": "grand panier de légumes",
 				"people": "pour 2-4 personnes",
 				"price": "2288 CHF/an",
 				"parts": "4 parts sociales à 250 CHF",
-				"participate": "12 demi-journées par an"
+				"subscriptions": "12 demi-journées par an"
 			},
 			"winterVeg": {
 				"name": "panier de légumes d'hiver",
 				"people": "pour 1-2 personnes",
 				"price": "500 CHF/an",
 				"parts": "1 parts sociales à 250 CHF",
-				"participate": "2 demi-journées par an"
+				"subscriptions": "2 demi-journées par an"
 			},
 			"miniFruit": {
 				"name": "mini panier de fruits",
 				"people": "fruits frais de saison",
 				"price": "250 CHF/an",
 				"parts": "nuniquement possible comme abonnement supplémentaire à un abonnement de légumes",
-				"participate": "pas de coopération"
+				"subscriptions": "pas de coopération"
 			},
 			"fruit": {
 				"name": "panier de fruits",
 				"people": "pour env. 2 personnes",
 				"price": "500 CHF/an",
 				"parts": "1 parts sociales à 250 CHF",
-				"participate": "2 demi-journées par an"
+				"subscriptions": "2 demi-journées par an"
 			},
 			"infoVeg": "Plus d'info concernant les légumes tu trouves ",
 			"link": "ici",
@@ -415,6 +415,12 @@
 			"message": "Message",
 			"submit": "Envoyer"
 		}
+	},
+	"userArea": {
+		"title": "espace membre"
+	},
+	"recipes": {
+		"title": "recette"
 	},
 	"media": {
 		"title": "tapatate! dans les médias",

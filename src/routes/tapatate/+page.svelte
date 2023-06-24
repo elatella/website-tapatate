@@ -1,0 +1,121 @@
+<script lang="ts">
+	import { Avatar } from '@skeletonlabs/skeleton';
+	import { _ } from 'svelte-i18n';
+	import { base } from '$app/paths';
+	import Title from '$lib/Title.svelte';
+	import backgroundImage from '$lib/images/bg-tapatate.jpg';
+	import patates from '$lib/images/tapatate-patates.jpg';
+	import board from '$lib/images/tapatate-board.png';
+	import armin from '$lib/images/tapatate-armin.jpg';
+	import athina from '$lib/images/tapatate-athina.jpg';
+	import celina from '$lib/images/tapatate-celina.jpg';
+	import luna from '$lib/images/tapatate-luna.jpg';
+	import valentin from '$lib/images/tapatate-valentin.jpg';
+	import martina from '$lib/images/tapatate-martina.png';
+	import janosch from '$lib/images/tapatate-janosch.jpg';
+
+	interface Person {
+		id: string;
+		name: string;
+		image: string;
+	}
+
+	const people: Person[] = [
+		{
+			id: 'armin',
+			name: 'Armin Komposch',
+			image: armin
+		},
+		{
+			id: 'athina',
+			name: 'Athina Dill',
+			image: athina
+		},
+
+		{
+			id: 'celina',
+			name: 'Celina Vonwyl',
+			image: celina
+		},
+		{
+			id: 'luna',
+			name: 'Luna Satori',
+			image: luna
+		},
+		{
+			id: 'valentin',
+			name: 'Valentin Birbaum',
+			image: valentin
+		},
+		{
+			id: 'martina',
+			name: 'Martina Sommer',
+			image: martina
+		},
+		{
+			id: 'janosch',
+			name: 'Janosch Sommer',
+			image: janosch
+		}
+	];
+</script>
+
+<Title title={$_('tapatate.title')} {backgroundImage} />
+
+<div class="w-full px-8">
+	<section class="container mx-auto flex flex-col max-w-5xl space-y-16">
+		<div class="space-y-4">
+			<h3>{$_('tapatate.whatIs.title')}</h3>
+			<p><em>{$_('tapatate.whatIs.subtitle')}</em></p>
+			<p>{$_('tapatate.whatIs.body1')}</p>
+			<p>
+				{$_('tapatate.whatIs.body2')}
+				<a href="https://membres.tapatate.ch/new?locale=de">{$_('tapatate.whatIs.link1')} </a>
+				{$_('tapatate.whatIs.body3')}
+				<a href="{base}/subscriptions">{$_('tapatate.whatIs.link2')}</a>.
+			</p>
+		</div>
+
+		<div class="space-y-4">
+			<h3>{$_('tapatate.association.title')}</h3>
+			<p>{$_('tapatate.association.body1')}</p>
+			<ul class="list-disc list-inside pl-6">
+				<li>{$_('tapatate.association.list1')}</li>
+				<li>{$_('tapatate.association.list2')}</li>
+				<li>{$_('tapatate.association.list3')}</li>
+			</ul>
+			<p>
+				{$_('tapatate.association.body2')}
+				<a href="{base}/knowledge">{$_('tapatate.association.link1')}</a>.
+			</p>
+		</div>
+
+		<div class="space-y-4">
+			<h3>{$_('tapatate.name.title')}</h3>
+			<img src={patates} alt={$_('tapatate.name.potatoes')} class="w-full rounded-md" />
+			<p class="space-y-4">
+				{$_('tapatate.name.body1')}<br />
+				{$_('tapatate.name.body2')}<br />
+				{$_('tapatate.name.body3')}
+			</p>
+		</div>
+
+		<div class="space-y-4">
+			<h3>{$_('tapatate.board.title')}</h3>
+			<img src={board} alt={$_('tapatate.board.title')} class="w-full rounded-md" />
+			<p class="pb-16">{$_('tapatate.board.body1')}</p>
+			<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+				{#each people as person (person.id)}
+					<div class="card p-6 flex flex-col items-center space-y-4">
+						<Avatar src={person.image} width="w-48" height="h-48" rounded="rounded-full" />
+						<h5>{person.name}</h5>
+						<p>{$_(`tapatate.board.${person.id}.description`)}</p>
+						<p><strong><em>"{$_(`tapatate.board.${person.id}.quote`)}"</em></strong></p>
+						<p>{$_(`tapatate.board.${person.id}.association`)}</p>
+					</div>
+				{/each}
+			</div>
+			<p class="pt-16">{$_('tapatate.board.body2')}</p>
+		</div>
+	</section>
+</div>
