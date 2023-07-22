@@ -2,6 +2,16 @@
 	import { _ } from 'svelte-i18n';
 	import Title from '$lib/Title.svelte';
 	import backgroundImage from '$lib/images/bg-contact.jpg';
+
+	let firstName = '';
+	let lastName = '';
+	let message = '';
+
+	function handleFormSubmit() {
+		window.location.href = `mailto:info@tapatate.ch?subject=Website%20${encodeURIComponent(
+			firstName
+		)}%20${encodeURIComponent(lastName)}&body=${encodeURIComponent(message)}`;
+	}
 </script>
 
 <Title title={$_('contact.title')} {backgroundImage} />
@@ -128,6 +138,28 @@
 		<div>
 			<h3>{$_('contact.form.title')}</h3>
 			<p>{$_('contact.form.subtitle')}</p>
+
+			<form class="mt-8 max-w-2xl" on:submit|preventDefault={handleFormSubmit}>
+				<input
+					class="input mb-4"
+					type="text"
+					placeholder={$_('contact.form.firstName')}
+					bind:value={firstName}
+				/>
+				<input
+					class="input mb-4"
+					type="text"
+					placeholder={$_('contact.form.lastName')}
+					bind:value={lastName}
+				/>
+				<textarea
+					class="textarea mb-4"
+					rows="4"
+					placeholder={$_('contact.form.message')}
+					bind:value={message}
+				/>
+				<button class="btn variant-ghost-primary" type="submit">{$_('contact.form.submit')}</button>
+			</form>
 		</div>
 	</section>
 </div>

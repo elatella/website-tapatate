@@ -409,7 +409,11 @@
 		},
 		"form": {
 			"title": "kontaktformular",
-			"subtitle": "wenn du eine frage hast, kannst du uns sehr gerne kontaktieren"
+			"subtitle": "wenn du eine frage hast, kannst du uns sehr gerne kontaktieren",
+			"firstName": "Vorname",
+			"lastName": "Nachname",
+			"message": "Nachricht",
+			"submit": "Absenden"
 		}
 	},
 	"media": {
