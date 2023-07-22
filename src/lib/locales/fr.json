@@ -409,7 +409,11 @@
 		},
 		"form": {
 			"title": "formulaire de contact",
-			"subtitle": "si tu as une question, tu peux volontiers nous contacter"
+			"subtitle": "si tu as une question, tu peux volontiers nous contacter",
+			"firstName": "Prénom",
+			"lastName": "Nom",
+			"message": "Message",
+			"submit": "Envoyer"
 		}
 	},
 	"media": {

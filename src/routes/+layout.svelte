@@ -37,4 +37,4 @@
 	<svelte:fragment slot="pageFooter"><Footer /></svelte:fragment>
 </AppShell>
 
-<Modal />;
+<Modal />
