@@ -7,24 +7,51 @@
 	import carrotsHands from '$lib/images/subscriptions-carots.jpeg';
 	import miniVeg from '$lib/images/subscriptions-tomatoes-new.png';
 
+	const images = Object.values(import.meta.glob('$lib/images/recipes/*.{jpg,jpeg}', {
+				eager: true,
+				as: 'url'
+																			}));
+
 	interface Recipe {
 		id: string;
 		image: string;
 		ingredients: string;
 		description: string;
+		flipped?: boolean;
 	}
 
 	const recipes: Recipe[] = [
 		{
-			id: 'miniVeg',
-			image: miniVeg,
-			ingredients: ,
-			description:
+			id: {$_(`recipes.id.${index + 1}`)},
+			image: ,
+			ingredients: {$_(`recipes.ingredients.${index + 1}`)},
+			description: {$_(`recipes.description.${index + 1}`)}
 		}
 	];
 </script>
 
 <Title title={$_('recipes.title')} {backgroundImage} />
+
+<div class="w-full px-8 space-y-16">
+	{#each years as year, i}
+		<div class="space-y-8">
+			<h3>{$_(`gallery.${year}.title`)}</h3>
+			<div class="grid sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6 gap-12">
+				{#each imagesByYear[i] as image, j}
+					<button
+						class="card card-hover"
+						style="box-shadow:none"
+						on:click={() => {
+							openImage(year, j, image);
+						}}
+					>
+						<img src={image} alt={$_(`gallery.${year}.${j + 1}`)} />
+					</button>
+				{/each}
+			</div>
+		</div>
+	{/each}
+</div>
 
 <div class="w-full px-8">
 	<section class="container mx-auto flex flex-col max-w-5xl space-y-16">
