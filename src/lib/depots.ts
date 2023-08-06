@@ -7,52 +7,64 @@ export interface Depot {
 
 const depots: Depot[] = [
 	{
-		name: 'Depot Donnerbühlweg',
-		location: 'Bern',
-		address: 'Donnerbühlweg 31, 3012 Bern',
-		coordinates: [46.951167, 7.431806]
+		name: 'Depot Gerbegasse',
+		location: 'Kerzers',
+		address: 'Gerbegasse 14, 3210 Kerzers',
+		coordinates: [46.97473, 7.19676]
 	},
 	{
-		name: 'Depot Löscher',
-		location: 'Bern',
-		address: 'Restaurant Bar Löscher, Viktoriastrasse 70, 3013 Bern',
-		coordinates: [46.95483, 7.452221]
+		name: 'Depot Bluefactory',
+		location: 'Fribourg',
+		address: 'Bluefactory, vélo-salon Bluefactory, Passage du Cardinal 1, 1700 Fribourg',
+		coordinates: [46.79745, 7.14715]
 	},
 	{
 		name: 'Depot Fischemätteli',
 		location: 'Bern',
 		address: 'Bioladen Fischermätteli, Weissensteinstrasse 29a, 3008 Bern',
-		coordinates: [46.9409495, 7.4175303]
+		coordinates: [46.94093, 7.4198]
+	},
+	{
+		name: 'Depot Donnerbühlweg',
+		location: 'Bern',
+		address: 'Donnerbühlweg 31, 3012 Bern',
+		coordinates: [46.95119, 7.43178]
+	},
+	{
+		name: 'Alpenegg',
+		location: 'Bern',
+		address: 'Alpeneggstrasse 18, 3012 Bern',
+		coordinates: [46.95377, 7.4381]
 	},
 	{
 		name: 'Depot Q-Laden',
 		location: 'Bern',
 		address: 'Bioladen Q-Laden, Quartierhof 1, 3013 Bern',
-		coordinates: [46.9583366, 7.4465914]
+		coordinates: [46.95838, 7.44662]
 	},
 	{
-		name: 'Depot Via Felsenau',
+		name: 'Depot Löscher',
 		location: 'Bern',
-		address: 'Via Felsenau, Spinnereiweg 4, 3004 Bern',
-		coordinates: [46.9699074, 7.4421937]
+		address: 'Restaurant Bar Löscher, Viktoriastrasse 70, 3013 Bern',
+		coordinates: [46.95485, 7.45214]
 	},
 	{
 		name: 'Depot Murifeld',
 		location: 'Bern',
 		address: 'Laden im Murifeld, Mindstrasse 10, 3006 Bern',
-		coordinates: [46.941049, 7.470548]
+		coordinates: [46.94117, 7.4705]
 	},
 	{
-		name: 'Depot vélo-salon',
-		location: 'Fribourg',
-		address: 'Bluefactory, vélo-salon Bluefactory, Passage du Cardinal 1, 1700 Fribourg',
-		coordinates: [46.7975833, 7.1453566]
+		name: 'Depot Via Felsenau',
+		location: 'Bern',
+		address: 'Via Felsenau, Spinnereiweg 4, 3004 Bern',
+		coordinates: [46.97006, 7.44215]
 	},
 	{
 		name: 'Depot Wallenbuch',
 		location: 'Wallenbuch',
 		address: 'Hof von René, Murtenstrasse 37, 3206 Wallenbuch',
-		coordinates: [46.930083, 7.221667]
+		coordinates: [46.93008, 7.22173]
 	}
 ];
 
