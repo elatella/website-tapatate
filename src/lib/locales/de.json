@@ -417,10 +417,34 @@
 		}
 	},
 	"userArea": {
-		"title": "Mitgliederbereich"
+		"title": "mitgliederbereich"
 	},
 	"recipes": {
-		"title": "Rezepte"
+		"title": "rezepte",
+		"search": "Suchen",
+		"ingredients": "Zutaten für",
+		"instructions": "Anweisungen",
+		"a-boimiga": {
+			"title": "A Böimigä",
+			"amount": "1 Drink",
+			"ingredients": ["3-4 Grüne Eiswürfel", "2 cl Holundersirup"],
+			"instructions": [
+				"Fichten-, Tannenspitzli und Sauerklee sammeln",
+				"Mit 1 cl Zitronensaft pro Drink in einen Mixer geben"
+			]
+		},
+		"carrots": {
+			"title": "Rüebliauflauf",
+			"amount": "4 Portionen",
+			"ingredients": ["8 Rüebli", "Viel Geduld"],
+			"instructions": ["Rüebli kochen", "Rüebli servieren"]
+		},
+		"aubergine": {
+			"title": "Auberginenauflauf",
+			"amount": "4 Portionen",
+			"ingredients": ["8 Auberginen", "Viel Geduld"],
+			"instructions": ["Auberginen kochen", "Auberginen servieren"]
+		}
 	},
 	"media": {
 		"title": "tapatate! in den medien",

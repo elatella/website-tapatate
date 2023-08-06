@@ -3,7 +3,7 @@
 	import { base } from '$app/paths';
 	import Title from '$lib/Title.svelte';
 	import backgroundImage from '$lib/images/bg-news.jpg';
-	import aBoimiga from '$lib/images/a-boimiga.jpeg';
+	import aBoimiga from '$lib/images/recipes/a-boimiga.jpeg';
 	import bottle from '$lib/images/bottle.png';
 	import bag from '$lib/images/bag.png';
 	import summerfestDe from '$lib/images/summerfest-de.png';
