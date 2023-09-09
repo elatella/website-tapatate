@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { _ } from 'svelte-i18n';
 	import Title from '$lib/Title.svelte';
-	import backgroundImage from '$lib/images/bg-farm.jpg';
+	import backgroundImage from '$lib/images/bg-user-area.jpg';
 </script>
 
 <Title title={$_('userArea.title')} {backgroundImage} />

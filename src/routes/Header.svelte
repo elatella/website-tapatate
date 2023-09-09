@@ -26,7 +26,7 @@
 			{ label: $_('depots.title'), url: `${base}/depots` },
 			{ label: $_('tapatate.title'), url: `${base}/tapatate` },
 			{ label: $_('farm.title'), url: `${base}/farm` },
-			{ label: $_('userArea.title'), url: `${base}/userArea` },
+			{ label: $_('userArea.title'), url: `${base}/user-area` },
 			{ label: $_('recipes.title'), url: `${base}/recipes` },
 			{ label: $_('gallery.title'), url: `${base}/gallery` },
 			{ label: $_('contact.title'), url: `${base}/contact` }
