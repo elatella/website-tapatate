@@ -1,7 +1,9 @@
 <script lang="ts">
-	import type { Map } from 'leaflet';
 	import { onMount, onDestroy } from 'svelte';
+	import type { Map } from 'leaflet';
+	import { locale, _ } from 'svelte-i18n';
 	import { browser } from '$app/environment';
+	import { base } from '$app/paths';
 	import depotIcon from '$lib/images/depot.png';
 	import depots from '$lib/depots';
 
@@ -11,26 +13,15 @@
 	let map: Map;
 
 	onMount(async () => {
-		if (browser) {
-			const leaflet = await import('leaflet');
+		const leaflet = await import('leaflet');
+		map = leaflet.map(mapElement).setView([46.878907, 7.284986], 11);
 
-			map = leaflet.map(mapElement).setView([46.878907, 7.284986], 11);
-
-			const icon = leaflet.icon({
-				iconUrl: depotIcon,
-				iconSize: [ICON_SIZE, ICON_SIZE]
-			});
-
-			leaflet
-				.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-					attribution:
-						'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-				})
-				.addTo(map);
-			depots.forEach((d) => {
-				leaflet.marker(d.coordinates, { icon }).addTo(map).bindPopup(`${d.name}<br>${d.address}`);
-			});
-		}
+		leaflet
+			.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				attribution:
+					'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+			})
+			.addTo(map);
 	});
 
 	onDestroy(async () => {
@@ -38,6 +29,28 @@
 			map.remove();
 		}
 	});
+
+	$: {
+		if (browser && map) {
+			import('leaflet').then((leaflet) => {
+				const icon = leaflet.icon({
+					iconUrl: depotIcon,
+					iconSize: [ICON_SIZE, ICON_SIZE]
+				});
+
+				depots.forEach((d) => {
+					leaflet
+						.marker(d.coordinates, { icon })
+						.addTo(map)
+						.bindPopup(
+							`Depot ${d.name}<br>${d.address}<br><a href="${base}/docs/${
+								d.name
+							}_${$locale}.pdf">${$_('depots.map.description')}</a>`
+						);
+				});
+			});
+		}
+	}
 </script>
 
 <main>

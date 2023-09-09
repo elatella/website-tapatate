@@ -470,6 +470,9 @@
 		},
 		"list": {
 			"title": "Depot spezifische Infos und detaillierter Lageplan"
+		},
+		"map": {
+			"description": "Beschreibung"
 		}
 	},
 	"footer": {

@@ -7,25 +7,25 @@ export interface Depot {
 
 const depots: Depot[] = [
 	{
-		name: 'Depot Gerbegasse',
+		name: 'Gerbegasse',
 		location: 'Kerzers',
-		address: 'Gerbegasse 14, 3210 Kerzers',
+		address: 'Gerbegasse 18, 3210 Kerzers',
 		coordinates: [46.97473, 7.19676]
 	},
 	{
-		name: 'Depot Bluefactory',
+		name: 'Bluefactory',
 		location: 'Fribourg',
-		address: 'Bluefactory, vélo-salon Bluefactory, Passage du Cardinal 1, 1700 Fribourg',
+		address: 'Bluefactory, NeighborHub, Passage du Cardinal 1, 1700 Fribourg',
 		coordinates: [46.79745, 7.14715]
 	},
 	{
-		name: 'Depot Fischemätteli',
+		name: 'Fischermätteli',
 		location: 'Bern',
 		address: 'Bioladen Fischermätteli, Weissensteinstrasse 29a, 3008 Bern',
 		coordinates: [46.94093, 7.4198]
 	},
 	{
-		name: 'Depot Donnerbühlweg',
+		name: 'Donnerbühlweg',
 		location: 'Bern',
 		address: 'Donnerbühlweg 31, 3012 Bern',
 		coordinates: [46.95119, 7.43178]
@@ -37,31 +37,31 @@ const depots: Depot[] = [
 		coordinates: [46.95377, 7.4381]
 	},
 	{
-		name: 'Depot Q-Laden',
+		name: 'Q-Laden',
 		location: 'Bern',
 		address: 'Bioladen Q-Laden, Quartierhof 1, 3013 Bern',
 		coordinates: [46.95838, 7.44662]
 	},
 	{
-		name: 'Depot Löscher',
+		name: 'Löscher',
 		location: 'Bern',
 		address: 'Restaurant Bar Löscher, Viktoriastrasse 70, 3013 Bern',
 		coordinates: [46.95485, 7.45214]
 	},
 	{
-		name: 'Depot Murifeld',
+		name: 'Murifeld',
 		location: 'Bern',
 		address: 'Laden im Murifeld, Mindstrasse 10, 3006 Bern',
 		coordinates: [46.94117, 7.4705]
 	},
 	{
-		name: 'Depot Via Felsenau',
+		name: 'Via Felsenau',
 		location: 'Bern',
 		address: 'Via Felsenau, Spinnereiweg 4, 3004 Bern',
 		coordinates: [46.97006, 7.44215]
 	},
 	{
-		name: 'Depot Wallenbuch',
+		name: 'Wallenbuch',
 		location: 'Wallenbuch',
 		address: 'Hof von René, Murtenstrasse 37, 3206 Wallenbuch',
 		coordinates: [46.93008, 7.22173]

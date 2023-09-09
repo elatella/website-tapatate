@@ -470,6 +470,9 @@
 		},
 		"list": {
 			"title": "Infos spécifiques aux dépots et plans de situation exacts"
+		},
+		"map": {
+			"description": "Description"
 		}
 	},
 	"footer": {
