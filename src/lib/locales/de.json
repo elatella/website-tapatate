@@ -417,7 +417,11 @@
 		}
 	},
 	"userArea": {
-		"title": "mitgliederbereich"
+		"title": "mitgliederbereich",
+		"adminTool": {
+			"title": "Admin Tool",
+			"description": "Das Admintool ist die Plattform für TaPatate-Mitglieder. Sie ermöglicht:"
+		}
 	},
 	"recipes": {
 		"title": "rezepte",
