@@ -61,7 +61,7 @@
 		{#each filteredRecipes as recipe (recipe.id)}
 			<a href="{base}/recipes/{recipe.id}" class="card card-hover p-6 flex flex-col items-center">
 				<img src={recipe.image} alt={recipe.title} class="h-full object-cover" />
-				<h3 class="mt-4">{recipe.title}</h3>
+				<h3 class="h3 mt-4">{recipe.title}</h3>
 			</a>
 		{/each}
 	</div>

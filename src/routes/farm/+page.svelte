@@ -28,7 +28,7 @@
 		<DepotMap />
 
 		<div class="space-y-4">
-			<h3 id="veggies">{$_('farm.veggies.title')}</h3>
+			<h3 class="h3" id="veggies">{$_('farm.veggies.title')}</h3>
 			<p>{$_('farm.veggies.body1')}</p>
 			<p>{$_('farm.veggies.body2')} <a href="mailto:info@tapatate.ch">info@tapatate.ch</a>.</p>
 			<figure class="py-12">
@@ -37,7 +37,7 @@
 		</div>
 
 		<div class="space-y-4">
-			<h3 id="fruits">{$_('farm.fruits.title')}</h3>
+			<h3 class="h3" id="fruits">{$_('farm.fruits.title')}</h3>
 			<p>{$_('farm.fruits.body1')}</p>
 			<p>{$_('farm.fruits.body2')} <a href="mailto:info@tapatate.ch">info@tapatate.ch</a>.</p>
 			<figure class="py-12">
