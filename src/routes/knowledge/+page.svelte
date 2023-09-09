@@ -9,7 +9,7 @@
 <div class="w-full px-8">
 	<section class="container mx-auto flex flex-col max-w-5xl space-y-16">
 		<div class="space-y-4">
-			<h2>{$_('knowledge.solawi.title')}</h2>
+			<h2 class="h2">{$_('knowledge.solawi.title')}</h2>
 			<p><em>{$_('knowledge.solawi.subtitle')}</em></p>
 		</div>
 

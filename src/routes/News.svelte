@@ -15,12 +15,12 @@
 <div class="w-full px-8">
 	<section class="container mx-auto flex flex-col max-w-5xl space-y-16">
 		<div class="space-y-4">
-			<h2>{$_('news.news.title')}</h2>
+			<h2 class="h2">{$_('news.news.title')}</h2>
 			<p><em>{$_('news.news.subtitle')}</em></p>
 		</div>
 
 		<div class="space-y-4">
-			<h3>{$_('news.boimiga.title')}</h3>
+			<h3 class="h3">{$_('news.boimiga.title')}</h3>
 			<p><a href="{base}/docs/Recipe_A_Boimiga_{$locale}.pdf">{$_('news.boimiga.body')}</a></p>
 			<div
 				class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12"
@@ -30,7 +30,7 @@
 		</div>
 
 		<div class="space-y-4">
-			<h3>{$_('news.subscriptions.title')}</h3>
+			<h3 class="h3">{$_('news.subscriptions.title')}</h3>
 			<p>
 				<a href="{base}/subscriptions">{$_('news.subscriptions.link')}</a>
 				{$_('news.subscriptions.body1')}
@@ -38,7 +38,7 @@
 		</div>
 
 		<div class="space-y-4">
-			<h3>{$_('news.merch.title')}</h3>
+			<h3 class="h3">{$_('news.merch.title')}</h3>
 			<p>{$_('news.merch.body')}</p>
 			<div
 				class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12"
@@ -49,7 +49,7 @@
 		</div>
 
 		<div class="space-y-4">
-			<h3>{$_('news.april23.title')}</h3>
+			<h3 class="h3">{$_('news.april23.title')}</h3>
 			<p>
 				{$_('news.april23.body')}
 				<a href="mailto:info@tapatate.ch">{$_('news.april23.link')}</a>!
@@ -57,7 +57,7 @@
 		</div>
 
 		<div class="space-y-4">
-			<h3>{$_('news.july22.title')}</h3>
+			<h3 class="h3">{$_('news.july22.title')}</h3>
 			<p class="pb-4">
 				{$_('news.july22.body1')}
 				<a
@@ -79,7 +79,7 @@
 		</div>
 
 		<div class="space-y-4">
-			<h3>{$_('news.events.title')}</h3>
+			<h3 class="h3">{$_('news.events.title')}</h3>
 			<p><em>{$_('news.events.subtitle')}</em></p>
 			<img
 				src={$locale && $locale.includes('fr') ? summerfestFr : summerfestDe}

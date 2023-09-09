@@ -42,17 +42,17 @@
 		<li class="crumb">{recipe.title}</li>
 	</ol>
 
-	<h1 class="mb-4">{recipe.title}</h1>
+	<h1 class="h1 mb-4">{recipe.title}</h1>
 	<img src={recipe.image} alt={recipe.title} class="max-h-96" />
 
-	<h2>{$_('recipes.ingredients')} {recipe.amount}</h2>
+	<h2 class="h2">{$_('recipes.ingredients')} {recipe.amount}</h2>
 	<ul>
 		{#each recipe.ingredients as ingredient}
 			<li class="list-inside">{ingredient}</li>
 		{/each}
 	</ul>
 
-	<h2>{$_('recipes.instructions')}</h2>
+	<h2 class="h2">{$_('recipes.instructions')}</h2>
 	<ol class="list-decimal list-inside">
 		{#each recipe.instructions as instruction}
 			<li>{instruction}</li>

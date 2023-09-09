@@ -20,7 +20,7 @@
 	<section class="container mx-auto flex flex-col max-w-5xl space-y-16">
 		<div class="flex flex-col md:flex-row justify-around">
 			<div>
-				<h3>{$_('contact.bank.title')}</h3>
+				<h3 class="h3">{$_('contact.bank.title')}</h3>
 				<p>{$_('contact.bank.text1')}</p>
 				<p>{$_('contact.bank.text2')}</p>
 				<p>{$_('contact.bank.text3')}</p>
@@ -31,16 +31,16 @@
 			</div>
 
 			<div>
-				<h3>{$_('contact.adress.title')}</h3>
+				<h3 class="h3">{$_('contact.adress.title')}</h3>
 				<p>{$_('contact.adress.text1')}</p>
 				<p>{$_('contact.adress.text2')}</p>
 				<p>{$_('contact.adress.text3')}</p>
 			</div>
 		</div>
 		<div>
-			<h3>{$_('contact.arrival.title')}</h3>
+			<h3 class="h3">{$_('contact.arrival.title')}</h3>
 			<br />
-			<h5><strong>{$_('contact.arrival.bern.title')}</strong></h5>
+			<h5 class="h5"><strong>{$_('contact.arrival.bern.title')}</strong></h5>
 			<ul class="list-disc p-4 space-y-1 list-inside">
 				<li>
 					<strong>{$_('contact.arrival.bern.bold1')}</strong>
@@ -87,7 +87,7 @@
 					{$_('contact.arrival.bern.dot')}
 				</li>
 			</ul>
-			<h5><strong>{$_('contact.arrival.fribourg.title')}</strong></h5>
+			<h5 class="h5"><strong>{$_('contact.arrival.fribourg.title')}</strong></h5>
 			<ul class="list-disc p-4 space-y-1 list-inside">
 				<li>
 					<strong>{$_('contact.arrival.fribourg.bold1')}</strong>
@@ -136,7 +136,7 @@
 			</ul>
 		</div>
 		<div>
-			<h3>{$_('contact.form.title')}</h3>
+			<h3 class="h3">{$_('contact.form.title')}</h3>
 			<p>{$_('contact.form.subtitle')}</p>
 
 			<form class="mt-8 max-w-2xl" on:submit|preventDefault={handleFormSubmit}>

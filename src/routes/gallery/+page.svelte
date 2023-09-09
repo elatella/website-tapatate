@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { _ } from 'svelte-i18n';
-	import { modalStore } from '@skeletonlabs/skeleton';
+	import { getModalStore } from '@skeletonlabs/skeleton';
 	import Title from '$lib/Title.svelte';
 	import backgroundImage from '$lib/images/bg-gallery.jpg';
 	const images = Object.values(
@@ -9,6 +9,8 @@
 			as: 'url'
 		})
 	);
+
+	const modalStore = getModalStore();
 
 	const years = ['2022', '2021', '2020', '2019', '2018'];
 
@@ -28,7 +30,7 @@
 <div class="w-full px-8 space-y-16">
 	{#each years as year, i}
 		<div class="space-y-8">
-			<h3>{$_(`gallery.${year}.title`)}</h3>
+			<h3 class="h3">{$_(`gallery.${year}.title`)}</h3>
 			<div class="grid sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6 gap-12">
 				{#each imagesByYear[i] as image, j}
 					<button

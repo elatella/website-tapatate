@@ -8,12 +8,12 @@
 <div class="w-full p-8">
 	<section class="container mx-auto flex flex-col max-w-5xl space-y-16">
 		<div class="space-y-4">
-			<h1>{$_('depots.title')}</h1>
+			<h1 class="h1">{$_('depots.title')}</h1>
 			<p><em>{$_('depots.subtitle')}</em></p>
 		</div>
 
 		<div class="space-y-4">
-			<h3>{$_('depots.howTo.title')}</h3>
+			<h3 class="h3">{$_('depots.howTo.title')}</h3>
 			<p>
 				<a href="{base}/docs/Depots_{$locale}.pdf">{$_('depots.howTo.link')}</a>
 				{$_('depots.howTo.body')}
@@ -21,7 +21,7 @@
 		</div>
 
 		<div class="space-y-4">
-			<h3>{$_('depots.list.title')}</h3>
+			<h3 class="h3">{$_('depots.list.title')}</h3>
 			<ul class="list-disc list-inside pl-6">
 				{#each depots as depot (depot.name)}
 					<li>

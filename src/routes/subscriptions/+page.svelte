@@ -62,7 +62,7 @@
 <div class="w-full px-8">
 	<section class="container mx-auto flex flex-col max-w-5xl space-y-16">
 		<div class="space-y-4">
-			<h3>{$_('subscriptions.harvest.title')}</h3>
+			<h3 class="h3">{$_('subscriptions.harvest.title')}</h3>
 			<p><em>{$_('subscriptions.harvest.subtitle')}</em></p>
 			<p>{$_('subscriptions.harvest.body1')}</p>
 		</div>
@@ -132,7 +132,7 @@
 		</div>
 
 		<div class="space-y-4">
-			<h3>{$_('subscriptions.harvest.subtitle2')}</h3>
+			<h3 class="h3">{$_('subscriptions.harvest.subtitle2')}</h3>
 			<p>{$_('subscriptions.harvest.body2')}</p>
 			<div
 				class="w-full h-96 flex items-center justify-center bg-center bg-cover rounded-md"
@@ -145,7 +145,7 @@
 		</div>
 
 		<div class="space-y-4">
-			<h3>{$_('subscriptions.signUp.title')}</h3>
+			<h3 class="h3">{$_('subscriptions.signUp.title')}</h3>
 			<p><em>{$_('subscriptions.signUp.subtitle')}</em></p>
 			<a href="https://membres.tapatate.ch/new?locale={$locale}"
 				><strong>{$_('subscriptions.signUp.link1')}</strong></a
@@ -154,7 +154,7 @@
 		</div>
 
 		<div class="space-y-4">
-			<h3>{$_('subscriptions.howTo.title')}</h3>
+			<h3 class="h3">{$_('subscriptions.howTo.title')}</h3>
 
 			<ol class="list-decimal list-inside space-y-4">
 				<li>{$_('subscriptions.howTo.list1')}</li>
@@ -206,12 +206,12 @@
 				</a>!
 			</p>
 
-			<h3>{$_('subscriptions.howTo.subtitle')}</h3>
+			<h3 class="h3">{$_('subscriptions.howTo.subtitle')}</h3>
 			<p>{$_('subscriptions.howTo.body6')}</p>
 		</div>
 
 		<div class="space-y-4">
-			<h3>{$_('subscriptions.support.title')}</h3>
+			<h3 class="h3">{$_('subscriptions.support.title')}</h3>
 			<em>{$_('subscriptions.support.subtitle')}</em>
 			<p>{$_('subscriptions.support.body')}</p>
 			<ul class="list-disc list-inside">
@@ -245,7 +245,7 @@
 		</div>
 
 		<div class="space-y-4">
-			<h3>{$_('subscriptions.otherOffers.title')}</h3>
+			<h3 class="h3">{$_('subscriptions.otherOffers.title')}</h3>
 			<em>{$_('subscriptions.otherOffers.subtitle')}</em>
 			<p>
 				<strong>{$_('subscriptions.otherOffers.offer1.title')}</strong>

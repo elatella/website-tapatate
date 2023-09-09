@@ -6,7 +6,7 @@
 <div class="w-full p-8">
 	<section class="container mx-auto flex flex-col max-w-5xl space-y-16">
 		<div class="space-y-4">
-			<h1>{$_('media.title')}</h1>
+			<h1 class="h1">{$_('media.title')}</h1>
 			<p><em>{$_('media.subtitle')}</em></p>
 		</div>
 

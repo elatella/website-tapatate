@@ -65,7 +65,7 @@
 <div class="w-full px-8">
 	<section class="container mx-auto flex flex-col max-w-5xl space-y-16">
 		<div class="space-y-4">
-			<h3>{$_('tapatate.whatIs.title')}</h3>
+			<h3 class="h3">{$_('tapatate.whatIs.title')}</h3>
 			<p><em>{$_('tapatate.whatIs.subtitle')}</em></p>
 			<p>{$_('tapatate.whatIs.body1')}</p>
 			<p>
@@ -77,7 +77,7 @@
 		</div>
 
 		<div class="space-y-4">
-			<h3>{$_('tapatate.association.title')}</h3>
+			<h3 class="h3">{$_('tapatate.association.title')}</h3>
 			<p>{$_('tapatate.association.body1')}</p>
 			<ul class="list-disc list-inside pl-6">
 				<li>{$_('tapatate.association.list1')}</li>
@@ -91,7 +91,7 @@
 		</div>
 
 		<div class="space-y-4">
-			<h3>{$_('tapatate.name.title')}</h3>
+			<h3 class="h3">{$_('tapatate.name.title')}</h3>
 			<img src={patates} alt={$_('tapatate.name.potatoes')} class="w-full rounded-md" />
 			<p class="space-y-4">
 				{$_('tapatate.name.body1')}<br />
@@ -101,14 +101,14 @@
 		</div>
 
 		<div class="space-y-4">
-			<h3>{$_('tapatate.board.title')}</h3>
+			<h3 class="h3">{$_('tapatate.board.title')}</h3>
 			<img src={board} alt={$_('tapatate.board.title')} class="w-full rounded-md" />
 			<p class="pb-16">{$_('tapatate.board.body1')}</p>
 			<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 				{#each people as person (person.id)}
 					<div class="card p-6 flex flex-col items-center space-y-4">
 						<Avatar src={person.image} width="w-48" height="h-48" rounded="rounded-full" />
-						<h5>{person.name}</h5>
+						<h5 class="h5">{person.name}</h5>
 						<p>{$_(`tapatate.board.${person.id}.description`)}</p>
 						<p><strong><em>"{$_(`tapatate.board.${person.id}.quote`)}"</em></strong></p>
 						<p>{$_(`tapatate.board.${person.id}.association`)}</p>
