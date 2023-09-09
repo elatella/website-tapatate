@@ -433,7 +433,62 @@
 		"title": "mitgliederbereich",
 		"adminTool": {
 			"title": "Admin Tool",
-			"description": "Das Admintool ist die Plattform für TaPatate-Mitglieder. Sie ermöglicht:"
+			"description": "Das Admintool ist die Plattform für TaPatate-Mitglieder. Sie ermöglicht:",
+			"body1": "sich für Einsätze anzumelden und diese zu verwalten.",
+			"body2": "Informationen über sein Depot zu finden (Öffnungszeiten, Code usw.)",
+			"body3": "Persönlichen Informationen, Abwesenheiten zu verwalten und Rechnungen einzusehen.",
+			"body4": "Andere Hofprodukte zu bestellen (über den Hofladen).",
+			"body5": "Verschiedene andere Informationen zu finden (Fahrradcode, Art des Abonnements usw.)",
+			"body6": "Hinweis: Persönliche Daten werden vertraulich behandelt und sind nur für die betreffenden Personen sichtbar.",
+			"title2": "Wie loggt man sich in das Admintool ein?",
+			"body7": "Gib auf ",
+			"link1": "https://admin.tapatate.ch",
+			"body8": " deine E-Mail-Adresse ein.",
+			"body9": "Hinweis: Die E-Mail-Adresse(n), die du verwenden musst, ist/sind die E-Mail-Adresse(n), die du TaPatate! bei der Erstellung des Kontos mitgeteilt hast. Bei Problemen mit der Anmeldung bitte an ",
+			"link2": "info@tapatate.ch",
+			"body10": "schreiben.",
+			"body11": "Du erhältst dann eine Login-E-Mail an die eingegebene Adresse. Klicke auf den Link.",
+			"body12": "Du wirst direkt zu deiner persönlichen Seite auf dem Admintool weitergeleitet."
+		},
+		"engagement": {
+			"title": "Einsätze",
+			"subtitle1": "Allgemeine Informationen",
+			"body1": "Einsätze sind ein integraler Bestandteil der solidarischen Landwirtschaft. Auf diese Weise arbeiten die Konsument.innen Hand in Hand mit den Produzent.innen und ermöglichen faire Preise und eine nachhaltigere Landwirtschaft.",
+			"body2": "Obst und Gemüse benötigen zwischen Mai und August besonders viel Aufmerksamkeit,daher bitten wir dich, ",
+			"body3": "mindestens die Hälfte deiner Einsätze bis Ende Juli zu absolvieren.",
+			"body4": " Andernfalls bitten wir um finanzielle Unterstützung, damit wir die Überstunden unserem Gartenteam vergüten können.",
+			"body5": "Die Arbeit auf dem Feld, die Vorbereitung der Lieferung und die Lieferung machen den größten Teil der Arbeit aus, aber es gibt noch viele andere Möglichkeiten, sich zu engagieren!",
+			"body6": "Wir freuen uns auch sehr über Unterstützung in den folgenden Bereichen:",
+			"list1": "Aktive Werbung: Verteilung von Flyern/Plakate und anderen Mitteln, um uns einem breiteren Publikum bekannt zu machen.",
+			"list2": "Hilfe bei der Organisation von Veranstaltungen auf dem Hof (Aufbau, Küche, Barmanager, Aufräumen, Flyer/Plakate erstellen usw.).",
+			"list3": "Website und andere technische Aspekte.",
+			"list4": "Vorbereitung und Einmachen von Obst und Gemüse.",
+			"list5": "Depotverantwortung",
+			"list6": "usw. Wir freuen uns auf weitere Vorschläge!",
+			"body7": "Nimm mit uns Kontakt auf!",
+			"subtitle2": "Familieneinsätze",
+			"body8": "Kinder sind bei den Einsätzen auf dem Hof willkommen! Wir bieten Familieneinsätze an, die einen geselligen und idealen Rahmen für dich und deine Kinder bieten. Diese Einsätze sind im Admintool angegeben (1/2 Tag > Aktivitäten: Familieneinsatz).",
+			"subtitle3": "Spezielle Einsätze",
+			"body9": "Mehrmals im Jahr organisieren wir festlichere Einsätze mit gemeinsamem Mittagessen, Bar und Aktivitäten je nach Jahreszeit. Wir freuen uns darauf, diese Momente mit dir zu teilen und dich besser kennen zu lernen. Spezielle Einsätze werden über die Infomail und unsere offiziellen Kanäle (Website, Instagram und Facebook) angekündigt. Die Anmeldung erfolgt wie bei einem normalen Einsatz über das Admintool."
+		},
+		"bags": {
+			"title": "Taschen TaPatate!",
+			"body1": "Wir freuen uns sehr, dass unsere Taschen in den Werkstätten der Stiftung CONTACT (Bern) von Hand aus lebensmittelechtem Kunststoff genäht werden. Das Logo wurde von der Druckerei im autonomen Kulturzentrum (Bern) im Siebdruckverfahren gedruckt. Die Taschen sind in zwei Grössen erhältlich sein, um den Bedürfnissen bestmöglich gerecht zu werden. Eine durchsichtige Außentasche ermöglicht die Personalisierung deiner Taschen. Am Boden der Tasche wurde eine Lasche eingenäht, damit sie nach unten aufgehängt werden kann und eventuelles Wasser gut abläuft.",
+			"body2": "Jeder Abo hat die Verantwortung für drei Taschen. Dies ist die Mindestanzahl um die wöchentliche Lieferung zu gewährleisten und es ist daher wichtig, sie jedes Mal zum Depot zurückzubringen. Ist dies nicht der Fall, muss ein Papiersack verwendet werden, der in Rechnung gestellt wird. Bei guter Pflege haben die Taschen eine Lebensdauer von mindestens fünf Jahren. Wir zählen darauf, dass du sie sauber, trocken und in gutem Zustand hältst.",
+			"body3": "Aus Zeitgründen werden schmutzige Taschen nicht gereinigt, bevor das neue Obst und/oder Gemüse verpackt wird. Je sauberer die Tasche zur¨ckgegeben werden, desto schöner sieht das Gemüse/Obst bei der nächste Lieferung aus!",
+			"body4": "Hinweis : Bitte die Taschen nicht in der Waschmaschine waschen und kein kochendes Wasser verwenden.",
+			"body5": "All dies hat natürlich auch seinen Preis! Eine in der Schweiz hergestellte und bedruckte Tasche hat einen Wert von 30 CHF. Um diese Kosten zu decken, wird folgende Lösung eingeführt:",
+			"list1": "Ein Depot von 70 CHF für alle drei Taschen. Dieser Betrag wird mit der Rückgabe der drei Taschen in gutem Zustand bei der Kündigung des/der Abonnement(s) zurückgegeben.",
+			"list2": "Eine Beteiligung von 18 CHF / Jahr, um die Abnutzung der Taschen zu decken. Dieses Jahr wird dafür eine separate Rechnung geschickt (halber Preis). Dieser Betrag wird ab dem nächsten Jahr im Abopreis mit eingerechnet.",
+			"body6": "Falls dir drei Taschen zu wenig sind, kannst du natürlich zusätzliche Taschen für je 30 CHF kaufen. Wenn eine Tasche verloren geht oder zu stark beschädigt wird, bist du selber dafür verantwortlich eine neue zu kaufen. Bitte an ",
+			"link1": "info@tapatate.ch",
+			"body7": " schreiben."
+		},
+		"bike": {
+			"title": "Velos",
+			"body1": "Am Bahnhof Gümmenen und an der Bushaltstelle Schulhaus in Ulmiz steht dir Fahrräder zur Verfügung, um bis nach Wallenbuch zu kommen (10-15 Minuten). Den Code für das Schloss findest du auf dem Admintool. Bitte bring die Fahrräder für die nächsten an die jeweiligen Bahnhöfe zurück. Im Falle eines Schadens, diesen bitte an ",
+			"link1": "info@tapatate.ch",
+			"body2": " melden, damit wir die notwendigen Reparaturen vornehmen können."
 		}
 	},
 	"recipes": {

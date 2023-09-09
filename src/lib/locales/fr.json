@@ -430,7 +430,66 @@
 		}
 	},
 	"userArea": {
-		"title": "espace membre"
+		"title": "espace membre",
+		"adminTool": {
+			"title": "Admin Tool",
+			"description": "L’Admintool est la plateforme pour les membres TaPatate qui permet de:",
+			"body1": "s’inscrire aux demi-journées et les gérer",
+			"body2": "trouver des infos sur son dépôt (heures d’ouverture, code etc.)",
+			"body3": "gérer ses infos personnelles , les absences et visionner les factures",
+			"body4": "commander d’autres produits de la ferme (via l’épicerie)",
+			"body5": "trouver diverses autres infos (code vélos, type d’abonnement etc.)",
+			"body6": "N.B. les données personnelles sont confidentielles et uniquement visibles par lespersonnes concernées.",
+			"title2": "Comment se connecter à l’Admintool?",
+			"body7": "Sur ",
+			"link": "https://admin.tapatate.ch",
+			"body8": " entrer son adresse mail.",
+			"body9": "N.B. l’/les adresse(s) mail à utiliser est/sont celle(s) communiquée(s) à TaPatate! pour la création du compte. Pour tout problème de connexion, merci de contacter ",
+			"link2": "info@tapatate.ch",
+			"body10": ".",
+			"body11": "Tu reçois ensuite un mail de connexion à l’adresse entrée. Cliquer sur le lien.",
+			"body12": "Tu es directement redirigé vers ta page personnelle sur l’admintool."
+		},
+		"engagement": {
+			"title": "Demi-journées",
+			"subtitle1": "Informations générales",
+			"body1": "Les demi-journées font partie intégrante de l’agriculture solidaire. De cette manière, les consommateur.trice.s travaillent main dans la main avec les producteur:trice:s et permettent des prix justes et une agriculture plus durable.",
+			"body2": "Les fruits et légumes demandent particulièrement d’attention entre mai et août, c’est pourquoi nous te demandons d’effectuer ",
+			"body3": "au moins la moitié de tes demi-journées avant la fin juillet.",
+			"body4": " Dans le cas contraire nous demandons un soutien financier pour permettre de rémunérer les heures supplémentaires de nos jardinier:ère:s.",
+			"body5": "Les travaux dans les champs, la préparation à la livraison et la livraison représentent la plus grande partie du travaille, cependant il est possible de s’impliquer de diverses autres façons!",
+			"body6": "Nous sommes aussi très heureux:euse:s d’avoir du soutien dans les domaines suivants:",
+			"list1": "Publicité active : distribution de flyers/affiches et autres moyen de nous faire connaître par un plus large publique.",
+			"list2": "Aide à l’organisation des évènements sur la ferme (installation, cuisine, responsable de bar, rangement, création de flyers/affiches etc.)",
+			"list3": "Site Web et autres aspects techniques",
+			"list4": "Préparation et mise en bocaux de fruits et légumes",
+			"list5": "Entretien des dépôts",
+			"list6": "etc. nous nous réjouissons d’autres propositions!",
+			"body7": "Contactez-nous!",
+			"subtitle2": "Demi-journées familiales",
+			"body8": "Les enfants sont bienvenus sur la ferme lors des demi-journées ! Nous proposons des demi-journées familiales qui offrent un cadre convivial et idéal pour vous et vos enfants. Ces demi-journées sont indiquées dans l’admintool (1/2 journées > Activités: demi-journées familiales)",
+			"subtitle3": "Demi-journées spéciales",
+			"body9": "Nous organisons plusieurs fois par années des demi-journées plus festives avec partage d’un repas à midi, bar et activités en fonction de la saison. Nous nous réjouissons de partager ces moments avec vous et faire plus ample connaissance. Les demi-journées spéciales sont annoncées via l’infomail et nos canaux officiels (site web, instagram et facebook). L’inscription se fait comme une demi-journée normale via l’admintool."
+		},
+		"bags": {
+			"title": "Sacs TaPatate!",
+			"body1": "Nous sommes heureux de disposer de sacs cousus à la main dans les ateliers de lafondation CONTACT (Berne) dans une matière plastique adaptée pour un usage alimentaire. Le logo a été imprimé par sérigraphie par l’imprimerie au centre culturel autonome (Berne). Les sacs sont disponibles en deux tailles pour répondre au mieux aux besoins. Une poche externe transparente permet la personnalisation des sacs. Une languette a été cousue dans le fond afin de pouvoir les suspendre vers le bas et permettre à l’eau éventuelle de bien s’écouler.",
+			"body2": "Chaque abonnement a la responsabilité de trois sacs. Il s’agit du nombre minimum pour assurer la livraison hebdomadaire et il est donc important de les ramener au dépôt à chaque fois. Si les sacs ne sont pas retournés, un sac en papier devra être utilisé et sera pour cela facturé. Bien soigné, un sac a une durée de vie de minimum cinq ans. Nous comptons sur toi pour les tenir propres, secs et en bon état.",
+			"body3": "Faute de temps, les sacs retournés sales ne seront par ailleurs pas nettoyer avant l’emballage des nouveaux fruits et/ou légumes. Plus les sacs sont retournés propre, plus les fruits et légumes le seront aussi à la prochaine livraison!",
+			"body4": "N.B. Merci de ne pas laver les sacs dans la machine à laver, ni d’utiliser d’eau bouillante.",
+			"body5": "Tout cela a bien sûr un coût ! Produit et imprimé en Suisse, un sac a une valeur de 30 CHF. Pour couvrir ces coûts, la solution suivante est mise en place :",
+			"list1": "Un dépôt de 70 CHF pour les trois sacs. Ce montant est retourné avec le retour en bon état des trois sacs lors de la résiliation de l’/des abonnement(s).",
+			"list2": "une participation de 18 CHF / année pour couvrir l’usure des sacs. Cette année, une facture séparée sera envoyée à cet effet (moitié du prix). Ce montant sera inclus dans leprix de l'abonnement à partir de l'année prochaine.",
+			"body6": "Si trois sacs ne sont pas suffisant, tu peux bien sûr acheter des sacs supplémentaires pour 30 CHF la pièce. Si un sac est perdu ou trop abîmé, tu es responsable de l'achat d'un nouveau. Merci d’écrire à ",
+			"link1": "info@tapatate.ch",
+			"body7": "."
+		},
+		"bike": {
+			"title": "Vélos",
+			"body1": "Des vélos sont à votre disposition à la gare de Gümmenen et à l’arrêt de bus ‘Schulhaus’ à Ulmiz pour venir jusqu’à Wallenbuch. Vous trouverez le code pour le cadenas sur l’admintool. Merci de ramener les vélos aux gares respectives pour les prochains. En cas de dommage, merci de le signaler à ",
+			"link1": "info@tapatate.ch",
+			"body2": " pour que nous puissions faire les réparations nécessaires."
+		}
 	},
 	"recipes": {
 		"title": "recettes",
