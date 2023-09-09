@@ -5,6 +5,19 @@
 			"title": "neuigkeiten",
 			"subtitle": "Die letzten News und Entwicklungen von TaPatate! findest du hier."
 		},
+		"fallfest": {
+			"title": "21.10.2023 Herbstfest",
+			"body": "Einsatz, Mittagessen, Kuchen und gute Stimmung! Kommt auf dem Feld für einen schönen gemeinsamen Tag."
+		},
+		"agrologydays": {
+			"title": "14.10.2023 Tage der Agrarökologie",
+			"body": "TaPatate! und Uniterre organisieren eine Veranstaltung anlässlich der Tage der Agrarökologie. Es wird eine Diskussion zu folgenden Themen geben: faire Preise und direkte Vermarktung in der Landwirtschaft. Save the date! Alle Details und Anmeldeformular",
+			"here": "hier"
+		},
+		"sustainabilitydays": {
+			"title": "9.09.2023 Berner Nachhaltigkeitstage",
+			"body": "TaPatate! wird bei der Öffnungsfest am 9.09.2023 einen Stand in Bern haben. Kommt vorbei! Und wer Lust hat mitzuelfen kann sich gerne melden."
+		},
 		"boimiga": {
 			"title": "\"Ä Böimigä\" - Rezept jetzt Verfügbar!",
 			"body": "Hier gehts zum Download"
@@ -26,7 +39,7 @@
 			"link": "eine Email"
 		},
 		"july22": {
-			"title": "Juli 2023",
+			"title": "Juli 2022",
 			"body1": "In diesem",
 			"link": "Beitrag",
 			"body2": "der BauernZeitung stellt Valentin die Umstellung des Betriebs auf Agroforst vor."
@@ -34,7 +47,7 @@
 		"events": {
 			"title": "veranstaltungen",
 			"subtitle": "zück deine agenda!",
-			"summerfest": "Sommerfest"
+			"placeholder": "Sobald es wieder etwas Neues gibt erfährst du es hier!"
 		}
 	},
 	"tapatate": {

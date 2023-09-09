@@ -6,8 +6,11 @@
 	import aBoimiga from '$lib/images/recipes/a-boimiga.jpeg';
 	import bottle from '$lib/images/bottle.png';
 	import bag from '$lib/images/bag.png';
-	import summerfestDe from '$lib/images/summerfest-de.png';
-	import summerfestFr from '$lib/images/summerfest-fr.png';
+	import fallfestDe from '$lib/images/fallfest-de.png';
+	import fallfestFr from '$lib/images/fallfest-fr.png';
+	import agrologydaysDe from '$lib/images/agrologydays-de.jpg';
+	import agrologydaysFr from '$lib/images/agrologydays-fr.jpg';
+	import sustainabilitydays from '$lib/images/sustainabilitydays.jpg';
 </script>
 
 <Title title={$_('news.title')} {backgroundImage} />
@@ -17,6 +20,52 @@
 		<div class="space-y-4">
 			<h2 class="h2">{$_('news.news.title')}</h2>
 			<p><em>{$_('news.news.subtitle')}</em></p>
+		</div>
+
+		<div class="space-y-4">
+			<h3 class="h3">{$_('news.fallfest.title')}</h3>
+			<p>{$_('news.fallfest.body')}</p>
+			<div
+				class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12"
+			>
+				<img
+					src={$locale && $locale.includes('fr') ? fallfestFr : fallfestDe}
+					alt={$_('news.fallfest.title')}
+					class="w-96"
+				/>
+			</div>
+		</div>
+
+		<div class="space-y-4">
+			<h3 class="h3">{$_('news.agrologydays.title')}</h3>
+			<p>
+				{$_('news.agrologydays.body')}
+				<a
+					href={$locale && $locale.includes('fr')
+						? 'https://agroecologyworks.ch/fr/journees-de-l-agroecologie/2023/events/faire-preise-und-direkte-vermarktung-in-der-landwirtschaft-austausch-und-vernetzung'
+						: 'https://agroecologyworks.ch/de/tage-der-agraroekologie/2023/events/faire-preise-und-direkte-vermarktung-in-der-landwirtschaft-austausch-und-vernetzung'}
+					>{$_('news.agrologydays.here')}</a
+				>
+			</p>
+			<div
+				class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12"
+			>
+				<img
+					src={$locale && $locale.includes('fr') ? agrologydaysFr : agrologydaysDe}
+					alt={$_('news.agrologydays.title')}
+					class="w-96"
+				/>
+			</div>
+		</div>
+
+		<div class="space-y-4">
+			<h3 class="h3">{$_('news.sustainabilitydays.title')}</h3>
+			<p>{$_('news.sustainabilitydays.body')}</p>
+			<div
+				class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12"
+			>
+				<img src={sustainabilitydays} alt={$_('news.sustainabilitydays.title')} class="w-96" />
+			</div>
 		</div>
 
 		<div class="space-y-4">
@@ -81,10 +130,7 @@
 		<div class="space-y-4">
 			<h3 class="h3">{$_('news.events.title')}</h3>
 			<p><em>{$_('news.events.subtitle')}</em></p>
-			<img
-				src={$locale && $locale.includes('fr') ? summerfestFr : summerfestDe}
-				alt={$_('news.events.summerfest')}
-			/>
+			<p>{$_('news.events.placeholder')}</p>
 		</div>
 	</section>
 </div>

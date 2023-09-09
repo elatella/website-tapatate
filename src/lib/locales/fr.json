@@ -5,6 +5,19 @@
 			"title": "dernières nouvelles",
 			"subtitle": "tu trouves ici les dernières nouvelles et le développement de tapatate!"
 		},
+		"fallfest": {
+			"title": "21.10.2023 Fête de l'automne",
+			"body": "Demi-journée, repas de midi, gâteaux et bonne ambiance ! Venez sur le terrain pour une belle journée de partage."
+		},
+		"agrologydays": {
+			"title": "14.10.2023 Journées de l'agroécologie",
+			"body": "TaPatate! et Uniterre proposent un événement lors des Journées de l'agroécologie. Il s'agira d'une discussion sur les thèmes suivants : prix équitables et vente directe dans l'agriculture. Save the date ! Tous les détails et le formulaire d'inscription sont ici"
+		},
+		"sustainabilitydays": {
+			"title": "9.09.2023 Berner Nachhaltigkeitstage",
+			"body": "TaPatate! tiendra un stand à Berne lors de la fête d'ouverture le 9.09.2023. Venez nous rendre visite ! Et si vous avez envie de participer, n'hésitez pas à nous contacter",
+			"here": "ici"
+		},
 		"boimiga": {
 			"title": "\"Ä Böimigä\" - La recette est maintenant disponible!",
 			"body": "Télécharger ici"
@@ -21,12 +34,12 @@
 			"bag": "sac"
 		},
 		"april23": {
-			"title": "Avril 2023:",
+			"title": "Avril 2023",
 			"body": "Tu habites à Guin et tu as envie d'un abonnement de TaPatate!? Nous sommes en train de travailler sur un nouveau dépôt là-bas et avons besoin de 5 abonnements pour commencer. Intéressé·e? Alors écris nous ",
 			"link": "un mail!"
 		},
 		"july22": {
-			"title": "Juillet 2022:",
+			"title": "Juillet 2022",
 			"body1": "Dans cet ",
 			"link": "article",
 			"body2": " du Bauernzeitung, Valentin présente la reconversion de l'exploitation en agroforesterie."
@@ -34,7 +47,7 @@
 		"events": {
 			"title": "manifestations",
 			"subtitle": "à vos agendas!",
-			"summerfest": "3. JUIN 2023 FÊTE DE DÉBUT D'ÉTÉ !"
+			"placeholder": "Dès qu'il y aura quelque chose de nouveau, tu le sauras ici!"
 		}
 	},
 	"tapatate": {
