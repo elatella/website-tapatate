@@ -2,9 +2,9 @@ import { join } from 'path';
 import type { Config } from 'tailwindcss';
 import forms from '@tailwindcss/forms';
 import { skeleton } from '@skeletonlabs/tw-plugin';
-import { theme } from './theme';
+import { theme } from './src/theme';
 
-const config = {
+export default {
 	darkMode: 'class',
 	content: [
 		'./src/**/*.{html,js,svelte,ts}',
@@ -13,7 +13,12 @@ const config = {
 	theme: {
 		extend: {}
 	},
-	plugins: [forms, skeleton({ themes: { custom: [theme] } })]
+	plugins: [
+		forms,
+		skeleton({
+			themes: {
+				custom: [theme]
+			}
+		})
+	]
 } satisfies Config;
-
-export default config;

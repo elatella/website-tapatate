@@ -14,7 +14,7 @@
 		<div class="space-y-4">
 			<h3 class="h3">{$_('depots.howTo.title')}</h3>
 			<p>
-				<a href="{base}/docs/Depots_{$locale}.pdf">{$_('depots.howTo.link')}</a>
+				<a href="{base}/docs/Depots_{$locale}.pdf" class="anchor">{$_('depots.howTo.link')}</a>
 				{$_('depots.howTo.body')}
 			</p>
 		</div>
@@ -25,7 +25,7 @@
 				{#each depots as depot (depot.name)}
 					<li>
 						{depot.location}:
-						<a href="https://google.com/maps/place/{depot.coordinates.join(',')}" target="_blank">
+						<a href="https://google.com/maps/place/{depot.coordinates.join(',')}" target="_blank" class="anchor">
 							{depot.name}
 						</a>, {depot.address}
 					</li>

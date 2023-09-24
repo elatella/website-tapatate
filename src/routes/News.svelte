@@ -70,7 +70,7 @@
 
 		<div class="space-y-4">
 			<h3 class="h3">{$_('news.boimiga.title')}</h3>
-			<p><a href="{base}/docs/Recipe_A_Boimiga_{$locale}.pdf">{$_('news.boimiga.body')}</a></p>
+			<p><a href="{base}/docs/Recipe_A_Boimiga_{$locale}.pdf" class="anchor">{$_('news.boimiga.body')}</a></p>
 			<div
 				class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12"
 			>
@@ -81,7 +81,7 @@
 		<div class="space-y-4">
 			<h3 class="h3">{$_('news.subscriptions.title')}</h3>
 			<p>
-				<a href="{base}/subscriptions">{$_('news.subscriptions.link')}</a>
+				<a href="{base}/subscriptions" class="anchor">{$_('news.subscriptions.link')}</a>
 				{$_('news.subscriptions.body1')}
 			</p>
 		</div>
@@ -101,7 +101,7 @@
 			<h3 class="h3">{$_('news.april23.title')}</h3>
 			<p>
 				{$_('news.april23.body')}
-				<a href="mailto:info@tapatate.ch">{$_('news.april23.link')}</a>!
+				<a href="mailto:info@tapatate.ch" class="anchor">{$_('news.april23.link')}</a>!
 			</p>
 		</div>
 

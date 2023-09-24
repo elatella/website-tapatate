@@ -44,46 +44,17 @@
 			<ul class="list-disc p-4 space-y-1 list-inside">
 				<li>
 					<strong>{$_('contact.arrival.bern.bold1')}</strong>
-					{$_('contact.arrival.bern.text1')}
-					<a href="https://{$_('contact.arrival.bern.link1')}"
-						>{$_('contact.arrival.bern.linkText1')}</a
-					>
-					{$_('contact.arrival.bern.text2')}
-					<a href="https://{$_('contact.arrival.bern.link2')}"
-						>{$_('contact.arrival.bern.linkText2')}</a
-					>
-					{$_('contact.arrival.bern.text3')}
+					{$_('contact.arrival.bern.text1')}<a href="https://{$_('contact.arrival.bern.link1')}" class="anchor">{$_('contact.arrival.bern.linkText1')}</a>{$_('contact.arrival.bern.text2')}<a href="https://{$_('contact.arrival.bern.link2')}" class="anchor">{$_('contact.arrival.bern.linkText2')}</a>{$_('contact.arrival.bern.text3')}
 				</li>
 				<li>
-					<strong>{$_('contact.arrival.bern.bold2')}</strong>
-					{$_('contact.arrival.bern.text1')}
-					<a href="https://{$_('contact.arrival.bern.link1')}"
-						>{$_('contact.arrival.bern.linkText1')}</a
-					>
-					{$_('contact.arrival.bern.text4')}
-					<a href="https://{$_('contact.arrival.bern.link2')}"
-						>{$_('contact.arrival.bern.linkText2')}</a
-					>
-					{$_('contact.arrival.bern.bracet')}
+					<strong>{$_('contact.arrival.bern.bold2')}</strong>{$_('contact.arrival.bern.text1')}<a href="https://{$_('contact.arrival.bern.link1')}" class="anchor">{$_('contact.arrival.bern.linkText1')}</a>{$_('contact.arrival.bern.text4')}<a href="https://{$_('contact.arrival.bern.link2')}" class="anchor">{$_('contact.arrival.bern.linkText2')}</a>{$_('contact.arrival.bern.bracet')}
 				</li>
 				<li>
 					<strong>{$_('contact.arrival.bern.bold3')}</strong>
-					{$_('contact.arrival.bern.text5')}
-					<a href="https://{$_('contact.arrival.bern.link3')}"
-						>{$_('contact.arrival.bern.linkText3')}</a
-					>
-					{$_('contact.arrival.bern.text6')}
-				</li>
+					{$_('contact.arrival.bern.text5')}<a href="https://{$_('contact.arrival.bern.link3')}" class="anchor">{$_('contact.arrival.bern.linkText3')}</a>{$_('contact.arrival.bern.text6')}</li>
 				<li>
 					<strong>{$_('contact.arrival.bern.bold4')}</strong>
-					{$_('contact.arrival.bern.text7')}
-					<a href="https://{$_('contact.arrival.bern.link4')}"
-						>{$_('contact.arrival.bern.linkText4')}</a
-					>
-					{$_('contact.arrival.bern.text8')}
-					<a href="https://{$_('contact.arrival.bern.link5')}"
-						>{$_('contact.arrival.bern.linkText5')}</a
-					>
+					{$_('contact.arrival.bern.text7')}<a href="https://{$_('contact.arrival.bern.link4')}" class="anchor">{$_('contact.arrival.bern.linkText4')}</a>{$_('contact.arrival.bern.text8')}<a href="https://{$_('contact.arrival.bern.link5')}" class="anchor">{$_('contact.arrival.bern.linkText5')}</a>
 					{$_('contact.arrival.bern.dot')}
 				</li>
 			</ul>
@@ -91,47 +62,18 @@
 			<ul class="list-disc p-4 space-y-1 list-inside">
 				<li>
 					<strong>{$_('contact.arrival.fribourg.bold1')}</strong>
-					{$_('contact.arrival.fribourg.text1')}
-					<a href="https://{$_('contact.arrival.fribourg.link1')}"
-						>{$_('contact.arrival.fribourg.linkText1')}</a
-					>
-					{$_('contact.arrival.fribourg.text2')}
-					<a href="https://{$_('contact.arrival.fribourg.link2')}"
-						>{$_('contact.arrival.fribourg.linkText2')}</a
-					>
-					{$_('contact.arrival.fribourg.text3')}
+					{$_('contact.arrival.fribourg.text1')}<a href="https://{$_('contact.arrival.fribourg.link1')}" class="anchor">{$_('contact.arrival.fribourg.linkText1')}</a>{$_('contact.arrival.fribourg.text2')}<a href="https://{$_('contact.arrival.fribourg.link2')}" class="anchor">{$_('contact.arrival.fribourg.linkText2')}</a>{$_('contact.arrival.fribourg.text3')}
 				</li>
 				<li>
 					<strong>{$_('contact.arrival.fribourg.bold2')}</strong>
-					{$_('contact.arrival.fribourg.text1')}
-					<a href="https://{$_('contact.arrival.fribourg.link1')}"
-						>{$_('contact.arrival.fribourg.linkText1')}</a
-					>
-					{$_('contact.arrival.fribourg.text4')}
-					<a href="https://{$_('contact.arrival.fribourg.link2')}"
-						>{$_('contact.arrival.fribourg.linkText2')}</a
-					>
-					{$_('contact.arrival.fribourg.bracet')}
-				</li>
+					{$_('contact.arrival.fribourg.text1')}<a href="https://{$_('contact.arrival.fribourg.link1')}" class="anchor">{$_('contact.arrival.fribourg.linkText1')}</a>{$_('contact.arrival.fribourg.text4')}<a href="https://{$_('contact.arrival.fribourg.link2')}" class="anchor">{$_('contact.arrival.fribourg.linkText2')}</a>{$_('contact.arrival.fribourg.bracet')}</li>
 				<li>
 					<strong>{$_('contact.arrival.fribourg.bold3')}</strong>
-					{$_('contact.arrival.fribourg.text5')}
-					<a href="https://{$_('contact.arrival.fribourg.link3')}"
-						>{$_('contact.arrival.fribourg.linkText3')}</a
-					>
-					{$_('contact.arrival.fribourg.text6')}
+					{$_('contact.arrival.fribourg.text5')}<a href="https://{$_('contact.arrival.fribourg.link3')}" class="anchor">{$_('contact.arrival.fribourg.linkText3')}</a>{$_('contact.arrival.fribourg.text6')}
 				</li>
 				<li>
 					<strong>{$_('contact.arrival.fribourg.bold4')}</strong>
-					{$_('contact.arrival.fribourg.text7')}
-					<a href="https://{$_('contact.arrival.fribourg.link4')}"
-						>{$_('contact.arrival.fribourg.linkText4')}</a
-					>
-					{$_('contact.arrival.fribourg.text8')}
-					<a href="https://{$_('contact.arrival.fribourg.link5')}"
-						>{$_('contact.arrival.fribourg.linkText5')}</a
-					>
-					{$_('contact.arrival.fribourg.dot')}
+					{$_('contact.arrival.fribourg.text7')}<a href="https://{$_('contact.arrival.fribourg.link4')}" class="anchor">{$_('contact.arrival.fribourg.linkText4')}</a>{$_('contact.arrival.fribourg.text8')}<a href="https://{$_('contact.arrival.fribourg.link5')}" class="anchor">{$_('contact.arrival.fribourg.linkText5')}</a>{$_('contact.arrival.fribourg.dot')}
 				</li>
 			</ul>
 		</div>

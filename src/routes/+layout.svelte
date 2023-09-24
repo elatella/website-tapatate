@@ -3,6 +3,8 @@
 	import { AppShell, Modal, initializeStores, storePopup } from '@skeletonlabs/skeleton';
 	import { computePosition, autoUpdate, offset, shift, flip, arrow } from '@floating-ui/dom';
 	import { addMessages, init, getLocaleFromQueryString } from 'svelte-i18n';
+	import { browser } from '$app/environment';
+	import { afterNavigate } from '$app/navigation';
 	import de from '$lib/locales/de.json';
 	import fr from '$lib/locales/fr.json';
 	import Header from './Header.svelte';
@@ -18,6 +20,16 @@
 	init({
 		fallbackLocale: 'de-CH',
 		initialLocale: getLocaleFromQueryString('lang')
+	});
+
+	// Workaround for https://github.com/sveltejs/kit/issues/2733
+	afterNavigate(() => {
+		if (browser) {
+			const page = document.getElementById('page');
+			if (page) {
+				page.scrollTop = 0;
+			}
+		}
 	});
 </script>
 

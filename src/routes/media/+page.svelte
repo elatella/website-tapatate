@@ -16,7 +16,7 @@
 					<p><strong>{media.date}</strong>: {$_(`media.${i + 1}`)}</p>
 					{#if media.link}
 						<p class="mt-4">
-							<a href={media.link} target="_blank">{$_('media.link')}</a>
+							<a href={media.link} target="_blank" class="anchor">{$_('media.link')}</a>
 							{$_('media.linkDescription')}
 						</p>
 					{/if}

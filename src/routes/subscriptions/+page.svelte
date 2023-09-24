@@ -4,13 +4,13 @@
 	import Title from '$lib/Title.svelte';
 	import depots from '$lib/depots';
 	import backgroundImage from '$lib/images/bg-subscriptions.jpg';
-	import carrotsHands from '$lib/images/subscriptions-carots.jpeg';
-	import miniVeg from '$lib/images/subscriptions-tomatoes-new.png';
-	import smallVeg from '$lib/images/subscriptions-brocoli.png';
-	import largeVeg from '$lib/images/subscriptions-pumpkin.png';
-	import winterVeg from '$lib/images/subscriptions-field.png';
-	import miniFruit from '$lib/images/subscriptions-bloom-new.png';
-	import fruit from '$lib/images/subscriptions-strawberries.png';
+	import carrotsHands from '$lib/images/subscriptions/carots.jpeg';
+	import miniVeg from '$lib/images/subscriptions/tomatoes-new.png';
+	import smallVeg from '$lib/images/subscriptions/brocoli.png';
+	import largeVeg from '$lib/images/subscriptions/pumpkin.png';
+	import winterVeg from '$lib/images/subscriptions/field.png';
+	import miniFruit from '$lib/images/subscriptions/bloom-new.png';
+	import fruit from '$lib/images/subscriptions/strawberries.png';
 
 	interface Abo {
 		id: string;
@@ -90,8 +90,9 @@
 								<li>{$_(`subscriptions.harvest.${abo.id}.subscriptions`)}</li>
 							</ul>
 							<p class="my-4">
-								{$_('subscriptions.harvest.infoVeg')}
-								<a href="{base}/farm#veggies">{$_('subscriptions.harvest.link')}</a>.
+								{$_('subscriptions.harvest.infoVeg')}<a href="{base}/farm#veggies" class="anchor"
+									>{$_('subscriptions.harvest.link')}</a
+								>.
 							</p>
 						</div>
 					{/if}
@@ -122,8 +123,9 @@
 								<li>{$_(`subscriptions.harvest.${abo.id}.subscriptions`)}</li>
 							</ul>
 							<p class="my-4">
-								{$_('subscriptions.harvest.infoFru')}
-								<a href="/farm#fruits">{$_('subscriptions.harvest.link')}</a>.
+								{$_('subscriptions.harvest.infoFru')}<a href="/farm#fruits" class="anchor"
+									>{$_('subscriptions.harvest.link')}</a
+								>.
 							</p>
 						</div>
 					{/if}
@@ -147,7 +149,7 @@
 		<div class="space-y-4">
 			<h3 class="h3">{$_('subscriptions.signUp.title')}</h3>
 			<p><em>{$_('subscriptions.signUp.subtitle')}</em></p>
-			<a href="https://membres.tapatate.ch/new?locale={$locale}"
+			<a href="https://membres.tapatate.ch/new?locale={$locale}" class="anchor"
 				><strong>{$_('subscriptions.signUp.link1')}</strong></a
 			>
 			<p>{$_('subscriptions.signUp.body1')}</p>
@@ -178,30 +180,32 @@
 						{/each}
 					</ul>
 					{$_('subscriptions.howTo.list4.body3')}
-					<a href="mailto:info@tapatate.ch">{$_('subscriptions.howTo.list4.link2')}</a>
+					<a href="mailto:info@tapatate.ch" class="anchor"
+						>{$_('subscriptions.howTo.list4.link2')}</a
+					>
 					{$_('subscriptions.howTo.list4.body4')}
 				</li>
 				<li>
 					{$_('subscriptions.howTo.list5')}
-					<a href="{base}/contact">{$_('subscriptions.howTo.link1')}</a>
+					<a href="{base}/contact" class="anchor">{$_('subscriptions.howTo.link1')}</a>
 					{$_('subscriptions.howTo.list5.2')}
 				</li>
 			</ol>
 			<p>
 				{$_('subscriptions.howTo.body1')}
-				<a href="{base}/docs/Statuten_Verein_{$locale}.pdf">
+				<a href="{base}/docs/Statuten_Verein_{$locale}.pdf" class="anchor">
 					{$_('subscriptions.howTo.link2')}
 				</a>
 				{$_('subscriptions.howTo.body2')}
-				<a href="{base}/docs/Reglement_01_{$locale}.pdf">
+				<a href="{base}/docs/Reglement_01_{$locale}.pdf" class="anchor">
 					{$_('subscriptions.howTo.link3')}
 				</a>
 				{$_('subscriptions.howTo.body3')}
-				<a href="{base}/docs/Hofreglement_TaPatate_{$locale}.pdf">
+				<a href="{base}/docs/Hofreglement_TaPatate_{$locale}.pdf" class="anchor">
 					{$_('subscriptions.howTo.link4')}
 				</a>
 				{$_('subscriptions.howTo.body4')}
-				<a href="https://membres.tapatate.ch/new?locale={$locale}">
+				<a href="https://membres.tapatate.ch/new?locale={$locale}" class="anchor">
 					{$_('subscriptions.howTo.link5')}
 				</a>!
 			</p>
@@ -217,27 +221,27 @@
 			<ul class="list-disc list-inside">
 				<li>
 					{$_('subscriptions.support.list1')}
-					<a href="https://membres.tapatate.ch/new?locale={$locale}">
+					<a href="https://membres.tapatate.ch/new?locale={$locale}" class="anchor">
 						{$_('subscriptions.support.link1')}
 					</a>
 					{$_('subscriptions.support.list1.2')}
 				</li>
 				<li>
 					{$_('subscriptions.support.list2')}
-					<a href="mailto:info@tapatate.ch">
+					<a href="mailto:info@tapatate.ch" class="anchor">
 						{$_('subscriptions.support.link2')}
 					</a>
 					{$_('subscriptions.support.list2.2')}
 				</li>
 				<li>
 					{$_('subscriptions.support.list3')}
-					<a href="mailto:info@tapatate.ch">
+					<a href="mailto:info@tapatate.ch" class="anchor">
 						{$_('subscriptions.support.link2')}
 					</a>
 				</li>
 				<li>
 					{$_('subscriptions.support.list4')}
-					<a href="mailto:info@tapatate.ch">
+					<a href="mailto:info@tapatate.ch" class="anchor">
 						{$_('subscriptions.support.link2')}
 					</a>
 				</li>
@@ -250,24 +254,28 @@
 			<p>
 				<strong>{$_('subscriptions.otherOffers.offer1.title')}</strong>
 				{$_('subscriptions.otherOffers.offer1.body1')}
-				<a href="mailto:v.birbaum@gmail.com">{$_('subscriptions.otherOffers.offer1.link')}</a>
+				<a href="mailto:v.birbaum@gmail.com" class="anchor"
+					>{$_('subscriptions.otherOffers.offer1.link')}</a
+				>
 				{$_('subscriptions.otherOffers.offer1.body2')}
 			</p>
 			<p>
 				<strong>{$_('subscriptions.otherOffers.offer2.title')}</strong>
 				{$_('subscriptions.otherOffers.offer2.body1')}
-				<a href="http://www.sigasiga.ch/">{$_('subscriptions.otherOffers.offer2.link1')}</a>
+				<a href="http://www.sigasiga.ch/" class="anchor"
+					>{$_('subscriptions.otherOffers.offer2.link1')}</a
+				>
 				{$_('subscriptions.otherOffers.offer2.body2')}
-				<a href="https://sigasiga.payrexx.com/de/?tid=b531fc1d"
+				<a href="https://sigasiga.payrexx.com/de/?tid=b531fc1d" class="anchor"
 					>{$_('subscriptions.otherOffers.offer2.link2')}</a
 				>.
 			</p>
 			<p>
 				<strong>{$_('subscriptions.otherOffers.offer3.title')}</strong>
 				{$_('subscriptions.otherOffers.offer3.body1')}
-				<a href="mailto:v.birbaum@gmail.com">{$_('subscriptions.otherOffers.offer3.link1')}</a>{$_(
-					'subscriptions.otherOffers.offer3.body2'
-				)}
+				<a href="mailto:v.birbaum@gmail.com" class="anchor"
+					>{$_('subscriptions.otherOffers.offer3.link1')}</a
+				>{$_('subscriptions.otherOffers.offer3.body2')}
 			</p>
 		</div>
 	</section>

@@ -70,9 +70,9 @@
 			<p>{$_('tapatate.whatIs.body1')}</p>
 			<p>
 				{$_('tapatate.whatIs.body2')}
-				<a href="https://membres.tapatate.ch/new?locale=de">{$_('tapatate.whatIs.link1')} </a>
+				<a href="https://membres.tapatate.ch/new?locale=de" class="anchor">{$_('tapatate.whatIs.link1')}</a>
 				{$_('tapatate.whatIs.body3')}
-				<a href="{base}/subscriptions">{$_('tapatate.whatIs.link2')}</a>.
+				<a href="{base}/subscriptions" class="anchor">{$_('tapatate.whatIs.link2')}</a>.
 			</p>
 		</div>
 
@@ -86,7 +86,7 @@
 			</ul>
 			<p>
 				{$_('tapatate.association.body2')}
-				<a href="{base}/knowledge">{$_('tapatate.association.link1')}</a>.
+				<a href="{base}/knowledge" class="anchor">{$_('tapatate.association.link1')}</a>.
 			</p>
 		</div>
 

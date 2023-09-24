@@ -43,19 +43,19 @@
 
 	<svelte:fragment slot="trail">
 		{#each navItems as navItem (navItem.label)}
-			<a class="btn hidden lg:block" href={navItem.url}>
+			<a class="btn btn-sm hidden lg:block" href={navItem.url}>
 				{navItem.label}
 			</a>
 		{/each}
-		<button class="btn btn-xs variant-ghost-secondary hidden lg:block" on:click={toggleLang}>
+		<button class="btn btn-sm variant-ghost-secondary hidden lg:block" on:click={toggleLang}>
 			{$locale && $locale.includes('de') ? 'de' : 'fr'}
 		</button>
 
 		<div class="lg:hidden">
 			<button
-				class="btn"
+				class="btn btn-sm"
 				use:popup={{
-					event: 'focus-click',
+					event: 'click',
 					target: 'small-navigation',
 					closeQuery: '.small-navigation-item'
 				}}
@@ -65,15 +65,13 @@
 			<div class="card p-4 w-60 shadow-xl" data-popup="small-navigation">
 				<nav class="list-nav">
 					<ul>
-						{#each navItems as navigationItem (navigationItem.label)}
+						{#each navItems as navItem (navItem.label)}
 							<li class="small-navigation-item">
-								<a href={navigationItem.url}>
-									{navigationItem.label}
-								</a>
+								<a href={navItem.url}>{navItem.label}</a>
 							</li>
 						{/each}
 						<li>
-							<button class="btn btn-xs variant-ghost-secondary" on:click={toggleLang}>
+							<button class="btn btn-sm variant-ghost-secondary" on:click={toggleLang}>
 								{$locale && $locale.includes('de') ? 'de' : 'fr'}
 							</button>
 						</li>

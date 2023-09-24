@@ -45,7 +45,7 @@
 						.bindPopup(
 							`Depot ${d.name}<br>${d.address}<br><a href="${base}/docs/${
 								d.name
-							}_${$locale}.pdf">${$_('depots.map.description')}</a>`
+							}_${$locale}.pdf" class="anchor">${$_('depots.map.description')}</a>`
 						);
 				});
 			});
