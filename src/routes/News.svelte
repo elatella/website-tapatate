@@ -59,18 +59,12 @@
 		</div>
 
 		<div class="space-y-4">
-			<h3 class="h3">{$_('news.sustainabilitydays.title')}</h3>
-			<p>{$_('news.sustainabilitydays.body')}</p>
-			<div
-				class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12"
-			>
-				<img src={sustainabilitydays} alt={$_('news.sustainabilitydays.title')} class="w-96" />
-			</div>
-		</div>
-
-		<div class="space-y-4">
 			<h3 class="h3">{$_('news.boimiga.title')}</h3>
-			<p><a href="{base}/docs/Recipe_A_Boimiga_{$locale}.pdf" class="anchor">{$_('news.boimiga.body')}</a></p>
+			<p>
+				<a href="{base}/docs/Recipe_A_Boimiga_{$locale}.pdf" class="anchor"
+					>{$_('news.boimiga.body')}</a
+				>
+			</p>
 			<div
 				class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12"
 			>

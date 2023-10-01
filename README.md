@@ -4,6 +4,8 @@ The TaPatate! website available at <https://tapatate.ch>
 
 Requires [Node.js](https://nodejs.org/) to be installed.
 
+Powered by [Svelte Kit](https://kit.svelte.dev/) and [Skeleton](https://www.skeleton.dev/).
+
 ## Developing
 
 Once you've installed dependencies with `npm install`, start a development server:
@@ -36,12 +38,16 @@ The content is described in two parts:
 
 ## Adding New Depots
 
-Simply add new depots to `src/lib/depots.ts` and they will be propagated everywhere.
+Add new depots to `src/lib/depots.ts` and they will appear everywhere.
 
 ## Adding New Photos to the Gallery
 
-Simply add new gallery images to `src/lib/images/gallery` with the file name format `YYYY-X.jpg` where "YYYY" is the year and "X" is the index of the image. Then add a description of that image to the locale files using the same index.
+Add new gallery images to `src/lib/images/gallery` with the file name format `YYYY-X.jpg` where "YYYY" is the year and "X" is the index of the image. Then add a description of that image to the locale files using the same index.
 
 ## Adding New Media to the Medias Page
 
-Simply add new media to `src/lib/medias.ts` and a respective description text to the locale files and they will be propagated everywhere.
+Add new media to `src/lib/medias.ts` and a respective description text to the locale files and they will be propagated everywhere.
+
+## Adding New Recipes
+
+Add an image to `src/lib/images/recipes` and then the respective translations to the locale files. The name of the file needs to match the key in the translations (e.g., `carrot-soup.jpg` => `"carrot-soup": { "title": "Karrottensuppe", ... }`).
