@@ -10,7 +10,6 @@
 	import fallfestFr from '$lib/images/fallfest-fr.png';
 	import agrologydaysDe from '$lib/images/agrologydays-de.jpg';
 	import agrologydaysFr from '$lib/images/agrologydays-fr.jpg';
-	import sustainabilitydays from '$lib/images/sustainabilitydays.jpg';
 </script>
 
 <Title title={$_('news.title')} {backgroundImage} />
