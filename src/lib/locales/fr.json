@@ -5,15 +5,7 @@
 			"title": "dernières nouvelles",
 			"subtitle": "tu trouves ici les dernières nouvelles et le développement de tapatate!"
 		},
-		"fallfest": {
-			"title": "21.10.2023 Fête de l'automne",
-			"body": "Demi-journée, repas de midi, gâteaux et bonne ambiance ! Venez sur le terrain pour une belle journée de partage."
-		},
-		"agrologydays": {
-			"title": "14.10.2023 Journées de l'agroécologie",
-			"body": "TaPatate! et Uniterre proposent un événement lors des Journées de l'agroécologie. Il s'agira d'une discussion sur les thèmes suivants : prix équitables et vente directe dans l'agriculture. Save the date ! Tous les détails et le formulaire d'inscription sont",
-			"here": "ici"
-		},
+		
 		"boimiga": {
 			"title": "\"Ä Böimigä\" - La recette est maintenant disponible!",
 			"body": "Télécharger ici"
@@ -47,7 +39,7 @@
 		}
 	},
 	"tapatate": {
-		"title": "projet",
+		"title": "tapatate!",
 		"whatIs": {
 			"title": "tapatate! qu'est-ce donc?",
 			"subtitle": "un bref aperçu du projet",
@@ -135,7 +127,7 @@
 		}
 	},
 	"subscriptions": {
-		"title": "participer",
+		"title": "nos abos",
 		"harvest": {
 			"title": "nos paniers - ta part de légumes et de fruits",
 			"subtitle": "nous avons six paniers différents. Clique sur le panier approprié et découvre ce qu'il contient.",
@@ -143,48 +135,53 @@
 			"miniVeg": {
 				"name": "mini panier de légumes",
 				"people": "pour une personne",
-				"price": "792 CHF/an",
+				"price": "18 CHF / panier ",
+				
+				"deliveries": "44 livraisons",
 				"parts": "1 parts sociales à 250 CHF",
 				"subscriptions": "3 demi-journées par an"
 			},
 			"smallVeg": {
 				"name": "petit panier de légumes",
 				"people": "pour 1-2 personnes",
-				"price": "1254 CHF/an",
+				"price": "28,50 CHF / panier ",
+				"deliveries": "44 livraisons",
 				"parts": "2 parts sociales à 250 CHF",
 				"subscriptions": "6 demi-journées par an"
 			},
 			"largeVeg": {
 				"name": "grand panier de légumes",
 				"people": "pour 2-4 personnes",
-				"price": "2288 CHF/an",
+				"price": "52 CHF / panier",
+				"deliveries": "44 livraisons",
 				"parts": "4 parts sociales à 250 CHF",
+
 				"subscriptions": "12 demi-journées par an"
 			},
 			"winterVeg": {
 				"name": "panier de légumes d'hiver",
 				"people": "pour 1-2 personnes",
-				"price": "500 CHF/an",
+				"price": "31,25 CHF / panier",
+				"deliveries": "16 livraisons",
 				"parts": "1 parts sociales à 250 CHF",
 				"subscriptions": "2 demi-journées par an"
 			},
 			"miniFruit": {
 				"name": "mini panier de fruits",
 				"people": "fruits frais de saison",
-				"price": "250 CHF/an",
+				"price": "10 CHF / panier",
+				"deliveries": "25 livraisons",
 				"parts": "nuniquement possible comme abonnement supplémentaire à un abonnement de légumes",
 				"subscriptions": "pas de coopération"
 			},
 			"fruit": {
 				"name": "panier de fruits",
 				"people": "pour env. 2 personnes",
-				"price": "500 CHF/an",
+				"price": "20 CHF / panier",
+				"deliveries": "25 livraisons",
 				"parts": "1 parts sociales à 250 CHF",
 				"subscriptions": "2 demi-journées par an"
 			},
-			"infoVeg": "Plus d'info concernant les légumes tu trouves ",
-			"link": "ici",
-			"infoFru": "Plus d'info concernant les fruits ",
 			"dot": ".",
 			"subtitle2": "Soli? - Bien sûr!",
 			"body2": "Cultiver des légumes biologiques et le faire dans des conditions de travail équitables a un prix que tout le monde ne peut pas se permettre. C'est pourquoi nous proposons un abonnement solidaire à 3.50 par panier. En versant une contribution de solidarité supplémentaire, tu permets à une autre personne de recevoir l'abonnement de légumes à un prix réduit. Ce que tu paies en plus, quelqu'un d'autre, qui ne peut justement pas se le permettre, le paie moins.  Nous décidons lors de l'AG suivante de ce que nous faisons avec l'argent des contributions de solidarité qui ne sont pas utilisées pour les abonnements de solidarité. Tu veux être soli ? Alors opte pour la cotisation de solidarité lors de ton inscription!",

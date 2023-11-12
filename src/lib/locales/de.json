@@ -5,15 +5,7 @@
 			"title": "neuigkeiten",
 			"subtitle": "Die letzten News und Entwicklungen von TaPatate! findest du hier."
 		},
-		"fallfest": {
-			"title": "21.10.2023 Herbstfest",
-			"body": "Einsatz, Mittagessen, Kuchen und gute Stimmung! Kommt auf dem Feld für einen schönen gemeinsamen Tag."
-		},
-		"agrologydays": {
-			"title": "14.10.2023 Tage der Agrarökologie",
-			"body": "TaPatate! und Uniterre organisieren eine Veranstaltung anlässlich der Tage der Agrarökologie. Es wird eine Diskussion zu folgenden Themen geben: faire Preise und direkte Vermarktung in der Landwirtschaft. Save the date! Alle Details und Anmeldeformular",
-			"here": "hier"
-		},
+		
 		"boimiga": {
 			"title": "\"Ä Böimigä\" - Rezept jetzt Verfügbar!",
 			"body": "Hier gehts zum Download"
@@ -47,7 +39,7 @@
 		}
 	},
 	"tapatate": {
-		"title": "projekt",
+		"title": "tapatate!",
 		"whatIs": {
 			"title": "was ist tapatate?",
 			"subtitle": "das projekt im überblick",
@@ -135,50 +127,56 @@
 		}
 	},
 	"subscriptions": {
-		"title": "mitmachen",
+		"title": "unsere abos",
 		"harvest": {
 			"title": "unsere abos - dein ernteanteil",
 			"subtitle": "wir haben sechs verschiedene abos. klicke das entsprechende abo an und erfahre, was es beinhaltet.",
-			"body1": "Wir haben neue Abos im Angebot. Du kannst dich bereits jetzt anmelden, die Lieferungen erfolgen jedoch teilweise erst im neuen Betriebsjahr (ab April 2023).",
+			"body1": " ",
 			"miniVeg": {
 				"name": "Mini Gemüseabo",
 				"people": "Für eine Person",
-				"price": "792 CHF/Jahr",
+				"price": "18 CHF / Tasche",
+				"deliveries": "44 Lieferungen",
 				"parts": "1 Anteilsschein à 250 CHF",
 				"subscriptions": "3 Halbtage Mitarbeit pro Jahr"
 			},
 			"smallVeg": {
 				"name": "Kleines Gemüseabo",
 				"people": "Für 1-2 Personen",
-				"price": "1254 CHF/Jahr",
+				"price": "28,50 CHF / Tasche",
+				"deliveries": "44 Lieferungen",
 				"parts": "2 Anteilsscheine à 250 CHF",
 				"subscriptions": "6 Halbtage Mitarbeit pro Jahr"
 			},
 			"largeVeg": {
 				"name": "Grosses Gemüseabo",
 				"people": "Für 2-4 Personen",
-				"price": "2288 CHF/Jahr",
+				"price": "52 CHF / Tasche",
+				"deliveries": "44 Lieferungen",
 				"parts": "4 Anteilsscheine à 250 CHF",
 				"subscriptions": "12 Halbtage Mitarbeit pro Jahr"
 			},
 			"winterVeg": {
 				"name": "Winter Gemüseabo",
 				"people": "Für 1-2 Personen",
-				"price": "500 CHF/Jahr",
+				"price": "31,25 CHF / Tasche",
+				"deliveries": "16 Lieferungen",
 				"parts": "1 Anteilsschein à 250 CHF",
 				"subscriptions": "2 Halbtage Mitarbeit pro Jahr"
 			},
 			"miniFruit": {
 				"name": "Mini Obstabo",
 				"people": "Frisches, saisonales Obst",
-				"price": "250 CHF/Jahr",
+				"price": "10 CHF / Tasche",
+				"deliveries": "25 Lieferungen",
 				"parts": "Nur als Zusatzabo zu einem Gemüseabo möglich",
 				"subscriptions": "Keine Mitarbeit"
 			},
 			"fruit": {
 				"name": "Obstabo",
 				"people": "Für ca. 2 Personen",
-				"price": "500 CHF/Jahr",
+				"price": "20 CHF / Tasche",
+				"deliveries": "25 Lieferungen",
 				"parts": "1 Anteilsschein à 250 CHF",
 				"subscriptions": "2 Halbtage Mitarbeit pro Jahr"
 			},

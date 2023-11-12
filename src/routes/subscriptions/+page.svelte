@@ -86,14 +86,10 @@
 							<ul>
 								<li>{$_(`subscriptions.harvest.${abo.id}.people`)}</li>
 								<li>{$_(`subscriptions.harvest.${abo.id}.price`)}</li>
+								<li>{$_(`subscriptions.harvest.${abo.id}.deliveries`)}</li>
 								<li>{$_(`subscriptions.harvest.${abo.id}.parts`)}</li>
 								<li>{$_(`subscriptions.harvest.${abo.id}.subscriptions`)}</li>
 							</ul>
-							<p class="my-4">
-								{$_('subscriptions.harvest.infoVeg')}<a href="{base}/farm#veggies" class="anchor"
-									>{$_('subscriptions.harvest.link')}</a
-								>.
-							</p>
 						</div>
 					{/if}
 				</button>
@@ -119,14 +115,10 @@
 							<ul>
 								<li>{$_(`subscriptions.harvest.${abo.id}.people`)}</li>
 								<li>{$_(`subscriptions.harvest.${abo.id}.price`)}</li>
+								<li>{$_(`subscriptions.harvest.${abo.id}.deliveries`)}</li>
 								<li>{$_(`subscriptions.harvest.${abo.id}.parts`)}</li>
 								<li>{$_(`subscriptions.harvest.${abo.id}.subscriptions`)}</li>
 							</ul>
-							<p class="my-4">
-								{$_('subscriptions.harvest.infoFru')}<a href="/farm#fruits" class="anchor"
-									>{$_('subscriptions.harvest.link')}</a
-								>.
-							</p>
 						</div>
 					{/if}
 				</button>
