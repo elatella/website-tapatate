@@ -51,3 +51,9 @@ Add new media to `src/lib/medias.ts` and a respective description text to the lo
 ## Adding New Recipes
 
 Add an image to `src/lib/images/recipes` and then the respective translations to the locale files. The name of the file needs to match the key in the translations (e.g., `carrot-soup.jpg` => `"carrot-soup": { "title": "Karrottensuppe", ... }`).
+
+# Before Pushing to the Online Repo
+
+Before pushing the local changes to the online repo, the formatting has to be adjusted. This can be done automatically by running the following commands:
+`npm install`
+`npm run format`
