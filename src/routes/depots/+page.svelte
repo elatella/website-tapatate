@@ -25,7 +25,11 @@
 				{#each depots as depot (depot.name)}
 					<li>
 						{depot.location}:
-						<a href="https://google.com/maps/place/{depot.coordinates.join(',')}" target="_blank" class="anchor">
+						<a
+							href="https://google.com/maps/place/{depot.coordinates.join(',')}"
+							target="_blank"
+							class="anchor"
+						>
 							{depot.name}
 						</a>, {depot.address}
 					</li>

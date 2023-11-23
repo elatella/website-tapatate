@@ -17,7 +17,6 @@
 			<p><em>{$_('news.news.subtitle')}</em></p>
 		</div>
 
-
 		<div class="space-y-4">
 			<h3 class="h3">{$_('news.boimiga.title')}</h3>
 			<p>
