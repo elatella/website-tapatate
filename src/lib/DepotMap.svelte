@@ -13,15 +13,33 @@
 	let map: Map;
 
 	onMount(async () => {
-		const leaflet = await import('leaflet');
-		map = leaflet.map(mapElement).setView([46.878907, 7.284986], 11);
+		if (browser) {
+			const leaflet = await import('leaflet');
+			map = leaflet.map(mapElement).setView([46.878907, 7.284986], 11);
 
-		leaflet
-			.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-				attribution:
-					'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-			})
-			.addTo(map);
+			leaflet
+				.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+					attribution:
+						'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+				})
+				.addTo(map);
+
+			const icon = leaflet.icon({
+				iconUrl: depotIcon,
+				iconSize: [ICON_SIZE, ICON_SIZE]
+			});
+
+			depots.forEach((d) => {
+				leaflet
+					.marker(d.coordinates, { icon })
+					.addTo(map)
+					.bindPopup(
+						`Depot ${d.name}<br>${d.address}<br><a href="${base}/docs/${
+							d.name
+						}_${$locale}.pdf" class="anchor">${$_('depots.map.description')}</a>`
+					);
+			});
+		}
 	});
 
 	onDestroy(async () => {
@@ -29,36 +47,23 @@
 			map.remove();
 		}
 	});
-
-	$: {
-		if (browser && map) {
-			import('leaflet').then((leaflet) => {
-				const icon = leaflet.icon({
-					iconUrl: depotIcon,
-					iconSize: [ICON_SIZE, ICON_SIZE]
-				});
-
-				depots.forEach((d) => {
-					leaflet
-						.marker(d.coordinates, { icon })
-						.addTo(map)
-						.bindPopup(
-							`Depot ${d.name}<br>${d.address}<br><a href="${base}/docs/${
-								d.name
-							}_${$locale}.pdf" class="anchor">${$_('depots.map.description')}</a>`
-						);
-				});
-			});
-		}
-	}
 </script>
+
+<!-- Workaroun for import bug in Leaflet CSS -->
+<svelte:head>
+	<link
+		rel="stylesheet"
+		href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+		integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+		crossorigin=""
+	/>
+</svelte:head>
 
 <main>
 	<div bind:this={mapElement} />
 </main>
 
 <style>
-	@import 'leaflet/dist/leaflet.css';
 	main div {
 		height: 800px;
 	}
