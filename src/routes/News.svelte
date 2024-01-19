@@ -51,14 +51,6 @@
 		</div>
 
 		<div class="space-y-4">
-			<h3 class="h3">{$_('news.april23.title')}</h3>
-			<p>
-				{$_('news.april23.body')}
-				<a href="mailto:info@tapatate.ch" class="anchor">{$_('news.april23.link')}</a>!
-			</p>
-		</div>
-
-		<div class="space-y-4">
 			<h3 class="h3">{$_('news.july22.title')}</h3>
 			<p class="pb-4">
 				{$_('news.july22.body1')}
