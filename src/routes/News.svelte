@@ -3,8 +3,6 @@
 	import { base } from '$app/paths';
 	import Title from '$lib/Title.svelte';
 	import backgroundImage from '$lib/images/bg-news.jpg';
-	import umbauDe from '$lib/images/umbau-de.png';
-	import umbauFr from '$lib/images/umbau-fr.png';
 	import aBoimiga from '$lib/images/recipes/a-boimiga.jpeg';
 	import bottle from '$lib/images/bottle.png';
 	import bag from '$lib/images/bag.png';
