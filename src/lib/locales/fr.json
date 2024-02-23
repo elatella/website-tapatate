@@ -5,7 +5,11 @@
 			"title": "dernières nouvelles",
 			"subtitle": "tu trouves ici les dernières nouvelles et le développement de tapatate!"
 		},
-
+		"hofFaver": {
+			"title": "La ferme a trouvé son petit nom !",
+			"body": "Le logo et le site web sont en création, stay tuned !",
+			"faverfarm": "hofFaver"
+		},
 		"boimiga": {
 			"title": "\"Ä Böimigä\" - La recette est maintenant disponible!",
 			"body": "Télécharger ici"
