@@ -3,6 +3,9 @@
 	import { base } from '$app/paths';
 	import Title from '$lib/Title.svelte';
 	import backgroundImage from '$lib/images/bg-news.jpg';
+	import umbauDe from '$lib/images/umbau-de.png';
+	import umbauFr from '$lib/images/umbau-fr.png';
+	import hofFaver from '$lib/images/hofFaver.png';
 	import aBoimiga from '$lib/images/recipes/a-boimiga.jpeg';
 	import bottle from '$lib/images/bottle.png';
 	import bag from '$lib/images/bag.png';
@@ -15,6 +18,20 @@
 		<div class="space-y-4">
 			<h2 class="h2">{$_('news.news.title')}</h2>
 			<p><em>{$_('news.news.subtitle')}</em></p>
+		</div>
+
+		<div class="space-y-4">
+			<img src={$locale && $locale.includes('fr') ? umbauFr : umbauDe} />
+		</div>
+
+		<div class="space-y-4">
+			<h3 class="h3">{$_('news.hofFaver.title')}</h3>
+			<p>{$_('news.hofFaver.body')}</p>
+			<div
+				class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12"
+			>
+				<img src={hofFaver} alt={$_('news.hofFaver.faverfarm')} class="w-32" />
+			</div>
 		</div>
 
 		<div class="space-y-4">

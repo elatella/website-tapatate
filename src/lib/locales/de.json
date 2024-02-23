@@ -5,7 +5,11 @@
 			"title": "neuigkeiten",
 			"subtitle": "Die letzten News und Entwicklungen von TaPatate! findest du hier."
 		},
-
+		"hofFaver": {
+			"title": "Der Hof hat seinen Namen gefunden!",
+			"body": "Das Logo und die Website sind im Erstellungsprozess, stay tuned!",
+			"faverfarm": "hofFaver"
+		},
 		"boimiga": {
 			"title": "\"Ä Böimigä\" - Rezept jetzt Verfügbar!",
 			"body": "Hier gehts zum Download"
