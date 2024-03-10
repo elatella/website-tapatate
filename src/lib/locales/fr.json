@@ -127,6 +127,12 @@
 	},
 	"subscriptions": {
 		"title": "nos abos",
+		"signUp": {
+			"title": "formulaire d'inscription",
+			"subtitle": "le projet t'enchante déjà? alors inscris-toi tout de suite!",
+			"link1": "Ici, tu trouves le formulaire d'inscription!",
+			"body1": "Tu trouves de plus amples informations et détails concernant le panier de légumes/fruits et l'adhésion à l'association dans le paragraphe suivant."
+		},
 		"harvest": {
 			"title": "nos paniers - ta part de légumes et de fruits",
 			"subtitle": "nous avons six paniers différents. Clique sur le panier approprié et découvre ce qu'il contient.",
@@ -134,8 +140,7 @@
 			"miniVeg": {
 				"name": "mini panier de légumes",
 				"people": "pour une personne",
-				"price": "18 CHF / panier ",
-
+				"price": "792 CHF / an ",
 				"deliveries": "44 livraisons",
 				"parts": "1 parts sociales à 250 CHF",
 				"subscriptions": "3 demi-journées par an"
@@ -143,7 +148,7 @@
 			"smallVeg": {
 				"name": "petit panier de légumes",
 				"people": "pour 1-2 personnes",
-				"price": "28,50 CHF / panier ",
+				"price": "1254 CHF / an ",
 				"deliveries": "44 livraisons",
 				"parts": "2 parts sociales à 250 CHF",
 				"subscriptions": "6 demi-journées par an"
@@ -151,16 +156,15 @@
 			"largeVeg": {
 				"name": "grand panier de légumes",
 				"people": "pour 2-4 personnes",
-				"price": "52 CHF / panier",
+				"price": "2288 CHF / an",
 				"deliveries": "44 livraisons",
 				"parts": "4 parts sociales à 250 CHF",
-
 				"subscriptions": "12 demi-journées par an"
 			},
 			"winterVeg": {
 				"name": "panier de légumes d'hiver",
 				"people": "pour 1-2 personnes",
-				"price": "31,25 CHF / panier",
+				"price": "500 CHF / an",
 				"deliveries": "16 livraisons",
 				"parts": "1 parts sociales à 250 CHF",
 				"subscriptions": "2 demi-journées par an"
@@ -168,7 +172,7 @@
 			"miniFruit": {
 				"name": "mini panier de fruits",
 				"people": "fruits frais de saison",
-				"price": "10 CHF / panier",
+				"price": "250 CHF / an",
 				"deliveries": "25 livraisons",
 				"parts": "nuniquement possible comme abonnement supplémentaire à un abonnement de légumes",
 				"subscriptions": "pas de coopération"
@@ -176,85 +180,60 @@
 			"fruit": {
 				"name": "panier de fruits",
 				"people": "pour env. 2 personnes",
-				"price": "20 CHF / panier",
+				"price": "500 CHF / an",
 				"deliveries": "25 livraisons",
 				"parts": "1 parts sociales à 250 CHF",
 				"subscriptions": "2 demi-journées par an"
 			},
-			"dot": ".",
-			"subtitle2": "Soli? - Bien sûr!",
-			"body2": "Cultiver des légumes biologiques et le faire dans des conditions de travail équitables a un prix que tout le monde ne peut pas se permettre. C'est pourquoi nous proposons un abonnement solidaire à 3.50 par panier. En versant une contribution de solidarité supplémentaire, tu permets à une autre personne de recevoir l'abonnement de légumes à un prix réduit. Ce que tu paies en plus, quelqu'un d'autre, qui ne peut justement pas se le permettre, le paie moins.  Nous décidons lors de l'AG suivante de ce que nous faisons avec l'argent des contributions de solidarité qui ne sont pas utilisées pour les abonnements de solidarité. Tu veux être soli ? Alors opte pour la cotisation de solidarité lors de ton inscription!",
+			"subtitle2": "contribution solidaire",
+			"body2": "La production de légumes biologiques dans des conditions de travail équitables va de pair avec un prix qui n'est pas à la portée de tout le monde. En versant un supplément de 3,50 CHF par sac (soit 154 CHF par an), tu permets à un-e autre membre de bénéficier d'un prix réduit sur son abonnement. Le supplément versé compense directement ce que cette personne paie en moins.",
+			"body3": "Les contributions solidaires non sollicitées sont investies dans un projet TaPatate! défini lors de l'assemblée générale suivante. Tu souhaites payer un supplément solidaire avec ton abonnement ? Il te suffit de sélectionner cette option lors de ton inscription.",
+			"body4": "Comment bénéficier d'une contribution solidaire'?",
+			"body5": "Nous t'invitons à prendre directement contact avec nous :",
+			"link1": "info@tapatate.ch",
+			"body6": ".",
 			"imageSoli": "Soli",
 			"imageSoli2": "+3.50/Panier"
 		},
-		"signUp": {
-			"title": "formulaire d'inscription",
-			"subtitle": "le projet t'enchante déjà? alors inscris-toi tout de suite!",
-			"link1": "Ici, tu trouves le formulaire d'inscription!",
-			"body1": "Tu trouves de plus amples informations et détails concernant le panier de légumes/fruits et l'adhésion à l'association dans le paragraphe suivant."
-		},
 		"howTo": {
-			"title": "acquisition d'un panier: comment ça fonctionne?",
-			"list1": "En acquérant des parts sociales (250 CHF / part) tu deviens membre de TaPatate! De cette manière tu soutiens notre association et tu peux prendre part activement aux assemblées générales. Cette somme t‘es retournée en cas de sortie de l‘association.",
-			"list2": "Tu as maintenant la possibilité d'acquérir un ou plusieurs des abonnements listés ci-dessous. Les six premiers panier sont à l'essai, sans engagement et sans achat de part sociale; si tu décides d'arrêter durant les six premières livraisons, seules les légumes que tu auras reçus te seront facturés.",
-			"list3": "Tu décides si tu veux payer une contribution supplémentaire. Ainsi, tu soutiens une personne/un parti pour l'achat d'un abonnement.",
+			"title": "Comment les abonnements fonctionnent-ils ?",
+			"list1": "Avec l'achat de parts sociales de 250 CHF, tu deviens membre de TaPatate! : tu soutiens notre association et obtiens un droit de parole lors de nos assemblées générales. Le nombre de parts sociales dépend de la taille de ton abonnement. Cet argent t'est restitué au moment où tu quittes l'association.",
+			"list2": "Choisis ton abonnement et les éventuels suppléments : Les six premières livraisons visent à te permettre de tester l'abonnement, sans engagement à long terme, et ne nécessitent pas de parts sociales. Si tu renonces à devenir membre de TaPatate! pendant ou après cette période, seuls les paniers qui t'auront été livrés te seront facturés. ",
+			"list3": "En payant un supplément solidaire, tu peux aider quelqu'un à financer son abonnement.",
 			"list4": {
-				"body1": "Tu te régales de légumes et de fruits frais et biodynamiques! Une fois par semaine, nous livrons tes légumes et, en fonction de la période de récolte, tes fruits à l'un de nos dépôts où tu peux récupérer tes parts de récolte du mercredi (de 17h) au jeudi (jusqu'à 18h). Les instructions pour les dépôts se trouvent",
+				"body1": "Sélectionne ton dépôt : toutes les infos à ce sujet figurent",
 				"link1": "ici",
-				"body2": ".",
-				"body3": "Nous planifions d'approvisionner d'autres villages en légumes (Laupen, Kerzers, Düdingen, Courtepin, Gurmels, etc.). Donc si tu es intéressé, mais que tu ne trouve pas de dépôt approprié, n'hésite pas à nous écrire à ",
-				"link2": "info@tapatate.ch",
-				"body4": "."
+				"body2": "."
 			},
-			"list5": "Tu participes de manière active au processus! Tu t‘engages à venir nous aider lors de tes demi-journées. Tu peux choisir entre diverses activités, selon tes connaissances et tes envies: semis, plantations, soins aux cultures, récolte, préparation des légumes/fruits et des paniers ou livraison. Ainsi naît un lien vivant et intense avec les produits – et ta conscience ne t‘en sera que reconnaissante! ",
-			"link1": "Par ici",
-			"list5.2": "vers le champ.",
-			"body1": "Tu trouves de plus amples infos concernant l'association et les paniers dans les ",
+			"list5": "Mets la main à la pâte ! Tu t'engages à consacrer un certain nombre d'heures à TaPatate!, en fonction de la taille de ton abonnement. Tu participes au projet dans les vergers ou dans les champs, du désherbage à la livraison en passant par la récolte des légumes et la préparation des paniers (plus d'infos concernant les demi-journées de travail). Bien entendu, tu peux choisir les activités qui correspondent à tes capacités et à tes intérêts. Cette approche t'offre des échanges enrichissants ainsi qu'un lien direct avec les produits que tu consommes.",
+			"body1": "Des informations plus détaillées sur l'adhésion et les abonnements figurent dans les ",
 			"link2": "statuts de l'association",
-			"body2": " ainsi que dans le ",
-			"link3": "règlement concernant les abonnements",
-			"body3": ". La conduite à adopter pour la sécurité de touxtes lors de déplacements et travaux sur la ferme est détaillée dans le ",
+			"body2": " et dans le ",
+			"link3": "règlement sur les abonnements",
+			"body3": ". Pour des raisons de sécurité, un code de conduite détaillé dans le ",
 			"link4": "règlement de la ferme",
-			"body4": "Si le projet t'as maintenant convaincu, tu peux ",
-			"link5": "remplir ici le formulaire d'inscription online",
-			"subtitle": "Assez de légumes ou de fruits?",
-			"body6": "Veuillez noter que ton panier ne peut être résilié qu'à la fin de l'exercice social, moyennant un préavis de quatre mois (c'est-à-dire jusqu'au 30 novembre). En tant que projet d'ACP, nous ne voulons pas produire un excédent. Nous élaborons le plan de culture des légumes au début de la nouvelle année. Il est donc important de connaître le nombre exact de paniers d'ici là. Si tu déménages ou si tu ne peux pas continuer le panier pour autre raison, nous te demandons de chercher un nouveau membre qui pourra prendre en charge ton panier. Merci beaucoup!"
+			"body4" : "s'applique.",
+			"body5": "Le projet t'a convaincu ? Il ne te reste plus qu'à remplir le ",
+			"link5": "formulaire d'incription en ligne!"
 		},
 		"support": {
 			"title": "nous soutenir",
-			"subtitle": "tu n'as pas envie de légumes ou fruits – mais tu es quand même convaincu·e par l‘idée? tu peux quand même nous soutenir",
-			"body": "Même si tu n‘es pas intéressé·e par un panier de légumes ou de fruits, il existe d‘autres possibilités pour soutenir notre initiative:",
-			"list1": "Deviens membre! En acquérant une ou des parts sociales, tu deviens membre de TaPatate! et peux ainsi participer activement à chaque assemblée générale. De cette manière tu nous soutiens et tu t‘impliques de manière active. Nous nous réjouissons de t‘accueillir dans notre association! Si tu désires devenir membre de l'association, tu peux ",
-			"link1": "remplir ici le formulaire d'inscription online",
-			"list1.2": ".",
-			"list2": "Fais un don: as-tu envie de sponsoriser un cageot de plantons? Possèdes-tu des outils de jardin inutilisés, qui aurait tendance à disparaître sous les toiles d‘araignée? Nous sommes ouverts à tout don, de n‘importe quelle nature qu‘il soit! Tu peux volontiers nous contacter à l'adresse suivante: ",
+			"subtitle": "Tu as tous les fruits et légumes qu'il te faut, mais tu aimerais quand même soutenir notre projet ? Voici quelques possibilités :",
+			"list1": "Rejoindre l'association : en achetant des parts sociales, tu deviens membre de TaPatate! et obtiens un droit de parole durant nos assemblées générales. ",
+			"list2": "Faire un don : tu aimerais financer l'achat de plantons biologiques ? Tes outils de jardinages prennent la poussière au fond de la remise ? Toutes les contributions sont les bienvenues ! Il te suffit de prendre contact avec nous : ",
 			"link2": "info@tapatate.ch",
 			"list2.2": " ",
-			"list3": "Prêt d'argent: ton prêt nous permet d‘acquérir du matériel indispensable aux travaux agricoles. L‘association s‘engage contractuellement à rembourser les emprunts dans un délai déterminé à l‘avance. Contacte-nous à l‘adresse",
-			"list4": "Partage tes connaissances ou ton temps! Tu es un bricoleur invétéré, un designer de sites internet ou tu as d‘autres connaissances qui pourraient nous être utiles? Contacte-nous, nous sommes heureux si du monde veux s‘engager – que ce soit à court ou à long terme! N'hésite pas à nous contacter: "
+			"list3": "Nous accorder un prêt : ces fonds peuvent être investis dans des acquisitions plus conséquentes. L'association TaPatate! s'engage contractuellement à rembourser le prêt dans un délai donné. Les personnes souhaitant nous soutenir de cette manière peuvent prendre contact avec nous :",
+			"list4": "Mettre tes connaissances au profit de TaPatate! : tu as un talent caché pour les travaux manuels, tu excelles dans la programmation de sites Internet, tu possèdes un savoir-faire qui n'attend qu'à être partagé ? N'hésite pas à prendre contact avec nous. Nous sommes ouverts à toute forme d'engagement à court comme à long terme ! Tu peux nous faire part de tes idées : "
 		},
-		"otherOffers": {
-			"title": "offres de tiers: viande, huile d'olive à pleine voile et céréales de ferme",
-			"subtitle": "ici tu peux commander de la viande de rené ou de l'huile d'olive du projet siga siga",
-			"offer1": {
-				"title": "VIANDE DE BOEUF DE VALENTIN: ",
-				"body1": "De temps en temps, Valentin emmène un de ses boeufs chez le boucher. Le moment venu, nous t'informons et tu peux ",
-				"link": "commander directement chez lui",
-				"body2": "(paquet de 10 kg avec différents morceaux de viande, 28 CHF/kg)."
-			},
-			"offer2": {
-				"title": "HUILE D'OLIVE À PLEINE VOILE DE SIGA SIGA: ",
-				"body1": "Avec son projet SIGA SIGA, notre ami Wolfgang veut mettre en place un marché direct pour l'huile d'olive d'une entreprise familiale en Grèce et transporter l'huile en Suisse sans consommer de carburant. Nous l'assistons dans la vente à Berne et à Fribourg. Sur le site",
-				"link1": "www.sigasiga.ch",
-				"body2": " tu peux en apprendre plus sur le projet et ",
-				"link2": "commander directement de l'huile d'olive"
-			},
-			"offer3": {
-				"title": "CÉRÉALES DE LA FERME: ",
-				"body1": "Cette année, du blé, du seigle et de l'épeautre poussent dans le champ de Wallenbuch à côté des légumes. Tu peux en commander sous forme de farine ou de grains. La livraison a lieu vers le mois d'août, coûte de 3,50 à 4,50 par kilo, selon la mouture et la variété, et peut être commandé par sac de 5 ou 10 kilos. Commande ton sac de farine directement auprès de ",
-				"link1": "Valentin",
-				"body2": "!"
-			}
+		"cancellation": {
+			"title": "résiliation",
+			"body1": "L'abonnement peut être résilié à la fin de l'année maraîchère, moyennant un préavis de quatre mois (c'est-à-dire jusqu'au 30 novembre). En-dehors de ces délais, nous te prions de chercher toi-même un nouveau membre qui reprendra ton abonnement. Merci pour ta compréhension ! Tes parts sociales te sont reversées après la résiliation.",
+			"body2": "Pourquoi la durée d'abonnement minimale s'élève-t-elle à un an ? ",
+		    "body3": "TaPatate! est un projet d'agriculture solidaire, qui vise notamment à minimiser la production excédentaire. Nous établissons le plan des cultures en hiver et devons connaître le nombre exact d'abonnements à prendre en compte. ",
+		    "body4": "Pour en savoir plus sur l'agriculture solidaire, c'est ",
+			"link1": "ici",
+			"body5": "."
 		}
 	},
 	"gallery": {
