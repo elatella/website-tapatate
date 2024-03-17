@@ -212,7 +212,7 @@
 			"link3": "Reglement über die Abonnemente",
 			"body3": ". Aus Sicherheitsgründen gelten auf dem Hof die im ",
 			"link4": "Hofreglement",
-			"body4" : "detaillierten Verhaltensregeln.",
+			"body4": "detaillierten Verhaltensregeln.",
 			"body5": "Wenn du jetzt vom Projekt überzeugt bist, dann kannst du das ",
 			"link5": "Anmeldeformular hier online ausfüllen!"
 		},
@@ -230,11 +230,10 @@
 			"title": "kündigung",
 			"body1": "Die Kündigung deines Abos ist auf Ende des Betriebsjahres unter Berücksichtigung einer viermonatigen Kündigungsfrist möglich (also bis am 30. November). Ziehst du kurzfristig weg, oder kannst das Abo aus einem anderen Grund nicht weiter beziehen, bitten wir dich, nach einem neuen Mitglied zu suchen, welches dein Abo übernimmt. Vielen Dank! Nach der Kündigung bekommst du dein(e) Anteilschein(e) zurück.",
 			"body2": "Warum ist eine Anmeldung minium für ein Jahr? ",
-		    "body3": "Als solidarisches Landwirtschaftsprojekt wollen wir möglich wenig Überschuss produzieren. Der Anbauplan für das Gemüse erarbeiten wir im Winter. Dazu ist es wichtig, die genaue Anzahl Abos zu wissen. ",
-		    "body4": "",
+			"body3": "Als solidarisches Landwirtschaftsprojekt wollen wir möglich wenig Überschuss produzieren. Der Anbauplan für das Gemüse erarbeiten wir im Winter. Dazu ist es wichtig, die genaue Anzahl Abos zu wissen. ",
+			"body4": "",
 			"link1": "Hier",
 			"body5": "kannst du mehr über solidarische Landwirtschaft erfahren"
-		}
 		}
 	},
 	"gallery": {
