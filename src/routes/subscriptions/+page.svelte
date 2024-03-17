@@ -2,7 +2,6 @@
 	import { locale, _ } from 'svelte-i18n';
 	import { base } from '$app/paths';
 	import Title from '$lib/Title.svelte';
-	import depots from '$lib/depots';
 	import backgroundImage from '$lib/images/bg-subscriptions.jpg';
 	import carrotsHands from '$lib/images/subscriptions/carots.jpeg';
 	import miniVeg from '$lib/images/subscriptions/tomatoes-new.png';
@@ -139,11 +138,11 @@
 			<p>{$_('subscriptions.harvest.body2')}</p>
 			<p>{$_('subscriptions.harvest.body3')}</p>
 			<p>{$_('subscriptions.harvest.body4')}</p>
-			<p>{$_('subscriptions.harvest.body5')}
-				<a href="mailto:info@tapatate.ch" class="anchor"
-				>{$_('subscriptions.harvest.link1')}</a
-			>
-			   {$_('subscriptions.harvest.body6')}</p>
+			<p>
+				{$_('subscriptions.harvest.body5')}
+				<a href="mailto:info@tapatate.ch" class="anchor">{$_('subscriptions.harvest.link1')}</a>
+				{$_('subscriptions.harvest.body6')}
+			</p>
 			<div
 				class="w-full h-96 flex items-center justify-center bg-center bg-cover rounded-md"
 				style="background-image: url({carrotsHands})"
@@ -163,9 +162,7 @@
 				<li>{$_('subscriptions.howTo.list3')}</li>
 				<li>
 					{$_('subscriptions.howTo.list4.body1')}
-					<a href="{base}/depots" class="anchor"
-						>{$_('subscriptions.howTo.list4.link1')}</a
-					>
+					<a href="{base}/depots" class="anchor">{$_('subscriptions.howTo.list4.link1')}</a>
 					{$_('subscriptions.howTo.list4.body2')}
 				</li>
 				<li>{$_('subscriptions.howTo.list5')}</li>
@@ -225,11 +222,11 @@
 			<p>{$_('subscriptions.cancellation.body1')}</p>
 			<b>{$_('subscriptions.cancellation.body2')}</b>
 			<p>{$_('subscriptions.cancellation.body3')}</p>
-			<p>{$_('subscriptions.cancellation.body4')}
-				<a href="https://www.solawi.ch/" class="anchor"
-				>{$_('subscriptions.cancellation.link1')}</a
-			>
-			   {$_('subscriptions.cancellation.body5')}</p>
+			<p>
+				{$_('subscriptions.cancellation.body4')}
+				<a href="https://www.solawi.ch/" class="anchor">{$_('subscriptions.cancellation.link1')}</a>
+				{$_('subscriptions.cancellation.body5')}
+			</p>
 		</div>
 	</section>
 </div>
