@@ -58,17 +58,17 @@
 
 <Title title={$_('subscriptions.title')} {backgroundImage} />
 
-<div class="space-y-4">
-	<h3 class="h3">{$_('subscriptions.signUp.title')}</h3>
-	<p><em>{$_('subscriptions.signUp.subtitle')}</em></p>
-	<a href="https://membres.tapatate.ch/new?locale={$locale}" class="anchor"
-		><strong>{$_('subscriptions.signUp.link1')}</strong></a
-	>
-	<p>{$_('subscriptions.signUp.body1')}</p>
-</div>
-
 <div class="w-full px-8">
 	<section class="container mx-auto flex flex-col max-w-5xl space-y-16">
+		<div class="space-y-4">
+			<h3 class="h3">{$_('subscriptions.signUp.title')}</h3>
+			<p><em>{$_('subscriptions.signUp.subtitle')}</em></p>
+			<a href="https://membres.tapatate.ch/new?locale={$locale}" class="anchor"
+				><strong>{$_('subscriptions.signUp.link1')}</strong></a
+			>
+			<p>{$_('subscriptions.signUp.body1')}</p>
+		</div>
+
 		<div class="space-y-4">
 			<h3 class="h3">{$_('subscriptions.harvest.title')}</h3>
 			<p><em>{$_('subscriptions.harvest.subtitle')}</em></p>
