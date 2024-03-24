@@ -535,10 +535,15 @@
 			"description": "Beschreibung"
 		}
 	},
+	"imprint": {
+		"title": "Impressum",
+		"contact": "Kontakt"
+	},
 	"footer": {
 		"other": "WEITERES",
 		"media": "Medienecho",
 		"depots": "Infos zu den Depots",
+		"imprint": "Impressum",
 		"address": "ADRESSE HOF"
 	}
 }

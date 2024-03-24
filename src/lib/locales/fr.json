@@ -534,10 +534,15 @@
 			"description": "Description"
 		}
 	},
+	"imprint": {
+		"title": "Mentions légales",
+		"contact": "Contact"
+	},
 	"footer": {
 		"other": "AUTRE",
 		"media": "tapatate! dans les médias",
 		"depots": "les dépôts",
+		"imprint": "Mentions légales",
 		"address": "ADRESSE DE LA FERME"
 	}
 }
