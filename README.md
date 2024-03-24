@@ -55,5 +55,7 @@ Add an image to `src/lib/images/recipes` and then the respective translations to
 # Before Pushing to the Online Repo
 
 Before pushing the local changes to the online repo, the formatting has to be adjusted. This can be done automatically by running the following commands:
-`npm install`
-`npm run format`
+
+- `npm install`
+- `npm run format`
+- `npm run check && npm run lint`
