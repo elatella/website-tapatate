@@ -7,6 +7,18 @@ export interface Depot {
 
 const depots: Depot[] = [
 	{
+		name: 'Tiefenau',
+		location: 'Bern',
+		address: 'Kastelweg 7, 3004 Bern',
+		coordinates: [46.97395, 7.45077]
+	},
+	{
+		name: 'Bern west',
+		location: 'Bern',
+		address: 'Bümplizstrasse 13, 3027 Bern',
+		coordinates: [46.94845, 7.39664]
+	},
+	{
 		name: 'Gerbegasse',
 		location: 'Kerzers',
 		address: 'Gerbegasse 18, 3210 Kerzers',
@@ -63,7 +75,7 @@ const depots: Depot[] = [
 	{
 		name: 'Wallenbuch',
 		location: 'Wallenbuch',
-		address: 'Hof von René, Murtenstrasse 37, 3206 Wallenbuch',
+		address: 'Hof Faver, Murtenstrasse 37, 3206 Wallenbuch',
 		coordinates: [46.93008, 7.22173]
 	}
 ];
