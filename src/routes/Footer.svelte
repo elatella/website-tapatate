@@ -8,6 +8,7 @@
 		<p>{$_('footer.other')}</p>
 		<p><a href="{base}/media">{$_('footer.media')}</a></p>
 		<p><a href="{base}/depots">{$_('footer.depots')}</a></p>
+		<p><a href="{base}/imprint">{$_('footer.imprint')}</a></p>
 	</div>
 
 	<div class="text-center space-y-2">

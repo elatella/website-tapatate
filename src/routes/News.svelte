@@ -21,7 +21,11 @@
 		</div>
 
 		<div class="space-y-4">
+<<<<<<< HEAD
 			<img src={$locale && $locale.includes('fr') ? umbauFr : umbauDe} />
+=======
+			<img src={$locale && $locale.includes('fr') ? umbauFr : umbauDe} alt="Website" />
+>>>>>>> 3649b8304ab0f23b2e8fe42a3eb7e1580c0db587
 		</div>
 
 		<div class="space-y-4">
