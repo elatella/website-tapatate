@@ -3,19 +3,16 @@
 		"title": "aktuell",
 		"news": {
 			"title": "neuigkeiten",
-			"subtitle": "Die letzten News und Entwicklungen von TaPatate! findest du hier."
+			"subtitle": "Die letzten News und Entwicklungen von TaPatate! findest du hier.",
+			"rennovation": "Umbau"
 		},
 		"hofFaver": {
 			"title": "Der Hof hat seinen Namen gefunden!",
 			"body": "Das Logo und die Website sind im Erstellungsprozess, stay tuned!",
 			"faverfarm": "hofFaver"
 		},
-		"boimiga": {
-			"title": "\"Ä Böimigä\" - Rezept jetzt Verfügbar!",
-			"body": "Hier gehts zum Download"
-		},
 		"subscriptions": {
-			"title": "Knackig und Frisch - TaPatate! hat neue Gemüse- und Obst-Abos im Angebot!",
+			"title": "Knackig und Frisch - TaPatate! hat Gemüse- und Obst-Abos im Angebot!",
 			"link": "Schau hier",
 			"body1": "nach und rüste dich mit dem aus, was dir noch fehlt!"
 		},
@@ -25,16 +22,10 @@
 			"bottle": "Flasche",
 			"bag": "Tasche"
 		},
-		"july22": {
-			"title": "Juli 2022",
-			"body1": "In diesem",
-			"link": "Beitrag",
-			"body2": "der BauernZeitung stellt Valentin die Umstellung des Betriebs auf Agroforst vor."
-		},
 		"events": {
 			"title": "veranstaltungen",
 			"subtitle": "zück deine agenda!",
-			"placeholder": "Sobald es wieder etwas Neues gibt erfährst du es hier!"
+			"calendar": "Kalender"
 		}
 	},
 	"tapatate": {
