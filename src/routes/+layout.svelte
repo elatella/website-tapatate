@@ -37,7 +37,7 @@
 	<title>TaPatate!</title>
 	<meta
 		name="description"
-		content="TaPatate! ist ein junger Gemüseverein im Raum Bern und Fribourg und steht für frisches, nachhaltig und solidarisch produziertes Gemüse, für ein alternatives Wirtschaftsdenken und eine ehrliche, direkte Verbindung zwischen Produzent*innen und Konsument*innen."
+		content="TaPatate! ist ein Gemüseverein im Raum Bern und Fribourg und steht für frisches, nachhaltig und solidarisch produziertes Gemüse, für ein alternatives Wirtschaftsdenken und eine ehrliche, direkte Verbindung zwischen Produzent*innen und Konsument*innen."
 	/>
 </svelte:head>
 
