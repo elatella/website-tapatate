@@ -10,12 +10,8 @@
 			"body": "Le logo et le site web sont en création, stay tuned !",
 			"faverfarm": "hofFaver"
 		},
-		"boimiga": {
-			"title": "\"Ä Böimigä\" - La recette est maintenant disponible!",
-			"body": "Télécharger ici"
-		},
 		"subscriptions": {
-			"title": "Croquants et frais - TaPatate! propose de nouveaux abonnements de fruits et légumes!",
+			"title": "Croquants et frais - TaPatate! propose des abonnements de fruits et légumes!",
 			"link": "Regarde ici",
 			"body1": "et équipe-toi de ce qui te manque encore!"
 		},
@@ -25,16 +21,9 @@
 			"bottle": "bouteille",
 			"bag": "sac"
 		},
-		"july22": {
-			"title": "Juillet 2022",
-			"body1": "Dans cet ",
-			"link": "article",
-			"body2": " du Bauernzeitung, Valentin présente la reconversion de l'exploitation en agroforesterie."
-		},
 		"events": {
 			"title": "manifestations",
-			"subtitle": "à vos agendas!",
-			"placeholder": "Dès qu'il y aura quelque chose de nouveau, tu le sauras ici!"
+			"subtitle": "à vos agendas!"
 		}
 	},
 	"tapatate": {
