@@ -6,7 +6,8 @@
 	import umbauDe from '$lib/images/umbau-de.png';
 	import umbauFr from '$lib/images/umbau-fr.png';
 	import hofFaver from '$lib/images/hofFaver.png';
-	import aBoimiga from '$lib/images/recipes/a-boimiga.jpeg';
+	import kalenderDe from '$lib/images/kalender2024-de.png';
+	import kalenderFr from '$lib/images/kalender2024-fr.png';
 	import bottle from '$lib/images/bottle.png';
 	import bag from '$lib/images/bag.png';
 </script>
@@ -21,11 +22,14 @@
 		</div>
 
 		<div class="space-y-4">
-<<<<<<< HEAD
-			<img src={$locale && $locale.includes('fr') ? umbauFr : umbauDe} />
-=======
-			<img src={$locale && $locale.includes('fr') ? umbauFr : umbauDe} alt="Website" />
->>>>>>> 3649b8304ab0f23b2e8fe42a3eb7e1580c0db587
+			<div
+				class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12"
+			>
+				<img
+					src={$locale && $locale.includes('fr') ? umbauFr : umbauDe}
+					alt={$_('news.news.rennovation')}
+				/>
+			</div>
 		</div>
 
 		<div class="space-y-4">
@@ -34,21 +38,7 @@
 			<div
 				class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12"
 			>
-				<img src={hofFaver} alt={$_('news.hofFaver.faverfarm')} class="w-32" />
-			</div>
-		</div>
-
-		<div class="space-y-4">
-			<h3 class="h3">{$_('news.boimiga.title')}</h3>
-			<p>
-				<a href="{base}/docs/Recipe_A_Boimiga_{$locale}.pdf" class="anchor"
-					>{$_('news.boimiga.body')}</a
-				>
-			</p>
-			<div
-				class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12"
-			>
-				<img src={aBoimiga} alt={$_('news.boimiga.title')} class="w-96" />
+				<img src={hofFaver} alt={$_('news.hofFaver.faverfarm')} class="w-96" />
 			</div>
 		</div>
 
@@ -72,31 +62,17 @@
 		</div>
 
 		<div class="space-y-4">
-			<h3 class="h3">{$_('news.july22.title')}</h3>
-			<p class="pb-4">
-				{$_('news.july22.body1')}
-				<a
-					href="https://www.bauernzeitung.ch/artikel/pflanzen/wir-wollen-den-ganzen-betrieb-auf-agroforst-umstellen-424451"
-				>
-					{$_('news.july22.link')}
-				</a>
-				{$_('news.july22.body2')}
-			</p>
-			<div class="video-container">
-				<iframe
-					src="https://www.youtube.com/embed/j7wRwpkve58"
-					title="YouTube video player"
-					frameborder="0"
-					allowfullscreen
-					class="w-full"
-				/>
-			</div>
-		</div>
-
-		<div class="space-y-4">
 			<h3 class="h3">{$_('news.events.title')}</h3>
 			<p><em>{$_('news.events.subtitle')}</em></p>
-			<p>{$_('news.events.placeholder')}</p>
+			<div
+				class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12"
+			>
+				<img
+					src={$locale && $locale.includes('fr') ? kalenderFr : kalenderDe}
+					class="w-96"
+					alt={$_('news.events.kalender')}
+				/>
+			</div>
 		</div>
 	</section>
 </div>
