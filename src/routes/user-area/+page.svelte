@@ -34,10 +34,7 @@
 	<section class="container mx-auto flex flex-col max-w-5xl space-y-16">
 		<div class="space-y-4">
 			<h3 class="h3">{$_('userArea.adminTool.title2')}</h3>
-			<img
-				src={$locale && $locale.includes('fr') ? admintoolFr : admintoolDe}
-				alt={$_('userArea.adminTool.title')}
-			/>
+
 			<ol class="list-decimal list-inside pl-4">
 				<li>
 					{$_('userArea.adminTool.body7')}

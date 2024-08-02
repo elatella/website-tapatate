@@ -394,15 +394,15 @@
 	"userArea": {
 		"title": "espace membre",
 		"adminTool": {
-			"title": "Admin Tool",
-			"description": "L’Admintool est la plateforme pour les membres TaPatate qui permet de:",
+			"title": "Espace membre",
+			"description": "L’espace membre est la plateforme pour les membres TaPatate qui permet de:",
 			"body1": "s’inscrire aux demi-journées et les gérer",
 			"body2": "trouver des infos sur son dépôt (heures d’ouverture, code etc.)",
 			"body3": "gérer ses infos personnelles , les absences et visionner les factures",
 			"body4": "commander d’autres produits de la ferme (via l’épicerie)",
 			"body5": "trouver diverses autres infos (code vélos, type d’abonnement etc.)",
 			"body6": "N.B. les données personnelles sont confidentielles et uniquement visibles par lespersonnes concernées.",
-			"title2": "Comment se connecter à l’Admintool?",
+			"title2": "Comment se connecter à l’espace membre?",
 			"body7": "Sur ",
 			"link": "https://membres.tapatate.ch/",
 			"body8": " entrer son adresse mail.",
@@ -410,7 +410,7 @@
 			"link2": "info@tapatate.ch",
 			"body10": ".",
 			"body11": "Tu reçois ensuite un mail de connexion à l’adresse entrée. Cliquer sur le lien.",
-			"body12": "Tu es directement redirigé vers ta page personnelle sur l’admintool."
+			"body12": "Tu es directement redirigé vers ta page personnelle."
 		},
 		"engagement": {
 			"title": "Demi-journées",
@@ -429,9 +429,9 @@
 			"list6": "etc. nous nous réjouissons d’autres propositions!",
 			"body7": "Contactez-nous!",
 			"subtitle2": "Demi-journées familiales",
-			"body8": "Les enfants sont bienvenus sur la ferme lors des demi-journées ! Nous proposons des demi-journées familiales qui offrent un cadre convivial et idéal pour vous et vos enfants. Ces demi-journées sont indiquées dans l’admintool (1/2 journées > Activités: demi-journées familiales)",
+			"body8": "Les enfants sont bienvenus sur la ferme lors des demi-journées ! Nous proposons des demi-journées familiales qui offrent un cadre convivial et idéal pour vous et vos enfants. Ces demi-journées sont indiquées dans l’espace membre personnel (1/2 journées > Activités: demi-journées familiales)",
 			"subtitle3": "Demi-journées spéciales",
-			"body9": "Nous organisons plusieurs fois par années des demi-journées plus festives avec partage d’un repas à midi, bar et activités en fonction de la saison. Nous nous réjouissons de partager ces moments avec vous et faire plus ample connaissance. Les demi-journées spéciales sont annoncées via l’infomail et nos canaux officiels (site web, instagram et facebook). L’inscription se fait comme une demi-journée normale via l’admintool."
+			"body9": "Nous organisons plusieurs fois par années des demi-journées plus festives avec partage d’un repas à midi, bar et activités en fonction de la saison. Nous nous réjouissons de partager ces moments avec vous et faire plus ample connaissance. Les demi-journées spéciales sont annoncées via l’infomail et nos canaux officiels (site web, instagram et facebook). L’inscription se fait comme une demi-journée normale dans l'espace membre personnel."
 		},
 		"bags": {
 			"title": "Sacs TaPatate!",
@@ -448,7 +448,7 @@
 		},
 		"bike": {
 			"title": "Vélos",
-			"body1": "Des vélos sont à votre disposition à la gare de Gümmenen et à l’arrêt de bus ‘Schulhaus’ à Ulmiz pour venir jusqu’à Wallenbuch. Vous trouverez le code pour le cadenas sur l’admintool. Merci de ramener les vélos aux gares respectives pour les prochains. En cas de dommage, merci de le signaler à ",
+			"body1": "Des vélos sont à votre disposition à la gare de Gümmenen et à l’arrêt de bus ‘Schulhaus’ à Ulmiz pour venir jusqu’à Wallenbuch. Vous trouverez le code pour le cadenas dans l'espace membre personnel. Merci de ramener les vélos aux gares respectives pour les prochains. En cas de dommage, merci de le signaler à ",
 			"link1": "info@tapatate.ch",
 			"body2": " pour que nous puissions faire les réparations nécessaires."
 		}
