@@ -461,10 +461,16 @@
 		"a-boimiga": {
 			"title": "A Böimigä",
 			"amount": "1 Drink",
-			"ingredients": ["3-4 Grüne Eiswürfel", "2 cl Holundersirup"],
+			"ingredients": ["3-4 glaçons verts", "2 cl de sirop de sureau", "Dissoudre à moitié 1 CS de sucre de canne avec 2-3 cl d'eau chaude, ajouter une fois refroidi ", "1 cl de jus de citron", "2 cl de jus de pomme", "7 cl d'eau pétillante", "3 cl de vin blanc", "1 cl d'eau-de-vie de fruits, de préférence de pomme"],
 			"instructions": [
-				"Fichten-, Tannenspitzli und Sauerklee sammeln",
-				"Mit 1 cl Zitronensaft pro Drink in einen Mixer geben"
+				"Pour les glaçons verts, récolter des pointes d'épicéa, de sapin et d'oseille",
+				"Mettre dans un mixeur avec 1 cl de jus de citron par boisson",
+				"Ajouter les glaçons. Les glaçons donnent aux aiguilles résistance pour qu'elles soient bien broyées.",
+				"Mixer vigoureusement",
+				"Mettre la masse verte à congeler dans le bac à glaçons de votre choix",
+				"Quand les glaçons sont prêts, mélanger tous les ingrédients restants",
+				"Décorer avec une pincée de paprika en poudre",
+				"Variation sans alcool : Remplacer le vin et le cidre par un mélange de jus de pomme, de sureau et d'eau pétillante."
 			]
 		},
 		"carrots": {
