@@ -2,7 +2,7 @@
 	import { _, json } from 'svelte-i18n';
 	import { base } from '$app/paths';
 	import Title from '$lib/Title.svelte';
-	import backgroundImage from '$lib/images/bg-contact.jpg';
+	import backgroundImage from '$lib/images/bg-recipes.jpg';
 	import type { Recipe } from '$lib/Recipe';
 	import { recipeSearchTerm } from '$lib/stores';
 
