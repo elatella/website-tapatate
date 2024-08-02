@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { locale, _ } from 'svelte-i18n';
+	
 	import { base } from '$app/paths';
 	import Title from '$lib/Title.svelte';
 	import backgroundImage from '$lib/images/bg-user-area.jpg';
