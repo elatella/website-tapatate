@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { _ } from 'svelte-i18n'
+	import { _ } from 'svelte-i18n';
 	import { base } from '$app/paths';
 	import Title from '$lib/Title.svelte';
 	import backgroundImage from '$lib/images/bg-user-area.jpg';
@@ -32,7 +32,7 @@
 	<section class="container mx-auto flex flex-col max-w-5xl space-y-16">
 		<div class="space-y-4">
 			<h3 class="h3">{$_('userArea.adminTool.title2')}</h3>
-			
+
 			<ol class="list-decimal list-inside pl-4">
 				<li>
 					{$_('userArea.adminTool.body7')}
