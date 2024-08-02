@@ -3,8 +3,6 @@
 	import { base } from '$app/paths';
 	import Title from '$lib/Title.svelte';
 	import backgroundImage from '$lib/images/bg-user-area.jpg';
-	import admintoolDe from '$lib/images/userArea-admintool-de.png';
-	import admintoolFr from '$lib/images/userArea-admintool-fr.png';
 	import familyEngagement from '$lib/images/userArea-familieneinsaetze.jpg';
 	import bagsInfo from '$lib/images/userArea-taschen.jpg';
 </script>
@@ -78,7 +76,7 @@
 
 		<div class="space-y-4">
 			<h5 class="h5">{$_('userArea.engagement.subtitle2')}</h5>
-			<img src={familyEngagement} alt={$_('userArea.engagement.subtitle2')} />
+			<img src={familyEngagement} class="w-96" alt={$_('userArea.engagement.subtitle2')} />
 			<p>{$_('userArea.engagement.body8')}</p>
 		</div>
 		<div class="space-y-4">
