@@ -119,14 +119,14 @@
 	"subscriptions": {
 		"title": "unsere abos",
 		"signUp": {
-			"title": "anmeldeformular",
-			"subtitle": "bist du bereits vom projekt überzeugt? Dann melde dich gleich an:",
+			"title": "Anmeldeformular",
+			"subtitle": "Bist du bereits vom Projekt überzeugt? Dann melde dich gleich an:",
 			"link1": "Hier geht's zum Anmeldeformular!",
 			"body1": "Weitere Infos und Details zu den Abonnementen und zur Mitgliedschaft findest du im folgenden Kapitel."
 		},
 		"harvest": {
-			"title": "unsere abos - dein ernteanteil",
-			"subtitle": "wir haben sechs verschiedene abos. klicke das entsprechende abo an und erfahre, was es beinhaltet.",
+			"title": "Unsere Abos - dein Ernteanteil",
+			"subtitle": "Wir haben sechs verschiedene Abos. Klicke das entsprechende Abo an und erfahre, was es beinhaltet.",
 			"body1": " ",
 			"miniVeg": {
 				"name": "Mini Gemüseabo",
