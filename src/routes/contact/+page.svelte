@@ -5,13 +5,8 @@
 
 	let firstName = '';
 	let lastName = '';
+	let email = '';
 	let message = '';
-
-	function handleFormSubmit() {
-		window.location.href = `mailto:info@tapatate.ch?subject=Website%20${encodeURIComponent(
-			firstName
-		)}%20${encodeURIComponent(lastName)}&body=${encodeURIComponent(message)}`;
-	}
 </script>
 
 <Title title={$_('contact.title')} {backgroundImage} />
@@ -125,24 +120,34 @@
 			<h3 class="h3">{$_('contact.form.title')}</h3>
 			<p>{$_('contact.form.subtitle')}</p>
 
-			<form class="mt-8 max-w-2xl" on:submit|preventDefault={handleFormSubmit}>
+			<form action="https://formspree.io/f/mblrbvar" method="POST" class="mt-8 max-w-2xl">
 				<input
-					class="input mb-4"
+					name="firstName"
 					type="text"
 					placeholder={$_('contact.form.firstName')}
 					bind:value={firstName}
+					class="input mb-4"
 				/>
 				<input
-					class="input mb-4"
+					name="lastName"
 					type="text"
 					placeholder={$_('contact.form.lastName')}
 					bind:value={lastName}
+					class="input mb-4"
+				/>
+				<input
+					name="email"
+					type="email"
+					placeholder={$_('contact.form.email')}
+					bind:value={email}
+					class="input mb-4"
 				/>
 				<textarea
-					class="textarea mb-4"
+					name="message"
 					rows="4"
 					placeholder={$_('contact.form.message')}
 					bind:value={message}
+					class="textarea mb-4"
 				/>
 				<button class="btn variant-ghost-primary" type="submit">{$_('contact.form.submit')}</button>
 			</form>

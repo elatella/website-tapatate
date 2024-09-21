@@ -387,6 +387,7 @@
 			"subtitle": "wenn du eine frage hast, kannst du uns sehr gerne kontaktieren",
 			"firstName": "Vorname",
 			"lastName": "Nachname",
+			"email": "E-Mail",
 			"message": "Nachricht",
 			"submit": "Absenden"
 		}
