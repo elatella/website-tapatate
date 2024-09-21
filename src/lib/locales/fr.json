@@ -461,7 +461,16 @@
 		"a-boimiga": {
 			"title": "A Böimigä",
 			"amount": "1 Drink",
-			"ingredients": ["3-4 glaçons verts", "2 cl de sirop de sureau", "Dissoudre à moitié 1 CS de sucre de canne avec 2-3 cl d'eau chaude, ajouter une fois refroidi ", "1 cl de jus de citron", "2 cl de jus de pomme", "7 cl d'eau pétillante", "3 cl de vin blanc", "1 cl d'eau-de-vie de fruits, de préférence de pomme"],
+			"ingredients": [
+				"3-4 glaçons verts",
+				"2 cl de sirop de sureau",
+				"Dissoudre à moitié 1 CS de sucre de canne avec 2-3 cl d'eau chaude, ajouter une fois refroidi ",
+				"1 cl de jus de citron",
+				"2 cl de jus de pomme",
+				"7 cl d'eau pétillante",
+				"3 cl de vin blanc",
+				"1 cl d'eau-de-vie de fruits, de préférence de pomme"
+			],
 			"instructions": [
 				"Pour les glaçons verts, récolter des pointes d'épicéa, de sapin et d'oseille",
 				"Mettre dans un mixeur avec 1 cl de jus de citron par boisson",
