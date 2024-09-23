@@ -7,7 +7,7 @@ export interface Depot {
 
 const depots: Depot[] = [
 	{
-		name: 'Bern west',
+		name: 'Bern West',
 		location: 'Bern',
 		address: 'Bümplizstrasse 13, 3027 Bern',
 		coordinates: [46.94845, 7.39664]
@@ -15,7 +15,7 @@ const depots: Depot[] = [
 	{
 		name: 'Tiefenau',
 		location: 'Bern',
-		address: 'Kastelweg 7, 3004 Bern',
+		address: 'Kastellweg 7, 3004 Bern',
 		coordinates: [46.97395, 7.45077]
 	},
 	{
