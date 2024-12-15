@@ -128,13 +128,18 @@
 			"title": "Unsere Abos - dein Ernteanteil",
 			"subtitle": "Wir haben sechs verschiedene Abos. Klicke das entsprechende Abo an und erfahre, was es beinhaltet.",
 			"body1": " ",
+			"trial": "Probeabo",
+			"buyTrial": "Probeabo",
+			"buyTrial2": "lösen",
 			"miniVeg": {
 				"name": "Mini Gemüseabo",
 				"people": "Für eine Person",
 				"price": "792 CHF / Jahr",
 				"deliveries": "44 Lieferungen",
 				"parts": "1 Anteilsschein à 250 CHF",
-				"subscriptions": "3 Halbtage Mitarbeit pro Jahr"
+				"subscriptions": "3 Halbtage Mitarbeit pro Jahr",
+				"trialDeliveries": "6 Lieferungen à 18 CHF",
+				"trialSubscriptions": "1 Halbtag Mitarbeit"
 			},
 			"smallVeg": {
 				"name": "Kleines Gemüseabo",
@@ -142,7 +147,9 @@
 				"price": "1254 CHF / Jahr",
 				"deliveries": "44 Lieferungen",
 				"parts": "2 Anteilsscheine à 250 CHF",
-				"subscriptions": "6 Halbtage Mitarbeit pro Jahr"
+				"subscriptions": "6 Halbtage Mitarbeit pro Jahr",
+				"trialDeliveries": "6 Lieferungen à 28.50 CHF",
+				"trialSubscriptions": "1 Halbtag Mitarbeit"
 			},
 			"largeVeg": {
 				"name": "Grosses Gemüseabo",
@@ -150,7 +157,9 @@
 				"price": "2288 CHF / Jahr",
 				"deliveries": "44 Lieferungen",
 				"parts": "4 Anteilsscheine à 250 CHF",
-				"subscriptions": "12 Halbtage Mitarbeit pro Jahr"
+				"subscriptions": "12 Halbtage Mitarbeit pro Jahr",
+				"trialDeliveries": "6 Lieferungen à 52 CHF",
+				"trialSubscriptions": "1 Halbtag Mitarbeit"
 			},
 			"winterVeg": {
 				"name": "Winter Gemüseabo",
@@ -158,7 +167,9 @@
 				"price": "500 CHF / Jahr",
 				"deliveries": "16 Lieferungen",
 				"parts": "1 Anteilsschein à 250 CHF",
-				"subscriptions": "2 Halbtage Mitarbeit pro Jahr"
+				"subscriptions": "2 Halbtage Mitarbeit pro Jahr",
+				"trialDeliveries": "6 Lieferungen à 31.25 CHF",
+				"trialSubscriptions": "1 Halbtag Mitarbeit"
 			},
 			"miniFruit": {
 				"name": "Mini Obstabo",
@@ -174,7 +185,9 @@
 				"price": "500 CHF / Jahr",
 				"deliveries": "25 Lieferungen",
 				"parts": "1 Anteilsschein à 250 CHF",
-				"subscriptions": "2 Halbtage Mitarbeit pro Jahr"
+				"subscriptions": "2 Halbtage Mitarbeit pro Jahr",
+				"trialDeliveries": "6 Lieferungen à 20 CHF",
+				"trialSubscriptions": "1 Halbtag Mitarbeit"
 			},
 			"subtitle2": "solidaritätsbeitrag",
 			"body2": "Biologisches Gemüse anbauen und das zu fairen Arbeitsbedingungen hat seinen Preis, den sich nicht alle leisten können. Mit einem zusätzlichen Solibeitrag von 3.50 CHF pro Tasche (154 CHF pro Jahr) ermöglichst du einer anderen Person, das Gemüseabo zu einem vergünstigen Preis zu erhalten. Das was du mehr zahlst, zahlt jemand anderes, der/die es sich gerade nicht leisten kann, weniger.",

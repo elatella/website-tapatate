@@ -128,13 +128,18 @@
 			"title": "nos paniers - ta part de légumes et de fruits",
 			"subtitle": "nous avons six paniers différents. Clique sur le panier approprié et découvre ce qu'il contient.",
 			"body1": " ",
+			"trial": "Abo d'essai",
+			"buyTrial": "Souscrire un",
+			"buyTrial2": "abo d'essai",
 			"miniVeg": {
 				"name": "mini panier de légumes",
 				"people": "pour une personne",
 				"price": "792 CHF / an ",
 				"deliveries": "44 livraisons",
 				"parts": "1 parts sociales à 250 CHF",
-				"subscriptions": "3 demi-journées par an"
+				"subscriptions": "3 demi-journées par an",
+				"trialDeliveries": "6 livraisons à 18 CHF",
+				"trialSubscriptions": "1 demi-journée collaboration"
 			},
 			"smallVeg": {
 				"name": "petit panier de légumes",
@@ -142,7 +147,9 @@
 				"price": "1254 CHF / an ",
 				"deliveries": "44 livraisons",
 				"parts": "2 parts sociales à 250 CHF",
-				"subscriptions": "6 demi-journées par an"
+				"subscriptions": "6 demi-journées par an",
+				"trialDeliveries": "6 livraisons à 28.50 CHF",
+				"trialSubscriptions": "1 demi-journée collaboration"
 			},
 			"largeVeg": {
 				"name": "grand panier de légumes",
@@ -150,7 +157,9 @@
 				"price": "2288 CHF / an",
 				"deliveries": "44 livraisons",
 				"parts": "4 parts sociales à 250 CHF",
-				"subscriptions": "12 demi-journées par an"
+				"subscriptions": "12 demi-journées par an",
+				"trialDeliveries": "6 livraisons à 52 CHF",
+				"trialSubscriptions": "1 demi-journée collaboration"
 			},
 			"winterVeg": {
 				"name": "panier de légumes d'hiver",
@@ -158,7 +167,9 @@
 				"price": "500 CHF / an",
 				"deliveries": "16 livraisons",
 				"parts": "1 parts sociales à 250 CHF",
-				"subscriptions": "2 demi-journées par an"
+				"subscriptions": "2 demi-journées par an",
+				"trialDeliveries": "6 livraisons à 31.25 CHF",
+				"trialSubscriptions": "1 demi-journée collaboration"
 			},
 			"miniFruit": {
 				"name": "mini panier de fruits",
@@ -174,7 +185,9 @@
 				"price": "500 CHF / an",
 				"deliveries": "25 livraisons",
 				"parts": "1 parts sociales à 250 CHF",
-				"subscriptions": "2 demi-journées par an"
+				"subscriptions": "2 demi-journées par an",
+				"trialDeliveries": "6 livraisons à 20 CHF",
+				"trialSubscriptions": "1 demi-journée collaboration"
 			},
 			"subtitle2": "contribution solidaire",
 			"body2": "La production de légumes biologiques dans des conditions de travail équitables va de pair avec un prix qui n'est pas à la portée de tout le monde. En versant un supplément de 3,50 CHF par sac (soit 154 CHF par an), tu permets à un-e autre membre de bénéficier d'un prix réduit sur son abonnement. Le supplément versé compense directement ce que cette personne paie en moins.",

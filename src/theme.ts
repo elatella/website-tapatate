@@ -50,7 +50,7 @@ export const theme: CustomThemeConfig = {
 		'--color-tertiary-400': '249 200 191',
 		'--color-tertiary-500': '246 176 163',
 		'--color-tertiary-600': '221 158 147',
-		'--color-tertiary-700': '185 132 122',
+		'--color-tertiary-700': '20 174 210',
 		'--color-tertiary-800': '148 106 98',
 		'--color-tertiary-900': '121 86 80',
 		// success | #84cc16

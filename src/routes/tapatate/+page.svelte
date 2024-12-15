@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Avatar } from '@skeletonlabs/skeleton';
-	import { _ } from 'svelte-i18n';
+	import { locale, _ } from 'svelte-i18n';
 	import { base } from '$app/paths';
 	import Title from '$lib/Title.svelte';
 	import backgroundImage from '$lib/images/bg-tapatate.jpg';
@@ -70,7 +70,7 @@
 			<p>{$_('tapatate.whatIs.body1')}</p>
 			<p>
 				{$_('tapatate.whatIs.body2')}
-				<a href="https://membres.tapatate.ch/new?locale=de" class="anchor"
+				<a href="https://membres.tapatate.ch/new?locale={$locale}" class="anchor"
 					>{$_('tapatate.whatIs.link1')}</a
 				>
 				{$_('tapatate.whatIs.body3')}

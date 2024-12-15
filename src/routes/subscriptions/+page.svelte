@@ -10,50 +10,49 @@
 	import winterVeg from '$lib/images/subscriptions/field.png';
 	import miniFruit from '$lib/images/subscriptions/bloom-new.png';
 	import fruit from '$lib/images/subscriptions/strawberries.png';
+	import Abo from './Abo.svelte';
 
-	interface Abo {
+	interface Subscription {
 		id: string;
 		image: string;
-		flipped?: boolean;
+		hasTrial: boolean;
 	}
 
-	const abosVeggie: Abo[] = [
+	const abosVeggie: Subscription[] = [
 		{
 			id: 'miniVeg',
-			image: miniVeg
+			image: miniVeg,
+			hasTrial: true
 		},
 		{
 			id: 'smallVeg',
-			image: smallVeg
+			image: smallVeg,
+			hasTrial: true
 		},
 		{
 			id: 'largeVeg',
-			image: largeVeg
+			image: largeVeg,
+			hasTrial: true
 		},
 		{
 			id: 'winterVeg',
-			image: winterVeg
+			image: winterVeg,
+			hasTrial: true
 		}
 	];
 
-	const abosFruit: Abo[] = [
+	const abosFruit: Subscription[] = [
 		{
 			id: 'miniFruit',
-			image: miniFruit
+			image: miniFruit,
+			hasTrial: false
 		},
 		{
 			id: 'fruit',
-			image: fruit
+			image: fruit,
+			hasTrial: true
 		}
 	];
-
-	function flipVeggie(index: number) {
-		abosVeggie[index].flipped = !abosVeggie[index].flipped;
-	}
-
-	function flipFruit(index: number) {
-		abosFruit[index].flipped = !abosFruit[index].flipped;
-	}
 </script>
 
 <Title title={$_('subscriptions.title')} {backgroundImage} />
@@ -76,60 +75,14 @@
 		</div>
 
 		<div class="grid md:grid-cols-3 xl:grid-cols-4 gap-6">
-			{#each abosVeggie as abo, i (abo.id)}
-				<button
-					class="card card-hover"
-					on:click={() => {
-						flipVeggie(i);
-					}}
-				>
-					{#if !abo.flipped}
-						<img src={abo.image} alt={$_(`subscriptions.harvest.${abo.id}.name`)} />
-					{/if}
-					<header class="card-header pb-4">
-						<strong>{$_(`subscriptions.harvest.${abo.id}.name`)}</strong>
-					</header>
-					{#if abo.flipped}
-						<div class="p-3">
-							<ul>
-								<li>{$_(`subscriptions.harvest.${abo.id}.people`)}</li>
-								<li>{$_(`subscriptions.harvest.${abo.id}.price`)}</li>
-								<li>{$_(`subscriptions.harvest.${abo.id}.deliveries`)}</li>
-								<li>{$_(`subscriptions.harvest.${abo.id}.parts`)}</li>
-								<li>{$_(`subscriptions.harvest.${abo.id}.subscriptions`)}</li>
-							</ul>
-						</div>
-					{/if}
-				</button>
+			{#each abosVeggie as abo (abo.id)}
+				<Abo id={abo.id} image={abo.image} hasTrial={abo.hasTrial} />
 			{/each}
 		</div>
 
 		<div class="grid md:grid-cols-3 xl:grid-cols-4 gap-6">
-			{#each abosFruit as abo, i (abo.id)}
-				<button
-					class="card card-hover"
-					on:click={() => {
-						flipFruit(i);
-					}}
-				>
-					{#if !abo.flipped}
-						<img src={abo.image} alt={$_(`subscriptions.harvest.${abo.id}.name`)} />
-					{/if}
-					<header class="card-header pb-4">
-						<strong>{$_(`subscriptions.harvest.${abo.id}.name`)}</strong>
-					</header>
-					{#if abo.flipped}
-						<div class="p-6">
-							<ul>
-								<li>{$_(`subscriptions.harvest.${abo.id}.people`)}</li>
-								<li>{$_(`subscriptions.harvest.${abo.id}.price`)}</li>
-								<li>{$_(`subscriptions.harvest.${abo.id}.deliveries`)}</li>
-								<li>{$_(`subscriptions.harvest.${abo.id}.parts`)}</li>
-								<li>{$_(`subscriptions.harvest.${abo.id}.subscriptions`)}</li>
-							</ul>
-						</div>
-					{/if}
-				</button>
+			{#each abosFruit as abo (abo.id)}
+				<Abo id={abo.id} image={abo.image} hasTrial={abo.hasTrial} />
 			{/each}
 		</div>
 
