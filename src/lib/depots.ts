@@ -7,6 +7,12 @@ export interface Depot {
 
 const depots: Depot[] = [
 	{
+		name: 'Düdingen Robinsonspielplatz',
+		location: 'Düdingen',
+		address: 'Leimacker 1, 3186 Düdingen',
+		coordinates: [46.846006, 7.199499]
+	},
+	{
 		name: 'Bern West',
 		location: 'Bern',
 		address: 'Bümplizstrasse 13, 3027 Bern',
