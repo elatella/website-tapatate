@@ -67,7 +67,7 @@ const depots: Depot[] = [
 		coordinates: [46.97006, 7.44215]
 	},
 	{
-		name: 'Düdingen Robinsonspielplatz',
+		name: 'Düdingen',
 		location: 'Düdingen',
 		address: 'Leimacker 1, 3186 Düdingen',
 		coordinates: [46.846006, 7.199499]
