@@ -10,7 +10,7 @@
 	import kalenderFr from '$lib/images/kalender2024-fr.png';
 	import bottle from '$lib/images/bottle.png';
 	import bag from '$lib/images/bag.png';
-	import job from '$static/docs/Stellenausschreibung_Gemuese2025.pdf';
+	import job from '$lib/images/Stellenausschreibung_Gemuese2025.pdf';
 </script>
 
 <Title title={$_('news.title')} {backgroundImage} />
