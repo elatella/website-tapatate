@@ -35,11 +35,9 @@
 		<div class="space-y-4">
 			<h3 class="h3">{$_('news.hiring.title')}</h3>
 			<p>{$_('news.hiring.body')}</p>
-			<div
-				class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12"
-			>
+			<p>
 				<a href="static\docs\Stellenausschreibung_Gemuese2025.pdf" class="anchor">{$_('news.hiring.link')}</a>
-			</div>
+			</p>
 		</div>
 
 		<div class="space-y-4">
