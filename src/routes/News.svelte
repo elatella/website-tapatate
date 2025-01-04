@@ -23,6 +23,12 @@
 		</div>
 
 		<div class="space-y-4">
+			<h3 class="h3">{$_('news.hiring.title')}</h3>
+			<p>{$_('news.hiring.body')}<a href={job} class="anchor">{$_('news.hiring.link')}</a>
+			</p>
+		</div>
+
+		<div class="space-y-4">
 			<div
 				class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12"
 			>
@@ -31,14 +37,6 @@
 					alt={$_('news.news.rennovation')}
 				/>
 			</div>
-		</div>
-
-		<div class="space-y-4">
-			<h3 class="h3">{$_('news.hiring.title')}</h3>
-			<p>{$_('news.hiring.body')}</p>
-			<p>
-				<a href={job} class="anchor">{$_('news.hiring.link')}</a>
-			</p>
 		</div>
 
 		<div class="space-y-4">
