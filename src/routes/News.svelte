@@ -10,6 +10,7 @@
 	import kalenderFr from '$lib/images/kalender2024-fr.png';
 	import bottle from '$lib/images/bottle.png';
 	import bag from '$lib/images/bag.png';
+	import job from '$static/docs/Stellenausschreibung_Gemuese2025.pdf';
 </script>
 
 <Title title={$_('news.title')} {backgroundImage} />
@@ -36,7 +37,7 @@
 			<h3 class="h3">{$_('news.hiring.title')}</h3>
 			<p>{$_('news.hiring.body')}</p>
 			<p>
-				<a href="static\docs\Stellenausschreibung_Gemuese2025.pdf" class="anchor">{$_('news.hiring.link')}</a>
+				<a href={job} class="anchor">{$_('news.hiring.link')}</a>
 			</p>
 		</div>
 
