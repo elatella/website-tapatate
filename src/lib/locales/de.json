@@ -1,10 +1,15 @@
 {
 	"news": {
-		"title": "aktuell",
+		"title": "Aktuell",
 		"news": {
-			"title": "neuigkeiten",
+			"title": "Neuigkeiten",
 			"subtitle": "Die letzten News und Entwicklungen von TaPatate! findest du hier.",
 			"rennovation": "Umbau"
+		},
+		"hiring": {
+			"title": "Offene Stelle im Gemüseanbau (60 – 80%), ab Februar 2025 oder nach Absprache",
+			"body": "Interessiert? Weitere Informationen findest du ",
+			"link": "hier"
 		},
 		"hofFaver": {
 			"title": "Der Hof hat seinen Namen gefunden!",
@@ -14,7 +19,7 @@
 		"subscriptions": {
 			"title": "Knackig und Frisch - TaPatate! hat Gemüse- und Obst-Abos im Angebot!",
 			"link": "Schau hier",
-			"body1": "nach und rüste dich mit dem aus, was dir noch fehlt!"
+			"body1": "Nach und rüste dich mit dem aus, was dir noch fehlt!"
 		},
 		"merch": {
 			"title": "MERCH: TaPatate!-Taschen und -Flaschen",
@@ -23,8 +28,8 @@
 			"bag": "Tasche"
 		},
 		"events": {
-			"title": "veranstaltungen",
-			"subtitle": "zück deine agenda!",
+			"title": "Veranstaltungen",
+			"subtitle": "Zück deine Agenda!",
 			"calendar": "Kalender"
 		}
 	},
