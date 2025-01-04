@@ -24,7 +24,9 @@
 
 		<div class="space-y-4">
 			<h3 class="h3">{$_('news.hiring.title')}</h3>
-			<p>{$_('news.hiring.body')}<a href={job} class="anchor">{$_('news.hiring.link')}</a>
+			<p>
+				{$_('news.hiring.body')}
+				<a href={job} class="anchor">{$_('news.hiring.link')}</a>
 			</p>
 		</div>
 
