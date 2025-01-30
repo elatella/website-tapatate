@@ -143,7 +143,7 @@
 			},
 			"smallVeg": {
 				"name": "petit panier de légumes",
-				"people": "pour 1-2 personnes",
+				"people": "pour 2-3 personnes",
 				"price": "1254 CHF / an ",
 				"deliveries": "44 livraisons",
 				"parts": "2 parts sociales à 250 CHF",
@@ -153,7 +153,7 @@
 			},
 			"largeVeg": {
 				"name": "grand panier de légumes",
-				"people": "pour 2-4 personnes",
+				"people": "pour 3-4 personnes",
 				"price": "2288 CHF / an",
 				"deliveries": "44 livraisons",
 				"parts": "4 parts sociales à 250 CHF",
