@@ -25,6 +25,12 @@ const depots: Depot[] = [
 		coordinates: [46.95119, 7.43178]
 	},
 	{
+		name: 'eigerApotheke',
+		location: 'Bern',
+		address: 'Eigerstrasse 2, 3007 Bern',
+		coordinates: [46.940402, 7.431975]
+	},
+	{
 		name: 'Fischermätteli',
 		location: 'Bern',
 		address: 'Bioladen Fischermätteli, Weissensteinstrasse 29a, 3008 Bern',
