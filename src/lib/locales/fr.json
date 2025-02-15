@@ -478,7 +478,7 @@
 			"ingredients": [
 				"3-4 glaçons verts",
 				"2 cl de sirop de sureau",
-				"Dissoudre à moitié 1 CS de sucre de canne avec 2-3 cl d'eau chaude, ajouter une fois refroidi ",
+				"Dissoudre à moitié 1 cs de sucre de canne avec 2-3 cl d'eau chaude, ajouter une fois refroidi",
 				"1 cl de jus de citron",
 				"2 cl de jus de pomme",
 				"7 cl d'eau pétillante",
@@ -494,6 +494,25 @@
 				"Quand les glaçons sont prêts, mélanger tous les ingrédients restants",
 				"Décorer avec une pincée de paprika en poudre",
 				"Variation sans alcool : Remplacer le vin et le cidre par un mélange de jus de pomme, de sureau et d'eau pétillante."
+			]
+		},
+		"carrot_parsnip_chutney": {
+			"title": "Chutney de carottes et de panais",
+			"amount": "env. 1l",
+			"ingredients": [
+				"100 g de carottes", 
+				"100 g de panais (variante plus épicée : racine de persil)",
+				"100 g de raisins",
+				"500 ml de vinaigre de vin blanc",
+				"300 g de sucre",
+				"0.5 cs de poivre",
+				"1 cc de cardamome, moulue",
+				"1 cc de sel"
+			],
+			"instructions": [
+				"Laver les légumes, les parer si nécessaire, les raboter ou les couper en petits morceaux",
+				"Mélanger tous les ingrédients et laisser mijoter à feu doux jusqu'à ce que le liquide soit réduit", 
+				"Verser le chutney dans des bocaux stérilisés, les fermer et les laisser refroidir."
 			]
 		},
 		"carrots": {

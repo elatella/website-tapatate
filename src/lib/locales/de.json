@@ -476,24 +476,43 @@
 			"title": "A Böimigä",
 			"amount": "1 Drink",
 			"ingredients": [
-				"3-4 Grüne Eiswürfel",
+				"3-4 grüne Eiswürfel",
 				"2 cl Holundersirup",
-				"1 El Rohrzucker mit 2-3 cl heissem Wasser halb auflösen, abgekühlt hinzugeben",
+				"1 El Rohrzucker (in 2-3 cl heissem Wasser halb auflösen, abkühlen lassen)",
 				"1 cl Zitronensaft",
 				"2 cl Apfelsaft",
 				"7 cl Sprudel",
 				"3 cl Weisswein",
-				"1 cl Obstler am besten Apfelbrand"
+				"1 cl Obstler (am besten Apfelbrand)"
 			],
 			"instructions": [
-				"Für die Grüne Eiswürfel, Fichten-, Tannenspitzli und Sauerklee sammeln",
-				"Mit 1 cl Zitronensaft pro Drink in einen Mixer geben",
+				"Für die grünen Eiswürfel: Fichten-, Tannenspitzli und Sauerklee sammeln",
+				"Mit Zitronensaft in den Mixer geben",
 				"Eiswürfel dazugeben. Die Eiswürfel geben den Nadeln Widerstand damit sie gut zerkleinert werden",
 				"Kräftig mixen",
 				"Grüne Masse abfüllen und in Gefässen nach Wahl gefrieren",
-				"Wenn die Eiswürfel fertig sind, alle restlichen Zutaten mischen",
-				"mit einer Prise Paprikapulver dekorieren",
-				"Alkoholfreie Variation: Wein und Obstler durch Apfelsaft-, Holunder-, Sprudelmix ersetzen"
+				"Wenn die Eiswürfel fertig sind: alle restlichen Zutaten mischen",
+				"Mit einer Prise Paprikapulver dekorieren",
+				"Alkoholfreie Variation: Wein und Obstler durch Apfelsaft-, Holunder- oder Sprudelmix ersetzen"
+			]
+		},
+		"carrot_parsnip_chutney": {
+			"title": "Karotten-Pastinaken-Chutney",
+			"amount": "ca. 1l",
+			"ingredients": [
+				"100 g Karotten", 
+				"100 g Pastinaken (würzigere Variante: Petersilienwurzel)",
+				"100 g Sultaninen",
+				"500 ml Weissweinessig",
+				"300 g Zucker",
+				"0.5 EL Pfeffer",
+				"1 TL Kardamom, gemahlen",
+				"1 TL Salz"
+			],
+			"instructions": [
+				"Gemüse waschen, wenn nötig rüsten, in kleine Stücke hobeln oder schneiden",
+				"Alle Zutaten mischen, auf niedriger Stufe köcheln lassen, bis die Flüssigkeit eingekocht ist", 
+				"Chutney in sterilisierte Gläser füllen, verschliessen und abkühlen lassen"
 			]
 		},
 		"carrots": {
