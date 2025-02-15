@@ -6,20 +6,15 @@
 			"subtitle": "Die letzten News und Entwicklungen von TaPatate! findest du hier.",
 			"rennovation": "Umbau"
 		},
+		"familydays": {
+			"title": "Die Familientage für 2025 sind geplant!",
+			"body": "Familientage bieten Familien oder Kindern mit Begleitung die Möglichkeit, einen Tag gemeinsam auf dem Gemüseacker zu verbringen. Genauere Informationen findest du ",
+			"link": "hier"
+		},
 		"hiring": {
 			"title": "Offene Stelle im Gemüseanbau (60 – 80%), ab Februar 2025 oder nach Absprache",
 			"body": "Interessiert? Weitere Informationen findest du ",
 			"link": "hier"
-		},
-		"hofFaver": {
-			"title": "Der Hof hat seinen Namen gefunden!",
-			"body": "Das Logo und die Website sind im Erstellungsprozess, stay tuned!",
-			"faverfarm": "hofFaver"
-		},
-		"subscriptions": {
-			"title": "Knackig und Frisch - TaPatate! hat Gemüse- und Obst-Abos im Angebot!",
-			"link": "Schau hier",
-			"body1": "Nach und rüste dich mit dem aus, was dir noch fehlt!"
 		},
 		"merch": {
 			"title": "MERCH: TaPatate!-Taschen und -Flaschen",
@@ -29,8 +24,8 @@
 		},
 		"events": {
 			"title": "Veranstaltungen",
-			"subtitle": "Zück deine Agenda!",
-			"calendar": "Kalender"
+			"subtitle": "Der TaPatate!-Kalender 2025 wird in Kürze aufgeschalten.",
+			"calendar": ""
 		}
 	},
 	"tapatate": {

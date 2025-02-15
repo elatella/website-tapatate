@@ -6,15 +6,15 @@
 			"subtitle": "tu trouves ici les dernières nouvelles et le développement de tapatate!",
 			"rennovation": "rennovation"
 		},
-		"hofFaver": {
-			"title": "La ferme a trouvé son petit nom !",
-			"body": "Le logo et le site web sont en création, stay tuned !",
-			"faverfarm": "hofFaver"
+		"familydays": {
+			"title": "Les journées familiales sont prévues pour 2025 !",
+			"body": "Les journées familiales offrent aux familles ou aux enfants accompagnés la possibilité de passer une journée ensemble dans le champ de légumes. Tu trouveras des informations plus précises ",
+			"link": "ici"
 		},
-		"subscriptions": {
-			"title": "Croquants et frais - TaPatate! propose des abonnements de fruits et légumes!",
-			"link": "Regarde ici",
-			"body1": "et équipe-toi de ce qui te manque encore!"
+		"hiring": {
+			"title": "Poste vacant dans la culture maraîchère (60 - 80%), à partir de février 2025 ou à convenir",
+			"body": "Tu es intéressé(e) ? Tu trouveras plus d'informations ",
+			"link": "ici"
 		},
 		"merch": {
 			"title": "MERCH: des bouteilles et des sacs TaPatate!",
@@ -24,8 +24,8 @@
 		},
 		"events": {
 			"title": "manifestations",
-			"subtitle": "à vos agendas!",
-			"calendar": "calendrier"
+			"subtitle": "Le calendrier 2025 de TaPatate ! sera mis en ligne prochainement.",
+			"calendar": ""
 		}
 	},
 	"tapatate": {
