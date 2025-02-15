@@ -1,13 +1,6 @@
 <script lang="ts">
-	import { locale, _ } from 'svelte-i18n';
-	import { base } from '$app/paths';
 	import Title from '$lib/Title.svelte';
 	import backgroundImage from '$lib/images/bg-news.jpg';
-	import umbauDe from '$lib/images/umbau-de.png';
-	import umbauFr from '$lib/images/umbau-fr.png';
-	import hofFaver from '$lib/images/hofFaver.png';
-	import kalenderDe from '$lib/images/kalender2024-de.png';
-	import kalenderFr from '$lib/images/kalender2024-fr.png';
 	import bottle from '$lib/images/bottle.png';
 	import bag from '$lib/images/bag.png';
 	import job from '$lib/images/Stellenausschreibung_Gemuese2025.pdf';
@@ -53,17 +46,6 @@
 		<div class="space-y-4">
 			<h3 class="h3">{$_('news.events.title')}</h3>
 			<p><em>{$_('news.events.subtitle')}</em></p>
-			<!--
-			<div
-				class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12"
-			>
-				<img
-					src={$locale && $locale.includes('fr') ? kalenderFr : kalenderDe}
-					class="w-96"
-					alt={$_('news.events.kalender')}
-				/>
-			</div>
-			-->
 		</div>
 	</section>
 </div>
