@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { _ } from 'svelte-i18n';
 	import Title from '$lib/Title.svelte';
 	import backgroundImage from '$lib/images/bg-news.jpg';
 	import bottle from '$lib/images/bottle.png';
