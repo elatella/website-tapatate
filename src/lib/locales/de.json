@@ -514,18 +514,6 @@
 				"Alle Zutaten mischen, auf niedriger Stufe köcheln lassen, bis die Flüssigkeit eingekocht ist", 
 				"Chutney in sterilisierte Gläser füllen, verschliessen und abkühlen lassen"
 			]
-		},
-		"carrots": {
-			"title": "Rüebliauflauf",
-			"amount": "4 Portionen",
-			"ingredients": ["8 Rüebli", "Viel Geduld"],
-			"instructions": ["Rüebli kochen", "Rüebli servieren"]
-		},
-		"aubergine": {
-			"title": "Auberginenauflauf",
-			"amount": "4 Portionen",
-			"ingredients": ["8 Auberginen", "Viel Geduld"],
-			"instructions": ["Auberginen kochen", "Auberginen servieren"]
 		}
 	},
 	"media": {

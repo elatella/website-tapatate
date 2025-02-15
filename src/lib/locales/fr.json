@@ -514,18 +514,6 @@
 				"Mélanger tous les ingrédients et laisser mijoter à feu doux jusqu'à ce que le liquide soit réduit", 
 				"Verser le chutney dans des bocaux stérilisés, les fermer et les laisser refroidir."
 			]
-		},
-		"carrots": {
-			"title": "Rüebliauflauf",
-			"amount": "4 Portionen",
-			"ingredients": ["8 Rüebli", "Viel Geduld"],
-			"instructions": ["Rüebli kochen", "Rüebli servieren"]
-		},
-		"aubergine": {
-			"title": "Auberginenauflauf",
-			"amount": "4 Portionen",
-			"ingredients": ["8 Auberginen", "Viel Geduld"],
-			"instructions": ["Auberginen kochen", "Auberginen servieren"]
 		}
 	},
 	"media": {
