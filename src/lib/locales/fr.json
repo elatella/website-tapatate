@@ -496,6 +496,28 @@
 				"Variation sans alcool : Remplacer le vin et le cidre par un mélange de jus de pomme, de sureau et d'eau pétillante."
 			]
 		},
+		"beetroot_hummus": {
+			"title": "Houmous de betterave",
+			"amount": "pour 8 personnes",
+			"ingredients": [
+				"250 g de pois chiches séchés (mis à tremper pendant la nuit)",
+				"1 gros oignon",
+				"500 g de betterave",
+				"125 ml de tahin (purée de sésame)",
+				"3 gousses d'ail, écrasées",
+				"3 cs de jus de citron",
+				"1 cs de cumin, moulu",
+				"3 cs d'huile d'olive",
+				"un peu de persil frais",
+				"un peu de sésame, grillé"
+			],
+			"instructions": [
+				"Mettre les pois chiches égouttés avec l'oignon dans une grande casserole et couvrir d'eau. Porter à ébullition et cuire pendant 1 heure jusqu'à ce qu'ils soient très tendres. Egoutter et récupérer 250 ml de liquide de cuisson. Laisser refroidir",
+				"Cuire les betteraves à point, les égoutter et les laisser refroidir, puis les peler",
+				"Couper les betteraves en petits morceaux et les mettre dans le robot ménager. Ajoutez le mélange pois chiches-oignons, le tahini, l'ail, le jus de citron et le cumin et travaillez jusqu'à obtention d'une masse lisse. Tout en faisant tourner le robot, verser le liquide de cuisson et l'huile d'olive et incorporer soigneusement le tout",
+				"Pour servir, arroser d'huile d'olive, parsemer de persil et de sésame et accompagner de pain. Bon ap’ !"
+			]
+		},
 		"carrot_parsnip_chutney": {
 			"title": "Chutney de carottes et de panais",
 			"amount": "env. 1l",

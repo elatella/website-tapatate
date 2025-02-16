@@ -496,6 +496,31 @@
 				"Alkoholfreie Variation: Wein und Obstler durch Apfelsaft-, Holunder- oder Sprudelmix ersetzen"
 			]
 		},
+		"beetroot_hummus": {
+			"title": "Randenhummus",
+			"amount": "8 Personen",
+			"ingredients": [
+				"250 g getrocknete Kichererbsen (über Nacht eingeweicht)",
+				"1 grosse Zwiebel",
+				"500 g Randen",
+				"125 ml Tahini (Sesampaste)",
+				"3 Knoblauchzehen, gepresst",
+				"3 EL Zitronensaft",
+				"1 EL Kreuzkümmel, gemahlen",
+				"3 EL Olivenöl",
+				"etwas frische Petersilie",
+				"etwas gerösteter Sesam"
+			],
+			"instructions": [
+				"Die abgetropften Kichererbsen mit der Zwiebel in einen grossen Kochtopf geben und mit Wasser bedecken",
+				"Zum Kochen bringen und während 1 Std. sehr weich kochen. Abgiessen und 250ml Kochflüssigkeit auffangen. Abkühlen lassen",
+				"Randen gar kochen, abtropfen und abkühlen lassen, dann schälen",
+				"Die Randen klein schneiden und in die Küchenmaschine geben",
+				"Die Kichererbsen-Zwiebel-Mischung, Tahini, Knoblauch, Zitronensaft und Kreuzkümmel hinzugeben und zu einer glatten Masse verarbeiten",
+				"Bei laufender Maschine die Kochflüssigkeit und das Olivenöl zugiessen und sorgfältig einarbeiten",
+				"Zum Servieren mit Olivenöl beträufeln, mit Petersilie und Sesam bestreuen und dazu Brot reichen. En Guete!"
+			]
+		},
 		"carrot_parsnip_chutney": {
 			"title": "Karotten-Pastinaken-Chutney",
 			"amount": "ca. 1l",
