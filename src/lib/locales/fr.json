@@ -2,18 +2,22 @@
 	"news": {
 		"title": "actualités",
 		"news": {
-			"title": "dernières nouvelles",
-			"subtitle": "tu trouves ici les dernières nouvelles et le développement de tapatate!",
+			"title": "Dernières nouvelles",
+			"subtitle": "Tu trouves ici les dernières nouvelles et le développement de TaPatate!",
 			"rennovation": "rennovation"
+		},
+		"new_abos": {
+			"title": "Nouveaux formats d’abonnements !",
+			"body1": "Dès maintenant, il est possible de commander les nouveaux paniers ",
+			"abo1": "Herbes & Condiments",
+			"body2": " (en complément d'un abonnement de légumes) ainsi que le panier ",
+			"abo2": "Tisanes",
+			"body3": " (disponible séparément) ! Tu trouveras ici de plus amples informations à ce sujet : ",
+			"link": "Aperçu des paniers"
 		},
 		"familydays": {
 			"title": "Les journées familiales sont prévues pour 2025 !",
 			"body": "Les journées familiales offrent aux familles ou aux enfants accompagnés la possibilité de passer une journée ensemble dans le champ de légumes. Tu trouveras des informations plus précises ",
-			"link": "ici"
-		},
-		"hiring": {
-			"title": "Poste vacant dans la culture maraîchère (60 - 80%), à partir de février 2025 ou à convenir",
-			"body": "Tu es intéressé(e) ? Tu trouveras plus d'informations ",
 			"link": "ici"
 		},
 		"merch": {
@@ -23,7 +27,7 @@
 			"bag": "sac"
 		},
 		"events": {
-			"title": "manifestations",
+			"title": "Manifestations",
 			"subtitle": "Le calendrier 2025 de TaPatate ! sera mis en ligne prochainement.",
 			"calendar": ""
 		}

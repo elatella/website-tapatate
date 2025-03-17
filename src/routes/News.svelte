@@ -4,7 +4,6 @@
 	import backgroundImage from '$lib/images/bg-news.jpg';
 	import bottle from '$lib/images/bottle.png';
 	import bag from '$lib/images/bag.png';
-	import job from '$lib/images/Stellenausschreibung_Gemuese2025.pdf';
 	import familypdf from '$lib/images/Familientage_2025.pdf';
 </script>
 
@@ -18,18 +17,22 @@
 		</div>
 
 		<div class="space-y-4">
-			<h3 class="h3">{$_('news.familydays.title')}</h3>
+			<h3 class="h3">{$_('news.new_abos.title')}</h3>
 			<p>
-				{$_('news.familydays.body')}
-				<a href={familypdf} class="anchor">{$_('news.familydays.link')}</a>
+				{$_('news.new_abos.body1')}
+				<b>{$_('news.new_abos.abo1')}</b>
+				{$_('news.new_abos.body2')}
+				<b>{$_('news.new_abos.abo2')}</b>
+				{$_('news.new_abos.body3')}
+				<a href={'https://tapatate.ch/subscriptions/'} class="anchor">{$_('news.new_abos.link')}</a>
 			</p>
 		</div>
 
 		<div class="space-y-4">
-			<h3 class="h3">{$_('news.hiring.title')}</h3>
+			<h3 class="h3">{$_('news.familydays.title')}</h3>
 			<p>
-				{$_('news.hiring.body')}
-				<a href={job} class="anchor">{$_('news.hiring.link')}</a>
+				{$_('news.familydays.body')}
+				<a href={familypdf} class="anchor">{$_('news.familydays.link')}</a>
 			</p>
 		</div>
 
