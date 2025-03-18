@@ -33,10 +33,10 @@
 		}
 	},
 	"tapatate": {
-		"title": "tapatate!",
+		"title": "TaPatate!",
 		"whatIs": {
-			"title": "was ist tapatate?",
-			"subtitle": "das projekt im überblick",
+			"title": "Was ist TaPatate?",
+			"subtitle": "Das Projekt im Überblick",
 			"body1": "Isst du gerne Gemüse und Obst? Und legst du Wert auf eine frische, nachhaltige und solidarische Produktion? Dann haben wir die Lösung für dich: Werde Vereinsmitglied von TaPatate! und erhalte pro Woche eine Gemüsetasche voll mit biodynamisch angebautem Gemüse, oder eine Früchtetasche voll frischem biodynamischem Hochstammobst und Beeren. Oder gleich beides zusammen. Dadurch erhältst du Einblick in den Obst- und Gemüseanbau, kannst mitbestimmen, was angebaut wird und wie sich der Verein weiterentwickeln soll, leistest einen Beitrag zu einem nachhaltigen Umgang mit unserer Umwelt und bist Teil der TaPatate! Familie. Wir freuen uns, dich bei uns willkommen zu heissen!",
 			"body2": "Du findest ein ",
 			"link1": "Anmeldeformular ",
@@ -44,23 +44,23 @@
 			"link2": "mitmachen"
 		},
 		"association": {
-			"title": "der verein",
+			"title": "Der Verein",
 			"body1": "Im Herbst 2017 wurde der Verein TaPatate! gegründet. Der Verein verfolgt das Ziel, saisonales Gemüse und Obst mit nachhaltigen Methoden anzubauen, welches die Abonnent*innen wöchentlich erhalten. Dabei ist uns wichtig, dass alle Beteiligten berücksichtigt und involviert werden: die Produzent*Innen, die Konsument*Innen, der Boden und die Natur. Zum diesem Zweck haben wir das Modell der regionalen Vertragslandwirtschaft gewählt. Die regionale Vertragslandwirtschaft basiert auf folgenden Grundprinzipien:",
 			"list1": "Risikoteilung: die Abonnent*innen bezahlen fixe Betriebsbeiträge, die im Voraus die vollen Produktionskosten während eines Betriebsjahres decken.",
 			"list2": "Kontinuität: durch Jahresabonnemente wird die Gemüse- und Obstabnahme während eines Betriebsjahres garantiert. Dadurch kann langfristig geplant werden und es entsteht kein Überschuss.",
 			"list3": "Partizipation: die Produktion wird von den Konsument*Innen mitgetragen (aktive Beteiligung an Entscheidung, Planung, Anbau und Verteilung).",
 			"body2": "Mehr Infos zum Thema regionale Vertragslandwirtschaft findest du unter ",
-			"link1": "wissen"
+			"link1": "Wissen"
 		},
 		"name": {
-			"title": "der name",
+			"title": "Der Name",
 			"potatoes": "Kartoffeln",
 			"body1": "\"Ta carotte? Ton oignon? Ton poireau? TaPatate!\"",
 			"body2": "\"T'as la frite (bisch zwäg)? T'as la patate (bisch fit)? TaPatate!\"",
 			"body3": "Der Name TaPatate! (auf Mundart \"DiHärdöpfu!\") soll die Idee der regionalen und nachhaltigen landwirtschaftlichen Produktion, des saisonalen Gemüseanbaus und der Mitarbeit darstellen."
 		},
 		"board": {
-			"title": "der vorstand",
+			"title": "Der Vorstand",
 			"body1": "Der Vorstand besteht aus einem Team von motivierten Personen mit verschiedenen Horizonten, die das nötige beizusteuern, um das Projekt zu verwirklichen. Aktuell ist der Vorstand in folgende Subgruppen aufgeteilt: Gemüseanbau, Obstanbau, Logistik und Infrastruktur, Finanzen, Kommunikation und Administration. Je nach anfallender Arbeit kann diese Unterteilung angepasst werden.",
 			"armin": {
 				"description": "Armin ist Biologe und lebt seit ca. 10 Jahren in Bern. Nach dem Bio und Klimawissenschaftsstudium schreibt er zur Zeit eine Dissertation in Pflanzenökologie und geniesst daneben jede Minute, die er auf dem Feld oder in den Bäumen in Wallenbuch verbringt.",
@@ -101,7 +101,7 @@
 		}
 	},
 	"farm": {
-		"title": "hof und anbau",
+		"title": "Hof und Anbau",
 		"farm": {
 			"title": "Der Hof",
 			"body1": "Der Verein bewirtschaftet ca. 50 Aren (ca. 5'000 m²) Land mit Feingemüse und Beeren und nochmals 50 Aren mit Lagergemüse sowie ca. 30 Obstbäume auf dem Hof von René und Valentin Birbaum (siehe Bild hier unten). Dank ihnen können wir unser Projekt verwirklichen. Ein herzliches Dankeschön an René und Valentin! Der Betrieb befindet sich in Wallenbuch, eine freiburgische Enklave im Kanton Bern (Murtenstrasse 37, 3206 Wallenbuch). Auf dem Kartenausschnitt unten ist der Standort des Betriebs mit einem schwarzen Punkt eingezeichnet.",
@@ -110,18 +110,18 @@
 			"body4": " schreiben."
 		},
 		"veggies": {
-			"title": "das gemüse",
+			"title": "Das Gemüse",
 			"body1": "Unser Gemüse wird mit nachhaltigen Methoden und viel Liebe durch unsere Gartenfachkräften, Praktikant*innen, Lehrlinge oder Lehrtöchter und unseren fleissigen Mitgliedern angebaut. Die Gartenfachkräften erstellen unsere Anbauplanung, machen einen Grossteil der Arbeit und koordinieren die Einsätze der Vereinsmitglieder auf dem Feld, sowie die Verarbeitung des Gemüses. Den Gemüseanbauplan für 2021/22 findest du hier.",
 			"body2": "Die Gemüseabonnent*innen werden wöchentlich mit Gemüse beliefert. Das frische Gemüse wird in unsere Depots gebracht (siehe grüne Punkte auf dem Kartenausschnitt weiter oben) und dort von den Abonnent*innen abgeholt. Bei Fragen zum Gemüseabo kannst du uns gerne schreiben:"
 		},
 		"fruits": {
-			"title": "das obst",
+			"title": "Das Obst",
 			"body1": "Die Früchte im Obstabo TaPomme! ernten wir momentan zum grössten Teil in einer Hostet, bestehend aus verschiedenen Hochstammbäumen im besten Ertragsalter. Dort wachsen z.B. Büschelibirne, Glockenäpfel, Weinbergpfirsich, Kirschen und noch vieles mehr. Zur Erweiterung und Diversifizierung des Abos pflanzen wir jedes Jahr neue Bäume, Beerenstauden, Rhabarber oder sogar Wasser- und Honigmelonen an. Im Herbst 2021 konnten wir zusammen mit ca. 30 freiwilligen Helfer und Helferinnen unser erstes Agroforstfeld auf einer Fläche von etwa drei Hektaren anpflanzen! 250 junge Obstbäume sowie 100 Beerensträucher sind mittlerweile gut angewachsen und werden schon bald die ersten Früchte tragen. Im Frühling 2022 sind dann 1000 Erdbeerpflanzen, sowie einiges an Rhabarber, Sanddorn und Ölweiden dazugekommen. Unser Agroforst ist Reihen angelegt, sodass Acker- und Obstbau ideal kombiniert werden können. Dies bringt viele positive Wechselwirkungen mit sich. So dringen zum Beispiel Bäume mit ihren Wurzeln viel tiefer in den Boden ein, schützen vor Erosion und transportieren Wasser in höhere Bodenschichten, wo dann Ackerpflanzen davon profitieren können. Ausserdem dienen die Baumreihen schon bald als Windschutz und werden die Verdunstung von Wasser auf dem Feld reduzieren. Nebst dem diverseren Fruchtangebot für uns Menschen bietet dieses Feld auch Nahrung und Unterschlupf für verschiedenste Vögel, Insekten und Kleinsäugetiere. Dies unterstützen wir aktiv mit der Integration von Ast- und Steinhäufen, sowie Nistkästen und Hecken. Bei der Auswahl der Sorten haben wir neben Robustheit vor allem darauf geachtet, dass der Erntezeitpunkt sowie die Lagerfähigkeit der Früchte möglichst ausgedehnt sind. Dies verspricht, dass unsere Obstabos das ganze Jahr über abwechslungsreich und ohne grössere Pausen gefüllt werden können.",
 			"body2": "Die Früchte aus dem Obstabo werden genau wie das Gemüse in die Depots geliefert, sobald sie reif sind und dort von den Abonnent*innen abgeholt. Zusätzlich zum frischen Obst gibt es im Früchteabo auch Apfelsaft. Bei Fragen zum Obstabo kannst du uns gerne schreiben:"
 		}
 	},
 	"subscriptions": {
-		"title": "unsere abos",
+		"title": "Abos",
 		"signUp": {
 			"title": "Anmeldeformular",
 			"subtitle": "Bist du bereits vom Projekt überzeugt? Dann melde dich gleich an:",
@@ -130,7 +130,7 @@
 		},
 		"harvest": {
 			"title": "Unsere Abos - dein Ernteanteil",
-			"subtitle": "Wir haben sechs verschiedene Abos. Klicke das entsprechende Abo an und erfahre, was es beinhaltet.",
+			"subtitle": "Klicke das entsprechende Abo an und erfahre, was es beinhaltet.",
 			"body1": " ",
 			"trial": "Probeabo",
 			"buyTrial": "Probeabo",
@@ -193,7 +193,25 @@
 				"trialDeliveries": "6 Lieferungen à 20 CHF",
 				"trialSubscriptions": "1 Halbtag Mitarbeit"
 			},
-			"subtitle2": "solidaritätsbeitrag",
+			"herbsAndSpices": {
+				"name": "Kräuter & Gewürze",
+				"people": "im Sommer frisch, im Winter getrocknet",
+				"price": "308 CHF / Jahr",
+				"deliveries": "32 Lieferungen",
+				"parts": "Nur als Zusatzabo zu einem Gemüseabo möglich",
+				"subscriptions": "1 Halbtag Mitarbeit pro Jahr"
+			},
+			"tea": {
+				"name": "Teeabo",
+				"people": "Für ca. 2 Personen",
+				"price": "120 CHF / Jahr",
+				"deliveries": "4 Lieferungen",
+				"parts": "1 Anteilsschein à 250 CHF (falls nicht als Abozusatz)",
+				"subscriptions": "1 Halbtage Mitarbeit pro Jahr",
+				"trialDeliveries": "1 Lieferung à 30 CHF",
+				"trialSubscriptions": "1 Halbtag Mitarbeit"
+			},
+			"subtitle2": "Solidaritätsbeitrag",
 			"body2": "Biologisches Gemüse anbauen und das zu fairen Arbeitsbedingungen hat seinen Preis, den sich nicht alle leisten können. Mit einem zusätzlichen Solibeitrag von 3.50 CHF pro Tasche (154 CHF pro Jahr) ermöglichst du einer anderen Person, das Gemüseabo zu einem vergünstigen Preis zu erhalten. Das was du mehr zahlst, zahlt jemand anderes, der/die es sich gerade nicht leisten kann, weniger.",
 			"body3": "Was mit dem Geld aus den Solibeiträgen, die nicht für Soliabos benutzt werden gemacht wird, entscheiden wir an der darauffolgenden Generalversammlung. Möchtest du soli sein? Dann entscheide dich bei deiner Anmeldung für den Solibeitrag.",
 			"body4": "Möchtest du vom Solidaritätsbeitrag profitieren?",
@@ -204,8 +222,8 @@
 			"imageSoli2": "+3.50/Tasche"
 		},
 		"howTo": {
-			"title": "Wie funktionnieren die TaPatate!-Abos?",
-			"list1": "Mit dem Kauf von Anteilsscheinen à 250 CHF wirst du Mitglied bei TaPatate!. So unterstützt du unseren Verein und erhältst Mitspracherecht bei allen Generalversammlungen. Die minimum Anzahl von Anteilsscheinen ist von der Grösse deines Abos abhängig. Das Geld bekommst du bei einem Austritt wieder zurück.",
+			"title": "Wie funktionieren die TaPatate! Abos?",
+			"list1": "Mit dem Kauf von Anteilsscheinen à 250 CHF wirst du Mitglied bei TaPatate!. So unterstützt du unseren Verein und erhältst Mitspracherecht bei allen Generalversammlungen. Die minimale Anzahl von Anteilsscheinen ist von der Grösse deines Abos abhängig. Das Geld bekommst du bei einem Austritt wieder zurück.",
 			"list2": "Wähl dein Abo und eventuelle Zusätze! Die ersten sechs Taschen sind unverbindlich (Probetaschen) und sind ohne Erwerb von Anteilscheinen möglich; wenn du dich entscheidest während der ersten sechs Lieferungen das Abo zu stoppen, wird nur verrechnet, was du erhalten hast. ",
 			"list3": "Mit einem Solibeitrag kannst du eine andere Person bei der Finanzierung einem Abo unterstützen",
 			"list4": {
@@ -225,8 +243,8 @@
 			"link5": "Anmeldeformular hier online ausfüllen!"
 		},
 		"support": {
-			"title": "uns unterstützen",
-			"subtitle": "du hast keinen bedarf an gemüse oder obst – aber du bist fan von der idee? du kannst uns trotzdem unterstützen",
+			"title": "Uns unterstützen",
+			"subtitle": "Du hast keinen Bedarf an Gemüse oder Obst – aber du bist Fan von der Idee? Du kannst uns trotzdem unterstützen!",
 			"list1": "Werde Vereinsmitglied! Indem du Anteilsscheine erwirbst, wirst du TaPatate!-Mitglied und erhältst ein Mitspracherecht bei unseren Generalversammlungen.",
 			"list2": "Mach eine Spende: Hast du Lust, einen Korb biologischer Setzlinge beizusteuern? Steht bei dir zu Hause im Schuppen ungenutztes Gartenwerkzeug, das langsam unter Spinnweben verschwindet? Wir sind dankbar für Spenden jeglicher Art! Du kannst uns gerne an ",
 			"link2": "info@tapatate.ch",
@@ -235,7 +253,7 @@
 			"list4": "Teile dein Knowhow oder deine Zeit! Du bist begeisterte Handwerkerin, begnadeter Webseiten-Programmierer oder verfügst über sonstige Fähigkeiten, die du bei uns einbringen möchtest? Melde dich, wir freuen uns über dein kurzfristiges oder längerfristiges Engagement! Du kannst uns gerne schreiben: "
 		},
 		"cancellation": {
-			"title": "kündigung",
+			"title": "Kündigung",
 			"body1": "Die Kündigung deines Abos ist auf Ende des Betriebsjahres unter Berücksichtigung einer viermonatigen Kündigungsfrist möglich (also bis am 30. November). Ziehst du kurzfristig weg, oder kannst das Abo aus einem anderen Grund nicht weiter beziehen, bitten wir dich, nach einem neuen Mitglied zu suchen, welches dein Abo übernimmt. Vielen Dank! Nach der Kündigung bekommst du dein(e) Anteilschein(e) zurück.",
 			"body2": "Warum ist eine Anmeldung minium für ein Jahr? ",
 			"body3": "Als solidarisches Landwirtschaftsprojekt wollen wir möglich wenig Überschuss produzieren. Der Anbauplan für das Gemüse erarbeiten wir im Winter. Dazu ist es wichtig, die genaue Anzahl Abos zu wissen. ",
@@ -245,9 +263,9 @@
 		}
 	},
 	"gallery": {
-		"title": "fotos",
+		"title": "Fotos",
 		"2022": {
-			"title": "ein paar eindrücke aus dem jahr 2022",
+			"title": "Eindrücke aus dem Jahr 2022",
 			"1": "Es herrscht ein dichtes Gedränge unter den Frühlingszwiebeln.",
 			"2": "Der Salat gedeiht unter dem Netz.",
 			"3": "Wer war alles dabei an der Generalversammlung?",
@@ -258,7 +276,7 @@
 			"8": "TesFrites von TaPatate! à la Celina"
 		},
 		"2021": {
-			"title": "der regnerische sommer 2021",
+			"title": "Der regnerische Sommer 2021",
 			"1": "Zwei von neun Hädöpfu Sessions konnten draussen stattfinden, juhu!",
 			"2": "Zu essen gab es jeweils etwas leckeres mit frischem Gemüse vom Hof.",
 			"3": "Wie klingt die Dachrinne?",
@@ -267,7 +285,7 @@
 			"6": "Auch das Lagergemüse fängt schon im Sommer an - hier Randen."
 		},
 		"2020": {
-			"title": "durch feld und hostet im jahr 2020",
+			"title": "Durch Feld und Hostet im Jahr 2020",
 			"1": "Aus diesen kleinen Blüten werden später CoxOrange Äpfel.",
 			"2": "Fertig gemulchte Rhabarber Pflanzen",
 			"3": "Auch Dessert gab es genug für alle.",
@@ -278,7 +296,7 @@
 			"8": "Bei der Hofführung konnten Bohnenblüten bestaunt werden."
 		},
 		"2019": {
-			"title": "querbeet 2019",
+			"title": "Querbeet 2019",
 			"1": "Ein Kunstwerk auf der Zwetschge?",
 			"2": "Aus dieser Rüebliraupe gibt es bald einen Schwalbenschwanz.",
 			"3": "Fleissige Hände",
@@ -289,7 +307,7 @@
 			"8": "... oder warten alle auf die Suppe?"
 		},
 		"2018": {
-			"title": "impression vom ersten betriebsjahr 2018",
+			"title": "Impressionen aus dem ersten Betriebsjahr 2018",
 			"1": "Aufbau des Tunnels: Unsere Tomaten, Gurken und Peperoni werden es diesen Sommer schön warm haben!",
 			"2": "Die Tomaten wachsen im Tunnel.",
 			"3": "Die ersten Kirschen sind reif.",
@@ -301,10 +319,10 @@
 		}
 	},
 	"knowledge": {
-		"title": "wissen",
+		"title": "Wissen",
 		"solawi": {
-			"title": "regionale vertragslandwirtschaft",
-			"subtitle": "was ist denn das für ein tier?",
+			"title": "Regionale Vertragslandwirtschaft",
+			"subtitle": "Was ist denn das für ein Tier?",
 			"question1": "Was ist die regionale Vertragslandwirtschaft?",
 			"body1": "Die regionale Vertragslandwirtschaft (abgekürzt RVL) ist ein ökonomisches Modell in der Landwirtschaft, bei dem die Konsument*innen und Produzent*innen eng zusammen arbeiten. Statt ihre Lebensmittel einfach in Detailhandel zu kaufen, werden die KonsumentInnen direkt in die Bewirtschaftung eines Betriebes miteinbezogen.",
 			"question2": "Wie funktioniert die regionale Vertragslandwirtschaft?",
@@ -325,7 +343,7 @@
 		}
 	},
 	"contact": {
-		"title": "kontakt",
+		"title": "Kontakt",
 		"bank": {
 			"title": "bankdaten verein",
 			"text1": "TaPatate!",
@@ -410,7 +428,7 @@
 		}
 	},
 	"userArea": {
-		"title": "mitgliederbereich",
+		"title": "Mitgliederbereich",
 		"adminTool": {
 			"title": "Mitgliederseite",
 			"description": "Dis Mitgliederseite ist die Plattform für TaPatate-Mitglieder. Sie ermöglicht:",
@@ -472,7 +490,7 @@
 		}
 	},
 	"recipes": {
-		"title": "rezepte",
+		"title": "Rezepte",
 		"search": "Suchen",
 		"ingredients": "Zutaten für",
 		"instructions": "Anweisungen",
@@ -546,8 +564,8 @@
 		}
 	},
 	"media": {
-		"title": "tapatate! in den medien",
-		"subtitle": "radiobeiträge, zeitungsberichte, usw.",
+		"title": "TaPatate! in den medien",
+		"subtitle": "Radiobeiträge, Zeitungsberichte, usw.",
 		"link": "Hier",
 		"linkDescription": "gehts zum Artikel",
 		"1": "Die Journalistin von GoGreen Katharina Schatton hat TaPatate! im Herbst 2021 besucht um mehr über die solidarische Funktionsweise von TaPatate! zu erfahren. Sie hat auch den Agraringenieur Lukas Kilcher getroffen, um Informationen zu sammeln zu den Unterschieden zwischen biologischer und konventioneller Landwirtschaft was nachhaltigkeit anbelangt.",
@@ -560,7 +578,7 @@
 		"8": "TaPatate! stellte sich auf Radio RaBe in der Sendung \"bölz no eis\" vor."
 	},
 	"depots": {
-		"title": "unsere depots",
+		"title": "Depots",
 		"howTo": {
 			"title": "Generelle Anleitung",
 			"link": "Hier",

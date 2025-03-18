@@ -10,6 +10,8 @@
 	import winterVeg from '$lib/images/subscriptions/field.png';
 	import miniFruit from '$lib/images/subscriptions/bloom-new.png';
 	import fruit from '$lib/images/subscriptions/strawberries.png';
+	import herbs from '$lib/images/subscriptions/herbs.png';
+	import tea from '$lib/images/subscriptions/tea.png';
 	import Abo from './Abo.svelte';
 
 	interface Subscription {
@@ -38,10 +40,7 @@
 			id: 'winterVeg',
 			image: winterVeg,
 			hasTrial: true
-		}
-	];
-
-	const abosFruit: Subscription[] = [
+		},
 		{
 			id: 'miniFruit',
 			image: miniFruit,
@@ -51,7 +50,21 @@
 			id: 'fruit',
 			image: fruit,
 			hasTrial: true
+		},
+		{
+			id: 'herbsAndSpices',
+			image: herbs,
+			hasTrial: false
+		},
+		{
+			id: 'tea',
+			image: tea,
+			hasTrial: true
 		}
+	];
+
+	const abosFruit: Subscription[] = [
+
 	];
 </script>
 

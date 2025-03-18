@@ -180,7 +180,7 @@
 				"people": "fruits frais de saison",
 				"price": "250 CHF / an",
 				"deliveries": "25 livraisons",
-				"parts": "nuniquement possible comme abonnement supplémentaire à un abonnement de légumes",
+				"parts": "uniquement possible comme abonnement supplémentaire à un abonnement de légumes",
 				"subscriptions": "pas de coopération"
 			},
 			"fruit": {
@@ -191,6 +191,24 @@
 				"parts": "1 parts sociales à 250 CHF",
 				"subscriptions": "2 demi-journées par an",
 				"trialDeliveries": "6 livraisons à 20 CHF",
+				"trialSubscriptions": "1 demi-journée collaboration"
+			},
+			"herbsAndSpices": {
+				"name": "panier d'herbes et condiments",
+				"people": "herbes fraîches en été, séchées en hiver",
+				"price": "308 CHF / année",
+				"deliveries": "32 livraisons",
+				"parts": "uniquement possible comme abonnement supplémentaire à un abonnement de légumes",
+				"subscriptions": "1 demi-journée collaboration"
+			},
+			"tea": {
+				"name": "panier de tisanes",
+				"people": "pour env. 2 personnes",
+				"price": "120 CHF / année",
+				"deliveries": "4 livraisons",
+				"parts": "1 parts sociales à 250 CHF (si ce n'est pas comme abonnement supplémentaire)",
+				"subscriptions": "1 demi-journée collaboration",
+				"trialDeliveries": "1 livraison à 30 CHF",
 				"trialSubscriptions": "1 demi-journée collaboration"
 			},
 			"subtitle2": "contribution solidaire",
