@@ -31,7 +31,7 @@
 				<li>{$_(`subscriptions.harvest.${id}.price`)}</li>
 				<li>{$_(`subscriptions.harvest.${id}.deliveries`)}</li>
 				<li>{$_(`subscriptions.harvest.${id}.parts`)}</li>
-				<li>{$_(`subscriptions.harvest.${id}.subscriptions`)}</li>			
+				<li>{$_(`subscriptions.harvest.${id}.subscriptions`)}</li>
 			</ul>
 			{#if hasTrial}
 				<br />

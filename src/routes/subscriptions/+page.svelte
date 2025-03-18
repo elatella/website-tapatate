@@ -63,9 +63,7 @@
 		}
 	];
 
-	const abosFruit: Subscription[] = [
-
-	];
+	const abosFruit: Subscription[] = [];
 </script>
 
 <Title title={$_('subscriptions.title')} {backgroundImage} />
