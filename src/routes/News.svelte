@@ -1,10 +1,12 @@
 <script lang="ts">
-	import { _ } from 'svelte-i18n';
+	import { locale, _ } from 'svelte-i18n';
 	import Title from '$lib/Title.svelte';
 	import backgroundImage from '$lib/images/bg-news.jpg';
 	import bottle from '$lib/images/bottle.png';
 	import bag from '$lib/images/bag.png';
 	import familypdf from '$lib/images/Familientage_2025.pdf';
+	import calendarDE from '$lib/images/kalender2025-de.png';
+	import calendarFR from '$lib/images/kalender2025-fr.png';
 </script>
 
 <Title title={$_('news.title')} {backgroundImage} />
@@ -50,6 +52,14 @@
 		<div class="space-y-4">
 			<h3 class="h3">{$_('news.events.title')}</h3>
 			<p><em>{$_('news.events.subtitle')}</em></p>
+			<div
+				class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12"
+			>
+				<img
+					src={$locale && $locale.includes('fr') ? calendarFR : calendarDE}
+					alt={$_('news.events.kalender')}
+				/>
+			</div>
 		</div>
 	</section>
 </div>
