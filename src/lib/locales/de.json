@@ -138,7 +138,7 @@
 			"miniVeg": {
 				"name": "Mini Gemüseabo",
 				"people": "Für 1 Person",
-				"price": "792 CHF / Jahr",
+				"price": "814 CHF / Jahr",
 				"deliveries": "44 Lieferungen",
 				"parts": "1 Anteilsschein à 250 CHF",
 				"subscriptions": "3 Halbtage Mitarbeit pro Jahr",
@@ -148,7 +148,7 @@
 			"smallVeg": {
 				"name": "Kleines Gemüseabo",
 				"people": "Für 2-3 Personen",
-				"price": "1254 CHF / Jahr",
+				"price": "1276 CHF / Jahr",
 				"deliveries": "44 Lieferungen",
 				"parts": "2 Anteilsscheine à 250 CHF",
 				"subscriptions": "6 Halbtage Mitarbeit pro Jahr",
@@ -158,7 +158,7 @@
 			"largeVeg": {
 				"name": "Grosses Gemüseabo",
 				"people": "Für 3-4 Personen",
-				"price": "2288 CHF / Jahr",
+				"price": "2310 CHF / Jahr",
 				"deliveries": "44 Lieferungen",
 				"parts": "4 Anteilsscheine à 250 CHF",
 				"subscriptions": "12 Halbtage Mitarbeit pro Jahr",
