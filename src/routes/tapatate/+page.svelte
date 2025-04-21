@@ -7,12 +7,14 @@
 	import patates from '$lib/images/tapatate-patates.jpg';
 	import board from '$lib/images/tapatate-board.png';
 	import armin from '$lib/images/tapatate-armin.jpg';
-	import athina from '$lib/images/tapatate-athina.jpg';
-	import celina from '$lib/images/tapatate-celina.jpg';
-	import luna from '$lib/images/tapatate-luna.jpg';
+	import neal from '$lib/images/tapatate-neal.jpg';
+	import luca from '$lib/images/tapatate-luca.jpg';
+	import nadina from '$lib/images/tapatate-nadina.jpg';
 	import valentin from '$lib/images/tapatate-valentin.jpg';
 	import martina from '$lib/images/tapatate-martina.png';
-	import janosch from '$lib/images/tapatate-janosch.jpg';
+	import melina from '$lib/images/tapatate-melina.jpg';
+	import simon from '$lib/images/tapatate-simon.jpg';
+	import noemie from '$lib/images/tapatate-noemie.jpg';
 	import reworkFR from '$lib/images/website_rework_FR.jpg';
 	import reworkDE from '$lib/images/website_rework.jpg';
 
@@ -29,25 +31,9 @@
 			image: armin
 		},
 		{
-			id: 'athina',
-			name: 'Athina Dill',
-			image: athina
-		},
-
-		{
-			id: 'celina',
-			name: 'Celina Vonwyl',
-			image: celina
-		},
-		{
-			id: 'luna',
-			name: 'Luna Satori',
-			image: luna
-		},
-		{
-			id: 'valentin',
-			name: 'Valentin Birbaum',
-			image: valentin
+			id: 'luca',
+			name: 'Luca Helfenstein',
+			image: luca
 		},
 		{
 			id: 'martina',
@@ -55,9 +41,34 @@
 			image: martina
 		},
 		{
-			id: 'janosch',
-			name: 'Janosch Sommer',
-			image: janosch
+			id: 'melina',
+			name: 'Melina Jörg',
+			image: melina
+		},
+		{
+			id: 'nadina',
+			name: 'Nadina Sommer',
+			image: nadina
+		},
+		{
+			id: 'neal',
+			name: 'Neal Dill',
+			image: neal
+		},
+		{
+			id: 'noemie',
+			name: 'Noémie Pichon',
+			image: noemie
+		},
+		{
+			id: 'simon',
+			name: 'Simon Mägli',
+			image: simon
+		},
+		{
+			id: 'valentin',
+			name: 'Valentin Birbaum',
+			image: valentin
 		}
 	];
 </script>
@@ -123,7 +134,6 @@
 					<div class="card p-6 flex flex-col items-center space-y-4">
 						<Avatar src={person.image} width="w-48" height="h-48" rounded="rounded-full" />
 						<h5 class="h5">{person.name}</h5>
-						<p>{$_(`tapatate.board.${person.id}.description`)}</p>
 						<p><strong><em>"{$_(`tapatate.board.${person.id}.quote`)}"</em></strong></p>
 						<p>{$_(`tapatate.board.${person.id}.association`)}</p>
 					</div>

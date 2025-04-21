@@ -13,6 +13,8 @@
 	import herbs from '$lib/images/subscriptions/herbs.png';
 	import tea from '$lib/images/subscriptions/tea.png';
 	import Abo from './Abo.svelte';
+	import reworkFR from '$lib/images/website_rework_FR.jpg';
+	import reworkDE from '$lib/images/website_rework.jpg';
 
 	interface Subscription {
 		id: string;
@@ -67,6 +69,16 @@
 </script>
 
 <Title title={$_('subscriptions.title')} {backgroundImage} />
+
+<div
+	class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12 space-y-16"
+>
+	<img src={$locale && $locale.includes('fr') ? reworkFR : reworkDE} alt={$_('news.news.rework')} />
+</div>
+
+<div
+	class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12 space-y-16"
+></div>
 
 <div class="w-full px-8">
 	<section class="container mx-auto flex flex-col max-w-5xl space-y-16">

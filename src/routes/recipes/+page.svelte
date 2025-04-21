@@ -1,10 +1,12 @@
 <script lang="ts">
-	import { _, json } from 'svelte-i18n';
+	import { locale, _, json } from 'svelte-i18n';
 	import { base } from '$app/paths';
 	import Title from '$lib/Title.svelte';
 	import backgroundImage from '$lib/images/bg-recipes.jpg';
 	import type { Recipe } from '$lib/Recipe';
 	import { recipeSearchTerm } from '$lib/stores';
+	import reworkFR from '$lib/images/website_rework_FR.jpg';
+	import reworkDE from '$lib/images/website_rework.jpg';
 
 	const images = Object.values(
 		import.meta.glob('$lib/images/recipes/*.{jpg,jpeg}', {
@@ -46,6 +48,16 @@
 </script>
 
 <Title title={$_('recipes.title')} {backgroundImage} />
+
+<div
+	class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12 space-y-16"
+>
+	<img src={$locale && $locale.includes('fr') ? reworkFR : reworkDE} alt={$_('news.news.rework')} />
+</div>
+
+<div
+	class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12 space-y-16"
+></div>
 
 <div class="w-full px-8 space-y-16">
 	<div class="flex justify-center md:justify-end w-full">

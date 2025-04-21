@@ -1,10 +1,11 @@
 {
 	"news": {
-		"title": "actualités",
+		"title": "Actualités",
 		"news": {
 			"title": "Dernières nouvelles",
 			"subtitle": "Tu trouves ici les dernières nouvelles et le développement de TaPatate!",
-			"rennovation": "rennovation"
+			"rennovation": "Rénovation",
+			"rework": "Site web en cours de rénovation"
 		},
 		"new_abos": {
 			"title": "Nouveaux formats d’abonnements !",
@@ -61,67 +62,75 @@
 		},
 		"board": {
 			"title": "Le comité",
-			"body1": "Le comité est composée de personnes motivées venants d'horizons divers. Ce groupe fait le nécessaire pour permettre de réaliser le projet. Le comité est actuellement divisée en sous-groupes: maraîchage, arboriculture, logistique et infrastructure, finances, communication, IT et administration. Cette répartition des tâches peut être adaptée selon le travail à réaliser.",
+			"body1": "Le comité est composée de personnes motivées venants d'horizons divers. Ce groupe fait le nécessaire pour permettre de réaliser le projet. Actuellement, le comité se compose des groupes de travail suivants: équipe de jardinage, marketing, infrastructure, informatique, finances et culture. Cette répartition des tâches peut être adaptée selon le travail à réaliser.",
 			"armin": {
-				"description": "Armin est biologiste et a fait de la recherche à l'université ces dernières années sur le thème de l'écologie végétale. À Wallenbuch, Armin s'occupe des arbres, de la greffe dans la pépinière à l'entretien dans le projet d'agroforesterie.",
-				"quote": "Vives les coupes de copulation et les contre-langues",
-				"association": "Au sein de l'association, Armin fait partie du sous-groupe \"logistique et infrastructure\"."
+				"description": "",
+				"quote": "Contrairement à Migros et Coop, nos légumes bio ne sentent pas l'emballage plastique 😉",
+				"association": "Au sein de l'association, Armin est responsable de l'entretien des arbres fruitiers et fait partie du groupe de travail \"infrastructure\"."
 			},
-			"athina": {
-				"description": "Athina a récemment débuté un bachelor en Jazz à Berne. Elle savoure les moments qu'elle passe à la ferme où elle découvre les parallèles entre l'art et l'agriculture et peut ainsi déployer sa créativité autrement.",
-				"quote": "C'est beau de savoir où poussent les légumes que nous mangeons, mais chez TaPatate!, je peux également voir tout ce qui est nécessaire à la production et aider de mes propres mains. Je trouve ça encore plus précieux.",
-				"association": "Au sein de l'association, Athina est responsable de la correspondance par e-mail, de la communication avec nos membres et de l'admintool."
+			"neal": {
+				"description": "",
+				"quote": "Je participe à TaPatate! parce que je vois dans la commercialisation directe et le lien entre consommateurs et producteurs l'un des moyens de créer un système économique qui respecte le plus possible l'homme et la nature.",
+				"association": "Au sein de l'association, Neal est responsable de la communication avec les membres et de l'organisation interne du comité."
 			},
-			"celina": {
-				"description": "Celina est la pharmacienne de notre équipe. Après avoir terminé son Master à Bâle, elle se réjouit de relever son prochain défi pharmacologique. Chez TaPatate!, elle est chargée de s'occuper des différentes tâches administratives.",
-				"quote": "Produire des légumes de manière solidaire ne fait pas seulement plaisir au palais, mais aussi à l'esprit.",
-				"association": "Au sein de l'association, Celina est responsable des finances et de la communication avec nos membres. Elle est également impliquée dans de nombreux autres domaines."
+			"luca": {
+				"description": "",
+				"quote": "Ici, je reçois aussi des légumes qui ont des défauts optiques. Rien n'est parfait et c'est ce qui me plaît.",
+				"association": "Au sein de l'association, Luca fait partie du groupe de travail \"infrastructure\" et est responsable de l'entretien de nos vélos."
 			},
-			"luna": {
-				"description": "Luna est biologiste et habite sur la ferme à Wallenbuch depuis mars 2022. En cours de redirection professionnelle, elle en profite pour aider de temps en temps dans les champs et pour quelques tâches administratives. Elle apprécie particulièrement ce retour à la nature et la qualité des aliments cultivés et produits.",
-				"quote": "C’est fascinant d’être la témoin de tout le processus de la graine au légume mûr",
-				"association": "Au sein de l'association, Luna fait partie du sous-groupe \"IT\"."
+			"nadina": {
+				"description": "",
+				"quote": "J'aime le travail sur le terrain ! Avec TaPatate!, je veux participer à l'établissement d'un système alimentaire durable.",
+				"association": "Nadina fait partie de l'équipe de la ferme depuis 2023 et fait en outre partie du groupe de travail \"Kommunikation\"."
 			},
 			"valentin": {
-				"description": "Valentin possède un CFC de charpentier et d'agriculteur. Il gère la ferme à wallenbuch depuis 2020. En partenariat avec TaPatate!, il explore de nouvelles voies dans l'agriculture. Valentin est responsable des légumes d'hiver et de l'infrastrucutre.",
+				"description": "",
 				"quote": "Pour moi il est essentiel de savoir comment produire soi-même une nourriture de haute qualité.",
-				"association": "Valentin est responsable des fruits et des légumes d'hiver."
+				"association": "Valentin fait partie de l'équipe de la ferme et est le principal responsable des légumes de garde et des fruits."
 			},
 			"martina": {
-				"description": "Martina a fait des études d'art et une formation d'agricultrice. Elle a emménagé sur la ferme à Wallenbuch avec Janosch et ses deux enfants pour participer à faire grandir la ferme et TaPatate!",
-				"quote": "Découvrir et être proche de la beauté des légumes, des animaux et de la vie du sol ; et faire partie d'une communauté qui fait ce qu'elle peut pour vivre et faire vivre.",
-				"association": "Pour TaPatate !, elle est principalement présente sur les champs et participe aussi activement à l'organisation."
+				"description": "",
+				"quote": "Aire l'expérience du miracle et de la beauté des légumes, des animaux et de la vie du sol et être proche d'eux ; et faire partie d'une communauté qui fait ce qu'elle peut pour vivre et faire vivre.",
+				"association": "Martina fait partie de l'équipe de la ferme et organise les très populaires journées familiales."
 			},
-			"janosch": {
-				"description": "Janosch est agriculteur de formation et a le cœur à la musique et au jardin. Apprenti dans différentes exploitations maraîchères et semencières, ce natif de Thoune s'occupe des aspects structurels, de l'infomail hebdomadaire ainsi que de la livraison des légumes aux dépôts de TaPatate!",
-				"quote": "Le rythme, c'est la vie! Le flux et le reflux, les allées et venues sont pour moi la loi naturelle la plus importante de toutes.",
-				"association": " "
+			"melina": {
+				"description": "",
+				"quote": "Les rencontres avec les gens et la nature. J'avais aussi envie de me salir les mains pour mes légumes ; de sentir le sol dans lequel ils poussent et tout le travail qui se cache derrière leur production.",
+				"association": "Au sein de l'association, Melina assume des tâches dans le domaine du \"marketing\" et rédige le mail d'information hebdomadaire."
 			},
-			"body2": "Un grand merci à nos anciens membres de comité, Alice Müller, Ece Satar Pfister, Lauritz Mori, Mirjam Bühler, Manuel Rast, Noémie Pichon, Sarah Hübscher, Sophie Hirsig, Simon Binz, Danielle Huser et Noemi Imfeld pour leur soutien actif!"
+			"simon": {
+				"description": "",
+				"quote": "J'apprécie chaque mission sur le terrain : être dehors, participer à la production de mes propres légumes et échanger avec les autres membres. Je m'accommode volontiers des courbatures du lendemain 😉",
+				"association": "Simon fait partie des groupes de travail \"Infrastruktur\" et \"Kommunikation\" et gère l'informatique"
+			},
+			"noemie": {
+				"description": "",
+				"quote": "TaPatate! permet de créer un lien entre les consommateurs et les producteurs, la protection de la biodiversité et un modèle économique alternatif. La livraison au dépôt est un plus très pratique, surtout pour les personnes qui n'ont pas l'habitude d'acheter comme moi.",
+				"association": "Au sein de l'association, Noémie fait partie du sous-groupe \"Marketing\" et tient le comité directeur au courant des recherches sur l'ASC'"
+			},
+			"body2": "Un grand merci à tous ceux qui nous soutiennent et qui ne font pas partie du comité ainsi qu'à nos anciens membres de comité, Alice Müller, Anja Kammermann, Celina Vonwyl, Ece Satar Pfister, Danielle Huser, Lauritz Mori, Luna Sartori, Mirjam Bühler, Manuel Rast, Noemi Imfeld, Sarah Hübscher, Sophie Hirsig et Simon Binz pour leur soutien actif!"
 		}
 	},
 	"farm": {
-		"title": "ferme et culture",
+		"title": "Ferme et culture",
 		"farm": {
-			"title": "la ferme",
-			"body1": "Sur la ferme de René Birbaum, l'association cultive 50 ares (5'000 m²) de cultures maraîchères et de baies et 50 ares de légumes de garde. En plus de cela, elle s'occupe d'environ 30 arbres fruitiers. Grâce à lui, nous pouvons réaliser notre projet. Un grand merci à René! La ferme est située à Wallenbuch, enclave fribourgeoise en terre bernoise (Murtenstrasse 37, 3206 Wallenbuch). Sur l'extrait de carte (voir ci-dessous), la ferme est signalée avec un point noir.",
-			"body2": "René travaille selon les règles de la biodynamie (céréales, bovins) et possède le label de qualité Demeter Suisse. Si vous êtes intéressés, veuillez contacter René directement (rbirbaum@bluewin.ch). En plus de l'agriculture, René possède également une scierie sur la ferme et transforme son propre bois provenant de son domaine forestier. En outre, il possède de nombreux engins de construction et fait également de petits travaux de construction pour des tiers (il a construit sa ferme lui-même).",
-			"body3": "La carte ci-dessous montre l'emplacement du champ (gros point noir), ainsi que les dépôts de légumes existants (points verts et noirs) et recherchés (points gris). Nous planifions d'approvisionner d'autres villages en légumes (Laupen, Kerzers, Morat, Düdingen, Courtepin, Gurmels, etc.). Donc si tu es intéressé, mais que tu ne trouve pas de dépôt approprié, n'hésite pas à nous écrire à",
-			"body4": "."
+			"title": "La ferme",
+			"body1": "La ferme exploite pour l'association TaPatate! environ 1 ha de terres avec des légumes fins et des baies et encore environ 3 ha avec des légumes de garde ainsi que quelques vieux arbres fruitiers et 250 jeunes arbres sur la ferme Faver. La ferme est située à Wallenbuch, enclave fribourgeoise en terre bernoise (Murtenstrasse 37, 3206 Wallenbuch).",
+			"body2": "L'exploitation est gérée selon les directives de la biodynamie. Outre l'agriculture, il y a aussi une scierie à la ferme et on travaille le bois provenant des propres surfaces forestières."
 		},
 		"veggies": {
-			"title": "les légumes",
-			"body1": "Les légumes de saison sont cultivés selon des méthodes durables ainsi qu'avec beaucoup d'amour. La culture de légumes à Wallenbuch est coordonnée par nos maraîchères et un·e apprenti·e ou des stagiaires. Ils élaborent le plan de culture, font la plûpart du travail sur le terrain et coordonnent le travail des membres de l'association sur le terrain.",
-			"body2": "Les membres ayant un abonnement reçoivent les légumes une fois par semaine. Les légumes sont livrés dans nos dépôts (voir points verts sur la carte ci-dessus), où ils sont récupérés par les abonnés. Si tu as des questions concernant le panier de légumes, n'hésite pas à nous écrire:"
+			"title": "Les légumes",
+			"body1": "Nos légumes sont cultivés de manière solidaire et avec des méthodes régénératives par des professionnels, des stagiaires*, des apprentis et nos membres assidus. L'équipe centrale établit le plan de culture, effectue une grande partie du travail et coordonne les interventions des membres de l'association dans les champs, ainsi que la transformation des légumes.",
+			"body2": "Les membres ayant un abonnement reçoivent les légumes une fois par semaine. Les légumes sont livrés dans nos dépôts, où ils sont récupérés par les abonnés. Si tu as des questions concernant le panier de légumes, n'hésite pas à nous écrire:"
 		},
 		"fruits": {
-			"title": "les fruits",
+			"title": "Les fruits",
 			"body1": "TaPomme! Les fruits de l'abonnement TaPomme! sont actuellement récoltés en grande partie dans un verger composé de différents arbres fruitiers haute-tige en pleine maturité. On y trouve par exemple des poires à Botzi, des pommes Cloche, des pêches de vigne, des cerises et bien d'autres encore. Pour élargir et diversifier l'abonnement, nous plantons chaque année de nouveaux arbres, des arbustes à baies, de la rhubarbe ou même des pastèques et des melons. En automne 2021, avec une trentaine de bénévoles, nous avons pu planter notre premier champ d'agroforesterie sur une surface d'environ trois hectares ! 250 jeunes arbres fruitiers et 100 arbustes à baies ont bien poussé et porteront bientôt leurs premiers fruits. Au printemps 2022, 1000 fraisiers, ainsi que quelques rhubarbes, argousiers et oliviers s'y sont ajouter. Notre agroforesterie est organisée en rangées, ce qui permet de combiner idéalement agriculture et arboriculture. Cela entraîne de nombreuses interactions positives. Par exemple, les arbres pénètrent beaucoup plus profondément dans le sol avec leurs racines, protègent de l'érosion et transportent l'eau dans les couches supérieures du sol, où les plantes de plein champ peuvent en profiter. De plus, les rangées d'arbres serviront bientôt de protection contre le vent et réduiront l'évaporation de l'eau dans les champs. Outre une offre de fruits plus diversifiée pour nous, ce champ offre également de la nourriture et un abri à divers oiseaux, insectes et petits mammifères. Nous y contribuons activement en intégrant des tas de branches et de pierres, ainsi que des nichoirs et des haies. Lors de la sélection des variétés, nous avons veillé non seulement à leur robustesse, mais aussi et surtout à ce que la période de récolte et la durée de conservation des fruits soient les plus longues possibles. Cela promet que nos abonnements de fruits peuvent être remplis de manière variée et sans grandes pauses tout au long de l'année.",
 			"body2": "Tout comme les légumes, les fruits de l'abonnement sont livrés dès qu'ils sont mûrs dans les dépôts où les abonné(e)s viennent les chercher. En plus des fruits frais, l'abonnement de fruits propose également du jus de pomme. Si tu as des questions sur l'abonnement aux fruits, n'hésite pas à nous écrire:"
 		}
 	},
 	"subscriptions": {
-		"title": "nos abos",
+		"title": "Nos abos",
 		"signUp": {
 			"title": "Formulaire d'inscription",
 			"subtitle": "Le projet t'enchante déjà? Alors inscris-toi tout de suite!",
@@ -129,7 +138,7 @@
 			"body1": "Tu trouves de plus amples informations et détails concernant le panier de légumes/fruits et l'adhésion à l'association dans le paragraphe suivant."
 		},
 		"harvest": {
-			"title": "nos paniers - ta part de légumes et de fruits",
+			"title": "Nos paniers - ta part de légumes et de fruits",
 			"subtitle": "nous avons six paniers différents. Clique sur le panier approprié et découvre ce qu'il contient.",
 			"body1": " ",
 			"trial": "Abo d'essai",
@@ -211,7 +220,7 @@
 				"trialDeliveries": "1 livraison à 30 CHF",
 				"trialSubscriptions": "1 demi-journée collaboration"
 			},
-			"subtitle2": "contribution solidaire",
+			"subtitle2": "Contribution solidaire",
 			"body2": "La production de légumes biologiques dans des conditions de travail équitables va de pair avec un prix qui n'est pas à la portée de tout le monde. En versant un supplément de 3,50 CHF par sac (soit 154 CHF par an), tu permets à un-e autre membre de bénéficier d'un prix réduit sur son abonnement. Le supplément versé compense directement ce que cette personne paie en moins.",
 			"body3": "Les contributions solidaires non sollicitées sont investies dans un projet TaPatate! défini lors de l'assemblée générale suivante. Tu souhaites payer un supplément solidaire avec ton abonnement ? Il te suffit de sélectionner cette option lors de ton inscription.",
 			"body4": "Comment bénéficier d'une contribution solidaire'?",
@@ -243,7 +252,7 @@
 			"link5": "formulaire d'incription en ligne!"
 		},
 		"support": {
-			"title": "nous soutenir",
+			"title": "Nous soutenir",
 			"subtitle": "Tu as tous les fruits et légumes qu'il te faut, mais tu aimerais quand même soutenir notre projet ? Voici quelques possibilités :",
 			"list1": "Rejoindre l'association : en achetant des parts sociales, tu deviens membre de TaPatate! et obtiens un droit de parole durant nos assemblées générales. ",
 			"list2": "Faire un don : tu aimerais financer l'achat de plantons biologiques ? Tes outils de jardinages prennent la poussière au fond de la remise ? Toutes les contributions sont les bienvenues ! Il te suffit de prendre contact avec nous : ",
@@ -253,7 +262,7 @@
 			"list4": "Mettre tes connaissances au profit de TaPatate! : tu as un talent caché pour les travaux manuels, tu excelles dans la programmation de sites Internet, tu possèdes un savoir-faire qui n'attend qu'à être partagé ? N'hésite pas à prendre contact avec nous. Nous sommes ouverts à toute forme d'engagement à court comme à long terme ! Tu peux nous faire part de tes idées : "
 		},
 		"cancellation": {
-			"title": "résiliation",
+			"title": "Résiliation",
 			"body1": "L'abonnement peut être résilié à la fin de l'année maraîchère, moyennant un préavis de quatre mois (c'est-à-dire jusqu'au 30 novembre). En-dehors de ces délais, nous te prions de chercher toi-même un nouveau membre qui reprendra ton abonnement. Merci pour ta compréhension ! Tes parts sociales te sont reversées après la résiliation.",
 			"body2": "Pourquoi la durée d'abonnement minimale s'élève-t-elle à un an ? ",
 			"body3": "TaPatate! est un projet d'agriculture solidaire, qui vise notamment à minimiser la production excédentaire. Nous établissons le plan des cultures en hiver et devons connaître le nombre exact d'abonnements à prendre en compte. ",
@@ -263,7 +272,7 @@
 		}
 	},
 	"gallery": {
-		"title": "photos",
+		"title": "Photos",
 		"subtitle": "Impressions de TaPatate! - à travers le monde",
 		"2022": {
 			"title": "quelques impressions de l'année 2022",
@@ -344,7 +353,7 @@
 		}
 	},
 	"contact": {
-		"title": "contact",
+		"title": "Contact",
 		"bank": {
 			"title": "données bancaires de l'association",
 			"text1": "TaPatate!",
@@ -419,8 +428,8 @@
 			}
 		},
 		"form": {
-			"title": "formulaire de contact",
-			"subtitle": "si tu as une question, tu peux volontiers nous contacter",
+			"title": "Formulaire de contact",
+			"subtitle": "Si tu as une question, tu peux volontiers nous contacter.",
 			"firstName": "Prénom",
 			"lastName": "Nom",
 			"email": "E-Mail",
@@ -429,7 +438,7 @@
 		}
 	},
 	"userArea": {
-		"title": "espace membre",
+		"title": "Espace membre",
 		"adminTool": {
 			"title": "Espace membre",
 			"description": "L’espace membre est la plateforme pour les membres TaPatate qui permet de:",
@@ -491,7 +500,7 @@
 		}
 	},
 	"recipes": {
-		"title": "recettes",
+		"title": "Recettes",
 		"search": "Chercher",
 		"ingredients": "Ingredients pour",
 		"instructions": "Instructions",
@@ -576,7 +585,7 @@
 		"8": "TaPatate! s'est presenté sur Radio RaBe sur l'émission \"bölz no eis\""
 	},
 	"depots": {
-		"title": "nos dépôts",
+		"title": "Nos dépôts",
 		"howTo": {
 			"title": "Instructions générales",
 			"link": "Ici",
