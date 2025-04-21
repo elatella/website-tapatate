@@ -33,10 +33,10 @@
 		}
 	},
 	"tapatate": {
-		"title": "tapatate!",
+		"title": "TaPatate!",
 		"whatIs": {
-			"title": "tapatate! qu'est-ce donc?",
-			"subtitle": "un bref aperçu du projet",
+			"title": "TaPatate! qu'est-ce donc?",
+			"subtitle": "Un bref aperçu du projet",
 			"body1": "Tu aimes les légumes et les fruits? Et tu apprécies une production fraîche, durable, régionale et solidaire? Alors nous avons la solution pour toi : deviens membre de TaPatate! et reçois un sac plein de légumes biodynamiques par semaine ou un panier plein de fruits frais. Ou les deux en même temps. Cela te donne un aperçu de la culture des légumes et des fruits, tu peux avoir ton mot à dire sur ce qui est cultivé et comment l'association devrait se développer à l'avenir, tu contribues à un traitement durable de notre environnement et tu fais partie de la famille TaPatate! Nous nous réjouissons de t'accueillir!",
 			"body2": "Tu trouves ici un ",
 			"link1": "formulaire d'inscription online ",
@@ -44,7 +44,7 @@
 			"link2": "participer"
 		},
 		"association": {
-			"title": "l'association",
+			"title": "L'association",
 			"body1": "Nous avons fondé l'association TaPatate! en automne 2017. L'association a pour but de cultiver des légumes et des fruits de saison de manière durable, qui sont ensuite acheminés une fois par semaine à nos abonnés. Il est important pour nous que tous les acteurs·rices soient pris·ses en compte et inclu·e·s au mieux: les producteurs·rices, les consommateurs·rices, le sol et la nature. Pour ce faire nous avons choisi le modèle de l'agriculture contractuelle de proximité. L'agriculture contractuelle de proximité se fonde sur les principes de base suivants:",
 			"list1": "Répartition du risque: les membres ayant un abonnement de légumes ou de fruits paient une contribution fixe, cette dernière couvre à l'avance les coûts de production complets d'une année.",
 			"list2": "Continuité: les abonnements annuels permettent de garantir la production pendant une année entière. De cette manière, il est possible de planifier à long terme et de limiter ainsi les excédents de production.",
@@ -53,14 +53,14 @@
 			"link1": "connaissances"
 		},
 		"name": {
-			"title": "le nom",
+			"title": "Le nom",
 			"potatoes": "patates",
 			"body1": "\"Ta carotte? Ton oignon? Ton poireau? TaPatate!\"",
 			"body2": "\"T'as la frite? T'as la patate? TaPatate!\"",
 			"body3": "Le nom TaPatate! représente l'idée d'une agriculture durable et régionale, la production de légumes de saison et l'intégration des membres dans le processus."
 		},
 		"board": {
-			"title": "le comité",
+			"title": "Le comité",
 			"body1": "Le comité est composée de personnes motivées venants d'horizons divers. Ce groupe fait le nécessaire pour permettre de réaliser le projet. Le comité est actuellement divisée en sous-groupes: maraîchage, arboriculture, logistique et infrastructure, finances, communication, IT et administration. Cette répartition des tâches peut être adaptée selon le travail à réaliser.",
 			"armin": {
 				"description": "Armin est biologiste et a fait de la recherche à l'université ces dernières années sur le thème de l'écologie végétale. À Wallenbuch, Armin s'occupe des arbres, de la greffe dans la pépinière à l'entretien dans le projet d'agroforesterie.",
@@ -264,6 +264,7 @@
 	},
 	"gallery": {
 		"title": "photos",
+		"subtitle": "Impressions de TaPatate! - à travers le monde",
 		"2022": {
 			"title": "quelques impressions de l'année 2022",
 			"1": "Il ya une foule dense parmi les oignons de printemps.",

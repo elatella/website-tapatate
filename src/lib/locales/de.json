@@ -4,7 +4,8 @@
 		"news": {
 			"title": "Neuigkeiten",
 			"subtitle": "Die letzten News und Entwicklungen von TaPatate! findest du hier.",
-			"rennovation": "Umbau"
+			"rennovation": "Umbau",
+			"rework": "Webseite im Umbau"
 		},
 		"new_abos": {
 			"title": "Die neuen Abozusätze sind da!",
@@ -61,7 +62,7 @@
 		},
 		"board": {
 			"title": "Der Vorstand",
-			"body1": "Der Vorstand besteht aus einem Team von motivierten Personen mit verschiedenen Horizonten, die das nötige beizusteuern, um das Projekt zu verwirklichen. Aktuell ist der Vorstand in folgende Subgruppen aufgeteilt: Gemüseanbau, Obstanbau, Logistik und Infrastruktur, Finanzen, Kommunikation und Administration. Je nach anfallender Arbeit kann diese Unterteilung angepasst werden.",
+			"body1": "Der Vorstand besteht aus einem Team von motivierten Personen mit verschiedenen Hintergründen, die das nötige beizusteuern, um das Projekt zu verwirklichen. Aktuell ist der Vorstand in folgende Arbeitsgruppen gegliedert: Gartenteam, Marketing, Infrastruktur, IT, Finanzen und Kultur. Je nach anfallender Arbeit kann diese Unterteilung angepasst werden.",
 			"armin": {
 				"description": "Armin ist Biologe und lebt seit ca. 10 Jahren in Bern. Nach dem Bio und Klimawissenschaftsstudium schreibt er zur Zeit eine Dissertation in Pflanzenökologie und geniesst daneben jede Minute, die er auf dem Feld oder in den Bäumen in Wallenbuch verbringt.",
 				"quote": "Im Gegensatz zu Migros und Coop riecht unser Biogemüse nicht nach Plastikverpackungen 😉",
@@ -104,19 +105,17 @@
 		"title": "Hof und Anbau",
 		"farm": {
 			"title": "Der Hof",
-			"body1": "Der Verein bewirtschaftet ca. 50 Aren (ca. 5'000 m²) Land mit Feingemüse und Beeren und nochmals 50 Aren mit Lagergemüse sowie ca. 30 Obstbäume auf dem Hof von René und Valentin Birbaum (siehe Bild hier unten). Dank ihnen können wir unser Projekt verwirklichen. Ein herzliches Dankeschön an René und Valentin! Der Betrieb befindet sich in Wallenbuch, eine freiburgische Enklave im Kanton Bern (Murtenstrasse 37, 3206 Wallenbuch). Auf dem Kartenausschnitt unten ist der Standort des Betriebs mit einem schwarzen Punkt eingezeichnet.",
-			"body2": "René und Valentin bewirtschaften ihren Betrieb nach biodynamischen Vorschriften (Getreide, Rinder) und ist im Besitz vom Qualitätslabel Demeter Schweiz. Neben der Landwirtschaft haben René und Valentin auch eine Sägerei auf dem Hof und bearbeiten eigenes Holz aus ihren Waldflächen. Zusätzlich haben sie viele Baumaschinen und erledigen ebenfalls kleine Bauarbeiten für Drittpersonen (René hat den Hof selber gebaut).",
-			"body3": "Auf dem unterstehenden Kartenausschnitt sind der Standort des Feldes (grosser schwarzer Punkt), sowie bestehende (grüne und schwarze Punkte) und gesuchte (graue Punkte) Gemüse- und Früchtedepots dargestellt. Wir würden gerne noch andere Ortschaften mit Gemüse und Obst beliefern (z.B. Laupen, Kerzers, Murten, Düdingen, Courtepin, Gurmels, usw). Falls du also interessiert bist, aber keine passenden Depots findest, kannst du uns gerne an",
-			"body4": " schreiben."
+			"body1": "Der Hof bewirtschaftet für den Verein TaPatate! ca. 1 ha Land mit Feingemüse und Beeren und nochmals ca. 3 ha mit Lagergemüse sowie ein paar wenige alte und 250 junge Obstbäume auf dem Hof Faver. Der Hof Faver befindet sich in Wallenbuch, eine freiburgische Enklave im Kanton Bern (Murtenstrasse 37, 3206 Wallenbuch).",
+			"body2": "Der Betrieb wird nach biodynamischen Richtlinien geführt. Neben der Landwirtschaft gibt es auch eine Sägerei auf dem Hof und es wird Holz aus den eigenen Waldflächen bearbeitet."
 		},
 		"veggies": {
 			"title": "Das Gemüse",
-			"body1": "Unser Gemüse wird mit nachhaltigen Methoden und viel Liebe durch unsere Gartenfachkräften, Praktikant*innen, Lehrlinge oder Lehrtöchter und unseren fleissigen Mitgliedern angebaut. Die Gartenfachkräften erstellen unsere Anbauplanung, machen einen Grossteil der Arbeit und koordinieren die Einsätze der Vereinsmitglieder auf dem Feld, sowie die Verarbeitung des Gemüses. Den Gemüseanbauplan für 2021/22 findest du hier.",
-			"body2": "Die Gemüseabonnent*innen werden wöchentlich mit Gemüse beliefert. Das frische Gemüse wird in unsere Depots gebracht (siehe grüne Punkte auf dem Kartenausschnitt weiter oben) und dort von den Abonnent*innen abgeholt. Bei Fragen zum Gemüseabo kannst du uns gerne schreiben:"
+			"body1": "Unser Gemüse wird solidarisch und mit regenerativen Methoden von Fachkräften, Praktikant*innen, Auszubildenden und unseren fleissigen Mitgliedern angebaut. Das Kernteam erstellt die Anbauplanung, macht einen Grossteil der Arbeit und koordiniert die Einsätze der Vereinsmitglieder auf dem Feld, sowie die Verarbeitung des Gemüses.",
+			"body2": "Die Gemüseabonnent*innen werden wöchentlich mit Gemüse beliefert. Das frische Gemüse wird in unsere Depots gebracht und dort von den Abonnent*innen abgeholt. Bei Fragen zum Gemüseabo kannst du uns gerne schreiben:"
 		},
 		"fruits": {
 			"title": "Das Obst",
-			"body1": "Die Früchte im Obstabo TaPomme! ernten wir momentan zum grössten Teil in einer Hostet, bestehend aus verschiedenen Hochstammbäumen im besten Ertragsalter. Dort wachsen z.B. Büschelibirne, Glockenäpfel, Weinbergpfirsich, Kirschen und noch vieles mehr. Zur Erweiterung und Diversifizierung des Abos pflanzen wir jedes Jahr neue Bäume, Beerenstauden, Rhabarber oder sogar Wasser- und Honigmelonen an. Im Herbst 2021 konnten wir zusammen mit ca. 30 freiwilligen Helfer und Helferinnen unser erstes Agroforstfeld auf einer Fläche von etwa drei Hektaren anpflanzen! 250 junge Obstbäume sowie 100 Beerensträucher sind mittlerweile gut angewachsen und werden schon bald die ersten Früchte tragen. Im Frühling 2022 sind dann 1000 Erdbeerpflanzen, sowie einiges an Rhabarber, Sanddorn und Ölweiden dazugekommen. Unser Agroforst ist Reihen angelegt, sodass Acker- und Obstbau ideal kombiniert werden können. Dies bringt viele positive Wechselwirkungen mit sich. So dringen zum Beispiel Bäume mit ihren Wurzeln viel tiefer in den Boden ein, schützen vor Erosion und transportieren Wasser in höhere Bodenschichten, wo dann Ackerpflanzen davon profitieren können. Ausserdem dienen die Baumreihen schon bald als Windschutz und werden die Verdunstung von Wasser auf dem Feld reduzieren. Nebst dem diverseren Fruchtangebot für uns Menschen bietet dieses Feld auch Nahrung und Unterschlupf für verschiedenste Vögel, Insekten und Kleinsäugetiere. Dies unterstützen wir aktiv mit der Integration von Ast- und Steinhäufen, sowie Nistkästen und Hecken. Bei der Auswahl der Sorten haben wir neben Robustheit vor allem darauf geachtet, dass der Erntezeitpunkt sowie die Lagerfähigkeit der Früchte möglichst ausgedehnt sind. Dies verspricht, dass unsere Obstabos das ganze Jahr über abwechslungsreich und ohne grössere Pausen gefüllt werden können.",
+			"body1": "Die Früchte im Obstabo TaPomme! ernten wir momentan zum grössten Teil in einer Hostet, bestehend aus verschiedenen Hochstammbäumen im besten Ertragsalter. Dort wachsen z.B. Büschelibirne, Glockenäpfel, Weinbergpfirsich, Kirschen und noch vieles mehr. Zur Erweiterung und Diversifizierung des Abos pflanzen wir jedes Jahr neue Bäume, Beerenstauden, Rhabarber oder sogar Wasser- und Honigmelonen an. Im Herbst 2021 konnten wir zusammen mit ca. 30 freiwilligen Helfer und Helferinnen unser erstes Agroforstfeld auf einer Fläche von etwa drei Hektaren anpflanzen! 250 junge Obstbäume sowie 100 Beerensträucher sind mittlerweile gut angewachsen und werden schon bald die ersten Früchte tragen. Im Frühling 2022 sind dann 1000 Erdbeerpflanzen, sowie einiges an Rhabarber, Sanddorn und Ölweiden dazugekommen. Unser Agroforst ist in Reihen angelegt, sodass Acker- und Obstbau ideal kombiniert werden können. Dies bringt viele positive Wechselwirkungen mit sich. So dringen zum Beispiel Bäume mit ihren Wurzeln viel tiefer in den Boden ein, schützen vor Erosion und transportieren Wasser in höhere Bodenschichten, wo dann Ackerpflanzen davon profitieren können. Ausserdem dienen die Baumreihen schon bald als Windschutz und werden die Verdunstung von Wasser auf dem Feld reduzieren. Nebst dem diverseren Fruchtangebot für uns Menschen bietet dieses Feld auch Nahrung und Unterschlupf für verschiedenste Vögel, Insekten und Kleinsäugetiere. Dies unterstützen wir aktiv mit der Integration von Ast- und Steinhäufen, sowie Nistkästen und Hecken. Bei der Auswahl der Sorten haben wir neben Robustheit vor allem darauf geachtet, dass der Erntezeitpunkt sowie die Lagerfähigkeit der Früchte möglichst ausgedehnt sind. Dies verspricht, dass unsere Obstabos das ganze Jahr über abwechslungsreich und ohne grössere Pausen gefüllt werden können.",
 			"body2": "Die Früchte aus dem Obstabo werden genau wie das Gemüse in die Depots geliefert, sobald sie reif sind und dort von den Abonnent*innen abgeholt. Zusätzlich zum frischen Obst gibt es im Früchteabo auch Apfelsaft. Bei Fragen zum Obstabo kannst du uns gerne schreiben:"
 		}
 	},
@@ -264,8 +263,9 @@
 	},
 	"gallery": {
 		"title": "Fotos",
+		"subtitle": "Eindrücke von TaPatate! - querbeet",
 		"2022": {
-			"title": "Eindrücke aus dem Jahr 2022",
+			"title": "Eindrücke von TaPatate! - querbeet",
 			"1": "Es herrscht ein dichtes Gedränge unter den Frühlingszwiebeln.",
 			"2": "Der Salat gedeiht unter dem Netz.",
 			"3": "Wer war alles dabei an der Generalversammlung?",
@@ -345,7 +345,7 @@
 	"contact": {
 		"title": "Kontakt",
 		"bank": {
-			"title": "bankdaten verein",
+			"title": "Bankdaten Verein",
 			"text1": "TaPatate!",
 			"text2": "Murtenstrasse 37",
 			"text3": "3206 Wallenbuch",
@@ -355,13 +355,13 @@
 			"text7": "BIC: ABSOCH22"
 		},
 		"adress": {
-			"title": "adresse hof",
+			"title": "Adresse Hof",
 			"text1": "Valentin Birbaum",
 			"text2": "Murtenstrasse 37",
 			"text3": "3206 Wallenbuch"
 		},
 		"arrival": {
-			"title": "wie komme ich dahin?",
+			"title": "Wie komme ich dahin?",
 			"bern": {
 				"title": "Von Bern:",
 				"bold1": "mit dem Zug und Velo vom Verein (ca. 30 Minuten bis zum Feld): ",

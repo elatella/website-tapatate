@@ -5,7 +5,6 @@
 	import farm from '$lib/images/farm.jpg';
 	import veggies from '$lib/images/veggies.jpg';
 	import fruits from '$lib/images/fruits.jpg';
-	import DepotMap from '$lib/DepotMap.svelte';
 </script>
 
 <Title title={$_('farm.title')} {backgroundImage} />
@@ -19,13 +18,7 @@
 			<figure class="py-12">
 				<img src={farm} alt={$_('farm.farm.title')} class="rounded-md" />
 			</figure>
-			<p>
-				{$_('farm.farm.body3')}
-				<a href="mailto:info@tapatate.ch">info@tapatate.ch</a>{$_('farm.farm.body4')}
-			</p>
 		</div>
-
-		<DepotMap />
 
 		<div class="space-y-4">
 			<h3 class="h3" id="veggies">{$_('farm.veggies.title')}</h3>

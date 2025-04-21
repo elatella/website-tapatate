@@ -7,12 +7,20 @@
 	import familypdf from '$lib/images/Familientage_2025.pdf';
 	import calendarDE from '$lib/images/kalender2025-de.png';
 	import calendarFR from '$lib/images/kalender2025-fr.png';
+	import reworkFR from '$lib/images/website_rework_FR.jpg';
+	import reworkDE from '$lib/images/website_rework.jpg';
 </script>
 
 <Title title={$_('news.title')} {backgroundImage} />
 
 <div class="w-full px-8">
 	<section class="container mx-auto flex flex-col max-w-5xl space-y-16">
+		<div class="flex flex-col md:flex-row justify-evenly items-center space-y-8 md:space-y-0 py-12">
+			<img
+				src={$locale && $locale.includes('fr') ? reworkFR : reworkDE}
+				alt={$_('news.news.rework')}
+			/>
+		</div>
 		<div class="space-y-4">
 			<h2 class="h2">{$_('news.news.title')}</h2>
 			<p><em>{$_('news.news.subtitle')}</em></p>
