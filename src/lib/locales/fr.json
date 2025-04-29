@@ -7,6 +7,14 @@
 			"rennovation": "Rénovation",
 			"rework": "Site web en cours de rénovation"
 		},
+		"crowdfunding": {
+			"title": "Crowdfunding",
+			"body1": "Nous souhaitons construire une installation de séchage et de transformation multifonctionnelle: la ",
+			"bold1": "«Tröchni»",
+			"body2": ". Cela nous permettra une réduction du gaspillage alimentaire, une plus longue conservation des produits, et un renforcement de la filière locale. Pour réaliser cela, nous avons lancé un crowdfunding.",
+			"link": "Ici",
+			"body3": " tu peux nous soutenir."
+		},
 		"new_abos": {
 			"title": "Nouveaux formats d’abonnements !",
 			"body1": "Dès maintenant, il est possible de commander les nouveaux paniers ",

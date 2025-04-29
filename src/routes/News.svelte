@@ -27,6 +27,19 @@
 		</div>
 
 		<div class="space-y-4">
+			<h3 class="h3">{$_('news.crowdfunding.title')}</h3>
+			<p>
+				{$_('news.crowdfunding.body1')}
+				<b>{$_('news.crowdfunding.bold1')}</b>
+				{$_('news.crowdfunding.body2')}
+				<a href={'https://www.crowdify.net/de/projekt/troechni-fuer-tapatate/'} class="anchor"
+					>{$_('news.crowdfunding.link')}</a
+				>
+				{$_('news.crowdfunding.body3')}
+			</p>
+		</div>
+
+		<div class="space-y-4">
 			<h3 class="h3">{$_('news.new_abos.title')}</h3>
 			<p>
 				{$_('news.new_abos.body1')}

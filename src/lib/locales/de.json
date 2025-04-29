@@ -7,6 +7,14 @@
 			"rennovation": "Umbau",
 			"rework": "Webseite im Umbau"
 		},
+		"crowdfunding": {
+			"title": "Crowdfunding",
+			"body1": "Wir wollen eine multifunktionale Trocknungs- und Weiterverarbeitungsanlage bauen: die ",
+			"bold1": "«Tröchni»",
+			"body2": ". Damit verringern wir Foodwaste, können Produkte länger haltbar machen und die lokale Wertschöpfung verbessern. Um dies zu realisieren, haben wir ein Crowdfunding gestartet. ",
+			"link": "Hier",
+			"body3": " kannst du uns unterstützen."
+		},
 		"new_abos": {
 			"title": "Die neuen Abozusätze sind da!",
 			"body1": "Ab sofort können die neuen Abos ",
