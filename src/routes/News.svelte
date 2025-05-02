@@ -34,9 +34,20 @@
 				{$_('news.crowdfunding.body2')}
 				<a href={'https://www.crowdify.net/de/projekt/troechni-fuer-tapatate/'} class="anchor"
 					>{$_('news.crowdfunding.link')}</a
-				>
-				{$_('news.crowdfunding.body3')}
+				>{$_('news.crowdfunding.body3')}
 			</p>
+			<div class="flex flex-col md:flex-row justify-evenly items-center space-y-8">
+				<iframe
+					title={$_('news.crowdfunding.title')}
+					width="375"
+					height="520"
+					src={$locale && $locale.includes('fr')
+						? 'https://www.crowdify.net/fr/projet/troechni-pour-tapatate/widget/v3'
+						: 'https://www.crowdify.net/de/projekt/troechni-fuer-tapatate/widget/v3'}
+					frameborder="0"
+					scrolling="no"
+				></iframe>
+			</div>
 		</div>
 
 		<div class="space-y-4">
